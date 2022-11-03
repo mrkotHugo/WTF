@@ -1,0 +1,10 @@
+
+NameplateSCTDB = {
+	["profileKeys"] = {
+		["Хуговар - Ревущий фьорд"] = "Default",
+		["Maelti - Doomhammer"] = "Default",
+		["Хугопал - Ревущий фьорд"] = "Default",
+		["Hugork - Draenor"] = "Default",
+		["Hugotest - Draenor"] = "Default",
+	},
+}

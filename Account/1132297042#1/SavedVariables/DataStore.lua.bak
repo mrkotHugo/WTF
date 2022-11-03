@@ -1,0 +1,34 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Хуговар - Ревущий фьорд"] = "Хуговар - Ревущий фьорд",
+		["Hugork - Draenor"] = "Hugork - Draenor",
+		["Хугопал - Ревущий фьорд"] = "Хугопал - Ревущий фьорд",
+		["Maelti - Doomhammer"] = "Maelti - Doomhammer",
+		["Hugotest - Draenor"] = "Hugotest - Draenor",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Ревущий фьорд.Хугопал"] = {
+				["faction"] = "Horde",
+			},
+			["Default.Doomhammer.Maelti"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Draenor.Hugork"] = {
+				["faction"] = "Horde",
+			},
+			["Default.Ревущий фьорд.Хуговар"] = {
+				["faction"] = "Horde",
+			},
+			["Default.Draenor.Hugotest"] = {
+				["faction"] = "Horde",
+			},
+		},
+		["ShortToLongRealmNames"] = {
+			["Draenor"] = "Draenor",
+			["Ревущийфьорд"] = "Ревущий фьорд",
+			["Doomhammer"] = "Doomhammer",
+		},
+	},
+}

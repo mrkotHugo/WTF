@@ -7,12 +7,6 @@ ThreatPlatesDB = {
 			},
 			["welcome"] = true,
 		},
-		["Maelti - Doomhammer"] = {
-			["spec"] = {
-				[3] = true,
-			},
-			["welcome"] = true,
-		},
 		["Хугопал - Ревущий фьорд"] = {
 			["spec"] = {
 				nil, -- [1]
@@ -27,6 +21,19 @@ ThreatPlatesDB = {
 				[3] = true,
 			},
 		},
+		["Хугомонк - Ревущий фьорд"] = {
+			["spec"] = {
+				true, -- [1]
+				[3] = false,
+			},
+			["welcome"] = true,
+		},
+		["Maelti - Doomhammer"] = {
+			["spec"] = {
+				[3] = true,
+			},
+			["welcome"] = true,
+		},
 		["Хуговар - Ревущий фьорд"] = {
 			["spec"] = {
 				[3] = true,
@@ -35,7 +42,7 @@ ThreatPlatesDB = {
 		},
 	},
 	["global"] = {
-		["version"] = "11.0.4",
+		["version"] = "11.0.6",
 	},
 	["namespaces"] = {
 		["LibDualSpec-1.0"] = {
@@ -43,13 +50,20 @@ ThreatPlatesDB = {
 	},
 	["profileKeys"] = {
 		["Hugotest - Draenor"] = "Default",
-		["Maelti - Doomhammer"] = "Default",
 		["Хугопал - Ревущий фьорд"] = "Default",
 		["Hugork - Draenor"] = "Default",
+		["Хугомонк - Ревущий фьорд"] = "Default",
+		["Maelti - Doomhammer"] = "Default",
 		["Хуговар - Ревущий фьорд"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
+			["nameplate"] = {
+				["scale"] = {
+					["Neutral"] = 0.9000000000000004,
+					["Minus"] = 0.6500000000000004,
+				},
+			},
 			["CheckForIncompatibleAddons"] = false,
 			["settings"] = {
 				["healthbar"] = {

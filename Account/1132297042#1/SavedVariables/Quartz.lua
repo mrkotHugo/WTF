@@ -55,6 +55,7 @@ Quartz3DB = {
 	["profileKeys"] = {
 		["Хуговар - Ревущий фьорд"] = "Default",
 		["Хугопал - Ревущий фьорд"] = "Default",
+		["Хугомонк - Ревущий фьорд"] = "Default",
 		["Hugork - Draenor"] = "Default",
 		["Hugotest - Draenor"] = "Default",
 	},

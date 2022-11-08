@@ -59,13 +59,14 @@ Bagnon_Sets = {
 			},
 			["point"] = "BOTTOMRIGHT",
 			["hiddenBags"] = {
+				[4] = false,
 			},
 			["color"] = {
 			},
 			["hiddenRules"] = {
 			},
-			["y"] = 100,
-			["x"] = -50,
+			["y"] = 245.2697448730469,
+			["x"] = -494.9530029296875,
 			["borderColor"] = {
 			},
 			["showBags"] = true,

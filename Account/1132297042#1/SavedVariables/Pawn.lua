@@ -304,10 +304,10 @@ PawnCommon = {
 				["Хуговар-Ревущий фьорд"] = {
 					["Visible"] = true,
 				},
-				["Maelti-Doomhammer"] = {
+				["Hugork-Draenor"] = {
 					["Visible"] = true,
 				},
-				["Hugork-Draenor"] = {
+				["Maelti-Doomhammer"] = {
 					["Visible"] = true,
 				},
 				["Hugotest-Draenor"] = {
@@ -340,21 +340,6 @@ PawnCommon = {
 			["SpecID"] = 2,
 			["UnenchantedColor"] = "6465b1",
 		},
-		["\"MrRobot\":MAGE1"] = {
-			["IconTexturePath"] = 135932,
-			["PerCharacterOptions"] = {
-			},
-			["Color"] = "3ec6ea",
-			["ClassID"] = 8,
-			["LocalizedName"] = "Маг: Тайная магия",
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "DAMAGER",
-			["DoNotShow2HUpgrades"] = false,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
-			["SpecID"] = 1,
-			["UnenchantedColor"] = "2e94af",
-		},
 		["\"MrRobot\":DEMONHUNTER2"] = {
 			["IconTexturePath"] = 1247265,
 			["PerCharacterOptions"] = {
@@ -369,6 +354,21 @@ PawnCommon = {
 			["Provider"] = "MrRobot",
 			["SpecID"] = 2,
 			["UnenchantedColor"] = "792396",
+		},
+		["\"MrRobot\":SHAMAN3"] = {
+			["IconTexturePath"] = 136052,
+			["PerCharacterOptions"] = {
+			},
+			["Color"] = "006fdc",
+			["ClassID"] = 7,
+			["LocalizedName"] = "Шаман: Исцеление",
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "HEALER",
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = true,
+			["Provider"] = "MrRobot",
+			["SpecID"] = 3,
+			["UnenchantedColor"] = "0053a5",
 		},
 		["\"MrRobot\":PALADIN2"] = {
 			["IconTexturePath"] = 236264,
@@ -520,20 +520,20 @@ PawnCommon = {
 			["SpecID"] = 2,
 			["UnenchantedColor"] = "be5c06",
 		},
-		["\"MrRobot\":SHAMAN3"] = {
-			["IconTexturePath"] = 136052,
+		["\"MrRobot\":MAGE1"] = {
+			["IconTexturePath"] = 135932,
 			["PerCharacterOptions"] = {
 			},
-			["Color"] = "006fdc",
-			["ClassID"] = 7,
-			["LocalizedName"] = "Шаман: Исцеление",
+			["Color"] = "3ec6ea",
+			["ClassID"] = 8,
+			["LocalizedName"] = "Маг: Тайная магия",
 			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "HEALER",
+			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["SpecID"] = 3,
-			["UnenchantedColor"] = "0053a5",
+			["SpecID"] = 1,
+			["UnenchantedColor"] = "2e94af",
 		},
 		["\"MrRobot\":DRUID3"] = {
 			["IconTexturePath"] = 132276,
@@ -586,6 +586,9 @@ PawnCommon = {
 		["\"MrRobot\":MONK3"] = {
 			["IconTexturePath"] = 608953,
 			["PerCharacterOptions"] = {
+				["Хугомонк-Ревущий фьорд"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "00fe97",
 			["ClassID"] = 10,
@@ -603,6 +606,6 @@ PawnCommon = {
 	["ButtonPosition"] = 2,
 	["ShowLootUpgradeAdvisor"] = true,
 	["ShowQuestUpgradeAdvisor"] = true,
-	["LastVersion"] = 2.0706,
+	["LastVersion"] = 2.0707,
 	["Digits"] = 1,
 }

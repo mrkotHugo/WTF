@@ -25,7 +25,7 @@ Altoholic_Options: disabled
 Altoholic_Search: disabled
 Altoholic_Summary: disabled
 AngryKeystones: disabled
-Bagnon_ItemLevel: disabled
+Bagnon_ItemLevel: enabled
 DataStore: disabled
 DataStore_Achievements: disabled
 DataStore_Agenda: disabled
@@ -71,7 +71,7 @@ WeakAuras: enabled
 WeakAurasModelPaths: disabled
 WeakAurasOptions: enabled
 WeakAurasTemplates: disabled
-WorldQuestTracker: disabled
+WorldQuestTracker: enabled
 ElvUI: enabled
 DBM-Core: enabled
 DBM-GUI: enabled

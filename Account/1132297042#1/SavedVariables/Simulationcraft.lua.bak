@@ -2,22 +2,13 @@
 SimulationCraftDB = {
 	["profileKeys"] = {
 		["Хуговар - Ревущий фьорд"] = "Хуговар - Ревущий фьорд",
-		["Hugotest - Draenor"] = "Hugotest - Draenor",
+		["Hugork - Draenor"] = "Hugork - Draenor",
 		["Хугопал - Ревущий фьорд"] = "Хугопал - Ревущий фьорд",
 		["Maelti - Doomhammer"] = "Maelti - Doomhammer",
-		["Hugork - Draenor"] = "Hugork - Draenor",
+		["Hugotest - Draenor"] = "Hugotest - Draenor",
 	},
 	["profiles"] = {
 		["Хуговар - Ревущий фьорд"] = {
-			["minimap"] = {
-				["hide"] = true,
-			},
-		},
-		["Hugotest - Draenor"] = {
-		},
-		["Хугопал - Ревущий фьорд"] = {
-		},
-		["Maelti - Doomhammer"] = {
 			["minimap"] = {
 				["hide"] = true,
 			},
@@ -26,6 +17,15 @@ SimulationCraftDB = {
 			["minimap"] = {
 				["minimapPos"] = 197.9874009664423,
 			},
+		},
+		["Хугопал - Ревущий фьорд"] = {
+		},
+		["Maelti - Doomhammer"] = {
+			["minimap"] = {
+				["hide"] = true,
+			},
+		},
+		["Hugotest - Draenor"] = {
 		},
 	},
 }

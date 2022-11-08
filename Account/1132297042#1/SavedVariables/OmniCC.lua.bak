@@ -6,8 +6,9 @@ OmniCCDB = {
 	},
 	["profileKeys"] = {
 		["Хуговар - Ревущий фьорд"] = "По умолчанию",
-		["Hugork - Draenor"] = "Default",
 		["Хугопал - Ревущий фьорд"] = "По умолчанию",
+		["Hugork - Draenor"] = "Default",
+		["Хугомонк - Ревущий фьорд"] = "По умолчанию",
 		["Maelti - Doomhammer"] = "Default",
 		["Hugotest - Draenor"] = "Default",
 	},

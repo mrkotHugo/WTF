@@ -2,10 +2,11 @@
 DataStore_CraftsDB = {
 	["profileKeys"] = {
 		["Хуговар - Ревущий фьорд"] = "Хуговар - Ревущий фьорд",
-		["Hugotest - Draenor"] = "Hugotest - Draenor",
+		["Хугомонк - Ревущий фьорд"] = "Хугомонк - Ревущий фьорд",
+		["Maelti - Doomhammer"] = "Maelti - Doomhammer",
 		["Хугопал - Ревущий фьорд"] = "Хугопал - Ревущий фьорд",
 		["Hugork - Draenor"] = "Hugork - Draenor",
-		["Maelti - Doomhammer"] = "Maelti - Doomhammer",
+		["Hugotest - Draenor"] = "Hugotest - Draenor",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -21,6 +22,9 @@ DataStore_CraftsDB = {
 			["Default.Ревущий фьорд.Хуговар"] = {
 				["lastUpdate"] = 1666781510,
 			},
+			["Default.Ревущий фьорд.Хугомонк"] = {
+				["lastUpdate"] = 1667753710,
+			},
 			["Default.Draenor.Hugotest"] = {
 				["lastUpdate"] = 1666780270,
 			},
@@ -30,9 +34,10 @@ DataStore_CraftsDB = {
 DataStore_CraftsRefDB = {
 	["profileKeys"] = {
 		["Хуговар - Ревущий фьорд"] = "Хуговар - Ревущий фьорд",
-		["Hugotest - Draenor"] = "Hugotest - Draenor",
+		["Хугомонк - Ревущий фьорд"] = "Хугомонк - Ревущий фьорд",
+		["Maelti - Doomhammer"] = "Maelti - Doomhammer",
 		["Хугопал - Ревущий фьорд"] = "Хугопал - Ревущий фьорд",
 		["Hugork - Draenor"] = "Hugork - Draenor",
-		["Maelti - Doomhammer"] = "Maelti - Doomhammer",
+		["Hugotest - Draenor"] = "Hugotest - Draenor",
 	},
 }

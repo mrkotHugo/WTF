@@ -2,10 +2,11 @@
 DataStore_CurrenciesDB = {
 	["profileKeys"] = {
 		["Хуговар - Ревущий фьорд"] = "Хуговар - Ревущий фьорд",
-		["Hugotest - Draenor"] = "Hugotest - Draenor",
+		["Хугомонк - Ревущий фьорд"] = "Хугомонк - Ревущий фьорд",
+		["Maelti - Doomhammer"] = "Maelti - Doomhammer",
 		["Хугопал - Ревущий фьорд"] = "Хугопал - Ревущий фьорд",
 		["Hugork - Draenor"] = "Hugork - Draenor",
-		["Maelti - Doomhammer"] = "Maelti - Doomhammer",
+		["Hugotest - Draenor"] = "Hugotest - Draenor",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -53,6 +54,7 @@ DataStore_CurrenciesDB = {
 				},
 			},
 			["Default.Draenor.Hugork"] = {
+				["lastUpdate"] = 1667328301,
 				["Archeology"] = {
 					0, -- [1]
 					0, -- [2]
@@ -75,10 +77,12 @@ DataStore_CurrenciesDB = {
 					0, -- [19]
 					0, -- [20]
 				},
-				["lastUpdate"] = 1667328301,
 			},
 			["Default.Ревущий фьорд.Хуговар"] = {
 				["lastUpdate"] = 1666781510,
+			},
+			["Default.Ревущий фьорд.Хугомонк"] = {
+				["lastUpdate"] = 1667753709,
 			},
 			["Default.Draenor.Hugotest"] = {
 				["lastUpdate"] = 1666780270,
@@ -98,8 +102,8 @@ DataStore_CurrenciesDB = {
 				["Grateful Offering"] = 3,
 				["Reservoir Anima"] = 4,
 				["Valor"] = 2,
-				["War Resources"] = 1,
 				["Redeemed Soul"] = 5,
+				["War Resources"] = 1,
 			},
 			["HeadersRev"] = {
 				["Battle for Azeroth"] = 1,

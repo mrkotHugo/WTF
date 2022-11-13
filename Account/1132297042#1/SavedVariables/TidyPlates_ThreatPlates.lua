@@ -1,17 +1,16 @@
 
 ThreatPlatesDB = {
 	["char"] = {
+		["Хугомонк - Ревущий фьорд"] = {
+			["welcome"] = true,
+			["spec"] = {
+				true, -- [1]
+				[3] = false,
+			},
+		},
 		["Hugotest - Draenor"] = {
 			["spec"] = {
 				[3] = true,
-			},
-			["welcome"] = true,
-		},
-		["Хугопал - Ревущий фьорд"] = {
-			["spec"] = {
-				nil, -- [1]
-				true, -- [2]
-				false, -- [3]
 			},
 			["welcome"] = true,
 		},
@@ -21,10 +20,18 @@ ThreatPlatesDB = {
 				[3] = true,
 			},
 		},
-		["Хугомонк - Ревущий фьорд"] = {
+		["Хугохав - Гордунни"] = {
+			["welcome"] = true,
 			["spec"] = {
-				true, -- [1]
-				[3] = false,
+				nil, -- [1]
+				true, -- [2]
+			},
+		},
+		["Хугопал - Ревущий фьорд"] = {
+			["spec"] = {
+				nil, -- [1]
+				true, -- [2]
+				false, -- [3]
 			},
 			["welcome"] = true,
 		},
@@ -49,10 +56,11 @@ ThreatPlatesDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Hugotest - Draenor"] = "Default",
-		["Хугопал - Ревущий фьорд"] = "Default",
-		["Hugork - Draenor"] = "Default",
 		["Хугомонк - Ревущий фьорд"] = "Default",
+		["Hugotest - Draenor"] = "Default",
+		["Hugork - Draenor"] = "Default",
+		["Хугохав - Гордунни"] = "Default",
+		["Хугопал - Ревущий фьорд"] = "Default",
 		["Maelti - Doomhammer"] = "Default",
 		["Хуговар - Ревущий фьорд"] = "Default",
 	},

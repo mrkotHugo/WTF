@@ -2,10 +2,11 @@
 DataStoreDB = {
 	["profileKeys"] = {
 		["Хуговар - Ревущий фьорд"] = "Хуговар - Ревущий фьорд",
-		["Hugotest - Draenor"] = "Hugotest - Draenor",
+		["Хугомонк - Ревущий фьорд"] = "Хугомонк - Ревущий фьорд",
+		["Maelti - Doomhammer"] = "Maelti - Doomhammer",
 		["Хугопал - Ревущий фьорд"] = "Хугопал - Ревущий фьорд",
 		["Hugork - Draenor"] = "Hugork - Draenor",
-		["Maelti - Doomhammer"] = "Maelti - Doomhammer",
+		["Hugotest - Draenor"] = "Hugotest - Draenor",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -19,6 +20,9 @@ DataStoreDB = {
 				["faction"] = "Horde",
 			},
 			["Default.Ревущий фьорд.Хуговар"] = {
+				["faction"] = "Horde",
+			},
+			["Default.Ревущий фьорд.Хугомонк"] = {
 				["faction"] = "Horde",
 			},
 			["Default.Draenor.Hugotest"] = {

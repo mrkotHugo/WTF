@@ -5,12 +5,13 @@ OmniCCDB = {
 		["addonVersion"] = "10.0.1",
 	},
 	["profileKeys"] = {
-		["Хуговар - Ревущий фьорд"] = "По умолчанию",
-		["Хугопал - Ревущий фьорд"] = "По умолчанию",
-		["Hugork - Draenor"] = "Default",
 		["Хугомонк - Ревущий фьорд"] = "По умолчанию",
-		["Maelti - Doomhammer"] = "Default",
 		["Hugotest - Draenor"] = "Default",
+		["Hugork - Draenor"] = "Default",
+		["Хугохав - Гордунни"] = "По умолчанию",
+		["Хугопал - Ревущий фьорд"] = "По умолчанию",
+		["Maelti - Doomhammer"] = "Default",
+		["Хуговар - Ревущий фьорд"] = "По умолчанию",
 	},
 	["profiles"] = {
 		["Default"] = {

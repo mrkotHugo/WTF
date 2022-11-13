@@ -4,7 +4,6 @@ WeakAurasSaved = {
 	},
 	["editor_tab_spaces"] = 4,
 	["editor_font_size"] = 12,
-	["login_squelch_time"] = 10,
 	["lastArchiveClear"] = 1666293078,
 	["minimap"] = {
 		["minimapPos"] = 203.4758216416402,
@@ -13,6 +12,13 @@ WeakAurasSaved = {
 	["lastUpgrade"] = 1666858814,
 	["dbVersion"] = 59,
 	["registered"] = {
+	},
+	["login_squelch_time"] = 10,
+	["frame"] = {
+		["xOffset"] = -152.872314453125,
+		["yOffset"] = -569.2857666015625,
+		["height"] = 665.0001220703125,
+		["width"] = 830,
 	},
 	["displays"] = {
 		["Lasthit Combo Breaker"] = {
@@ -58,19 +64,19 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["custom_hide"] = "custom",
 						["type"] = "custom",
-						["subeventSuffix"] = "_CAST_START",
 						["custom_type"] = "stateupdate",
+						["unevent"] = "timed",
 						["unit"] = "player",
-						["custom"] = "function(allstates, _, _, _, spellID)\n    if spellID and aura_env.spellList[spellID] then\n        local sameAbility = allstates[\"\"] and allstates[\"\"].spellID == spellID\n        \n        if sameAbility then\n            PlaySoundFile(\"Interface\\\\AddOns\\\\WeakAuras\\\\Media\\\\Sounds\\\\BananaPeelSlip.ogg\",\"SFX\")\n        end\n        \n        allstates[\"\"] = {\n            show = true,\n            changed = true,\n            spellID = spellID,\n            icon = select(3, GetSpellInfo(spellID)),\n            same = sameAbility,\n            autoHide = false\n        }\n        \n        return true\n    end\nend",
+						["events"] = "UNIT_SPELLCAST_SUCCEEDED:player",
 						["event"] = "Combat Log",
 						["customStacks"] = "\n\n",
 						["customDuration"] = "\n\n",
 						["customName"] = "",
-						["events"] = "UNIT_SPELLCAST_SUCCEEDED:player",
 						["spellIds"] = {
 						},
+						["custom"] = "function(allstates, _, _, _, spellID)\n    if spellID and aura_env.spellList[spellID] then\n        local sameAbility = allstates[\"\"] and allstates[\"\"].spellID == spellID\n        \n        if sameAbility then\n            PlaySoundFile(\"Interface\\\\AddOns\\\\WeakAuras\\\\Media\\\\Sounds\\\\BananaPeelSlip.ogg\",\"SFX\")\n        end\n        \n        allstates[\"\"] = {\n            show = true,\n            changed = true,\n            spellID = spellID,\n            icon = select(3, GetSpellInfo(spellID)),\n            same = sameAbility,\n            autoHide = false\n        }\n        \n        return true\n    end\nend",
 						["check"] = "event",
-						["unevent"] = "timed",
+						["subeventSuffix"] = "_CAST_START",
 						["use_messageType"] = false,
 						["customVariables"] = "{\n    same = {\n        type = \"bool\",\n        display = \"Used same ability twice\"\n    }\n}",
 					},
@@ -167,7 +173,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
 				["faction"] = {
 					["multi"] = {
 					},
@@ -176,6 +181,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_vehicleUi"] = false,
 				["zoneIds"] = "",
 				["use_petbattle"] = false,
 				["race"] = {
@@ -189,8 +195,14 @@ WeakAurasSaved = {
 				},
 			},
 			["source"] = "import",
-			["zoom"] = 0.25,
+			["cooldownTextDisabled"] = true,
 			["uid"] = "xlO49ksC)2D",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
@@ -202,54 +214,6 @@ WeakAurasSaved = {
 				["init"] = {
 					["custom"] = "aura_env.spellList = {\n    [100780] = true,  -- Tiger Palm\n    [100784] = true,  -- Blackout Kick\n    [107428] = true,  -- Rising Sun Kick\n    [101545] = true,  -- Flying Serpent Kick\n    [113656] = true,  -- Fists of Fury\n    [101546] = true,  -- Spinning Crane Kick\n    [116847] = true,  -- Rushing Jade Wind\n    [152175] = true,  -- Whirling Dragon Punch\n    [115098] = true,  -- Chi Wave\n    [123986] = true,  -- Chi Burst\n    [117952] = true,  -- Crackling Jade Lightning\n    [392983] = true,  -- Strike of the Windlord\n    [322109] = true,  -- Touch of Death\n    [261947] = true,  -- Fist of the White Tiger\n    [322101] = true,  -- Expel Harm\n    [310454] = true,  -- Weapons of Order\n    [327104] = true,  -- Faeline Stomp\n    [325216] = true,  -- Bonedust Brew\n}\n\n\n\n\n\n\n",
 					["do_custom"] = true,
-				},
-			},
-			["animation"] = {
-				["start"] = {
-					["scaleFunc"] = "",
-					["scaleType"] = "custom",
-					["type"] = "none",
-					["easeType"] = "none",
-					["duration_type"] = "seconds",
-					["use_scale"] = false,
-					["preset"] = "spiral",
-					["easeStrength"] = 3,
-				},
-				["main"] = {
-					["colorR"] = 0.99607843137255,
-					["duration_type"] = "seconds",
-					["alphaType"] = "straight",
-					["colorB"] = 0.94901960784314,
-					["colorG"] = 1,
-					["alphaFunc"] = "function(progress, start, delta)\n      return start + (progress * delta)\n    end\n  ",
-					["scalex"] = 0.1,
-					["scaleType"] = "straightScale",
-					["use_alpha"] = false,
-					["rotate"] = 0,
-					["type"] = "custom",
-					["use_scale"] = false,
-					["easeType"] = "none",
-					["use_color"] = false,
-					["preset"] = "spin",
-					["alpha"] = 0,
-					["scaley"] = 0.1,
-					["y"] = 0,
-					["x"] = 0,
-					["colorType"] = "custom",
-					["scaleFunc"] = "function(progress, startX, startY, scaleX, scaleY)\n      return startX + (progress * (scaleX - startX)), startY + (progress * (scaleY - startY))\n    end\n  ",
-					["colorFunc"] = "\n\n",
-					["easeStrength"] = 3,
-					["colorA"] = 1,
-					["duration"] = "1",
-				},
-				["finish"] = {
-					["scaleType"] = "custom",
-					["type"] = "none",
-					["easeType"] = "none",
-					["duration_type"] = "seconds",
-					["preset"] = "bounceDecay",
-					["use_scale"] = true,
-					["easeStrength"] = 3,
 				},
 			},
 			["regionType"] = "icon",
@@ -301,14 +265,14 @@ WeakAurasSaved = {
 			},
 			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
-			["cooldownTextDisabled"] = true,
+			["zoom"] = 0.25,
 			["semver"] = "4.0.1",
 			["tocversion"] = 100000,
 			["id"] = "Lasthit Combo Breaker",
 			["auto"] = true,
-			["useCooldownModRate"] = true,
-			["width"] = 60,
 			["alpha"] = 1,
+			["width"] = 60,
+			["useCooldownModRate"] = true,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -318,19 +282,55 @@ WeakAurasSaved = {
 				["forceEvents"] = true,
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["animation"] = {
+				["start"] = {
+					["scaleType"] = "custom",
+					["scaleFunc"] = "",
+					["type"] = "none",
+					["easeType"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["use_scale"] = false,
+					["preset"] = "spiral",
+				},
+				["main"] = {
+					["colorR"] = 0.99607843137255,
+					["duration_type"] = "seconds",
+					["alphaType"] = "straight",
+					["colorB"] = 0.94901960784314,
+					["colorG"] = 1,
+					["alphaFunc"] = "function(progress, start, delta)\n      return start + (progress * delta)\n    end\n  ",
+					["scalex"] = 0.1,
+					["type"] = "custom",
+					["use_alpha"] = false,
+					["rotate"] = 0,
+					["scaleType"] = "straightScale",
+					["use_scale"] = false,
+					["easeType"] = "none",
+					["preset"] = "spin",
+					["use_color"] = false,
+					["alpha"] = 0,
+					["scaley"] = 0.1,
+					["y"] = 0,
+					["colorType"] = "custom",
+					["x"] = 0,
+					["scaleFunc"] = "function(progress, startX, startY, scaleX, scaleY)\n      return startX + (progress * (scaleX - startX)), startY + (progress * (scaleY - startY))\n    end\n  ",
+					["colorFunc"] = "\n\n",
+					["easeStrength"] = 3,
+					["colorA"] = 1,
+					["duration"] = "1",
+				},
+				["finish"] = {
+					["scaleType"] = "custom",
+					["type"] = "none",
+					["easeType"] = "none",
+					["preset"] = "bounceDecay",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["use_scale"] = true,
+				},
 			},
 		},
-	},
-	["frame"] = {
-		["xOffset"] = -152.872314453125,
-		["yOffset"] = -569.2857666015625,
-		["height"] = 665.0001220703125,
-		["width"] = 830,
 	},
 	["editor_theme"] = "Monokai",
 }

@@ -1,0 +1,72 @@
+
+TomCats_Character = {
+	["loveisintheair"] = {
+		["preferences"] = {
+			["enabled"] = true,
+			["currency"] = {
+				["Хугомонк-Ревущий фьорд"] = 33,
+			},
+			["dimmedItems"] = {
+				["Хугомонк-Ревущий фьорд"] = {
+					["EARTH"] = 0,
+					["FIRE"] = 0,
+					["WATER"] = 0,
+					["AIR"] = 0,
+				},
+			},
+			["WindowLocation"] = {
+				"LEFT", -- [1]
+				nil, -- [2]
+				"LEFT", -- [3]
+				18.40470695495606, -- [4]
+				180.8255310058594, -- [5]
+			},
+		},
+	},
+	["lunarfestival"] = {
+		["preferences"] = {
+			["enabled"] = true,
+			["currency"] = {
+				["Хугомонк-Ревущий фьорд"] = 33,
+			},
+			["dimmedItems"] = {
+				["Хугомонк-Ревущий фьорд"] = {
+					["EARTH"] = 0,
+					["FIRE"] = 0,
+					["WATER"] = 0,
+					["AIR"] = 0,
+				},
+			},
+			["WindowLocation"] = {
+				"LEFT", -- [1]
+				nil, -- [2]
+				"LEFT", -- [3]
+				18.40470695495606, -- [4]
+				180.8255310058594, -- [5]
+			},
+		},
+	},
+	["hallowsend"] = {
+		["preferences"] = {
+			["enabled"] = true,
+			["currency"] = {
+				["Хугомонк-Ревущий фьорд"] = 33,
+			},
+			["dimmedItems"] = {
+				["Хугомонк-Ревущий фьорд"] = {
+					["EARTH"] = 0,
+					["FIRE"] = 0,
+					["WATER"] = 0,
+					["AIR"] = 0,
+				},
+			},
+			["WindowLocation"] = {
+				"LEFT", -- [1]
+				nil, -- [2]
+				"LEFT", -- [3]
+				18.40470695495606, -- [4]
+				180.8255310058594, -- [5]
+			},
+		},
+	},
+}

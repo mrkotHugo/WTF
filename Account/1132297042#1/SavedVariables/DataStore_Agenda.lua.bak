@@ -1,18 +1,19 @@
 
 DataStore_AgendaDB = {
 	["profileKeys"] = {
+		["Hugork - Draenor"] = "Hugork - Draenor",
 		["Хуговар - Ревущий фьорд"] = "Хуговар - Ревущий фьорд",
+		["Hugotest - Draenor"] = "Hugotest - Draenor",
+		["Хугохав - Гордунни"] = "Хугохав - Гордунни",
 		["Хугомонк - Ревущий фьорд"] = "Хугомонк - Ревущий фьорд",
 		["Maelti - Doomhammer"] = "Maelti - Doomhammer",
 		["Хугопал - Ревущий фьорд"] = "Хугопал - Ревущий фьорд",
-		["Hugork - Draenor"] = "Hugork - Draenor",
-		["Hugotest - Draenor"] = "Hugotest - Draenor",
 	},
 	["global"] = {
 		["Options"] = {
 			["WeeklyResetHour"] = 6,
 			["WeeklyResetDay"] = 3,
-			["NextWeeklyReset"] = "2022-11-09",
+			["NextWeeklyReset"] = "2022-11-16",
 		},
 		["Characters"] = {
 			["Default.Ревущий фьорд.Хугопал"] = {
@@ -26,6 +27,9 @@ DataStore_AgendaDB = {
 			},
 			["Default.Ревущий фьорд.Хуговар"] = {
 				["lastUpdate"] = 1666781667,
+			},
+			["Default.Гордунни.Хугохав"] = {
+				["lastUpdate"] = 1668273547,
 			},
 			["Default.Ревущий фьорд.Хугомонк"] = {
 				["lastUpdate"] = 1667753711,

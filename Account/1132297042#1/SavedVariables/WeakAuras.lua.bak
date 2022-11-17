@@ -3,7 +3,177 @@ WeakAurasSaved = {
 	["dynamicIconCache"] = {
 	},
 	["editor_tab_spaces"] = 4,
+	["editor_font_size"] = 12,
+	["lastArchiveClear"] = 1666293078,
+	["minimap"] = {
+		["minimapPos"] = 203.4758216416402,
+		["hide"] = false,
+	},
+	["lastUpgrade"] = 1666858814,
+	["dbVersion"] = 59,
 	["displays"] = {
+		["cursor"] = {
+			["xOffset"] = 0,
+			["preferToUpdate"] = false,
+			["yOffset"] = 0,
+			["anchorPoint"] = "BOTTOMLEFT",
+			["url"] = "https://wago.io/Hklr0dCdf/1",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "unit",
+						["use_alwaystrue"] = true,
+						["subeventSuffix"] = "_CAST_START",
+						["event"] = "Conditions",
+						["unit"] = "player",
+						["unevent"] = "auto",
+						["spellIds"] = {
+						},
+						["use_form"] = true,
+						["use_unit"] = true,
+						["names"] = {
+						},
+						["subeventPrefix"] = "SPELL",
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+				["disjunctive"] = "all",
+				["activeTriggerMode"] = -10,
+			},
+			["internalVersion"] = 59,
+			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
+			["rotation"] = 0,
+			["version"] = 1,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+			},
+			["height"] = 69.999961853027,
+			["rotate"] = true,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["zoneIds"] = "",
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["textureWrapMode"] = "CLAMP",
+			["source"] = "import",
+			["mirror"] = false,
+			["regionType"] = "texture",
+			["blendMode"] = "BLEND",
+			["texture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura73",
+			["uid"] = "cQGDLeAPPtW",
+			["semver"] = "1.0.0",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["translateType"] = "custom",
+					["scalex"] = 1,
+					["colorA"] = 1,
+					["colorG"] = 1,
+					["use_translate"] = true,
+					["type"] = "custom",
+					["easeType"] = "none",
+					["translateFunc"] = "function(progress, startX, startY, deltaX, deltaY)\n    local scale = 1 / UIParent:GetEffectiveScale()\n    local x, y = GetCursorPosition()\n    return x * scale, y * scale\nend",
+					["scaley"] = 1,
+					["alpha"] = 0,
+					["y"] = 0,
+					["x"] = 0,
+					["colorR"] = 1,
+					["easeStrength"] = 3,
+					["rotate"] = 0,
+					["duration_type"] = "seconds",
+					["colorB"] = 1,
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+			},
+			["id"] = "cursor",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["frameStrata"] = 5,
+			["width"] = 70.000389099121,
+			["anchorFrameType"] = "SCREEN",
+			["config"] = {
+			},
+			["authorOptions"] = {
+			},
+			["alpha"] = 1,
+			["conditions"] = {
+			},
+			["information"] = {
+				["forceEvents"] = true,
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["discrete_rotation"] = 0,
+		},
 		["Lasthit Combo Breaker"] = {
 			["iconSource"] = 2,
 			["wagoID"] = "r1NPO9gYb",
@@ -47,19 +217,19 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["custom_hide"] = "custom",
 						["type"] = "custom",
+						["custom_type"] = "stateupdate",
 						["unevent"] = "timed",
-						["subeventSuffix"] = "_CAST_START",
 						["unit"] = "player",
-						["spellIds"] = {
-						},
+						["events"] = "UNIT_SPELLCAST_SUCCEEDED:player",
 						["event"] = "Combat Log",
 						["customStacks"] = "\n\n",
 						["customDuration"] = "\n\n",
 						["customName"] = "",
+						["spellIds"] = {
+						},
 						["custom"] = "function(allstates, _, _, _, spellID)\n    if spellID and aura_env.spellList[spellID] then\n        local sameAbility = allstates[\"\"] and allstates[\"\"].spellID == spellID\n        \n        if sameAbility then\n            PlaySoundFile(\"Interface\\\\AddOns\\\\WeakAuras\\\\Media\\\\Sounds\\\\BananaPeelSlip.ogg\",\"SFX\")\n        end\n        \n        allstates[\"\"] = {\n            show = true,\n            changed = true,\n            spellID = spellID,\n            icon = select(3, GetSpellInfo(spellID)),\n            same = sameAbility,\n            autoHide = false\n        }\n        \n        return true\n    end\nend",
-						["events"] = "UNIT_SPELLCAST_SUCCEEDED:player",
 						["check"] = "event",
-						["custom_type"] = "stateupdate",
+						["subeventSuffix"] = "_CAST_START",
 						["use_messageType"] = false,
 						["customVariables"] = "{\n    same = {\n        type = \"bool\",\n        display = \"Used same ability twice\"\n    }\n}",
 					},
@@ -165,75 +335,40 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_petbattle"] = false,
-				["zoneIds"] = "",
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["use_petbattle"] = false,
+				["zoneIds"] = "",
 				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_vehicleUi"] = false,
 			},
 			["source"] = "import",
 			["alpha"] = 1,
 			["config"] = {
-			},
-			["animation"] = {
-				["start"] = {
-					["easeStrength"] = 3,
-					["scaleFunc"] = "",
-					["preset"] = "spiral",
-					["easeType"] = "none",
-					["use_scale"] = false,
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["scaleType"] = "custom",
-				},
-				["main"] = {
-					["colorR"] = 0.99607843137255,
-					["duration_type"] = "seconds",
-					["alphaType"] = "straight",
-					["colorB"] = 0.94901960784314,
-					["colorG"] = 1,
-					["alphaFunc"] = "function(progress, start, delta)\n      return start + (progress * delta)\n    end\n  ",
-					["duration"] = "1",
-					["colorA"] = 1,
-					["use_alpha"] = false,
-					["easeStrength"] = 3,
-					["scaleType"] = "straightScale",
-					["use_scale"] = false,
-					["easeType"] = "none",
-					["scaleFunc"] = "function(progress, startX, startY, scaleX, scaleY)\n      return startX + (progress * (scaleX - startX)), startY + (progress * (scaleY - startY))\n    end\n  ",
-					["use_color"] = false,
-					["alpha"] = 0,
-					["colorType"] = "custom",
-					["y"] = 0,
-					["x"] = 0,
-					["scaley"] = 0.1,
-					["preset"] = "spin",
-					["colorFunc"] = "\n\n",
-					["rotate"] = 0,
-					["type"] = "custom",
-					["scalex"] = 0.1,
-				},
-				["finish"] = {
-					["scaleType"] = "custom",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-					["use_scale"] = true,
-					["duration_type"] = "seconds",
-					["preset"] = "bounceDecay",
-					["type"] = "none",
-				},
 			},
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
+			},
+			["actions"] = {
+				["start"] = {
+					["do_custom"] = false,
+					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
+					["do_sound"] = false,
+				},
+				["init"] = {
+					["custom"] = "aura_env.spellList = {\n    [100780] = true,  -- Tiger Palm\n    [100784] = true,  -- Blackout Kick\n    [107428] = true,  -- Rising Sun Kick\n    [101545] = true,  -- Flying Serpent Kick\n    [113656] = true,  -- Fists of Fury\n    [101546] = true,  -- Spinning Crane Kick\n    [116847] = true,  -- Rushing Jade Wind\n    [152175] = true,  -- Whirling Dragon Punch\n    [115098] = true,  -- Chi Wave\n    [123986] = true,  -- Chi Burst\n    [117952] = true,  -- Crackling Jade Lightning\n    [392983] = true,  -- Strike of the Windlord\n    [322109] = true,  -- Touch of Death\n    [261947] = true,  -- Fist of the White Tiger\n    [322101] = true,  -- Expel Harm\n    [310454] = true,  -- Weapons of Order\n    [327104] = true,  -- Faeline Stomp\n    [325216] = true,  -- Bonedust Brew\n}\n\n\n\n\n\n\n",
+					["do_custom"] = true,
+				},
+				["finish"] = {
+				},
 			},
 			["regionType"] = "icon",
 			["information"] = {
@@ -300,37 +435,58 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["actions"] = {
+			["animation"] = {
 				["start"] = {
-					["do_custom"] = false,
-					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
-					["do_sound"] = false,
+					["use_scale"] = false,
+					["scaleFunc"] = "",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+					["preset"] = "spiral",
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["scaleType"] = "custom",
 				},
-				["init"] = {
-					["custom"] = "aura_env.spellList = {\n    [100780] = true,  -- Tiger Palm\n    [100784] = true,  -- Blackout Kick\n    [107428] = true,  -- Rising Sun Kick\n    [101545] = true,  -- Flying Serpent Kick\n    [113656] = true,  -- Fists of Fury\n    [101546] = true,  -- Spinning Crane Kick\n    [116847] = true,  -- Rushing Jade Wind\n    [152175] = true,  -- Whirling Dragon Punch\n    [115098] = true,  -- Chi Wave\n    [123986] = true,  -- Chi Burst\n    [117952] = true,  -- Crackling Jade Lightning\n    [392983] = true,  -- Strike of the Windlord\n    [322109] = true,  -- Touch of Death\n    [261947] = true,  -- Fist of the White Tiger\n    [322101] = true,  -- Expel Harm\n    [310454] = true,  -- Weapons of Order\n    [327104] = true,  -- Faeline Stomp\n    [325216] = true,  -- Bonedust Brew\n}\n\n\n\n\n\n\n",
-					["do_custom"] = true,
+				["main"] = {
+					["colorR"] = 0.99607843137255,
+					["duration_type"] = "seconds",
+					["alphaType"] = "straight",
+					["colorB"] = 0.94901960784314,
+					["colorG"] = 1,
+					["alphaFunc"] = "function(progress, start, delta)\n      return start + (progress * delta)\n    end\n  ",
+					["duration"] = "1",
+					["colorA"] = 1,
+					["use_alpha"] = false,
+					["easeStrength"] = 3,
+					["scaleType"] = "straightScale",
+					["use_scale"] = false,
+					["easeType"] = "none",
+					["scaleFunc"] = "function(progress, startX, startY, scaleX, scaleY)\n      return startX + (progress * (scaleX - startX)), startY + (progress * (scaleY - startY))\n    end\n  ",
+					["use_color"] = false,
+					["alpha"] = 0,
+					["colorType"] = "custom",
+					["y"] = 0,
+					["x"] = 0,
+					["scaley"] = 0.1,
+					["preset"] = "spin",
+					["colorFunc"] = "\n\n",
+					["rotate"] = 0,
+					["type"] = "custom",
+					["scalex"] = 0.1,
 				},
 				["finish"] = {
+					["scaleType"] = "custom",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+					["preset"] = "bounceDecay",
+					["easeStrength"] = 3,
+					["use_scale"] = true,
+					["type"] = "none",
 				},
 			},
 		},
 	},
-	["login_squelch_time"] = 10,
-	["lastArchiveClear"] = 1666293078,
-	["minimap"] = {
-		["minimapPos"] = 203.4758216416402,
-		["hide"] = false,
-	},
-	["lastUpgrade"] = 1666858814,
-	["dbVersion"] = 59,
 	["registered"] = {
 	},
-	["editor_font_size"] = 12,
-	["frame"] = {
-		["xOffset"] = -152.872314453125,
-		["width"] = 830,
-		["height"] = 665.0001220703125,
-		["yOffset"] = -569.2857666015625,
-	},
+	["login_squelch_time"] = 10,
 	["editor_theme"] = "Monokai",
 }

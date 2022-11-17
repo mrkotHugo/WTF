@@ -1,14 +1,7 @@
 
 ThreatPlatesDB = {
 	["char"] = {
-		["Хугомонк - Ревущий фьорд"] = {
-			["welcome"] = true,
-			["spec"] = {
-				true, -- [1]
-				[3] = false,
-			},
-		},
-		["Hugotest - Draenor"] = {
+		["Хуговар - Ревущий фьорд"] = {
 			["spec"] = {
 				[3] = true,
 			},
@@ -20,12 +13,11 @@ ThreatPlatesDB = {
 				[3] = true,
 			},
 		},
-		["Хугохав - Гордунни"] = {
-			["welcome"] = true,
+		["Hugotest - Draenor"] = {
 			["spec"] = {
-				nil, -- [1]
-				true, -- [2]
+				[3] = true,
 			},
+			["welcome"] = true,
 		},
 		["Хугопал - Ревущий фьорд"] = {
 			["spec"] = {
@@ -35,34 +27,46 @@ ThreatPlatesDB = {
 			},
 			["welcome"] = true,
 		},
+		["Хугохав - Гордунни"] = {
+			["spec"] = {
+				nil, -- [1]
+				true, -- [2]
+			},
+			["welcome"] = true,
+		},
+		["Хугомонк - Ревущий фьорд"] = {
+			["spec"] = {
+				true, -- [1]
+				[3] = false,
+			},
+			["welcome"] = true,
+		},
 		["Maelti - Doomhammer"] = {
 			["spec"] = {
 				[3] = true,
 			},
 			["welcome"] = true,
 		},
-		["Хуговар - Ревущий фьорд"] = {
-			["spec"] = {
-				[3] = true,
-			},
+		["Хугакон - Ревущий фьорд"] = {
 			["welcome"] = true,
 		},
 	},
 	["global"] = {
-		["version"] = "11.0.6",
+		["version"] = "11.1.0",
 	},
 	["namespaces"] = {
 		["LibDualSpec-1.0"] = {
 		},
 	},
 	["profileKeys"] = {
-		["Хугомонк - Ревущий фьорд"] = "Default",
-		["Hugotest - Draenor"] = "Default",
-		["Hugork - Draenor"] = "Default",
-		["Хугохав - Гордунни"] = "Default",
-		["Хугопал - Ревущий фьорд"] = "Default",
-		["Maelti - Doomhammer"] = "Default",
 		["Хуговар - Ревущий фьорд"] = "Default",
+		["Hugork - Draenor"] = "Default",
+		["Hugotest - Draenor"] = "Default",
+		["Хугопал - Ревущий фьорд"] = "Default",
+		["Хугохав - Гордунни"] = "Default",
+		["Хугомонк - Ревущий фьорд"] = "Default",
+		["Maelti - Doomhammer"] = "Default",
+		["Хугакон - Ревущий фьорд"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

@@ -31,8 +31,6 @@ Bagnon_Sets = {
 	["version"] = "10.0.3",
 	["display"] = {
 	},
-	["fridgeColor"] = {
-	},
 	["global"] = {
 		["inventory"] = {
 			["rules"] = {
@@ -65,8 +63,8 @@ Bagnon_Sets = {
 			},
 			["hiddenRules"] = {
 			},
-			["y"] = 245.2697448730469,
-			["x"] = -494.9530029296875,
+			["y"] = 268.6347351074219,
+			["x"] = -360.857666015625,
 			["borderColor"] = {
 			},
 			["showBags"] = true,
@@ -164,11 +162,13 @@ Bagnon_Sets = {
 			},
 			["color"] = {
 			},
-			["x"] = 95.00000762939453,
-			["hiddenRules"] = {
-			},
 			["borderColor"] = {
 			},
+			["hiddenRules"] = {
+			},
+			["x"] = 95.00000762939453,
 		},
+	},
+	["fridgeColor"] = {
 	},
 }

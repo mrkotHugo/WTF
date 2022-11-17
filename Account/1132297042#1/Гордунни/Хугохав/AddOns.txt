@@ -71,7 +71,7 @@ WeakAuras: enabled
 WeakAurasModelPaths: disabled
 WeakAurasOptions: enabled
 WeakAurasTemplates: disabled
-WorldQuestTracker: disabled
+WorldQuestTracker: enabled
 ElvUI: enabled
 ElvUI_OptionsUI: enabled
 DBM-Core: enabled
@@ -98,3 +98,4 @@ Scrap_Merchant: disabled
 Scrap_Config: disabled
 DejaCharacterStats: disabled
 Quartz: enabled
+ElvUI_Options: enabled

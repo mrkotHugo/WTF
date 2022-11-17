@@ -54,11 +54,12 @@ Quartz3DB = {
 	},
 	["profileKeys"] = {
 		["Хуговар - Ревущий фьорд"] = "Default",
-		["Хугомонк - Ревущий фьорд"] = "Default",
-		["Хугохав - Гордунни"] = "Default",
-		["Хугопал - Ревущий фьорд"] = "Default",
-		["Hugork - Draenor"] = "Default",
 		["Hugotest - Draenor"] = "Default",
+		["Хугопал - Ревущий фьорд"] = "Default",
+		["Хугохав - Гордунни"] = "Default",
+		["Хугомонк - Ревущий фьорд"] = "Default",
+		["Hugork - Draenor"] = "Default",
+		["Хугакон - Ревущий фьорд"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

@@ -87,7 +87,7 @@ DBM-Shadowlands: disabled
 DBM-SanctumOfDomination: disabled
 DBM-VaultoftheIncarnates: disabled
 DBM-DMF: disabled
-Bagnon: enabled
+Bagnon: disabled
 Bagnon_Config: enabled
 Bagnon_GuildBank: disabled
 Bagnon_VoidStorage: disabled
@@ -97,3 +97,17 @@ Scrap_Merchant: disabled
 Scrap_Config: disabled
 DejaCharacterStats: disabled
 Quartz: enabled
+ElvUI_Options: enabled
+TomCats-ArathiHighlandsRares: disabled
+TomCats-DarkshoreRares: disabled
+TomCats-Mechagon: disabled
+TomCats-Nazjatar: disabled
+TomCats-Nzoth: disabled
+TomCats-WarfrontsCommandCenter: disabled
+TomCats-Complete: disabled
+TomCats-ChildrensWeek: disabled
+TomCats-HallowsEnd: disabled
+TomCats-LoveIsInTheAir: disabled
+TomCats-LunarFestival: disabled
+TomCats-Noblegarden: disabled
+Masque_Dominos: disabled

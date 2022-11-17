@@ -13,3 +13,17 @@ X: 0
 Y: 0
 W: 365
 H: 241
+Frame: DetailsWindowOptionsBarTextEditor
+FrameLevel: 1
+Anchor: TOP
+X: -148
+Y: -40
+W: 950
+H: 600
+Frame: DetailsPluginContainerWindow
+FrameLevel: 1
+Anchor: TOP
+X: -147
+Y: -40
+W: 925
+H: 600

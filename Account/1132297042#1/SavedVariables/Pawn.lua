@@ -11,7 +11,7 @@ PawnCommon = {
 	["Debug"] = false,
 	["ColorTooltipBorder"] = true,
 	["ShowTooltipIcons"] = true,
-	["LastVersion"] = 2.0708,
+	["LastVersion"] = 2.0712,
 	["ShowSocketingAdvisor"] = true,
 	["Scales"] = {
 		["\"MrRobot\":HUNTER3"] = {
@@ -293,24 +293,27 @@ PawnCommon = {
 			["UnenchantedColor"] = "bebebe",
 			["SpecID"] = 2,
 		},
-		["\"MrRobot\":SHAMAN3"] = {
-			["IconTexturePath"] = 136052,
+		["\"MrRobot\":DEMONHUNTER2"] = {
+			["IconTexturePath"] = 1247265,
 			["PerCharacterOptions"] = {
 			},
-			["Color"] = "006fdc",
-			["LocalizedName"] = "Шаман: Исцеление",
-			["ClassID"] = 7,
+			["Color"] = "a22fc8",
+			["LocalizedName"] = "Охотник на демонов: Месть",
+			["ClassID"] = 12,
 			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "HEALER",
-			["DoNotShow2HUpgrades"] = false,
+			["Role"] = "TANK",
+			["DoNotShow2HUpgrades"] = true,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "0053a5",
-			["SpecID"] = 3,
+			["UnenchantedColor"] = "792396",
+			["SpecID"] = 2,
 		},
 		["\"MrRobot\":WARRIOR1"] = {
 			["IconTexturePath"] = 132355,
 			["PerCharacterOptions"] = {
+				["Хугопвар-Ревущий фьорд"] = {
+					["Visible"] = true,
+				},
 				["Хуговар-Ревущий фьорд"] = {
 					["Visible"] = true,
 				},
@@ -365,20 +368,20 @@ PawnCommon = {
 			["UnenchantedColor"] = "b6688a",
 			["SpecID"] = 2,
 		},
-		["\"MrRobot\":MAGE1"] = {
-			["IconTexturePath"] = 135932,
+		["\"MrRobot\":SHAMAN3"] = {
+			["IconTexturePath"] = 136052,
 			["PerCharacterOptions"] = {
 			},
-			["Color"] = "3ec6ea",
-			["LocalizedName"] = "Маг: Тайная магия",
-			["ClassID"] = 8,
+			["Color"] = "006fdc",
+			["LocalizedName"] = "Шаман: Исцеление",
+			["ClassID"] = 7,
 			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "DAMAGER",
+			["Role"] = "HEALER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "2e94af",
-			["SpecID"] = 1,
+			["UnenchantedColor"] = "0053a5",
+			["SpecID"] = 3,
 		},
 		["\"MrRobot\":DRUID2"] = {
 			["IconTexturePath"] = 132115,
@@ -515,20 +518,20 @@ PawnCommon = {
 			["UnenchantedColor"] = "bf3950",
 			["SpecID"] = 1,
 		},
-		["\"MrRobot\":DEMONHUNTER2"] = {
-			["IconTexturePath"] = 1247265,
+		["\"MrRobot\":MAGE1"] = {
+			["IconTexturePath"] = 135932,
 			["PerCharacterOptions"] = {
 			},
-			["Color"] = "a22fc8",
-			["LocalizedName"] = "Охотник на демонов: Месть",
-			["ClassID"] = 12,
+			["Color"] = "3ec6ea",
+			["LocalizedName"] = "Маг: Тайная магия",
+			["ClassID"] = 8,
 			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "TANK",
-			["DoNotShow2HUpgrades"] = true,
+			["Role"] = "DAMAGER",
+			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "792396",
-			["SpecID"] = 2,
+			["UnenchantedColor"] = "2e94af",
+			["SpecID"] = 1,
 		},
 		["\"MrRobot\":PALADIN3"] = {
 			["IconTexturePath"] = 135873,

@@ -3,15 +3,317 @@ WeakAurasSaved = {
 	["dynamicIconCache"] = {
 	},
 	["editor_tab_spaces"] = 4,
-	["editor_font_size"] = 12,
-	["lastArchiveClear"] = 1666293078,
-	["minimap"] = {
-		["minimapPos"] = 203.4758216416402,
-		["hide"] = false,
-	},
-	["lastUpgrade"] = 1666858814,
-	["dbVersion"] = 59,
 	["displays"] = {
+		["Lasthit Combo Breaker"] = {
+			["iconSource"] = 2,
+			["wagoID"] = "r1NPO9gYb",
+			["xOffset"] = -405.3334350585938,
+			["preferToUpdate"] = false,
+			["yOffset"] = 21.317138671875,
+			["anchorPoint"] = "CENTER",
+			["cooldownSwipe"] = true,
+			["customTextUpdate"] = "event",
+			["cooldownEdge"] = false,
+			["icon"] = true,
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "aura2",
+						["auraspellids"] = {
+							"196741", -- [1]
+						},
+						["event"] = "Health",
+						["unit"] = "player",
+						["spellIds"] = {
+						},
+						["subeventPrefix"] = "SPELL",
+						["names"] = {
+						},
+						["subeventSuffix"] = "_CAST_START",
+						["useExactSpellId"] = true,
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+				{
+					["trigger"] = {
+						["duration"] = "0",
+						["genericShowOn"] = "showOnActive",
+						["subeventPrefix"] = "SPELL",
+						["customIcon"] = "\n\n\n",
+						["names"] = {
+						},
+						["debuffType"] = "HELPFUL",
+						["custom_hide"] = "custom",
+						["type"] = "custom",
+						["subeventSuffix"] = "_CAST_START",
+						["custom_type"] = "stateupdate",
+						["unit"] = "player",
+						["custom"] = "function(allstates, _, _, _, spellID)\n    if spellID and aura_env.spellList[spellID] then\n        local sameAbility = allstates[\"\"] and allstates[\"\"].spellID == spellID\n        \n        if sameAbility then\n            PlaySoundFile(\"Interface\\\\AddOns\\\\WeakAuras\\\\Media\\\\Sounds\\\\BananaPeelSlip.ogg\",\"SFX\")\n        end\n        \n        allstates[\"\"] = {\n            show = true,\n            changed = true,\n            spellID = spellID,\n            icon = select(3, GetSpellInfo(spellID)),\n            same = sameAbility,\n            autoHide = false\n        }\n        \n        return true\n    end\nend",
+						["event"] = "Combat Log",
+						["customStacks"] = "\n\n",
+						["customDuration"] = "\n\n",
+						["customName"] = "",
+						["events"] = "UNIT_SPELLCAST_SUCCEEDED:player",
+						["spellIds"] = {
+						},
+						["check"] = "event",
+						["unevent"] = "timed",
+						["use_messageType"] = false,
+						["customVariables"] = "{\n    same = {\n        type = \"bool\",\n        display = \"Used same ability twice\"\n    }\n}",
+					},
+					["untrigger"] = {
+						["custom"] = "\n\n\n\n\n\n\n",
+					},
+				}, -- [2]
+				["disjunctive"] = "any",
+				["customTriggerLogic"] = "",
+				["activeTriggerMode"] = 1,
+			},
+			["internalVersion"] = 59,
+			["keepAspectRatio"] = true,
+			["selfPoint"] = "BOTTOM",
+			["stickyDuration"] = false,
+			["version"] = 15,
+			["subRegions"] = {
+				{
+					["type"] = "subbackground",
+				}, -- [1]
+				{
+					["text_shadowXOffset"] = 0,
+					["text_text"] = "%stacks",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "AUTO",
+					["text_automaticWidth"] = "Auto",
+					["text_fixedWidth"] = 64,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "CENTER",
+					["rotateText"] = "NONE",
+					["text_text_format_stacks_format"] = "none",
+					["type"] = "subtext",
+					["text_color"] = {
+						0, -- [1]
+						1, -- [2]
+						0.58823529411765, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "PT Sans Narrow",
+					["text_shadowYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_fontType"] = "OUTLINE",
+					["text_anchorPoint"] = "CENTER",
+					["text_text_format_2.s_format"] = "none",
+					["text_fontSize"] = 40,
+					["anchorXOffset"] = 0,
+					["text_visible"] = true,
+				}, -- [2]
+			},
+			["height"] = 40,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["use_class_and_spec"] = true,
+				["use_class"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["class_and_spec"] = {
+					["single"] = 269,
+					["multi"] = {
+						[269] = true,
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicle"] = false,
+				["spec"] = {
+					["single"] = 3,
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "MONK",
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_petbattle"] = false,
+				["zoneIds"] = "",
+				["use_vehicleUi"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["source"] = "import",
+			["alpha"] = 1,
+			["config"] = {
+			},
+			["actions"] = {
+				["start"] = {
+					["do_custom"] = false,
+					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
+					["do_sound"] = false,
+				},
+				["init"] = {
+					["custom"] = "aura_env.spellList = {\n    [100780] = true,  -- Tiger Palm\n    [100784] = true,  -- Blackout Kick\n    [107428] = true,  -- Rising Sun Kick\n    [101545] = true,  -- Flying Serpent Kick\n    [113656] = true,  -- Fists of Fury\n    [101546] = true,  -- Spinning Crane Kick\n    [116847] = true,  -- Rushing Jade Wind\n    [152175] = true,  -- Whirling Dragon Punch\n    [115098] = true,  -- Chi Wave\n    [123986] = true,  -- Chi Burst\n    [117952] = true,  -- Crackling Jade Lightning\n    [392983] = true,  -- Strike of the Windlord\n    [322109] = true,  -- Touch of Death\n    [261947] = true,  -- Fist of the White Tiger\n    [322101] = true,  -- Expel Harm\n    [310454] = true,  -- Weapons of Order\n    [327104] = true,  -- Faeline Stomp\n    [325216] = true,  -- Bonedust Brew\n}\n\n\n\n\n\n\n",
+					["do_custom"] = true,
+				},
+				["finish"] = {
+				},
+			},
+			["animation"] = {
+				["start"] = {
+					["preset"] = "spiral",
+					["scaleFunc"] = "",
+					["use_scale"] = false,
+					["easeType"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["type"] = "none",
+					["scaleType"] = "custom",
+				},
+				["main"] = {
+					["colorR"] = 0.99607843137255,
+					["duration_type"] = "seconds",
+					["alphaType"] = "straight",
+					["colorB"] = 0.94901960784314,
+					["colorG"] = 1,
+					["alphaFunc"] = "function(progress, start, delta)\n      return start + (progress * delta)\n    end\n  ",
+					["duration"] = "1",
+					["colorA"] = 1,
+					["use_alpha"] = false,
+					["easeStrength"] = 3,
+					["scaleType"] = "straightScale",
+					["use_scale"] = false,
+					["easeType"] = "none",
+					["scaleFunc"] = "function(progress, startX, startY, scaleX, scaleY)\n      return startX + (progress * (scaleX - startX)), startY + (progress * (scaleY - startY))\n    end\n  ",
+					["use_color"] = false,
+					["alpha"] = 0,
+					["colorType"] = "custom",
+					["y"] = 0,
+					["x"] = 0,
+					["scaley"] = 0.1,
+					["preset"] = "spin",
+					["colorFunc"] = "\n\n",
+					["rotate"] = 0,
+					["type"] = "custom",
+					["scalex"] = 0.1,
+				},
+				["finish"] = {
+					["scaleType"] = "custom",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+					["preset"] = "bounceDecay",
+					["easeStrength"] = 3,
+					["use_scale"] = true,
+					["type"] = "none",
+				},
+			},
+			["regionType"] = "icon",
+			["information"] = {
+				["forceEvents"] = true,
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["displayIcon"] = 572033,
+			["desaturate"] = false,
+			["authorOptions"] = {
+			},
+			["width"] = 60,
+			["useCooldownModRate"] = true,
+			["zoom"] = 0.25,
+			["semver"] = "4.0.1",
+			["tocversion"] = 100000,
+			["id"] = "Lasthit Combo Breaker",
+			["auto"] = true,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["cooldownTextDisabled"] = true,
+			["uid"] = "xlO49ksC)2D",
+			["inverse"] = false,
+			["url"] = "https://wago.io/WindwalkerLastAbility/15",
+			["conditions"] = {
+				{
+					["check"] = {
+						["trigger"] = -1,
+						["variable"] = "incombat",
+						["value"] = 0,
+					},
+					["changes"] = {
+						{
+							["value"] = 0.75,
+							["property"] = "alpha",
+						}, -- [1]
+						{
+							["value"] = {
+								0.61568629741669, -- [1]
+								0.61568629741669, -- [2]
+								0.61568629741669, -- [3]
+								1, -- [4]
+							},
+							["property"] = "color",
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["check"] = {
+						["trigger"] = 2,
+						["variable"] = "same",
+						["value"] = 1,
+					},
+					["changes"] = {
+						{
+							["value"] = {
+								1, -- [1]
+								0, -- [2]
+								0, -- [3]
+								1, -- [4]
+							},
+							["property"] = "color",
+						}, -- [1]
+					},
+				}, -- [2]
+			},
+			["cooldown"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+		},
 		["cursor"] = {
 			["xOffset"] = 0,
 			["preferToUpdate"] = false,
@@ -174,33 +476,375 @@ WeakAurasSaved = {
 			},
 			["discrete_rotation"] = 0,
 		},
-		["Lasthit Combo Breaker"] = {
-			["iconSource"] = 2,
-			["wagoID"] = "r1NPO9gYb",
-			["xOffset"] = -405.3334350585938,
+		["Ignore Pain Tracker"] = {
+			["iconSource"] = -1,
+			["wagoID"] = "ByEbmw6mX",
+			["authorOptions"] = {
+				{
+					["subOptions"] = {
+						{
+							["type"] = "space",
+							["variableWidth"] = false,
+							["width"] = 2,
+						}, -- [1]
+						{
+							["type"] = "description",
+							["text"] = "Text Output",
+							["fontSize"] = "medium",
+							["width"] = 2,
+						}, -- [2]
+						{
+							["type"] = "description",
+							["text"] = "Text 1 and Text 2 are the two text fields that appear on the icon. By default, Text 1 is centered on the icon and Text 2 is on top and outside the icon.\n\nabsorb - Displays your remaining Ignore Pain absorb amount.\npercent - Displays at what percent of the Ignore Pain cap you are at.\nadditional - Displays how much Ignore Pain absorb you will gain by casting it.\npercentofhp - Displays the % of your max health that Ignore Pain is making up.\nnone - Displays nothing.",
+							["fontSize"] = "small",
+							["width"] = 2,
+						}, -- [3]
+						{
+							["desc"] = "Controls what is displayed in the first text field.",
+							["type"] = "select",
+							["values"] = {
+								"absorb", -- [1]
+								"percent", -- [2]
+								"additional", -- [3]
+								"percentofhp", -- [4]
+								"none", -- [5]
+							},
+							["default"] = 1,
+							["key"] = "text1",
+							["useDesc"] = true,
+							["name"] = "Text 1",
+							["width"] = 1,
+						}, -- [4]
+						{
+							["desc"] = "Controls what is displayed in the second text field.",
+							["type"] = "select",
+							["values"] = {
+								"absorb", -- [1]
+								"percent", -- [2]
+								"additional", -- [3]
+								"percentofhp", -- [4]
+								"none", -- [5]
+							},
+							["default"] = 5,
+							["key"] = "text2",
+							["useDesc"] = true,
+							["name"] = "Text 2",
+							["width"] = 1,
+						}, -- [5]
+						{
+							["type"] = "space",
+							["variableWidth"] = false,
+							["width"] = 1,
+						}, -- [6]
+						{
+							["type"] = "description",
+							["text"] = "Text Color Toggle",
+							["fontSize"] = "medium",
+							["width"] = 2,
+						}, -- [7]
+						{
+							["type"] = "description",
+							["text"] = "Controls whether Text 1 and Text 2 are colored according to the full/partial/capped cast rules. If unchecked, the text remains white (or whatever color you set in the Display tab).",
+							["fontSize"] = "small",
+							["width"] = 2,
+						}, -- [8]
+						{
+							["type"] = "toggle",
+							["default"] = true,
+							["desc"] = "",
+							["key"] = "colorText1",
+							["useDesc"] = false,
+							["name"] = "Text 1 Coloring",
+							["width"] = 1,
+						}, -- [9]
+						{
+							["type"] = "toggle",
+							["default"] = false,
+							["desc"] = "",
+							["key"] = "colorText2",
+							["useDesc"] = false,
+							["name"] = "Text 2 Coloring",
+							["width"] = 1,
+						}, -- [10]
+						{
+							["type"] = "space",
+							["variableWidth"] = false,
+							["width"] = 1,
+						}, -- [11]
+						{
+							["type"] = "description",
+							["text"] = "Text Color",
+							["fontSize"] = "medium",
+							["width"] = 2,
+						}, -- [12]
+						{
+							["type"] = "description",
+							["text"] = "Controls the text color for each status of Ignore Pain.",
+							["fontSize"] = "small",
+							["width"] = 2,
+						}, -- [13]
+						{
+							["type"] = "color",
+							["default"] = {
+								1, -- [1]
+								1, -- [2]
+								1, -- [3]
+								1, -- [4]
+							},
+							["desc"] = "This is the text color you will see when casting Ignore Pain grants you full absorb.",
+							["key"] = "fullCastColor",
+							["useDesc"] = true,
+							["name"] = "Full Cast Color",
+							["width"] = 0.7,
+						}, -- [14]
+						{
+							["type"] = "color",
+							["default"] = {
+								1, -- [1]
+								1, -- [2]
+								0, -- [3]
+								1, -- [4]
+							},
+							["desc"] = "This is the text color you will see when casting Ignore Pain grants you partial absorb.",
+							["key"] = "partialCastColor",
+							["useDesc"] = true,
+							["name"] = "Partial Cast Color",
+							["width"] = 0.7,
+						}, -- [15]
+						{
+							["type"] = "color",
+							["default"] = {
+								1, -- [1]
+								0, -- [2]
+								0, -- [3]
+								1, -- [4]
+							},
+							["desc"] = "This is the text color you will see when casting Ignore Pain grants you no absorb.",
+							["key"] = "cappedCastColor",
+							["useDesc"] = true,
+							["name"] = "Capped Cast Color",
+							["width"] = 0.7,
+						}, -- [16]
+						{
+							["type"] = "space",
+							["variableWidth"] = false,
+							["width"] = 1,
+						}, -- [17]
+						{
+							["type"] = "description",
+							["text"] = "Full Cast Threshold",
+							["fontSize"] = "medium",
+							["width"] = 2,
+						}, -- [18]
+						{
+							["type"] = "description",
+							["text"] = "Controls the percentage of a full cast needed to still be considered a full cast. For example, when set to 80%, an Ignore Pain cast that will grant 80% of its absorb or more will still be considered a full cast.\n\nAdditionally, the inverse of this setting is used to determine when a cast is considered a capped cast. For example, when set to 80%, an Ignore Pain cast that will grant less than 20% of its absorb will be considered a capped cast.",
+							["fontSize"] = "small",
+							["width"] = 2,
+						}, -- [19]
+						{
+							["softMin"] = 0,
+							["type"] = "range",
+							["bigStep"] = 0.05,
+							["max"] = 1,
+							["step"] = 0.05,
+							["width"] = 1,
+							["min"] = 0,
+							["key"] = "thresholdPerc",
+							["softMax"] = 1,
+							["useDesc"] = false,
+							["name"] = "Threshold Percentage",
+							["default"] = 0.8,
+						}, -- [20]
+						{
+							["type"] = "space",
+							["variableWidth"] = false,
+							["height"] = 1,
+							["width"] = 1,
+							["useHeight"] = false,
+						}, -- [21]
+						{
+							["type"] = "description",
+							["text"] = "Text Formatting",
+							["fontSize"] = "medium",
+							["width"] = 2,
+						}, -- [22]
+						{
+							["type"] = "description",
+							["text"] = "Shorten Text, Number of Decimal Places, and Don't Shorten Thousands apply to the \"absorb\" and \"additional\" text outputs.\n\n(%) Number of Decimal Places applies to the \"percent\" and \"percentofhp\" text outputs.",
+							["fontSize"] = "small",
+							["width"] = 2,
+						}, -- [23]
+						{
+							["type"] = "toggle",
+							["default"] = true,
+							["desc"] = "Shortens text from 13,500 to 13.5k, for example. By default, text is always shortened to three numbers. That is, 5,500 is shortened to 5.50k, 15,500 is shortened to 15.5k.",
+							["key"] = "shortenText",
+							["useDesc"] = true,
+							["name"] = "Shorten Text",
+							["width"] = 1,
+						}, -- [24]
+						{
+							["desc"] = "Allows you to force a certain number of decimal places to always be displayed. This option has no effect if Shorten Text isn't enabled.",
+							["type"] = "select",
+							["values"] = {
+								"default", -- [1]
+								"0", -- [2]
+								"1", -- [3]
+								"2", -- [4]
+								"3", -- [5]
+							},
+							["default"] = 1,
+							["key"] = "numberOfDecimalPlaces",
+							["useDesc"] = true,
+							["name"] = "Number of Decimal Places",
+							["width"] = 1,
+						}, -- [25]
+						{
+							["type"] = "toggle",
+							["default"] = false,
+							["desc"] = "Displays absorb amounts between 1,000 and 10,000 without shortening them. For example, 5,000 shows as 5,000, but 12,000 shows as 12.0k (or according to Number of Decimal Places).",
+							["key"] = "dontShortenThousands",
+							["useDesc"] = true,
+							["name"] = "Don't Shorten Thousands",
+							["width"] = 1,
+						}, -- [26]
+						{
+							["softMin"] = 0,
+							["type"] = "range",
+							["bigStep"] = 1,
+							["max"] = 2,
+							["step"] = 1,
+							["width"] = 1,
+							["min"] = 0,
+							["key"] = "percentNumOfDecimalPlaces",
+							["desc"] = "Sets the number of decimal places to be displayed.",
+							["softMax"] = 2,
+							["useDesc"] = true,
+							["name"] = "(%) Number of Decimal Places",
+							["default"] = 0,
+						}, -- [27]
+					},
+					["type"] = "group",
+					["useDesc"] = false,
+					["width"] = 2,
+					["useCollapse"] = true,
+					["key"] = "textOptions",
+					["name"] = "Text Options",
+					["limitType"] = "none",
+					["groupType"] = "simple",
+					["collapse"] = false,
+					["size"] = 10,
+				}, -- [1]
+				{
+					["subOptions"] = {
+						{
+							["type"] = "space",
+							["variableWidth"] = false,
+							["width"] = 1,
+						}, -- [1]
+						{
+							["type"] = "description",
+							["text"] = "Icon Glow",
+							["fontSize"] = "medium",
+							["width"] = 2,
+						}, -- [2]
+						{
+							["type"] = "description",
+							["text"] = "Controls under what conditions the icon glows.\n\nFull Cast - Glow when your next cast will grant its full absorb.\nPartial Cast - Glow when your next cast will grant a portion of its absorb (i.e. cap).",
+							["fontSize"] = "small",
+							["width"] = 2,
+						}, -- [3]
+						{
+							["desc"] = "",
+							["type"] = "multiselect",
+							["values"] = {
+								"Full Cast", -- [1]
+								"Partial Cast", -- [2]
+							},
+							["default"] = {
+								false, -- [1]
+								false, -- [2]
+							},
+							["key"] = "glowConditions",
+							["useDesc"] = false,
+							["name"] = "Glow Conditions",
+							["width"] = 0.5,
+						}, -- [4]
+						{
+							["type"] = "toggle",
+							["default"] = false,
+							["desc"] = "Requires that you have enough Rage to cast Ignore Pain for your selected Glow Conditions to apply.",
+							["key"] = "glowRage",
+							["useDesc"] = true,
+							["name"] = "Require Rage",
+							["width"] = 1,
+						}, -- [5]
+						{
+							["type"] = "space",
+							["variableWidth"] = false,
+							["width"] = 1,
+						}, -- [6]
+						{
+							["type"] = "description",
+							["text"] = "Icon Saturation",
+							["fontSize"] = "medium",
+							["width"] = 2,
+						}, -- [7]
+						{
+							["type"] = "description",
+							["text"] = "By default, the icon is saturated (has color) when Ignore Pain is up, and desaturated when Ignore Pain is down. Enabling this option will instead saturate the icon when you have enough Rage to cast Ignore Pain and desaturate it when you don't.",
+							["fontSize"] = "small",
+							["width"] = 2,
+						}, -- [8]
+						{
+							["type"] = "toggle",
+							["default"] = false,
+							["desc"] = "",
+							["key"] = "saturateBasedOnRage",
+							["useDesc"] = false,
+							["name"] = "Saturate Based on Rage",
+							["width"] = 1,
+						}, -- [9]
+					},
+					["type"] = "group",
+					["useDesc"] = false,
+					["width"] = 1,
+					["useCollapse"] = true,
+					["key"] = "iconOptions",
+					["name"] = "Icon Options",
+					["limitType"] = "none",
+					["groupType"] = "simple",
+					["collapse"] = false,
+					["size"] = 10,
+				}, -- [2]
+			},
 			["preferToUpdate"] = false,
-			["yOffset"] = 21.317138671875,
+			["customText"] = "function()\n    return aura_env.text1, aura_env.text2\nend",
+			["yOffset"] = 42.6666259765625,
 			["anchorPoint"] = "CENTER",
 			["cooldownSwipe"] = true,
 			["customTextUpdate"] = "event",
-			["cooldownEdge"] = false,
+			["url"] = "https://wago.io/IgnorePainTracker/27",
 			["icon"] = true,
 			["triggers"] = {
 				{
 					["trigger"] = {
 						["type"] = "aura2",
-						["auraspellids"] = {
-							"196741", -- [1]
-						},
+						["useExactSpellId"] = true,
+						["matchesShowOn"] = "showAlways",
 						["event"] = "Health",
 						["unit"] = "player",
+						["names"] = {
+						},
 						["spellIds"] = {
 						},
 						["subeventPrefix"] = "SPELL",
-						["names"] = {
-						},
+						["combineMode"] = "showHighest",
 						["subeventSuffix"] = "_CAST_START",
-						["useExactSpellId"] = true,
+						["auraspellids"] = {
+							"190456", -- [1]
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -208,285 +852,333 @@ WeakAurasSaved = {
 				}, -- [1]
 				{
 					["trigger"] = {
-						["duration"] = "0",
-						["genericShowOn"] = "showOnActive",
+						["matchesShowOn"] = "showAlways",
 						["subeventPrefix"] = "SPELL",
-						["customIcon"] = "\n\n\n",
-						["names"] = {
-						},
+						["combineMode"] = "showHighest",
 						["debuffType"] = "HELPFUL",
-						["custom_hide"] = "custom",
+						["custom_hide"] = "timed",
 						["type"] = "custom",
-						["custom_type"] = "stateupdate",
-						["unevent"] = "timed",
-						["unit"] = "player",
-						["events"] = "UNIT_SPELLCAST_SUCCEEDED:player",
-						["event"] = "Combat Log",
+						["useExactSpellId"] = true,
+						["subeventSuffix"] = "_CAST_START",
+						["dynamicDuration"] = false,
+						["fetchTooltip"] = true,
+						["event"] = "Health",
 						["customStacks"] = "\n\n",
-						["customDuration"] = "\n\n",
-						["customName"] = "",
+						["auraspellids"] = {
+							"190456", -- [1]
+						},
 						["spellIds"] = {
 						},
-						["custom"] = "function(allstates, _, _, _, spellID)\n    if spellID and aura_env.spellList[spellID] then\n        local sameAbility = allstates[\"\"] and allstates[\"\"].spellID == spellID\n        \n        if sameAbility then\n            PlaySoundFile(\"Interface\\\\AddOns\\\\WeakAuras\\\\Media\\\\Sounds\\\\BananaPeelSlip.ogg\",\"SFX\")\n        end\n        \n        allstates[\"\"] = {\n            show = true,\n            changed = true,\n            spellID = spellID,\n            icon = select(3, GetSpellInfo(spellID)),\n            same = sameAbility,\n            autoHide = false\n        }\n        \n        return true\n    end\nend",
-						["check"] = "event",
-						["subeventSuffix"] = "_CAST_START",
-						["use_messageType"] = false,
-						["customVariables"] = "{\n    same = {\n        type = \"bool\",\n        display = \"Used same ability twice\"\n    }\n}",
+						["custom"] = "-- This trigger watches trigger 1 (IP aura) in order to update the various IP-related values needed by other parts of this WeakAura.\nfunction()\n    local maxHealth = UnitHealthMax(\"player\") or 1\n    \n    local currentIP = select(16, WA_GetUnitBuff(\"player\", aura_env.IPSpellId)) or 0\n    aura_env.isIPUp = currentIP > 0\n    local castIP = tonumber((GetSpellDescription(aura_env.IPSpellId):match(\"%%.+%d\"):gsub(\"%D\", \"\"))) or 0\n    local IPCap = math.floor(maxHealth * 0.3)\n    \n    -- maxAdditionalAbsorb can't be less than 0. Even if IPCap becomes lower than currentIP (resulting in a negative value), you won't lose absorb by casting IP.\n    local maxAdditionalAbsorb = math.max(0, IPCap - currentIP)\n    -- additionalAbsorb is castIP or the max amount of absorb that can be gained, whichever is lower.\n    -- For example, if IPCap is 100 and currentIP is 70, a max of 30 absorb can be gained. If castIP is lower than that (say 25), that's what will be gained, otherwise it's that max value (if castIP is 35, you will still only gain 30).\n    local additionalAbsorb = math.min(maxAdditionalAbsorb, castIP)\n    \n    -- e.g. if additionalAbsorb is 160 and castIP is 200, that cast will only grant 160 of its 200 absorb which is 80%, hence the name percentOfCast.\n    local percentOfCast = additionalAbsorb / castIP\n    \n    -- A full cast is when a given cast of IP grants all its absorb or at least 80% (set by thresholdPerc) of its absorb.\n    -- Partial cast when IP grants at least 20% (inverse of thresholdPerc) of its absorb.\n    -- Otherwise, capped cast.\n    if (currentIP + castIP <= IPCap) or (percentOfCast >= aura_env.config.textOptions.thresholdPerc) then\n        aura_env.IPCastType = \"full\"\n        aura_env.setTextColor(unpack(aura_env.config.textOptions.fullCastColor))\n    elseif percentOfCast >= 1 - aura_env.config.textOptions.thresholdPerc then\n        aura_env.IPCastType = \"partial\"\n        aura_env.setTextColor(unpack(aura_env.config.textOptions.partialCastColor))\n    else\n        aura_env.IPCastType = \"capped\"\n        aura_env.setTextColor(unpack(aura_env.config.textOptions.cappedCastColor))\n    end\n    \n    local percentOfCap = aura_env.shortenPercent(currentIP / IPCap * 100)\n    local percentOfMaxHP = aura_env.shortenPercent(currentIP / maxHealth * 100)\n    \n    if aura_env.config.textOptions.shortenText then\n        currentIP = aura_env.shortenNumber(currentIP)\n        additionalAbsorb = aura_env.shortenNumber(additionalAbsorb)\n    end\n    \n    local textOutputs = {currentIP, percentOfCap, additionalAbsorb, percentOfMaxHP}\n    aura_env.text1 = textOutputs[aura_env.config.textOptions.text1] or \"\"\n    aura_env.text2 = textOutputs[aura_env.config.textOptions.text2] or \"\"\n    \n    return true\nend",
+						["events"] = "UNIT_MAXHEALTH:player,TRIGGER:1",
+						["custom_type"] = "event",
+						["duration"] = "0",
+						["names"] = {
+						},
+						["unit"] = "player",
 					},
 					["untrigger"] = {
-						["custom"] = "\n\n\n\n\n\n\n",
+						["custom"] = "function()\n    return true\nend",
 					},
 				}, -- [2]
 				["disjunctive"] = "any",
-				["customTriggerLogic"] = "",
+				["customTriggerLogic"] = "function(trigger)\n    print(\"trigger1: \" .. tostring(trigger[1]))\n    print(\"trigger2: \" .. tostring(trigger[2]))\n    -- trigger 2 is watching trigger 1 (i.e. trigger 2 is triggered when trigger 1 is), so we only trigger on trigger 2 to avoid triggering twice at the exact same time\n    return trigger[2]\nend",
 				["activeTriggerMode"] = 1,
 			},
 			["internalVersion"] = 59,
-			["keepAspectRatio"] = true,
-			["selfPoint"] = "BOTTOM",
-			["stickyDuration"] = false,
-			["version"] = 15,
+			["keepAspectRatio"] = false,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
+			["desaturate"] = false,
+			["version"] = 27,
 			["subRegions"] = {
 				{
 					["type"] = "subbackground",
 				}, -- [1]
 				{
 					["text_shadowXOffset"] = 0,
-					["text_text"] = "%stacks",
+					["text_text_format_s_format"] = "none",
+					["text_text"] = "%c1",
 					["text_shadowColor"] = {
 						0, -- [1]
 						0, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["text_text_format_2.s2_format"] = "none",
 					["text_selfPoint"] = "AUTO",
-					["text_automaticWidth"] = "Auto",
+					["text_text_format_c1_big_number_format"] = "AbbreviateNumbers",
 					["text_fixedWidth"] = 64,
 					["anchorYOffset"] = 0,
 					["text_justify"] = "CENTER",
 					["rotateText"] = "NONE",
-					["text_text_format_stacks_format"] = "none",
+					["text_text_format_2.s1_format"] = "none",
 					["type"] = "subtext",
+					["text_text_format_s1_format"] = "none",
 					["text_color"] = {
-						0, -- [1]
+						1, -- [1]
 						1, -- [2]
-						0.58823529411765, -- [3]
+						1, -- [3]
 						1, -- [4]
 					},
-					["text_font"] = "PT Sans Narrow",
+					["text_font"] = "Friz Quadrata TT",
 					["text_shadowYOffset"] = 0,
+					["text_automaticWidth"] = "Auto",
 					["text_wordWrap"] = "WordWrap",
 					["text_fontType"] = "OUTLINE",
-					["text_anchorPoint"] = "CENTER",
+					["text_text_format_c1_format"] = "none",
 					["text_text_format_2.s_format"] = "none",
-					["text_fontSize"] = 40,
+					["text_anchorPoint"] = "CENTER",
+					["text_fontSize"] = 15,
 					["anchorXOffset"] = 0,
 					["text_visible"] = true,
 				}, -- [2]
+				{
+					["text_shadowXOffset"] = 0,
+					["text_text_format_c2_big_number_format"] = "AbbreviateLargeNumbers",
+					["text_text_format_c2_time_mod_rate"] = true,
+					["text_fixedWidth"] = 64,
+					["text_text_format_c2_color"] = true,
+					["rotateText"] = "NONE",
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_text_format_c2_time_legacy_floor"] = false,
+					["text_shadowYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_text_format_c2_realm_name"] = "never",
+					["text_fontSize"] = 15,
+					["anchorXOffset"] = 0,
+					["text_text_format_c2_abbreviate"] = true,
+					["text_text_format_c2_gcd_cast"] = false,
+					["text_selfPoint"] = "AUTO",
+					["text_text_format_c2_gcd_hide_zero"] = false,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "CENTER",
+					["text_text_format_c2_decimal_precision"] = 1,
+					["text_text_format_c2_gcd_channel"] = false,
+					["type"] = "subtext",
+					["text_text_format_c2_gcd_gcd"] = true,
+					["text_font"] = "Friz Quadrata TT",
+					["text_fontType"] = "OUTLINE",
+					["text_text"] = "%c2",
+					["text_text_format_c2_round_type"] = "floor",
+					["text_text_format_c2_time_precision"] = 1,
+					["text_text_format_c2_time_format"] = 0,
+					["text_anchorPoint"] = "OUTER_TOP",
+					["text_automaticWidth"] = "Auto",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_text_format_c2_time_dynamic_threshold"] = 60,
+					["text_text_format_c2_abbreviate_max"] = 8,
+					["text_text_format_c2_format"] = "none",
+				}, -- [3]
+				{
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["glowXOffset"] = 0,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["useGlowColor"] = false,
+					["glowScale"] = 1,
+					["glow"] = false,
+					["glowThickness"] = 1,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [4]
 			},
-			["height"] = 40,
+			["height"] = 50,
 			["load"] = {
-				["ingroup"] = {
-					["multi"] = {
-					},
-				},
 				["use_never"] = false,
-				["use_class_and_spec"] = true,
-				["use_class"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["size"] = {
-					["multi"] = {
-					},
-				},
-				["talent2"] = {
-					["multi"] = {
-					},
-				},
-				["class_and_spec"] = {
-					["single"] = 269,
-					["multi"] = {
-						[269] = true,
-					},
-				},
 				["talent"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicle"] = false,
 				["spec"] = {
 					["single"] = 3,
 					["multi"] = {
 					},
 				},
-				["difficulty"] = {
+				["use_class"] = true,
+				["size"] = {
 					["multi"] = {
 					},
 				},
+				["use_class_and_spec"] = true,
+				["use_spec"] = true,
+				["class_and_spec"] = {
+					["single"] = 73,
+					["multi"] = {
+						[73] = true,
+					},
+				},
+				["use_combat"] = true,
 				["class"] = {
-					["single"] = "MONK",
+					["single"] = "WARRIOR",
 					["multi"] = {
 					},
 				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["use_petbattle"] = false,
 				["zoneIds"] = "",
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_vehicleUi"] = false,
 			},
 			["source"] = "import",
-			["alpha"] = 1,
-			["config"] = {
+			["width"] = 50,
+			["useCooldownModRate"] = false,
+			["desc"] = "by Genshii",
+			["actions"] = {
+				["start"] = {
+					["custom"] = "\n\n",
+					["do_custom"] = false,
+				},
+				["init"] = {
+					["custom"] = "aura_env.IPSpellId = 190456\naura_env.isIPUp = false\naura_env.IPCastType = \"\"\naura_env.text1 = \"\"\naura_env.text2 = \"\"\n\nlocal numberOfDecimalPlacesOptions = {false, 0, 1, 2, 3}\nlocal numberOfDecimalPlaces = numberOfDecimalPlacesOptions[aura_env.config.textOptions.numberOfDecimalPlaces]\n\naura_env.getIPCost = function()\n    local cost = 35\n    local costTables = GetSpellPowerCost(aura_env.IPSpellId);\n    -- Currently, there are 4 cost tables for IP, one for each spec aura (and base warrior). The table where hasRequiredAura is true has the correct cost.\n    for _, costTable in pairs(costTables) do\n        if costTable.hasRequiredAura then\n            cost = costTable.cost\n            break\n        end\n    end\n    return cost\nend\n\naura_env.setTextColor = function(r,g,b,a)\n    local subRegions = aura_env.region.subRegions\n    if (not subRegions) then return end\n    \n    local text1 = subRegions[2] and subRegions[2].type == \"subtext\" and subRegions[2].text\n    local text2 = subRegions[3] and subRegions[3].type == \"subtext\" and subRegions[3].text\n    \n    if aura_env.config.textOptions.colorText1 then text1:SetTextColor(r,g,b,a) end\n    if aura_env.config.textOptions.colorText2 then text2:SetTextColor(r,g,b,a) end\nend\n\naura_env.shortenNumber = function(number)\n    local shortenedNumber = number\n    \n    local wasNegative = false\n    if number < 0 then\n        number = number * -1\n        wasNegative = true\n    end\n    \n    local suffix = \"\"\n    if number >= 1000000 then\n        shortenedNumber = shortenedNumber / 1000000\n        suffix = \"m\"\n    elseif number >= 1000 then\n        shortenedNumber = shortenedNumber / 1000\n        suffix = \"k\"\n    end\n    \n    if not numberOfDecimalPlaces then\n        if shortenedNumber >= 100 then shortenedNumber = string.format(\"%.0f\", shortenedNumber)\n        elseif shortenedNumber >= 10 then shortenedNumber = string.format(\"%.1f\", shortenedNumber)\n        elseif shortenedNumber >= 1 then shortenedNumber = string.format(\"%.2f\", shortenedNumber)\n        end\n    else\n        if number >= 1000 then shortenedNumber = string.format(\"%.\"..numberOfDecimalPlaces..\"f\", shortenedNumber) end\n    end\n    \n    if aura_env.config.textOptions.dontShortenThousands and (number >= 1000 and number < 10000) then\n        if wasNegative then number = number * -1 end\n        return number\n    else\n        return shortenedNumber..suffix\n    end\nend\n\naura_env.shortenPercent = function(number)\n    local shortenedNumber = number\n    shortenedNumber = string.format(\"%.\"..aura_env.config.textOptions.percentNumOfDecimalPlaces..\"f\", shortenedNumber)\n    if number <= 0 then shortenedNumber = 0 end\n    return shortenedNumber..\"%\"\nend",
+					["do_custom"] = true,
+				},
+				["finish"] = {
+				},
 			},
+			["information"] = {
+				["forceEvents"] = false,
+				["ignoreOptionsEventErrors"] = false,
+			},
+			["regionType"] = "icon",
+			["displayIcon"] = 1377132,
+			["cooldownEdge"] = false,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["actions"] = {
-				["start"] = {
-					["do_custom"] = false,
-					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
-					["do_sound"] = false,
+			["config"] = {
+				["iconOptions"] = {
+					["glowRage"] = false,
+					["glowConditions"] = {
+						false, -- [1]
+						false, -- [2]
+					},
+					["saturateBasedOnRage"] = false,
 				},
-				["init"] = {
-					["custom"] = "aura_env.spellList = {\n    [100780] = true,  -- Tiger Palm\n    [100784] = true,  -- Blackout Kick\n    [107428] = true,  -- Rising Sun Kick\n    [101545] = true,  -- Flying Serpent Kick\n    [113656] = true,  -- Fists of Fury\n    [101546] = true,  -- Spinning Crane Kick\n    [116847] = true,  -- Rushing Jade Wind\n    [152175] = true,  -- Whirling Dragon Punch\n    [115098] = true,  -- Chi Wave\n    [123986] = true,  -- Chi Burst\n    [117952] = true,  -- Crackling Jade Lightning\n    [392983] = true,  -- Strike of the Windlord\n    [322109] = true,  -- Touch of Death\n    [261947] = true,  -- Fist of the White Tiger\n    [322101] = true,  -- Expel Harm\n    [310454] = true,  -- Weapons of Order\n    [327104] = true,  -- Faeline Stomp\n    [325216] = true,  -- Bonedust Brew\n}\n\n\n\n\n\n\n",
-					["do_custom"] = true,
-				},
-				["finish"] = {
+				["textOptions"] = {
+					["percentNumOfDecimalPlaces"] = 0,
+					["text2"] = 5,
+					["dontShortenThousands"] = false,
+					["partialCastColor"] = {
+						1, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["shortenText"] = true,
+					["thresholdPerc"] = 0.8,
+					["cappedCastColor"] = {
+						1, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["fullCastColor"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["colorText1"] = true,
+					["colorText2"] = false,
+					["text1"] = 1,
+					["numberOfDecimalPlaces"] = 1,
 				},
 			},
-			["regionType"] = "icon",
-			["information"] = {
-				["forceEvents"] = true,
-				["ignoreOptionsEventErrors"] = true,
-			},
-			["displayIcon"] = 572033,
-			["desaturate"] = false,
-			["authorOptions"] = {
-			},
-			["width"] = 60,
-			["useCooldownModRate"] = true,
-			["zoom"] = 0.25,
-			["semver"] = "4.0.1",
-			["tocversion"] = 100000,
-			["id"] = "Lasthit Combo Breaker",
+			["alpha"] = 1,
+			["semver"] = "3.0.0",
+			["zoom"] = 0,
 			["auto"] = true,
+			["tocversion"] = 100000,
+			["id"] = "Ignore Pain Tracker",
+			["cooldownTextDisabled"] = true,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = true,
-			["uid"] = "xlO49ksC)2D",
+			["xOffset"] = 61.96820068359375,
+			["uid"] = "wxT0Op))IO)",
 			["inverse"] = false,
-			["url"] = "https://wago.io/WindwalkerLastAbility/15",
+			["stickyDuration"] = false,
 			["conditions"] = {
 				{
 					["check"] = {
 						["trigger"] = -1,
-						["variable"] = "incombat",
-						["value"] = 0,
+						["op"] = "UNIT_POWER_UPDATE:player",
+						["variable"] = "customcheck",
+						["value"] = "function()\n    -- Desaturate if player does not have enough rage to cast IP\n    if aura_env.config.iconOptions.saturateBasedOnRage then\n        local rage = UnitPower(\"player\") or 0\n        local IPCost = aura_env.getIPCost()\n        return not (rage >= IPCost)\n    end\n    \n    -- Otherwise, desaturate if IP is not active\n    return not aura_env.isIPUp\nend",
 					},
 					["changes"] = {
 						{
-							["value"] = 0.75,
-							["property"] = "alpha",
+							["value"] = true,
+							["property"] = "desaturate",
 						}, -- [1]
-						{
-							["value"] = {
-								0.61568629741669, -- [1]
-								0.61568629741669, -- [2]
-								0.61568629741669, -- [3]
-								1, -- [4]
-							},
-							["property"] = "color",
-						}, -- [2]
 					},
 				}, -- [1]
 				{
 					["check"] = {
-						["trigger"] = 2,
-						["variable"] = "same",
-						["value"] = 1,
+						["trigger"] = -1,
+						["op"] = "UNIT_POWER_UPDATE:player",
+						["variable"] = "customcheck",
+						["value"] = "function()\n    -- Do not apply glow if Require Rage is enabled and player does not have enough rage to cast IP\n    if aura_env.config.iconOptions.glowRage then\n        local rage = UnitPower(\"player\") or 0\n        local IPCost = aura_env.getIPCost()\n        if not (rage >= IPCost) then return false end\n    end\n    \n    local glowOnFullCast = aura_env.config.iconOptions.glowConditions[1]\n    local glowOnPartialCast = aura_env.config.iconOptions.glowConditions[2]\n    \n    if glowOnFullCast and aura_env.IPCastType == \"full\" then return true end\n    if glowOnPartialCast and aura_env.IPCastType == \"partial\" then return true end\n    \n    return false\nend",
 					},
+					["linked"] = false,
 					["changes"] = {
 						{
-							["value"] = {
-								1, -- [1]
-								0, -- [2]
-								0, -- [3]
-								1, -- [4]
-							},
-							["property"] = "color",
+							["value"] = true,
+							["property"] = "sub.4.glow",
 						}, -- [1]
 					},
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["animation"] = {
-				["start"] = {
-					["use_scale"] = false,
-					["scaleFunc"] = "",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-					["preset"] = "spiral",
-					["duration_type"] = "seconds",
-					["type"] = "none",
-					["scaleType"] = "custom",
-				},
-				["main"] = {
-					["colorR"] = 0.99607843137255,
-					["duration_type"] = "seconds",
-					["alphaType"] = "straight",
-					["colorB"] = 0.94901960784314,
-					["colorG"] = 1,
-					["alphaFunc"] = "function(progress, start, delta)\n      return start + (progress * delta)\n    end\n  ",
-					["duration"] = "1",
-					["colorA"] = 1,
-					["use_alpha"] = false,
-					["easeStrength"] = 3,
-					["scaleType"] = "straightScale",
-					["use_scale"] = false,
-					["easeType"] = "none",
-					["scaleFunc"] = "function(progress, startX, startY, scaleX, scaleY)\n      return startX + (progress * (scaleX - startX)), startY + (progress * (scaleY - startY))\n    end\n  ",
-					["use_color"] = false,
-					["alpha"] = 0,
-					["colorType"] = "custom",
-					["y"] = 0,
-					["x"] = 0,
-					["scaley"] = 0.1,
-					["preset"] = "spin",
-					["colorFunc"] = "\n\n",
-					["rotate"] = 0,
-					["type"] = "custom",
-					["scalex"] = 0.1,
-				},
-				["finish"] = {
-					["scaleType"] = "custom",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-					["preset"] = "bounceDecay",
-					["easeStrength"] = 3,
-					["use_scale"] = true,
-					["type"] = "none",
-				},
-			},
+			["selfPoint"] = "CENTER",
 		},
 	},
+	["lastArchiveClear"] = 1666293078,
+	["minimap"] = {
+		["minimapPos"] = 156.4277244166302,
+		["hide"] = false,
+	},
+	["lastUpgrade"] = 1666858814,
+	["dbVersion"] = 59,
+	["login_squelch_time"] = 10,
 	["registered"] = {
 	},
-	["login_squelch_time"] = 10,
+	["editor_font_size"] = 12,
 	["editor_theme"] = "Monokai",
 }

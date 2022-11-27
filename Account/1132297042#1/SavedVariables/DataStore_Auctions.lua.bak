@@ -1,13 +1,14 @@
 
 DataStore_AuctionsDB = {
 	["profileKeys"] = {
-		["Hugork - Draenor"] = "Hugork - Draenor",
+		["Хугакон - Ревущий фьорд"] = "Хугакон - Ревущий фьорд",
+		["Хугопал - Ревущий фьорд"] = "Хугопал - Ревущий фьорд",
 		["Хуговар - Ревущий фьорд"] = "Хуговар - Ревущий фьорд",
-		["Hugotest - Draenor"] = "Hugotest - Draenor",
+		["Maelti - Doomhammer"] = "Maelti - Doomhammer",
 		["Хугохав - Гордунни"] = "Хугохав - Гордунни",
 		["Хугомонк - Ревущий фьорд"] = "Хугомонк - Ревущий фьорд",
-		["Maelti - Doomhammer"] = "Maelti - Doomhammer",
-		["Хугопал - Ревущий фьорд"] = "Хугопал - Ревущий фьорд",
+		["Hugork - Draenor"] = "Hugork - Draenor",
+		["Hugotest - Draenor"] = "Hugotest - Draenor",
 	},
 	["global"] = {
 		["Characters"] = {

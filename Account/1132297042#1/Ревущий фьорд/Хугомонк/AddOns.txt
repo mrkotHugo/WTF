@@ -59,7 +59,7 @@ NameplateSCT: enabled
 Oilvl: disabled
 OmniCC: enabled
 OmniCC_Config: enabled
-Pawn: enabled
+Pawn: disabled
 Simulationcraft: disabled
 TellMeWhen: enabled
 TellMeWhen_Options: enabled
@@ -87,11 +87,11 @@ DBM-Shadowlands: disabled
 DBM-SanctumOfDomination: disabled
 DBM-VaultoftheIncarnates: disabled
 DBM-DMF: disabled
-Bagnon: disabled
+Bagnon: enabled
 Bagnon_Config: enabled
 Bagnon_GuildBank: disabled
 Bagnon_VoidStorage: disabled
-BagBrother: disabled
+BagBrother: enabled
 Scrap: disabled
 Scrap_Merchant: disabled
 Scrap_Config: disabled
@@ -111,3 +111,4 @@ TomCats-LoveIsInTheAir: disabled
 TomCats-LunarFestival: disabled
 TomCats-Noblegarden: disabled
 Masque_Dominos: disabled
+TomCats: disabled

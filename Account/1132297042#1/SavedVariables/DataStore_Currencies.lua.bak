@@ -1,13 +1,13 @@
 
 DataStore_CurrenciesDB = {
 	["profileKeys"] = {
-		["Hugork - Draenor"] = "Hugork - Draenor",
+		["Хугопал - Ревущий фьорд"] = "Хугопал - Ревущий фьорд",
 		["Хуговар - Ревущий фьорд"] = "Хуговар - Ревущий фьорд",
-		["Hugotest - Draenor"] = "Hugotest - Draenor",
+		["Maelti - Doomhammer"] = "Maelti - Doomhammer",
 		["Хугохав - Гордунни"] = "Хугохав - Гордунни",
 		["Хугомонк - Ревущий фьорд"] = "Хугомонк - Ревущий фьорд",
-		["Maelti - Doomhammer"] = "Maelti - Doomhammer",
-		["Хугопал - Ревущий фьорд"] = "Хугопал - Ревущий фьорд",
+		["Hugork - Draenor"] = "Hugork - Draenor",
+		["Hugotest - Draenor"] = "Hugotest - Draenor",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -106,8 +106,8 @@ DataStore_CurrenciesDB = {
 				["Grateful Offering"] = 3,
 				["Reservoir Anima"] = 4,
 				["Valor"] = 2,
-				["War Resources"] = 1,
 				["Redeemed Soul"] = 5,
+				["War Resources"] = 1,
 			},
 			["HeadersRev"] = {
 				["Battle for Azeroth"] = 1,

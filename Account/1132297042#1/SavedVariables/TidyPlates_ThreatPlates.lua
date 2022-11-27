@@ -1,18 +1,6 @@
 
 ThreatPlatesDB = {
 	["char"] = {
-		["Хуговар - Ревущий фьорд"] = {
-			["spec"] = {
-				[3] = true,
-			},
-			["welcome"] = true,
-		},
-		["Hugork - Draenor"] = {
-			["welcome"] = true,
-			["spec"] = {
-				[3] = true,
-			},
-		},
 		["Hugotest - Draenor"] = {
 			["spec"] = {
 				[3] = true,
@@ -20,19 +8,12 @@ ThreatPlatesDB = {
 			["welcome"] = true,
 		},
 		["Хугопал - Ревущий фьорд"] = {
+			["welcome"] = true,
 			["spec"] = {
 				nil, -- [1]
 				true, -- [2]
 				false, -- [3]
 			},
-			["welcome"] = true,
-		},
-		["Хугохав - Гордунни"] = {
-			["spec"] = {
-				nil, -- [1]
-				true, -- [2]
-			},
-			["welcome"] = true,
 		},
 		["Хугомонк - Ревущий фьорд"] = {
 			["spec"] = {
@@ -41,32 +22,58 @@ ThreatPlatesDB = {
 			},
 			["welcome"] = true,
 		},
+		["Хугакон - Ревущий фьорд"] = {
+			["welcome"] = true,
+		},
+		["Hugork - Draenor"] = {
+			["welcome"] = true,
+			["spec"] = {
+				[3] = true,
+			},
+		},
+		["Хугохав - Гордунни"] = {
+			["spec"] = {
+				nil, -- [1]
+				true, -- [2]
+			},
+			["welcome"] = true,
+		},
+		["Хуговар - Ревущий фьорд"] = {
+			["welcome"] = true,
+			["spec"] = {
+				[3] = true,
+			},
+		},
 		["Maelti - Doomhammer"] = {
 			["spec"] = {
 				[3] = true,
 			},
 			["welcome"] = true,
 		},
-		["Хугакон - Ревущий фьорд"] = {
+		["Хугопвар - Ревущий фьорд"] = {
 			["welcome"] = true,
+			["spec"] = {
+				[3] = true,
+			},
 		},
 	},
 	["global"] = {
-		["version"] = "11.1.0",
+		["version"] = "11.1.2",
 	},
 	["namespaces"] = {
 		["LibDualSpec-1.0"] = {
 		},
 	},
 	["profileKeys"] = {
-		["Хуговар - Ревущий фьорд"] = "Default",
-		["Hugork - Draenor"] = "Default",
 		["Hugotest - Draenor"] = "Default",
 		["Хугопал - Ревущий фьорд"] = "Default",
-		["Хугохав - Гордунни"] = "Default",
 		["Хугомонк - Ревущий фьорд"] = "Default",
-		["Maelti - Doomhammer"] = "Default",
 		["Хугакон - Ревущий фьорд"] = "Default",
+		["Hugork - Draenor"] = "Default",
+		["Хугохав - Гордунни"] = "Default",
+		["Хуговар - Ревущий фьорд"] = "Default",
+		["Maelti - Doomhammer"] = "Default",
+		["Хугопвар - Ревущий фьорд"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

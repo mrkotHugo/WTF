@@ -7,13 +7,12 @@ ThreatPlatesDB = {
 				[3] = true,
 			},
 		},
-		["Maelti - Doomhammer"] = {
-			["welcome"] = true,
+		["Хугопал - Ревущий фьорд"] = {
 			["spec"] = {
-				[3] = true,
+				nil, -- [1]
+				true, -- [2]
+				false, -- [3]
 			},
-		},
-		["Хугакон - Ревущий фьорд"] = {
 			["welcome"] = true,
 		},
 		["Хугомонк - Ревущий фьорд"] = {
@@ -23,6 +22,15 @@ ThreatPlatesDB = {
 			},
 			["welcome"] = true,
 		},
+		["Хугакон - Ревущий фьорд"] = {
+			["welcome"] = true,
+		},
+		["Maelti - Doomhammer"] = {
+			["welcome"] = true,
+			["spec"] = {
+				[3] = true,
+			},
+		},
 		["Хугохав - Гордунни"] = {
 			["welcome"] = true,
 			["spec"] = {
@@ -30,13 +38,11 @@ ThreatPlatesDB = {
 				true, -- [2]
 			},
 		},
-		["Хугопал - Ревущий фьорд"] = {
-			["welcome"] = true,
+		["Хуговар - Ревущий фьорд"] = {
 			["spec"] = {
-				nil, -- [1]
-				true, -- [2]
-				false, -- [3]
+				[3] = true,
 			},
+			["welcome"] = true,
 		},
 		["Hugork - Draenor"] = {
 			["spec"] = {
@@ -44,15 +50,15 @@ ThreatPlatesDB = {
 			},
 			["welcome"] = true,
 		},
-		["Хуговар - Ревущий фьорд"] = {
-			["welcome"] = true,
+		["Хугопвар - Ревущий фьорд"] = {
 			["spec"] = {
 				[3] = true,
 			},
+			["welcome"] = true,
 		},
 	},
 	["global"] = {
-		["version"] = "11.1.0",
+		["version"] = "11.1.2",
 	},
 	["namespaces"] = {
 		["LibDualSpec-1.0"] = {
@@ -60,13 +66,14 @@ ThreatPlatesDB = {
 	},
 	["profileKeys"] = {
 		["Hugotest - Draenor"] = "Default",
-		["Maelti - Doomhammer"] = "Default",
-		["Хугакон - Ревущий фьорд"] = "Default",
-		["Хугомонк - Ревущий фьорд"] = "Default",
-		["Хугохав - Гордунни"] = "Default",
 		["Хугопал - Ревущий фьорд"] = "Default",
-		["Hugork - Draenor"] = "Default",
+		["Хугомонк - Ревущий фьорд"] = "Default",
+		["Хугакон - Ревущий фьорд"] = "Default",
+		["Maelti - Doomhammer"] = "Default",
+		["Хугохав - Гордунни"] = "Default",
 		["Хуговар - Ревущий фьорд"] = "Default",
+		["Hugork - Draenor"] = "Default",
+		["Хугопвар - Ревущий фьорд"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

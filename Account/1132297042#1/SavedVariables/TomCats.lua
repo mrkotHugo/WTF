@@ -11,42 +11,53 @@ TomCats_Account = {
 	["discoveriesVersion"] = "2.4.35",
 	["lastVersionSeen"] = "2.4.35",
 	["preferences"] = {
-		["TomCats-HallowsEndMinimapButton"] = {
-			["hidden"] = false,
-			["position"] = -2.514,
-		},
-		["MapOptions"] = {
-			["iconScale"] = 1,
-			["iconAnimationEnabled"] = true,
-		},
+		["dragonGlyphsTipShown"] = false,
 		["TomCats-LunarFestivalMinimapButton"] = {
 			["hidden"] = false,
 			["position"] = -2.514,
-		},
-		["TomCats-LoveIsInTheAirMinimapButton"] = {
-			["hidden"] = false,
-			["position"] = -3.262,
 		},
 		["TomCats-MinimapButton"] = {
 			["hidden"] = false,
 			["position"] = 2.665747534141721,
 		},
-		["betaEnabled"] = false,
 		["defaultVignetteIcon"] = "default",
+		["MapOptions"] = {
+			["iconScale"] = 1,
+			["iconAnimationEnabled"] = true,
+		},
+		["dragonGlyphsEnabled"] = false,
+		["TomCats-HallowsEndMinimapButton"] = {
+			["hidden"] = false,
+			["position"] = -2.514,
+		},
+		["betaEnabled"] = false,
+		["TomCats-LoveIsInTheAirMinimapButton"] = {
+			["hidden"] = false,
+			["position"] = -3.262,
+		},
+	},
+	["dragonflyingglyphs"] = {
+		["autoEnabled"] = true,
+		["preferences"] = {
+		},
+		["iconsEnabled"] = true,
+		["discovered"] = false,
+		["iconScale"] = 0.8,
+		["arrowEnabled"] = true,
 	},
 	["primalstorms"] = {
 		["preferences"] = {
 			["enabled"] = true,
 			["currency"] = {
-				["Хуговар-Ревущий фьорд"] = 0,
+				["Хугопал-Ревущий фьорд"] = 0,
 				["Хугомонк-Ревущий фьорд"] = 51,
 			},
 			["dimmedItems"] = {
-				["Хуговар-Ревущий фьорд"] = {
-					["AIR"] = 0,
-					["EARTH"] = 0,
-					["WATER"] = 0,
+				["Хугопал-Ревущий фьорд"] = {
 					["FIRE"] = 0,
+					["EARTH"] = 0,
+					["AIR"] = 0,
+					["WATER"] = 0,
 				},
 			},
 			["WindowLocation"] = {

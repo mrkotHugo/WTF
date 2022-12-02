@@ -141,29 +141,29 @@ DBM_AllSavedOptions = {
 		},
 		["WarningColors"] = {
 			{
-				["r"] = 0.41,
-				["g"] = 0.8,
-				["b"] = 0.94,
+				["r"] = 0.4117647409439087,
+				["g"] = 0.8000000715255737,
+				["b"] = 0.9411765336990356,
 			}, -- [1]
 			{
-				["r"] = 0.95,
-				["g"] = 0.95,
+				["r"] = 0.9490196704864502,
+				["g"] = 0.9490196704864502,
 				["b"] = 0,
 			}, -- [2]
 			{
 				["r"] = 1,
-				["g"] = 0.5,
+				["g"] = 0.501960813999176,
 				["b"] = 0,
 			}, -- [3]
 			{
 				["r"] = 1,
-				["g"] = 0.1,
-				["b"] = 0.1,
+				["g"] = 0.1019607931375504,
+				["b"] = 0.1019607931375504,
 			}, -- [4]
 		},
 		["SpecialWarningVibrate5"] = true,
 		["SWarningAlphabetical"] = true,
-		["CoreSavedRevision"] = 20221115053734,
+		["CoreSavedRevision"] = 20221129005616,
 		["BlockNoteShare"] = false,
 		["DontShowInfoFrame"] = false,
 		["LogTrivialDungeons"] = false,

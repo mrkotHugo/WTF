@@ -126,23 +126,23 @@ DBM_AllSavedOptions = {
 		["InfoFrameLines"] = 0,
 		["WarningColors"] = {
 			{
-				["b"] = 0.94,
-				["g"] = 0.8,
-				["r"] = 0.41,
+				["b"] = 0.9411765336990356,
+				["g"] = 0.8000000715255737,
+				["r"] = 0.4117647409439087,
 			}, -- [1]
 			{
 				["b"] = 0,
-				["g"] = 0.95,
-				["r"] = 0.95,
+				["g"] = 0.9490196704864502,
+				["r"] = 0.9490196704864502,
 			}, -- [2]
 			{
 				["b"] = 0,
-				["g"] = 0.5,
+				["g"] = 0.501960813999176,
 				["r"] = 1,
 			}, -- [3]
 			{
-				["b"] = 0.1,
-				["g"] = 0.1,
+				["b"] = 0.1019607931375504,
+				["g"] = 0.1019607931375504,
 				["r"] = 1,
 			}, -- [4]
 		},
@@ -239,7 +239,7 @@ DBM_AllSavedOptions = {
 		["SpecialWarningFontStyle"] = "THICKOUTLINE",
 		["DontShowSpecialWarningFlash"] = false,
 		["SpecialWarningY"] = 75,
-		["CoreSavedRevision"] = 20221115053734,
+		["CoreSavedRevision"] = 20221129005616,
 		["WorldBossNearAlert"] = false,
 		["WarningX"] = 0,
 		["BadIDAlert"] = false,

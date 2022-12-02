@@ -28,7 +28,7 @@ Bagnon_Sets = {
 	},
 	["mineColor"] = {
 	},
-	["version"] = "10.0.4",
+	["version"] = "10.0.7",
 	["display"] = {
 	},
 	["global"] = {
@@ -64,10 +64,11 @@ Bagnon_Sets = {
 			},
 			["hiddenRules"] = {
 			},
-			["y"] = -300.857421875,
-			["x"] = -738.762939453125,
+			["y"] = -158.6350708007813,
+			["x"] = -182.06298828125,
 			["borderColor"] = {
 			},
+			["columns"] = 12,
 			["showBags"] = true,
 		},
 		["vault"] = {

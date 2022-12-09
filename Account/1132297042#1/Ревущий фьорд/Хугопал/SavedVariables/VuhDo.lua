@@ -3559,9 +3559,9 @@ VUHDO_CONFIG = {
 	["DETECT_DEBUFFS_REMOVABLE_ONLY_ICONS"] = true,
 	["RES_IS_SHOW_TEXT"] = false,
 	["SHOW_PLAYER_TAGS"] = true,
-	["EMERGENCY_TRIGGER"] = 100,
-	["UPDATE_HOTS_MS"] = 250,
 	["OMIT_MAIN_TANKS"] = false,
+	["UPDATE_HOTS_MS"] = 250,
+	["EMERGENCY_TRIGGER"] = 100,
 	["IS_SHARE"] = true,
 	["HIDE_PANELS_SOLO"] = false,
 	["CURRENT_PROFILE"] = "",
@@ -3659,7 +3659,6 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "MEDIUM",
 		["MODEL"] = {
-			["sort"] = 0,
 			["ordering"] = 0,
 			["groups"] = {
 				1, -- [1]
@@ -3672,6 +3671,7 @@ VUHDO_PANEL_SETUP = {
 				8, -- [8]
 				40, -- [9]
 			},
+			["sort"] = 0,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -6316,7 +6316,7 @@ VUHDO_BUFF_SETTINGS = {
 			["useOpacity"] = true,
 		},
 		["enabled"] = false,
-		["name"] = "Нэйтингейл",
+		["name"] = "Хугопал",
 		["filter"] = {
 			[999] = true,
 		},
@@ -6482,9 +6482,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -6492,9 +6492,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -6547,9 +6547,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w9", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 	},
@@ -6600,9 +6600,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -6610,9 +6610,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -6665,9 +6665,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w9", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 	},
@@ -6710,14 +6710,14 @@ VUHDO_SPEC_LAYOUTS = {
 VUHDO_GROUP_SIZE = 1
 VUHDO_RAID = {
 	["player"] = {
-		["zone"] = "Берега Пробуждения",
+		["zone"] = "\"Жареный барашек\"",
 		["baseRange"] = true,
 		["class"] = "PALADIN",
 		["role"] = 63,
-		["sortMaxHp"] = 60220,
-		["map"] = "Берега Пробуждения",
+		["sortMaxHp"] = 143940,
+		["map"] = "Вальдраккен",
 		["threat"] = 0,
-		["powermax"] = 58730,
+		["powermax"] = 250000,
 		["threatPerc"] = 0,
 		["isPet"] = false,
 		["name"] = "Хугопал",
@@ -6728,16 +6728,16 @@ VUHDO_RAID = {
 		["range"] = true,
 		["unit"] = "player",
 		["powertype"] = 0,
-		["healthmax"] = 60220,
+		["healthmax"] = 143940,
 		["dead"] = false,
 		["charmed"] = false,
 		["fullName"] = "Хугопал",
-		["power"] = 58730,
+		["power"] = 250000,
 		["aggro"] = false,
 		["targetUnit"] = "target",
 		["visible"] = true,
 		["isAltPower"] = false,
-		["health"] = 60220,
+		["health"] = 143940,
 		["className"] = "Паладин",
 		["afk"] = false,
 		["debuff"] = 0,
@@ -6751,16 +6751,16 @@ VUHDO_INDICATOR_CONFIG = {
 		["MOUSEOVER_HIGHLIGHT"] = "",
 		["AGGRO_BAR"] = "",
 		["BACKGROUND_BAR"] = "Фон: Фиксированный",
-		["DAMAGE_FLASH_BAR"] = "",
-		["SIDE_LEFT"] = "",
-		["INCOMING_BAR"] = "",
 		["SWIFTMEND_INDICATOR"] = "Роль & Статус вызванного существа",
+		["CLUSTER_BORDER"] = "",
+		["INCOMING_BAR"] = "",
+		["DAMAGE_FLASH_BAR"] = "",
 		["THREAT_MARK"] = "",
-		["BAR_BORDER"] = "Границы: Комплексная + угроза",
 		["SIDE_RIGHT"] = "",
 		["MANA_BAR"] = "Полоса маны: Мана",
+		["BAR_BORDER"] = "Границы: Комплексная + угроза",
 		["HEALTH_BAR"] = "Здоровье (цвет класса)",
-		["CLUSTER_BORDER"] = "",
+		["SIDE_LEFT"] = "",
 		["HEALTH_BAR_PANEL"] = {
 			"", -- [1]
 			"", -- [2]

@@ -1,19 +1,35 @@
 
 DataStore_GarrisonsDB = {
 	["profileKeys"] = {
-		["Хугакон - Ревущий фьорд"] = "Хугакон - Ревущий фьорд",
-		["Хугопал - Ревущий фьорд"] = "Хугопал - Ревущий фьорд",
-		["Хуговар - Ревущий фьорд"] = "Хуговар - Ревущий фьорд",
-		["Maelti - Doomhammer"] = "Maelti - Doomhammer",
-		["Хугохав - Гордунни"] = "Хугохав - Гордунни",
-		["Хугомонк - Ревущий фьорд"] = "Хугомонк - Ревущий фьорд",
-		["Hugork - Draenor"] = "Hugork - Draenor",
 		["Hugotest - Draenor"] = "Hugotest - Draenor",
+		["Хугопал - Ревущий фьорд"] = "Хугопал - Ревущий фьорд",
+		["Хугомонк - Ревущий фьорд"] = "Хугомонк - Ревущий фьорд",
+		["Хуговар - Ревущий фьорд"] = "Хуговар - Ревущий фьорд",
+		["Hugork - Draenor"] = "Hugork - Draenor",
+		["Хугохав - Гордунни"] = "Хугохав - Гордунни",
+		["Хугакон - Ревущий фьорд"] = "Хугакон - Ревущий фьорд",
+		["Maelti - Doomhammer"] = "Maelti - Doomhammer",
+		["Хугопвар - Ревущий фьорд"] = "Хугопвар - Ревущий фьорд",
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Ревущий фьорд.Хугомонк"] = {
+				["lastUpdate"] = 1667753711,
+			},
+			["Default.Ревущий фьорд.Хуговар"] = {
+				["lastUpdate"] = 1666781667,
+			},
+			["Default.Гордунни.Хугохав"] = {
+				["lastUpdate"] = 1668273548,
+			},
 			["Default.Ревущий фьорд.Хугопал"] = {
 				["lastUpdate"] = 1667150349,
+			},
+			["Default.Draenor.Hugork"] = {
+				["lastUpdate"] = 1667328303,
+			},
+			["Default.Ревущий фьорд.Хугопвар"] = {
+				["lastUpdate"] = 1668704703,
 			},
 			["Default.Doomhammer.Maelti"] = {
 				["lastUpdate"] = 1666768978,
@@ -41,18 +57,6 @@ DataStore_GarrisonsDB = {
 					},
 				},
 			},
-			["Default.Draenor.Hugork"] = {
-				["lastUpdate"] = 1667328303,
-			},
-			["Default.Ревущий фьорд.Хуговар"] = {
-				["lastUpdate"] = 1666781667,
-			},
-			["Default.Гордунни.Хугохав"] = {
-				["lastUpdate"] = 1668273548,
-			},
-			["Default.Ревущий фьорд.Хугомонк"] = {
-				["lastUpdate"] = 1667753711,
-			},
 			["Default.Ревущий фьорд.Хугакон"] = {
 				["lastUpdate"] = 1668582591,
 			},
@@ -66,7 +70,7 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 30,
 					["type"] = "9.0 Encounter - Maldraxxus",
 					["cost"] = 1,
-					["iLevel"] = 800,
+					["level"] = 60,
 					["rewards"] = {
 						{
 							["quantity"] = 1,
@@ -75,7 +79,7 @@ DataStore_GarrisonsDB = {
 						}, -- [1]
 					},
 					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
-					["level"] = 60,
+					["iLevel"] = 800,
 				},
 			},
 		},

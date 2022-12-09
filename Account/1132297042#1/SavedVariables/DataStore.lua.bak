@@ -1,24 +1,19 @@
 
 DataStoreDB = {
 	["profileKeys"] = {
-		["Хугакон - Ревущий фьорд"] = "Хугакон - Ревущий фьорд",
-		["Хугопал - Ревущий фьорд"] = "Хугопал - Ревущий фьорд",
-		["Хуговар - Ревущий фьорд"] = "Хуговар - Ревущий фьорд",
-		["Maelti - Doomhammer"] = "Maelti - Doomhammer",
-		["Хугохав - Гордунни"] = "Хугохав - Гордунни",
-		["Хугомонк - Ревущий фьорд"] = "Хугомонк - Ревущий фьорд",
-		["Hugork - Draenor"] = "Hugork - Draenor",
 		["Hugotest - Draenor"] = "Hugotest - Draenor",
+		["Хугопал - Ревущий фьорд"] = "Хугопал - Ревущий фьорд",
+		["Хугомонк - Ревущий фьорд"] = "Хугомонк - Ревущий фьорд",
+		["Хуговар - Ревущий фьорд"] = "Хуговар - Ревущий фьорд",
+		["Hugork - Draenor"] = "Hugork - Draenor",
+		["Хугохав - Гордунни"] = "Хугохав - Гордунни",
+		["Хугакон - Ревущий фьорд"] = "Хугакон - Ревущий фьорд",
+		["Maelti - Doomhammer"] = "Maelti - Doomhammer",
+		["Хугопвар - Ревущий фьорд"] = "Хугопвар - Ревущий фьорд",
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.Ревущий фьорд.Хугопал"] = {
-				["faction"] = "Horde",
-			},
-			["Default.Doomhammer.Maelti"] = {
-				["faction"] = "Alliance",
-			},
-			["Default.Draenor.Hugork"] = {
+			["Default.Ревущий фьорд.Хугомонк"] = {
 				["faction"] = "Horde",
 			},
 			["Default.Ревущий фьорд.Хуговар"] = {
@@ -27,8 +22,17 @@ DataStoreDB = {
 			["Default.Гордунни.Хугохав"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Ревущий фьорд.Хугомонк"] = {
+			["Default.Ревущий фьорд.Хугопал"] = {
 				["faction"] = "Horde",
+			},
+			["Default.Draenor.Hugork"] = {
+				["faction"] = "Horde",
+			},
+			["Default.Ревущий фьорд.Хугопвар"] = {
+				["faction"] = "Horde",
+			},
+			["Default.Doomhammer.Maelti"] = {
+				["faction"] = "Alliance",
 			},
 			["Default.Ревущий фьорд.Хугакон"] = {
 				["faction"] = "Horde",

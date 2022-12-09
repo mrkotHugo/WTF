@@ -1,6 +1,12 @@
 
 ThreatPlatesDB = {
 	["char"] = {
+		["Хугокан - Ревущий фьорд"] = {
+			["spec"] = {
+				[3] = false,
+			},
+			["welcome"] = true,
+		},
 		["Hugotest - Draenor"] = {
 			["welcome"] = true,
 			["spec"] = {
@@ -8,71 +14,72 @@ ThreatPlatesDB = {
 			},
 		},
 		["Хугопал - Ревущий фьорд"] = {
+			["welcome"] = true,
 			["spec"] = {
 				nil, -- [1]
 				true, -- [2]
 				false, -- [3]
 			},
-			["welcome"] = true,
 		},
 		["Хугомонк - Ревущий фьорд"] = {
+			["welcome"] = true,
 			["spec"] = {
 				true, -- [1]
 				[3] = false,
 			},
-			["welcome"] = true,
 		},
 		["Хугакон - Ревущий фьорд"] = {
 			["welcome"] = true,
 		},
-		["Maelti - Doomhammer"] = {
+		["Hugork - Draenor"] = {
 			["welcome"] = true,
 			["spec"] = {
 				[3] = true,
 			},
 		},
 		["Хугохав - Гордунни"] = {
-			["welcome"] = true,
 			["spec"] = {
 				nil, -- [1]
 				true, -- [2]
 			},
+			["welcome"] = true,
 		},
 		["Хуговар - Ревущий фьорд"] = {
+			["welcome"] = true,
 			["spec"] = {
 				[3] = true,
 			},
-			["welcome"] = true,
 		},
-		["Hugork - Draenor"] = {
+		["Maelti - Doomhammer"] = {
 			["spec"] = {
 				[3] = true,
 			},
 			["welcome"] = true,
 		},
 		["Хугопвар - Ревущий фьорд"] = {
+			["welcome"] = true,
 			["spec"] = {
 				[3] = true,
 			},
-			["welcome"] = true,
 		},
 	},
 	["global"] = {
-		["version"] = "11.1.3",
+		["version"] = "11.1.4",
 	},
 	["namespaces"] = {
 		["LibDualSpec-1.0"] = {
 		},
 	},
 	["profileKeys"] = {
+		["Хугокан - Ревущий фьорд"] = "Default",
 		["Hugotest - Draenor"] = "Default",
 		["Хугопал - Ревущий фьорд"] = "Default",
 		["Хугомонк - Ревущий фьорд"] = "Default",
 		["Хугакон - Ревущий фьорд"] = "Default",
-		["Maelti - Doomhammer"] = "Default",
+		["Hugork - Draenor"] = "Default",
 		["Хугохав - Гордунни"] = "Default",
 		["Хуговар - Ревущий фьорд"] = "Default",
-		["Hugork - Draenor"] = "Default",
+		["Maelti - Doomhammer"] = "Default",
 		["Хугопвар - Ревущий фьорд"] = "Default",
 	},
 	["profiles"] = {
@@ -99,15 +106,15 @@ ThreatPlatesDB = {
 				},
 			},
 			["castbarColor"] = {
-				["r"] = 0.1843137254901961,
-				["g"] = 1,
 				["b"] = 0.2470588235294118,
+				["g"] = 1,
+				["r"] = 0.1843137254901961,
 			},
 			["questWidget"] = {
 				["HPBarColor"] = {
-					["b"] = 0.8549020290374756,
-					["g"] = 0.003921568859368563,
 					["r"] = 0,
+					["g"] = 0.003921568859368563,
+					["b"] = 0.8549020290374756,
 				},
 				["ModeHPBar"] = true,
 			},
@@ -121,9 +128,9 @@ ThreatPlatesDB = {
 			},
 			["questWidget"] = {
 				["HPBarColor"] = {
-					["r"] = 0,
-					["g"] = 0.01176470704376698,
 					["b"] = 0.8549020290374756,
+					["g"] = 0.01176470704376698,
+					["r"] = 0,
 				},
 				["ModeHPBar"] = true,
 			},

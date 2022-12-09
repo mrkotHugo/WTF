@@ -16,8 +16,8 @@ PremadeGroupsFilterState = {
 		},
 		["expression"] = "",
 		["difficulty"] = {
-			["act"] = true,
-			["val"] = 2,
+			["act"] = false,
+			["val"] = 3,
 		},
 		["pvprating"] = {
 			["max"] = "",

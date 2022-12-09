@@ -113,3 +113,5 @@ Masque_Dominos: disabled
 MRT: disabled
 RCLootCouncil: disabled
 TomCats: disabled
+ElvUI_Options: enabled
+QuestCompletist: disabled

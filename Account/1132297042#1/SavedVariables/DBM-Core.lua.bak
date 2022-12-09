@@ -163,7 +163,7 @@ DBM_AllSavedOptions = {
 		},
 		["SpecialWarningVibrate5"] = true,
 		["SWarningAlphabetical"] = true,
-		["CoreSavedRevision"] = 20221129005616,
+		["CoreSavedRevision"] = 20221206225337,
 		["BlockNoteShare"] = false,
 		["DontShowInfoFrame"] = false,
 		["LogTrivialDungeons"] = false,

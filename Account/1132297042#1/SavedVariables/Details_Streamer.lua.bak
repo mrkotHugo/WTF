@@ -1,14 +1,15 @@
 
 Details_StreamerDB = {
 	["characters"] = {
-		["Хугакон - Ревущий фьорд"] = "Maelti - Doomhammer",
-		["Хугопал - Ревущий фьорд"] = "Maelti - Doomhammer",
 		["Hugotest - Draenor"] = "Maelti - Doomhammer",
-		["Maelti - Doomhammer"] = "Maelti - Doomhammer",
-		["Хугохав - Гордунни"] = "Maelti - Doomhammer",
+		["Хугопал - Ревущий фьорд"] = "Maelti - Doomhammer",
 		["Хугомонк - Ревущий фьорд"] = "Maelti - Doomhammer",
-		["Hugork - Draenor"] = "Maelti - Doomhammer",
+		["Хугакон - Ревущий фьорд"] = "Maelti - Doomhammer",
 		["Хуговар - Ревущий фьорд"] = "Maelti - Doomhammer",
+		["Хугохав - Гордунни"] = "Maelti - Doomhammer",
+		["Hugork - Draenor"] = "Maelti - Doomhammer",
+		["Maelti - Doomhammer"] = "Maelti - Doomhammer",
+		["Хугопвар - Ревущий фьорд"] = "Maelti - Doomhammer",
 	},
 	["profiles"] = {
 		["Maelti - Doomhammer"] = {

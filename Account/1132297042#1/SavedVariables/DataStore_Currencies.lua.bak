@@ -1,13 +1,14 @@
 
 DataStore_CurrenciesDB = {
 	["profileKeys"] = {
-		["Хугопал - Ревущий фьорд"] = "Хугопал - Ревущий фьорд",
-		["Хуговар - Ревущий фьорд"] = "Хуговар - Ревущий фьорд",
-		["Maelti - Doomhammer"] = "Maelti - Doomhammer",
-		["Хугохав - Гордунни"] = "Хугохав - Гордунни",
 		["Хугомонк - Ревущий фьорд"] = "Хугомонк - Ревущий фьорд",
-		["Hugork - Draenor"] = "Hugork - Draenor",
 		["Hugotest - Draenor"] = "Hugotest - Draenor",
+		["Хуговар - Ревущий фьорд"] = "Хуговар - Ревущий фьорд",
+		["Hugork - Draenor"] = "Hugork - Draenor",
+		["Хугохав - Гордунни"] = "Хугохав - Гордунни",
+		["Хугопал - Ревущий фьорд"] = "Хугопал - Ревущий фьорд",
+		["Maelti - Doomhammer"] = "Maelti - Doomhammer",
+		["Хугопвар - Ревущий фьорд"] = "Хугопвар - Ревущий фьорд",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -85,6 +86,9 @@ DataStore_CurrenciesDB = {
 			["Default.Гордунни.Хугохав"] = {
 				["lastUpdate"] = 1668273546,
 			},
+			["Default.Ревущий фьорд.Хугопвар"] = {
+				["lastUpdate"] = 1668704702,
+			},
 			["Default.Ревущий фьорд.Хугомонк"] = {
 				["lastUpdate"] = 1667753709,
 			},
@@ -106,8 +110,8 @@ DataStore_CurrenciesDB = {
 				["Grateful Offering"] = 3,
 				["Reservoir Anima"] = 4,
 				["Valor"] = 2,
-				["Redeemed Soul"] = 5,
 				["War Resources"] = 1,
+				["Redeemed Soul"] = 5,
 			},
 			["HeadersRev"] = {
 				["Battle for Azeroth"] = 1,

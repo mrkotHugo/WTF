@@ -1,6 +1,7 @@
 
 NameplateSCTDB = {
 	["profileKeys"] = {
+		["Хугокан - Ревущий фьорд"] = "Default",
 		["Hugotest - Draenor"] = "Default",
 		["Хугопал - Ревущий фьорд"] = "Default",
 		["Хугомонк - Ревущий фьорд"] = "Default",

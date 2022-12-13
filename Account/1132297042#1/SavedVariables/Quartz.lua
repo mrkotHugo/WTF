@@ -18,6 +18,8 @@ Quartz3DB = {
 		},
 		["Range"] = {
 		},
+		["EnemyCasts"] = {
+		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -26,8 +28,6 @@ Quartz3DB = {
 					["x"] = -11.25357055664063,
 				},
 			},
-		},
-		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 		},

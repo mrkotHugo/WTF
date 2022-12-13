@@ -2,10 +2,10 @@
 ThreatPlatesDB = {
 	["char"] = {
 		["Хугокан - Ревущий фьорд"] = {
+			["welcome"] = true,
 			["spec"] = {
 				[3] = false,
 			},
-			["welcome"] = true,
 		},
 		["Hugotest - Draenor"] = {
 			["welcome"] = true,
@@ -14,12 +14,12 @@ ThreatPlatesDB = {
 			},
 		},
 		["Хугопал - Ревущий фьорд"] = {
-			["welcome"] = true,
 			["spec"] = {
 				nil, -- [1]
 				true, -- [2]
 				false, -- [3]
 			},
+			["welcome"] = true,
 		},
 		["Хугомонк - Ревущий фьорд"] = {
 			["welcome"] = true,

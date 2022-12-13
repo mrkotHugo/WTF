@@ -3,9 +3,10 @@ TomTomDB = {
 	["profileKeys"] = {
 		["Хугокан - Ревущий фьорд"] = "Default",
 		["Хугакон - Ревущий фьорд"] = "Default",
-		["Хугопал - Ревущий фьорд"] = "Default",
-		["Hugotest - Draenor"] = "Default",
 		["Хугомонк - Ревущий фьорд"] = "Default",
+		["Хугопал - Ревущий фьорд"] = "Default",
+		["Hugork - Draenor"] = "Default",
+		["Hugotest - Draenor"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -35,20 +36,23 @@ TomTomWaypointsM = {
 	["profileKeys"] = {
 		["Хугокан - Ревущий фьорд"] = "Хугокан - Ревущий фьорд",
 		["Хугакон - Ревущий фьорд"] = "Хугакон - Ревущий фьорд",
-		["Хугопал - Ревущий фьорд"] = "Хугопал - Ревущий фьорд",
-		["Hugotest - Draenor"] = "Hugotest - Draenor",
 		["Хугомонк - Ревущий фьорд"] = "Хугомонк - Ревущий фьорд",
+		["Хугопал - Ревущий фьорд"] = "Хугопал - Ревущий фьорд",
+		["Hugork - Draenor"] = "Hugork - Draenor",
+		["Hugotest - Draenor"] = "Hugotest - Draenor",
 	},
 	["profiles"] = {
 		["Хугокан - Ревущий фьорд"] = {
 		},
 		["Хугакон - Ревущий фьорд"] = {
 		},
+		["Хугомонк - Ревущий фьорд"] = {
+		},
 		["Хугопал - Ревущий фьорд"] = {
 		},
-		["Hugotest - Draenor"] = {
+		["Hugork - Draenor"] = {
 		},
-		["Хугомонк - Ревущий фьорд"] = {
+		["Hugotest - Draenor"] = {
 		},
 	},
 }

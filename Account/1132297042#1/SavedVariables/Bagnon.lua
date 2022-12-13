@@ -28,7 +28,7 @@ Bagnon_Sets = {
 	},
 	["mineColor"] = {
 	},
-	["version"] = "10.0.10",
+	["version"] = "10.0.12",
 	["display"] = {
 	},
 	["fridgeColor"] = {

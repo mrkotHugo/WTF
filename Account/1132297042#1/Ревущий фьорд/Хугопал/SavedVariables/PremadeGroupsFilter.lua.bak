@@ -16,8 +16,8 @@ PremadeGroupsFilterState = {
 		},
 		["expression"] = "",
 		["difficulty"] = {
-			["act"] = false,
 			["val"] = 3,
+			["act"] = false,
 		},
 		["pvprating"] = {
 			["max"] = "",
@@ -29,7 +29,7 @@ PremadeGroupsFilterState = {
 			["min"] = "",
 			["act"] = false,
 		},
-		["mprating"] = {
+		["dps"] = {
 			["max"] = "",
 			["min"] = "",
 			["act"] = false,
@@ -39,7 +39,7 @@ PremadeGroupsFilterState = {
 			["min"] = "",
 			["act"] = false,
 		},
-		["dps"] = {
+		["mprating"] = {
 			["max"] = "",
 			["min"] = "",
 			["act"] = false,

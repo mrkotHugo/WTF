@@ -60,7 +60,7 @@ Oilvl: enabled
 OmniCC: enabled
 OmniCC_Config: enabled
 Pawn: disabled
-Simulationcraft: disabled
+Simulationcraft: enabled
 TellMeWhen: enabled
 TellMeWhen_Options: enabled
 TidyPlates_ThreatPlates: enabled

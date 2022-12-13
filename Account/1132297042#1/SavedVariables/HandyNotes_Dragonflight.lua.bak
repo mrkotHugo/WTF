@@ -1,10 +1,11 @@
 
 HandyNotes_DragonflightDB = {
 	["profileKeys"] = {
-		["Хугопал - Ревущий фьорд"] = "Default",
-		["Хугомонк - Ревущий фьорд"] = "Default",
-		["Hugotest - Draenor"] = "Default",
 		["Хугокан - Ревущий фьорд"] = "Default",
+		["Hugotest - Draenor"] = "Default",
+		["Хугомонк - Ревущий фьорд"] = "Default",
+		["Hugork - Draenor"] = "Default",
+		["Хугопал - Ревущий фьорд"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

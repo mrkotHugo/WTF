@@ -14,19 +14,19 @@ ThreatPlatesDB = {
 			["welcome"] = true,
 		},
 		["Хугопал - Ревущий фьорд"] = {
+			["welcome"] = true,
 			["spec"] = {
 				nil, -- [1]
 				true, -- [2]
 				false, -- [3]
 			},
-			["welcome"] = true,
 		},
 		["Хугомонк - Ревущий фьорд"] = {
+			["welcome"] = true,
 			["spec"] = {
 				true, -- [1]
 				[3] = false,
 			},
-			["welcome"] = true,
 		},
 		["Хугакон - Ревущий фьорд"] = {
 			["welcome"] = true,

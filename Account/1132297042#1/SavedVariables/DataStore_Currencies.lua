@@ -4,11 +4,12 @@ DataStore_CurrenciesDB = {
 		["Хугокан - Ревущий фьорд"] = "Хугокан - Ревущий фьорд",
 		["Hugotest - Draenor"] = "Hugotest - Draenor",
 		["Хугомонк - Ревущий фьорд"] = "Хугомонк - Ревущий фьорд",
-		["Хуговар - Ревущий фьорд"] = "Хуговар - Ревущий фьорд",
-		["Maelti - Doomhammer"] = "Maelti - Doomhammer",
-		["Хугохав - Гордунни"] = "Хугохав - Гордунни",
-		["Хугопал - Ревущий фьорд"] = "Хугопал - Ревущий фьорд",
 		["Hugork - Draenor"] = "Hugork - Draenor",
+		["Хуговар - Ревущий фьорд"] = "Хуговар - Ревущий фьорд",
+		["Хугопал - Ревущий фьорд"] = "Хугопал - Ревущий фьорд",
+		["Хугохав - Гордунни"] = "Хугохав - Гордунни",
+		["Хугобум - Ревущий фьорд"] = "Хугобум - Ревущий фьорд",
+		["Maelti - Doomhammer"] = "Maelti - Doomhammer",
 		["Хугопвар - Ревущий фьорд"] = "Хугопвар - Ревущий фьорд",
 	},
 	["global"] = {
@@ -50,8 +51,14 @@ DataStore_CurrenciesDB = {
 					0, -- [20]
 				},
 			},
+			["Default.Ревущий фьорд.Хугобум"] = {
+				["lastUpdate"] = 1670950597,
+			},
 			["Default.Ревущий фьорд.Хугокан"] = {
 				["lastUpdate"] = 1670506571,
+			},
+			["Default.Ревущий фьорд.Хугопвар"] = {
+				["lastUpdate"] = 1668704702,
 			},
 			["Default.Doomhammer.Maelti"] = {
 				["lastUpdate"] = 1666768978,
@@ -93,9 +100,6 @@ DataStore_CurrenciesDB = {
 					[1810] = "4-0-0-100",
 				},
 			},
-			["Default.Ревущий фьорд.Хугопвар"] = {
-				["lastUpdate"] = 1668704702,
-			},
 			["Default.Draenor.Hugotest"] = {
 				["lastUpdate"] = 1666780270,
 			},
@@ -114,8 +118,8 @@ DataStore_CurrenciesDB = {
 				["Grateful Offering"] = 3,
 				["Reservoir Anima"] = 4,
 				["Valor"] = 2,
-				["Redeemed Soul"] = 5,
 				["War Resources"] = 1,
+				["Redeemed Soul"] = 5,
 			},
 			["HeadersRev"] = {
 				["Battle for Azeroth"] = 1,

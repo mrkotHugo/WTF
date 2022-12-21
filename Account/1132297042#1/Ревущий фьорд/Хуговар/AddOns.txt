@@ -75,7 +75,7 @@ Bagnon: enabled
 Bagnon_Config: enabled
 Bagnon_GuildBank: disabled
 Bagnon_VoidStorage: disabled
-BagBrother: disabled
+BagBrother: enabled
 Scrap: disabled
 Scrap_Merchant: disabled
 Scrap_Config: disabled
@@ -108,3 +108,5 @@ TomCats-HallowsEnd: disabled
 TomCats-LoveIsInTheAir: disabled
 TomCats-LunarFestival: disabled
 TomCats-Noblegarden: disabled
+Masque_Dominos: disabled
+ElvUI_Options: enabled

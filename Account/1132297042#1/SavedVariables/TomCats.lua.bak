@@ -1,5 +1,8 @@
 
 TomCats_Account = {
+	["errorLog"] = {
+		["version"] = "2.4.43",
+	},
 	["hallowsend"] = {
 	},
 	["lastExpirationWarning"] = 0,
@@ -9,16 +12,16 @@ TomCats_Account = {
 	["loveisintheair"] = {
 	},
 	["discoveriesVersion"] = "2.4.35",
-	["lastVersionSeen"] = "2.4.35",
+	["lastVersionSeen"] = "2.4.43",
 	["preferences"] = {
-		["dragonGlyphsTipShown"] = false,
+		["dragonGlyphsTipShown"] = true,
 		["TomCats-LunarFestivalMinimapButton"] = {
 			["hidden"] = false,
 			["position"] = -2.514,
 		},
 		["TomCats-MinimapButton"] = {
 			["hidden"] = false,
-			["position"] = 2.665747534141721,
+			["position"] = 2.970112929890906,
 		},
 		["defaultVignetteIcon"] = "default",
 		["MapOptions"] = {
@@ -85,6 +88,7 @@ TomCats_Account = {
 		},
 	},
 	["discoveries"] = {
+		["version"] = "0",
 		["vignetteAtlases"] = {
 		},
 		["vignettes"] = {

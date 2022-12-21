@@ -1,2018 +1,2256 @@
 
 RCLootCouncilDB = {
 	["profileKeys"] = {
+		["Хуговар - Ревущий фьорд"] = "Default",
 		["Хугокан - Ревущий фьорд"] = "Default",
-		["Хугакон - Ревущий фьорд"] = "Default",
+		["Hugotest - Draenor"] = "Default",
 		["Хугомонк - Ревущий фьорд"] = "Default",
+		["Хугобум - Ревущий фьорд"] = "Default",
 		["Хугопал - Ревущий фьорд"] = "Default",
 		["Hugork - Draenor"] = "Default",
-		["Hugotest - Draenor"] = "Default",
+		["Хугакон - Ревущий фьорд"] = "Default",
 	},
 	["global"] = {
 		["log"] = {
-			"<22:28:52> <DEBUG>		Event:	LOOT_READY	true", -- [1]
-			"<22:29:01> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	комт-Ревущийфьорд", -- [2]
-			"<22:29:01> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [3]
-			"<22:29:02> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	гигаовца-Ревущийфьорд", -- [4]
-			"<22:29:02> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [5]
-			"<22:29:13> <DEBUG>		Event:	LOOT_READY	true", -- [6]
-			"<22:29:14> <DEBUG>		Event:	LOOT_READY	true", -- [7]
-			"<22:30:54> <DEBUG>		Event:	LOOT_READY	true", -- [8]
-			"<22:30:54> <DEBUG>		Event:	LOOT_READY	true", -- [9]
-			"<22:30:54> <DEBUG>		Event:	LOOT_READY	true", -- [10]
-			"<22:33:51> <DEBUG>		Event:	LOOT_READY	true", -- [11]
-			"<22:33:51> <DEBUG>		Event:	LOOT_READY	true", -- [12]
-			"<22:33:51> <DEBUG>		Event:	LOOT_READY	true", -- [13]
-			"<22:34:28> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	аэрель-Ревущийфьорд", -- [14]
-			"<22:34:28> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [15]
-			"<22:36:28> <DEBUG>		Event:	LOOT_READY	true", -- [16]
-			"<22:36:28> <DEBUG>		Event:	LOOT_READY	true", -- [17]
-			"<22:36:28> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190328	|cff0070dd|Hitem:190328::::::::70:269:::::::::|h[Пробуждающийся лед]|h|r	1	Хугомонк	MONK", -- [18]
-			"<22:36:29> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	200943	|cff0070dd|Hitem:200943::::::::70:269:::::::::|h[Шепчущее кольцо]|h|r	1	Хугомонк	MONK", -- [19]
-			"<22:37:37> <DEBUG>		Event:	LOOT_READY	true", -- [20]
-			"<22:37:37> <DEBUG>		Event:	LOOT_READY	true", -- [21]
-			"<22:38:00> <DEBUG>		Event:	LOOT_READY	true", -- [22]
-			"<22:38:00> <DEBUG>		Event:	LOOT_READY	true", -- [23]
-			"<22:38:14> <DEBUG>		Event:	LOOT_READY	true", -- [24]
-			"<22:38:14> <DEBUG>		Event:	LOOT_READY	true", -- [25]
-			"<22:38:15> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190328	|cff0070dd|Hitem:190328::::::::70:269:::::::::|h[Пробуждающийся лед]|h|r	3	Хугомонк	MONK", -- [26]
-			"<22:38:33> <DEBUG>		Event:	LOOT_READY	true", -- [27]
-			"<22:38:34> <DEBUG>		Event:	LOOT_READY	true", -- [28]
-			"<22:38:46> <DEBUG>		Event:	LOOT_READY	true", -- [29]
-			"<22:38:46> <DEBUG>		Event:	LOOT_READY	true", -- [30]
-			"<22:38:47> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190328	|cff0070dd|Hitem:190328::::::::70:269:::::::::|h[Пробуждающийся лед]|h|r	1	Хугомонк	MONK", -- [31]
-			"<22:38:57> <DEBUG>		Event:	LOOT_READY	true", -- [32]
-			"<22:38:58> <DEBUG>		Event:	LOOT_READY	true", -- [33]
-			"<22:39:05> <DEBUG>		Event:	LOOT_READY	true", -- [34]
-			"<22:39:05> <DEBUG>		Event:	LOOT_READY	true", -- [35]
-			"<22:40:03> <DEBUG>		Event:	LOOT_READY	true", -- [36]
-			"<22:40:04> <DEBUG>		Event:	LOOT_READY	true", -- [37]
-			"<22:40:04> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190328	|cff0070dd|Hitem:190328::::::::70:269:::::::::|h[Пробуждающийся лед]|h|r	3	Хугомонк	MONK", -- [38]
-			"<22:40:15> <DEBUG>		Event:	LOOT_READY	true", -- [39]
-			"<22:40:15> <DEBUG>		Event:	LOOT_READY	true", -- [40]
-			"<22:40:31> <DEBUG>		Event:	LOOT_READY	true", -- [41]
-			"<22:40:32> <DEBUG>		Event:	LOOT_READY	true", -- [42]
-			"<22:41:11> <DEBUG>		Event:	LOOT_READY	true", -- [43]
-			"<22:41:11> <DEBUG>		Event:	LOOT_READY	true", -- [44]
-			"<22:41:12> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190315	|cff0070dd|Hitem:190315::::::::70:269:::::::::|h[Пробуждающаяся земля]|h|r	2	Хугомонк	MONK", -- [45]
-			"<22:41:15> <DEBUG>		Event:	LOOT_READY	true", -- [46]
-			"<22:41:15> <DEBUG>		Event:	LOOT_READY	true", -- [47]
-			"<22:43:28> <DEBUG>		Event:	LOOT_READY	true", -- [48]
-			"<22:43:29> <DEBUG>		Event:	LOOT_READY	true", -- [49]
-			"<22:44:10> <DEBUG>		Event:	LOOT_READY	true", -- [50]
-			"<22:44:11> <DEBUG>		Event:	LOOT_READY	true", -- [51]
-			"<22:46:21> <DEBUG>		Event:	LOOT_READY	true", -- [52]
-			"<22:46:21> <DEBUG>		Event:	LOOT_READY	true", -- [53]
-			"<22:46:55> <DEBUG>		Event:	LOOT_READY	true", -- [54]
-			"<22:46:55> <DEBUG>		Event:	LOOT_READY	true", -- [55]
-			"<22:46:58> <DEBUG>		Event:	LOOT_READY	true", -- [56]
-			"<22:46:59> <DEBUG>		Event:	LOOT_READY	true", -- [57]
-			"<22:47:05> <DEBUG>		Event:	LOOT_READY	true", -- [58]
-			"<22:47:06> <DEBUG>		Event:	LOOT_READY	true", -- [59]
-			"<22:47:08> <DEBUG>		Event:	LOOT_READY	true", -- [60]
-			"<22:47:08> <DEBUG>		Event:	LOOT_READY	true", -- [61]
-			"<22:47:13> <DEBUG>		Event:	LOOT_READY	true", -- [62]
-			"<22:47:13> <DEBUG>		Event:	LOOT_READY	true", -- [63]
-			"<22:47:32> <DEBUG>		Event:	LOOT_READY	true", -- [64]
-			"<22:47:33> <DEBUG>		Event:	LOOT_READY	true", -- [65]
-			"<22:47:42> <DEBUG>		Event:	LOOT_READY	true", -- [66]
-			"<22:47:43> <DEBUG>		Event:	LOOT_READY	true", -- [67]
-			"<22:47:56> <DEBUG>		Event:	LOOT_READY	true", -- [68]
-			"<22:47:56> <DEBUG>		Event:	LOOT_READY	true", -- [69]
-			"<22:48:09> <DEBUG>		Event:	LOOT_READY	true", -- [70]
-			"<22:48:10> <DEBUG>		Event:	LOOT_READY	true", -- [71]
-			"<22:48:18> <DEBUG>		Event:	LOOT_READY	true", -- [72]
-			"<22:48:19> <DEBUG>		Event:	LOOT_READY	true", -- [73]
-			"<22:51:36> <DEBUG>		Event:	LOOT_READY	true", -- [74]
-			"<22:51:36> <DEBUG>		Event:	LOOT_READY	true", -- [75]
-			"<22:51:37> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	191578	|cff0070dd|Hitem:191578::::::::70:269::::1:28:2523:::::|h[Рецепт: трансмутация - пробужденный огонь]|h|r	1	Хугомонк	MONK", -- [76]
-			"<22:51:37> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190320	|cff0070dd|Hitem:190320::::::::70:269:::::::::|h[Пробуждающийся огонь]|h|r	2	Хугомонк	MONK", -- [77]
-			"<22:52:01> <DEBUG>		Event:	LOOT_READY	true", -- [78]
-			"<22:52:01> <DEBUG>		Event:	LOOT_READY	true", -- [79]
-			"<22:52:12> <DEBUG>		Event:	LOOT_READY	true", -- [80]
-			"<22:52:13> <DEBUG>		Event:	LOOT_READY	true", -- [81]
-			"<22:52:22> <DEBUG>		Event:	LOOT_READY	true", -- [82]
-			"<22:52:22> <DEBUG>		Event:	LOOT_READY	true", -- [83]
-			"<22:52:41> <DEBUG>		Event:	LOOT_READY	true", -- [84]
-			"<22:52:41> <DEBUG>		Event:	LOOT_READY	true", -- [85]
-			"<22:53:03> <DEBUG>		Event:	LOOT_READY	true", -- [86]
-			"<22:53:03> <DEBUG>		Event:	LOOT_READY	true", -- [87]
-			"<22:54:11> <DEBUG>		Event:	LOOT_READY	true", -- [88]
-			"<22:54:11> <DEBUG>		Event:	LOOT_READY	true", -- [89]
-			"<22:54:32> <DEBUG>		Event:	LOOT_READY	true", -- [90]
-			"<22:54:33> <DEBUG>		Event:	LOOT_READY	true", -- [91]
-			"<22:54:39> <DEBUG>		Event:	LOOT_READY	true", -- [92]
-			"<22:54:40> <DEBUG>		Event:	LOOT_READY	true", -- [93]
-			"<22:55:01> <DEBUG>		Event:	LOOT_READY	true", -- [94]
-			"<22:55:02> <DEBUG>		Event:	LOOT_READY	true", -- [95]
-			"<22:55:15> <DEBUG>		Event:	LOOT_READY	true", -- [96]
-			"<22:55:15> <DEBUG>		Event:	LOOT_READY	true", -- [97]
-			"<22:55:23> <DEBUG>		Event:	LOOT_READY	true", -- [98]
-			"<22:55:24> <DEBUG>		Event:	LOOT_READY	true", -- [99]
-			"<22:55:52> <DEBUG>		Event:	LOOT_READY	true", -- [100]
-			"<22:55:52> <DEBUG>		Event:	LOOT_READY	true", -- [101]
-			"<22:56:04> <DEBUG>		Event:	LOOT_READY	true", -- [102]
-			"<22:56:04> <DEBUG>		Event:	LOOT_READY	true", -- [103]
-			"<22:56:12> <DEBUG>		Event:	LOOT_READY	true", -- [104]
-			"<22:56:12> <DEBUG>		Event:	LOOT_READY	true", -- [105]
-			"<22:58:11> <DEBUG>		Event:	LOOT_READY	true", -- [106]
-			"<22:58:11> <DEBUG>		Event:	LOOT_READY	true", -- [107]
-			"<22:58:12> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190320	|cff0070dd|Hitem:190320::::::::70:269:::::::::|h[Пробуждающийся огонь]|h|r	3	Хугомонк	MONK", -- [108]
-			"<22:58:37> <DEBUG>		Event:	LOOT_READY	true", -- [109]
-			"<22:58:38> <DEBUG>		Event:	LOOT_READY	true", -- [110]
-			"<22:59:34> <DEBUG>		Event:	LOOT_READY	true", -- [111]
-			"<22:59:35> <DEBUG>		Event:	LOOT_READY	true", -- [112]
-			"<23:00:55> <DEBUG>		Event:	LOOT_READY	true", -- [113]
-			"<23:00:55> <DEBUG>		Event:	LOOT_READY	true", -- [114]
-			"<23:03:39> <DEBUG>		Event:	LOOT_READY	true", -- [115]
-			"<23:03:39> <DEBUG>		Event:	LOOT_READY	true", -- [116]
-			"<23:05:12> <DEBUG>		Event:	LOOT_READY	true", -- [117]
-			"<23:05:12> <DEBUG>		Event:	LOOT_READY	true", -- [118]
-			"<23:05:23> <DEBUG>		Event:	LOOT_READY	true", -- [119]
-			"<23:05:23> <DEBUG>		Event:	LOOT_READY	true", -- [120]
-			"<23:05:49> <DEBUG>		Event:	LOOT_READY	true", -- [121]
-			"<23:05:49> <DEBUG>		Event:	LOOT_READY	true", -- [122]
-			"<23:05:55> <DEBUG>		Event:	LOOT_READY	true", -- [123]
-			"<23:05:55> <DEBUG>		Event:	LOOT_READY	true", -- [124]
-			"<23:06:06> <DEBUG>		Event:	LOOT_READY	true", -- [125]
-			"<23:06:06> <DEBUG>		Event:	LOOT_READY	true", -- [126]
-			"<23:06:21> <DEBUG>		Event:	LOOT_READY	true", -- [127]
-			"<23:06:21> <DEBUG>		Event:	LOOT_READY	true", -- [128]
-			"<23:06:42> <DEBUG>		Event:	LOOT_READY	true", -- [129]
-			"<23:06:42> <DEBUG>		Event:	LOOT_READY	true", -- [130]
-			"<23:07:10> <DEBUG>		Event:	LOOT_READY	true", -- [131]
-			"<23:07:10> <DEBUG>		Event:	LOOT_READY	true", -- [132]
-			"<23:07:28> <DEBUG>		Event:	LOOT_READY	true", -- [133]
-			"<23:07:28> <DEBUG>		Event:	LOOT_READY	true", -- [134]
-			"<23:07:41> <DEBUG>		Event:	LOOT_READY	true", -- [135]
-			"<23:07:42> <DEBUG>		Event:	LOOT_READY	true", -- [136]
-			"<23:08:24> <DEBUG>		Event:	LOOT_READY	true", -- [137]
-			"<23:08:24> <DEBUG>		Event:	LOOT_READY	true", -- [138]
-			"<23:09:00> <DEBUG>		Event:	LOOT_READY	true", -- [139]
-			"<23:09:00> <DEBUG>		Event:	LOOT_READY	true", -- [140]
-			"<23:09:14> <DEBUG>		Event:	LOOT_READY	true", -- [141]
-			"<23:09:14> <DEBUG>		Event:	LOOT_READY	true", -- [142]
-			"<23:09:21> <DEBUG>		Event:	LOOT_READY	true", -- [143]
-			"<23:09:21> <DEBUG>		Event:	LOOT_READY	true", -- [144]
-			"<23:09:29> <DEBUG>		Event:	LOOT_READY	true", -- [145]
-			"<23:09:29> <DEBUG>		Event:	LOOT_READY	true", -- [146]
-			"<23:11:15> <DEBUG>		Event:	LOOT_READY	true", -- [147]
-			"<23:11:15> <DEBUG>		Event:	LOOT_READY	true", -- [148]
-			"<23:11:22> <DEBUG>		Event:	LOOT_READY	true", -- [149]
-			"<23:11:22> <DEBUG>		Event:	LOOT_READY	true", -- [150]
-			"<23:11:45> <DEBUG>		Event:	LOOT_READY	true", -- [151]
-			"<23:11:46> <DEBUG>		Event:	LOOT_READY	true", -- [152]
-			"<23:13:17> <DEBUG>		Event:	LOOT_READY	true", -- [153]
-			"<23:13:17> <DEBUG>		Event:	LOOT_READY	true", -- [154]
-			"<23:13:19> <Comm>		^1^Sv^T^N1^S3.5.1^t^^	GUILD	аишвария-Ревущийфьорд", -- [155]
-			"<23:13:29> <DEBUG>		Event:	LOOT_READY	true", -- [156]
-			"<23:13:30> <DEBUG>		Event:	LOOT_READY	true", -- [157]
-			"<23:13:34> <DEBUG>		Event:	LOOT_READY	true", -- [158]
-			"<23:13:35> <DEBUG>		Event:	LOOT_READY	true", -- [159]
-			"<23:13:45> <DEBUG>		Event:	LOOT_READY	true", -- [160]
-			"<23:13:45> <DEBUG>		Event:	LOOT_READY	true", -- [161]
-			"<23:14:12> <DEBUG>		Event:	LOOT_READY	true", -- [162]
-			"<23:14:12> <DEBUG>		Event:	LOOT_READY	true", -- [163]
-			"<23:14:17> <DEBUG>		Event:	LOOT_READY	true", -- [164]
-			"<23:14:17> <DEBUG>		Event:	LOOT_READY	true", -- [165]
-			"<23:14:40> <DEBUG>		Event:	LOOT_READY	true", -- [166]
-			"<23:14:40> <DEBUG>		Event:	LOOT_READY	true", -- [167]
-			"<23:15:29> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	тотемгнева-Ревущийфьорд", -- [168]
-			"<23:15:30> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [169]
-			"<23:21:09> <DEBUG>		Event:	LOOT_READY	true", -- [170]
-			"<23:21:09> <DEBUG>		Event:	LOOT_READY	true", -- [171]
-			"<23:21:10> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	198106	|cff0070dd|Hitem:198106::::::::70:269::::1:28:2164:::::|h[Рецепт: вкусное угощение для детенышей]|h|r	1	Хугомонк	MONK", -- [172]
-			"<23:31:42> <DEBUG>		Event:	LOOT_READY	true", -- [173]
-			"<23:31:43> <DEBUG>		Event:	LOOT_READY	true", -- [174]
-			"<23:31:55> <DEBUG>		Event:	LOOT_READY	true", -- [175]
-			"<23:31:55> <DEBUG>		Event:	LOOT_READY	true", -- [176]
-			"<23:32:13> <DEBUG>		Event:	LOOT_READY	true", -- [177]
-			"<23:32:13> <DEBUG>		Event:	LOOT_READY	true", -- [178]
-			"<23:32:41> <DEBUG>		Event:	LOOT_READY	true", -- [179]
-			"<23:32:41> <DEBUG>		Event:	LOOT_READY	true", -- [180]
-			"<23:33:17> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	гигаовца-Ревущийфьорд", -- [181]
-			"<23:33:18> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [182]
-			"<23:46:12> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	мурратик-Ревущийфьорд", -- [183]
-			"<23:46:13> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [184]
-			"<23:47:10> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	лаурэлин-Ревущийфьорд", -- [185]
-			"<23:47:10> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [186]
-			"<23:49:00> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	мурратик-Ревущийфьорд", -- [187]
-			"<23:49:00> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [188]
-			"12/09/22", -- [189]
-			"<00:39:21> <INFO>		Logged In", -- [190]
-			"<00:39:21> [ML]<INFO>		Init", -- [191]
-			"<00:39:21> <INFO>		RCLootCouncil	TradeUI enabled", -- [192]
-			"<00:39:24> <Data.Player>		CreatePlayer	Player-1403-0A471427", -- [193]
-			"<00:39:24> <INFO>		Unknown	3.6.0	nil", -- [194]
-			"<00:39:24> <DEBUG>		ActivateSkin	bfa", -- [195]
-			"<00:39:25> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [196]
-			"<00:39:25> <INFO>		UpdatePlayersData()", -- [197]
-			"<00:39:25> <INFO>		Player relog...", -- [198]
-			"<00:39:26> <DEBUG>		GetML()", -- [199]
-			"12/09/22", -- [200]
-			"<00:39:57> <INFO>		Logged In", -- [201]
-			"<00:39:57> [ML]<INFO>		Init", -- [202]
-			"<00:39:57> <INFO>		RCLootCouncil	TradeUI enabled", -- [203]
-			"<00:40:02> <Data.Player>		CreatePlayer	Player-1403-0A4669B6", -- [204]
-			"<00:40:02> <INFO>		Unknown	3.6.0	nil", -- [205]
-			"<00:40:02> <DEBUG>		ActivateSkin	bfa", -- [206]
-			"<00:40:02> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [207]
-			"<00:40:02> <INFO>		UpdatePlayersData()", -- [208]
-			"<00:40:02> <INFO>		Player relog...", -- [209]
-			"<00:40:04> <DEBUG>		GetML()", -- [210]
-			"12/11/22", -- [211]
-			"<15:00:10> <INFO>		Logged In", -- [212]
-			"<15:00:10> [ML]<INFO>		Init", -- [213]
-			"<15:00:10> <INFO>		RCLootCouncil	TradeUI enabled", -- [214]
-			"<15:00:15> <Data.Player>		UpdateCachedPlayer - couldn't get PlayerInfoByGUID	хугомонк-Ревущийфьорд	Player-1615-0B07C4E5", -- [215]
-			"<15:00:15> <INFO>		хугомонк-Ревущийфьорд	3.6.0	nil", -- [216]
-			"<15:00:15> <DEBUG>		ActivateSkin	bfa", -- [217]
-			"<15:00:17> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [218]
-			"<15:00:17> <INFO>		UpdatePlayersData()", -- [219]
-			"<15:00:17> <INFO>		Player relog...", -- [220]
-			"<15:00:18> <DEBUG>		GetPlayersGuildRank()", -- [221]
-			"<15:00:18> <DEBUG>		Found Guild Rank: Новичок", -- [222]
-			"<15:00:20> <DEBUG>		GetML()", -- [223]
-			"<15:00:21> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	хугомонк-Ревущийфьорд", -- [224]
-			"<15:00:44> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [225]
-			"<15:00:44> <INFO>		UpdatePlayersData()", -- [226]
-			"<15:00:45> <DEBUG>		GetML()", -- [227]
-			"<15:00:51> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [228]
-			"<15:00:51> <INFO>		UpdatePlayersData()", -- [229]
-			"<15:00:53> <DEBUG>		GetML()", -- [230]
-			"<15:01:03> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [231]
-			"<15:01:03> <INFO>		UpdatePlayersData()", -- [232]
-			"<15:01:05> <DEBUG>		GetML()", -- [233]
-			"12/11/22", -- [234]
-			"<18:40:20> <INFO>		Logged In", -- [235]
-			"<18:40:20> [ML]<INFO>		Init", -- [236]
-			"<18:40:20> <INFO>		RCLootCouncil	TradeUI enabled", -- [237]
-			"<18:40:29> <Data.Player>		UpdateCachedPlayer - couldn't get PlayerInfoByGUID	хугомонк-Ревущийфьорд	Player-1615-0B07C4E5", -- [238]
-			"<18:40:29> <INFO>		хугомонк-Ревущийфьорд	3.6.0	nil", -- [239]
-			"<18:40:29> <DEBUG>		ActivateSkin	bfa", -- [240]
-			"<18:40:31> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [241]
-			"<18:40:31> <INFO>		UpdatePlayersData()", -- [242]
-			"<18:40:31> <INFO>		Player relog...", -- [243]
-			"<18:40:32> <DEBUG>		GetPlayersGuildRank()", -- [244]
-			"<18:40:32> <DEBUG>		Found Guild Rank: Новичок", -- [245]
-			"<18:40:34> <DEBUG>		GetML()", -- [246]
-			"<18:40:34> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	хугомонк-Ревущийфьорд", -- [247]
-			"<18:41:56> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	ожившийлось-Ревущийфьорд", -- [248]
-			"<18:51:10> <DEBUG>		Event:	LOOT_READY	true", -- [249]
-			"<18:51:10> <DEBUG>		Event:	LOOT_READY	true", -- [250]
-			"<18:51:21> <DEBUG>		Event:	LOOT_READY	true", -- [251]
-			"<18:51:21> <DEBUG>		Event:	LOOT_READY	true", -- [252]
-			"<18:51:23> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	200942	|cff0070dd|Hitem:200942::::::::70:269:::::::::|h[Яркая эмульсия]|h|r	1	Хугомонк	MONK", -- [253]
-			"<18:51:32> <DEBUG>		Event:	LOOT_READY	true", -- [254]
-			"<18:51:32> <DEBUG>		Event:	LOOT_READY	true", -- [255]
-			"<18:51:47> <DEBUG>		Event:	LOOT_READY	true", -- [256]
-			"<18:51:47> <DEBUG>		Event:	LOOT_READY	true", -- [257]
-			"<18:52:29> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	аэрель-Ревущийфьорд", -- [258]
-			"<18:52:36> <DEBUG>		Event:	LOOT_READY	true", -- [259]
-			"<18:52:36> <DEBUG>		Event:	LOOT_READY	true", -- [260]
-			"<18:53:06> <DEBUG>		Event:	LOOT_READY	true", -- [261]
-			"<18:53:06> <DEBUG>		Event:	LOOT_READY	true", -- [262]
-			"<18:54:15> <DEBUG>		Event:	LOOT_READY	true", -- [263]
-			"<18:54:15> <DEBUG>		Event:	LOOT_READY	true", -- [264]
-			"<18:57:24> <DEBUG>		Event:	LOOT_READY	true", -- [265]
-			"<18:57:25> <DEBUG>		Event:	LOOT_READY	true", -- [266]
-			"<18:57:44> <DEBUG>		Event:	LOOT_READY	true", -- [267]
-			"<18:57:44> <DEBUG>		Event:	LOOT_READY	true", -- [268]
-			"<18:58:39> <DEBUG>		Event:	LOOT_READY	true", -- [269]
-			"<18:58:39> <DEBUG>		Event:	LOOT_READY	true", -- [270]
-			"<18:58:55> <DEBUG>		Event:	LOOT_READY	true", -- [271]
-			"<18:58:55> <DEBUG>		Event:	LOOT_READY	true", -- [272]
-			"<18:59:14> <DEBUG>		Event:	LOOT_READY	true", -- [273]
-			"<18:59:15> <DEBUG>		Event:	LOOT_READY	true", -- [274]
-			"<18:59:32> <DEBUG>		Event:	LOOT_READY	true", -- [275]
-			"<18:59:32> <DEBUG>		Event:	LOOT_READY	true", -- [276]
-			"<18:59:49> <DEBUG>		Event:	LOOT_READY	true", -- [277]
-			"<18:59:49> <DEBUG>		Event:	LOOT_READY	true", -- [278]
-			"<18:59:52> <Comm>		^1^Sv^T^N1^S3.5.1^t^^	GUILD	аишвария-Ревущийфьорд", -- [279]
-			"<19:00:16> <DEBUG>		Event:	LOOT_READY	true", -- [280]
-			"<19:00:16> <DEBUG>		Event:	LOOT_READY	true", -- [281]
-			"<19:00:34> <DEBUG>		Event:	LOOT_READY	true", -- [282]
-			"<19:00:34> <DEBUG>		Event:	LOOT_READY	true", -- [283]
-			"<19:00:58> <DEBUG>		Event:	LOOT_READY	true", -- [284]
-			"<19:00:58> <DEBUG>		Event:	LOOT_READY	true", -- [285]
-			"<19:01:13> <DEBUG>		Event:	LOOT_READY	true", -- [286]
-			"<19:01:13> <DEBUG>		Event:	LOOT_READY	true", -- [287]
-			"<19:01:40> <DEBUG>		Event:	LOOT_READY	true", -- [288]
-			"<19:01:41> <DEBUG>		Event:	LOOT_READY	true", -- [289]
-			"<19:02:21> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [290]
-			"<19:02:21> <INFO>		UpdatePlayersData()", -- [291]
-			"<19:02:23> <DEBUG>		GetML()", -- [292]
-			"<19:06:35> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [293]
-			"<19:06:35> <INFO>		UpdatePlayersData()", -- [294]
-			"<19:06:36> <DEBUG>		GetML()", -- [295]
-			"<19:09:57> <DEBUG>		Event:	LOOT_READY	true", -- [296]
-			"<19:09:57> <DEBUG>		Event:	LOOT_READY	true", -- [297]
-			"<19:10:41> <DEBUG>		Event:	LOOT_READY	true", -- [298]
-			"<19:10:41> <DEBUG>		Event:	LOOT_READY	true", -- [299]
-			"<19:11:19> <DEBUG>		Event:	LOOT_READY	true", -- [300]
-			"<19:11:19> <DEBUG>		Event:	LOOT_READY	true", -- [301]
-			"<19:13:44> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	аэрель-Ревущийфьорд", -- [302]
-			"<19:13:44> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [303]
-			"<19:13:52> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	аэрель-Ревущийфьорд", -- [304]
-			"<19:13:52> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [305]
-			"<19:15:35> <DEBUG>		Event:	LOOT_READY	true", -- [306]
-			"<19:15:35> <DEBUG>		Event:	LOOT_READY	true", -- [307]
-			"<19:18:55> <DEBUG>		Event:	LOOT_READY	true", -- [308]
-			"<19:18:55> <DEBUG>		Event:	LOOT_READY	true", -- [309]
-			"<19:19:39> <DEBUG>		Event:	LOOT_READY	true", -- [310]
-			"<19:19:39> <DEBUG>		Event:	LOOT_READY	true", -- [311]
-			"<19:20:54> <DEBUG>		Event:	LOOT_READY	true", -- [312]
-			"<19:20:54> <DEBUG>		Event:	LOOT_READY	true", -- [313]
-			"<19:21:33> <DEBUG>		Event:	LOOT_READY	true", -- [314]
-			"<19:21:33> <DEBUG>		Event:	LOOT_READY	true", -- [315]
-			"<19:22:17> <DEBUG>		Event:	LOOT_READY	true", -- [316]
-			"<19:22:17> <DEBUG>		Event:	LOOT_READY	true", -- [317]
-			"<19:22:54> <DEBUG>		Event:	LOOT_READY	true", -- [318]
-			"<19:22:55> <DEBUG>		Event:	LOOT_READY	true", -- [319]
-			"<19:23:31> <DEBUG>		Event:	LOOT_READY	true", -- [320]
-			"<19:23:31> <DEBUG>		Event:	LOOT_READY	true", -- [321]
-			"<19:24:03> <DEBUG>		Event:	LOOT_READY	true", -- [322]
-			"<19:24:04> <DEBUG>		Event:	LOOT_READY	true", -- [323]
-			"<19:25:08> <DEBUG>		Event:	LOOT_READY	true", -- [324]
-			"<19:25:08> <DEBUG>		Event:	LOOT_READY	true", -- [325]
-			"<19:25:22> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	гигаовца-Ревущийфьорд", -- [326]
-			"<19:25:22> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [327]
-			"<19:25:41> <DEBUG>		Event:	LOOT_READY	true", -- [328]
-			"<19:25:41> <DEBUG>		Event:	LOOT_READY	true", -- [329]
-			"<19:26:15> <DEBUG>		Event:	LOOT_READY	true", -- [330]
-			"<19:26:16> <DEBUG>		Event:	LOOT_READY	true", -- [331]
-			"<19:27:27> <DEBUG>		Event:	LOOT_READY	true", -- [332]
-			"<19:27:27> <DEBUG>		Event:	LOOT_READY	true", -- [333]
-			"<19:30:42> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	сварщег-Ревущийфьорд", -- [334]
-			"<19:30:43> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [335]
-			"<19:32:33> <DEBUG>		Event:	LOOT_READY	true", -- [336]
-			"<19:32:34> <DEBUG>		Event:	LOOT_READY	true", -- [337]
-			"<19:32:42> <DEBUG>		Event:	LOOT_READY	true", -- [338]
-			"<19:32:42> <DEBUG>		Event:	LOOT_READY	true", -- [339]
-			"<19:32:47> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	бухомэн-Ревущийфьорд", -- [340]
-			"<19:32:48> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [341]
-			"<19:33:00> <DEBUG>		Event:	LOOT_READY	true", -- [342]
-			"<19:33:00> <DEBUG>		Event:	LOOT_READY	true", -- [343]
-			"<19:33:03> <DEBUG>		Event:	LOOT_READY	true", -- [344]
-			"<19:33:03> <DEBUG>		Event:	LOOT_READY	true", -- [345]
-			"<19:33:16> <DEBUG>		Event:	LOOT_READY	true", -- [346]
-			"<19:33:16> <DEBUG>		Event:	LOOT_READY	true", -- [347]
-			"<19:33:45> <DEBUG>		Event:	LOOT_READY	true", -- [348]
-			"<19:33:45> <DEBUG>		Event:	LOOT_READY	true", -- [349]
-			"<19:34:38> <DEBUG>		Event:	LOOT_READY	true", -- [350]
-			"<19:34:38> <DEBUG>		Event:	LOOT_READY	true", -- [351]
-			"<19:35:17> <DEBUG>		Event:	LOOT_READY	true", -- [352]
-			"<19:35:18> <DEBUG>		Event:	LOOT_READY	true", -- [353]
-			"<19:35:29> <DEBUG>		Event:	LOOT_READY	true", -- [354]
-			"<19:35:29> <DEBUG>		Event:	LOOT_READY	true", -- [355]
-			"<19:35:36> <DEBUG>		Event:	LOOT_READY	true", -- [356]
-			"<19:35:37> <DEBUG>		Event:	LOOT_READY	true", -- [357]
-			"<19:36:04> <DEBUG>		Event:	LOOT_READY	true", -- [358]
-			"<19:36:04> <DEBUG>		Event:	LOOT_READY	true", -- [359]
-			"<19:36:32> <DEBUG>		Event:	LOOT_READY	true", -- [360]
-			"<19:36:32> <DEBUG>		Event:	LOOT_READY	true", -- [361]
-			"<19:38:36> <DEBUG>		Event:	LOOT_READY	true", -- [362]
-			"<19:38:36> <DEBUG>		Event:	LOOT_READY	true", -- [363]
-			"<19:39:36> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	хохохохохох-Ревущийфьорд", -- [364]
-			"<19:39:36> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [365]
-			"<19:43:39> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	гигаовца-Ревущийфьорд", -- [366]
-			"<19:43:39> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [367]
-			"<19:53:00> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	варказан-Ревущийфьорд", -- [368]
-			"<19:57:34> <DEBUG>		Event:	LOOT_READY	true", -- [369]
-			"<19:57:35> <DEBUG>		Event:	LOOT_READY	true", -- [370]
-			"<19:57:55> <DEBUG>		Event:	LOOT_READY	true", -- [371]
-			"<19:57:56> <DEBUG>		Event:	LOOT_READY	true", -- [372]
-			"<20:02:40> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	хохохохохох-Ревущийфьорд", -- [373]
-			"<20:03:13> <Comm>		^1^Sv^T^N1^S3.5.1^t^^	GUILD	аишвария-Ревущийфьорд", -- [374]
-			"<20:04:09> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	комт-Ревущийфьорд", -- [375]
-			"<20:04:09> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [376]
-			"<20:09:46> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	каровчик-Ревущийфьорд", -- [377]
-			"<20:09:46> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [378]
-			"<20:15:42> <DEBUG>		Event:	LOOT_READY	true", -- [379]
-			"<20:15:43> <DEBUG>		Event:	LOOT_READY	true", -- [380]
-			"<20:15:45> <DEBUG>		Event:	LOOT_READY	true", -- [381]
-			"<20:15:46> <DEBUG>		Event:	LOOT_READY	true", -- [382]
-			"<20:15:48> <DEBUG>		Event:	LOOT_READY	true", -- [383]
-			"<20:15:49> <DEBUG>		Event:	LOOT_READY	true", -- [384]
-			"<20:15:52> <DEBUG>		Event:	LOOT_READY	true", -- [385]
-			"<20:15:52> <DEBUG>		Event:	LOOT_READY	true", -- [386]
-			"<20:15:54> <DEBUG>		Event:	LOOT_READY	true", -- [387]
-			"<20:15:55> <DEBUG>		Event:	LOOT_READY	true", -- [388]
-			"<20:15:57> <DEBUG>		Event:	LOOT_READY	true", -- [389]
-			"<20:15:57> <DEBUG>		Event:	LOOT_READY	true", -- [390]
-			"<20:16:04> <DEBUG>		Event:	LOOT_READY	true", -- [391]
-			"<20:16:04> <DEBUG>		Event:	LOOT_READY	true", -- [392]
-			"<20:16:07> <DEBUG>		Event:	LOOT_READY	true", -- [393]
-			"<20:16:07> <DEBUG>		Event:	LOOT_READY	true", -- [394]
-			"<20:16:10> <DEBUG>		Event:	LOOT_READY	true", -- [395]
-			"<20:16:11> <DEBUG>		Event:	LOOT_READY	true", -- [396]
-			"<20:16:13> <DEBUG>		Event:	LOOT_READY	true", -- [397]
-			"<20:16:14> <DEBUG>		Event:	LOOT_READY	true", -- [398]
-			"<20:16:16> <DEBUG>		Event:	LOOT_READY	true", -- [399]
-			"<20:16:16> <DEBUG>		Event:	LOOT_READY	true", -- [400]
-			"<20:16:19> <DEBUG>		Event:	LOOT_READY	true", -- [401]
-			"<20:16:20> <DEBUG>		Event:	LOOT_READY	true", -- [402]
-			"<20:16:22> <DEBUG>		Event:	LOOT_READY	true", -- [403]
-			"<20:16:22> <DEBUG>		Event:	LOOT_READY	true", -- [404]
-			"<20:16:26> <DEBUG>		Event:	LOOT_READY	true", -- [405]
-			"<20:16:26> <DEBUG>		Event:	LOOT_READY	true", -- [406]
-			"<20:16:30> <DEBUG>		Event:	LOOT_READY	true", -- [407]
-			"<20:16:30> <DEBUG>		Event:	LOOT_READY	true", -- [408]
-			"12/11/22", -- [409]
-			"<22:13:35> <INFO>		Logged In", -- [410]
-			"<22:13:35> [ML]<INFO>		Init", -- [411]
-			"<22:13:35> <INFO>		RCLootCouncil	TradeUI enabled", -- [412]
-			"<22:13:43> <Data.Player>		UpdateCachedPlayer - couldn't get PlayerInfoByGUID	хугомонк-Ревущийфьорд	Player-1615-0B07C4E5", -- [413]
-			"<22:13:43> <INFO>		хугомонк-Ревущийфьорд	3.6.0	nil", -- [414]
-			"<22:13:43> <DEBUG>		ActivateSkin	bfa", -- [415]
-			"<22:13:45> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [416]
-			"<22:13:45> <INFO>		UpdatePlayersData()", -- [417]
-			"<22:13:45> <INFO>		Player relog...", -- [418]
-			"<22:13:46> <DEBUG>		GetPlayersGuildRank()", -- [419]
-			"<22:13:46> <DEBUG>		Found Guild Rank: Новичок", -- [420]
-			"<22:13:48> <DEBUG>		GetML()", -- [421]
-			"<22:13:48> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	хугомонк-Ревущийфьорд", -- [422]
-			"<22:13:48> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [423]
-			"<22:14:36> <DEBUG>		Event:	PARTY_LEADER_CHANGED", -- [424]
-			"<22:14:38> <DEBUG>		GetML()", -- [425]
-			"<22:14:38> <Data.Player>		CreatePlayer	Player-1615-0AEE985A", -- [426]
-			"<22:14:38> <DEBUG>		Resetting council as we have a new ML!", -- [427]
-			"<22:14:38> <INFO>		MasterLooter = 	милкм-Ревущийфьорд", -- [428]
-			"<22:14:53> <DEBUG>		Timer MLdb_check passed", -- [429]
-			"<22:14:53> <Comm>		^1^Sxrealm^T^N1^Sмилкм-Ревущийфьорд^N2^SMLdb_request^t^^	PARTY	хугомонк-Ревущийфьорд", -- [430]
-			"<22:14:53> <Comm>		^1^Sxrealm^T^N1^Sмилкм-Ревущийфьорд^N2^Scouncil_request^t^^	PARTY	хугомонк-Ревущийфьорд", -- [431]
-			"<22:15:08> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [432]
-			"<22:15:08> <INFO>		UpdatePlayersData()", -- [433]
-			"<22:15:10> <DEBUG>		GetML()", -- [434]
-			"<22:15:17> <DEBUG>		Event:	RAID_INSTANCE_WELCOME	Лазурное хранилище (Эпохальный)	211482	0	0", -- [435]
-			"<22:15:17> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [436]
-			"<22:15:17> <INFO>		UpdatePlayersData()", -- [437]
-			"<22:15:19> <DEBUG>		GetML()", -- [438]
-			"<22:17:15> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	менструа-Ревущийфьорд", -- [439]
-			"<22:17:15> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [440]
-			"<22:17:49> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	бабусянатусе-Ревущийфьорд", -- [441]
-			"<22:17:49> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [442]
-			"<22:18:36> <DEBUG>		Event:	ENCOUNTER_START	2582	Леймор	23	5", -- [443]
-			"<22:18:36> <INFO>		UpdatePlayersData()", -- [444]
-			"<22:19:29> <DEBUG>		Event:	ENCOUNTER_END	2582	Леймор	23	5	1", -- [445]
-			"<22:19:31> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2582	193633	|cffa335ee|Hitem:193633::::::::70:269::23:5:7977:6652:7937:1594:8767:1:28:2157:::::|h[Нестабильное чародейское кольцо]|h|r	1	Тигрушкинс-Гордунни	MONK", -- [446]
-			"<22:19:31> <DEBUG>		Event:	LOOT_READY	true", -- [447]
-			"<22:19:31> <DEBUG>		Ignoring	nil	as it's a currency", -- [448]
-			"<22:19:31> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:192747::::::::70:269:::::::::|h[Сломанная ветка]|h|r	0	1	Creature-0-4243-2515-24551-191164-0000160FEC	1", -- [449]
-			"<22:19:31> <DEBUG>		Event:	LOOT_READY	true", -- [450]
-			"<22:19:31> <DEBUG>		Ignoring	nil	as it's a currency", -- [451]
-			"<22:19:31> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:192747::::::::70:269:::::::::|h[Сломанная ветка]|h|r	0	1	Creature-0-4243-2515-24551-191164-0000160FEC	1", -- [452]
-			"<22:19:32> <DEBUG>		OnLootSlotCleared()	2	|cff9d9d9d|Hitem:192747::::::::70:269:::::::::|h[Сломанная ветка]|h|r	0", -- [453]
-			"<22:19:32> <DEBUG>		Event:	LOOT_CLOSED", -- [454]
-			"<22:19:32> <DEBUG>		Event:	LOOT_CLOSED", -- [455]
-			"<22:19:32> <Comm>		^1^Sl^T^N1^S191164^t^^	PARTY	хугомонк-Ревущийфьорд", -- [456]
-			"<22:19:32> <Comm>		^1^Sl^T^N1^S191164^t^^	PARTY	хугомонк-Ревущийфьорд", -- [457]
-			"<22:22:27> <DEBUG>		Event:	LOOT_READY	true", -- [458]
-			"<22:22:27> <DEBUG>		Ignoring	nil	as it's a currency", -- [459]
-			"<22:22:27> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:192730::::::::70:269:::::::::|h[Нестабильная чародейская сущность]|h|r	0	1	Creature-0-4243-2515-24551-186741-0000960FEB	1", -- [460]
-			"<22:22:27> <DEBUG>		Event:	LOOT_READY	true", -- [461]
-			"<22:22:27> <DEBUG>		Ignoring	nil	as it's a currency", -- [462]
-			"<22:22:27> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:192730::::::::70:269:::::::::|h[Нестабильная чародейская сущность]|h|r	0	2	Creature-0-4243-2515-24551-186741-0000160FEB	1	Creature-0-4243-2515-24551-186741-0000960FEB	1", -- [463]
-			"<22:22:27> <DEBUG>		Event:	LOOT_READY	true", -- [464]
-			"<22:22:27> <DEBUG>		Ignoring	nil	as it's a currency", -- [465]
-			"<22:22:27> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:192730::::::::70:269:::::::::|h[Нестабильная чародейская сущность]|h|r	0	2	Creature-0-4243-2515-24551-186741-0000160FEB	1	Creature-0-4243-2515-24551-186741-0000960FEB	1", -- [466]
-			"<22:22:28> <DEBUG>		OnLootSlotCleared()	2	|cff9d9d9d|Hitem:192730::::::::70:269:::::::::|h[Нестабильная чародейская сущность]|h|r	0", -- [467]
-			"<22:22:28> <DEBUG>		Event:	LOOT_CLOSED", -- [468]
-			"<22:22:28> <DEBUG>		Event:	LOOT_CLOSED", -- [469]
-			"<22:22:28> <Comm>		^1^Sl^T^N1^S186741^t^^	PARTY	хугомонк-Ревущийфьорд", -- [470]
-			"<22:22:28> <Comm>		^1^Sl^T^N1^S186741^t^^	PARTY	хугомонк-Ревущийфьорд", -- [471]
-			"<22:23:09> <DEBUG>		Event:	LOOT_READY	true", -- [472]
-			"<22:23:09> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192635::::::::70:269:::::::::|h[Скрученный металл]|h|r	0	1	Creature-0-4243-2515-24551-186740-0000960FEB	1", -- [473]
-			"<22:23:09> <DEBUG>		Event:	LOOT_READY	true", -- [474]
-			"<22:23:09> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192635::::::::70:269:::::::::|h[Скрученный металл]|h|r	0	1	Creature-0-4243-2515-24551-186740-0000960FEB	1", -- [475]
-			"<22:23:10> <DEBUG>		OnLootSlotCleared()	1	|cff9d9d9d|Hitem:192635::::::::70:269:::::::::|h[Скрученный металл]|h|r	0", -- [476]
-			"<22:23:10> <DEBUG>		Event:	LOOT_CLOSED", -- [477]
-			"<22:23:10> <DEBUG>		Event:	LOOT_CLOSED", -- [478]
-			"<22:23:10> <Comm>		^1^Sl^T^N1^S186740^t^^	PARTY	хугомонк-Ревущийфьорд", -- [479]
-			"<22:23:10> <Comm>		^1^Sl^T^N1^S186740^t^^	PARTY	хугомонк-Ревущийфьорд", -- [480]
-			"<22:24:05> <DEBUG>		Event:	LOOT_READY	true", -- [481]
-			"<22:24:05> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192625::::::::70:269:::::::::|h[Неподвижный камень]|h|r	0	2	Creature-0-4243-2515-24551-196116-0002160FEC	1	Creature-0-4243-2515-24551-196116-0001960FEC	1", -- [482]
-			"<22:24:05> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:192635::::::::70:269:::::::::|h[Скрученный металл]|h|r	0	1	Creature-0-4243-2515-24551-186740-0000160FED	1", -- [483]
-			"<22:24:05> <DEBUG>		Adding to self.lootSlotInfo	3	|cff0070dd|Hitem:191578::::::::70:269::23::1:28:2157:::::|h[Рецепт: трансмутация - пробужденный огонь]|h|r	3	1	Creature-0-4243-2515-24551-186740-0000960FED	1", -- [484]
-			"<22:24:05> <DEBUG>		Event:	LOOT_READY	true", -- [485]
-			"<22:24:05> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192625::::::::70:269:::::::::|h[Неподвижный камень]|h|r	0	2	Creature-0-4243-2515-24551-196116-0002160FEC	1	Creature-0-4243-2515-24551-196116-0001960FEC	1", -- [486]
-			"<22:24:05> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:192635::::::::70:269:::::::::|h[Скрученный металл]|h|r	0	1	Creature-0-4243-2515-24551-186740-0000160FED	1", -- [487]
-			"<22:24:05> <DEBUG>		Adding to self.lootSlotInfo	3	|cff0070dd|Hitem:191578::::::::70:269::23::1:28:2157:::::|h[Рецепт: трансмутация - пробужденный огонь]|h|r	3	1	Creature-0-4243-2515-24551-186740-0000960FED	1", -- [488]
-			"<22:24:05> <DEBUG>		OnLootSlotCleared()	1	|cff9d9d9d|Hitem:192625::::::::70:269:::::::::|h[Неподвижный камень]|h|r	0", -- [489]
-			"<22:24:05> <DEBUG>		OnLootSlotCleared()	2	|cff9d9d9d|Hitem:192635::::::::70:269:::::::::|h[Скрученный металл]|h|r	0", -- [490]
-			"<22:24:06> <DEBUG>		OnLootSlotCleared()	3	|cff0070dd|Hitem:191578::::::::70:269::23::1:28:2157:::::|h[Рецепт: трансмутация - пробужденный огонь]|h|r	3", -- [491]
-			"<22:24:06> <DEBUG>		Event:	LOOT_CLOSED", -- [492]
-			"<22:24:06> <DEBUG>		Event:	LOOT_CLOSED", -- [493]
-			"<22:24:06> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	191578	|cff0070dd|Hitem:191578::::::::70:269::23::1:28:2157:::::|h[Рецепт: трансмутация - пробужденный огонь]|h|r	1	Хугомонк	MONK", -- [494]
-			"<22:24:06> <Comm>		^1^Sl^T^N1^S186740^t^^	PARTY	хугомонк-Ревущийфьорд", -- [495]
-			"<22:24:06> <Comm>		^1^Sl^T^N1^S186740^t^^	PARTY	хугомонк-Ревущийфьорд", -- [496]
-			"<22:24:08> <DEBUG>		Storage:New	|cff0070dd|Hitem:191578::::::::70:269::23::1:28:2157:::::|h[Рецепт: трансмутация - пробужденный огонь]|h|r	temp", -- [497]
-			"<22:24:08> <DEBUG>		Storage: searching for item:	||cff0070dd||Hitem:191578::::::::70:269::23::1:28:2157:::::||h[Рецепт: трансмутация - пробужденный огонь]||h||r	5", -- [498]
-			"<22:24:08> <DEBUG>		Found item at	1	7", -- [499]
-			"<22:24:09> <DEBUG>		Storage: searching for item:	||cff0070dd||Hitem:191578::::::::70:269::23::1:28:2157:::::||h[Рецепт: трансмутация - пробужденный огонь]||h||r	5", -- [500]
-			"<22:24:09> <DEBUG>		Found item at	1	7", -- [501]
-			"<22:24:09> <Comm>		^1^Stradable^T^N1^S|cff0070dd|Hitem:191578::::::::70:269::23::1:28:2157:::::|h[Рецепт:~`трансмутация~`-~`пробужденный~`огонь]|h|r^N2^S186740^t^^	PARTY	хугомонк-Ревущийфьорд", -- [502]
-			"<22:24:37> <DEBUG>		Event:	LOOT_READY	true", -- [503]
-			"<22:24:37> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192662::::::::70:269:::::::::|h[Огненная частица]|h|r	0	1	Creature-0-4243-2515-24551-186740-0000160FEC	1", -- [504]
-			"<22:24:37> <DEBUG>		Event:	LOOT_READY	true", -- [505]
-			"<22:24:37> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192662::::::::70:269:::::::::|h[Огненная частица]|h|r	0	1	Creature-0-4243-2515-24551-186740-0000160FEC	1", -- [506]
-			"<22:24:37> <DEBUG>		OnLootSlotCleared()	1	|cff9d9d9d|Hitem:192662::::::::70:269:::::::::|h[Огненная частица]|h|r	0", -- [507]
-			"<22:24:37> <DEBUG>		Event:	LOOT_CLOSED", -- [508]
-			"<22:24:37> <DEBUG>		Event:	LOOT_CLOSED", -- [509]
-			"<22:24:38> <Comm>		^1^Sl^T^N1^S186740^t^^	PARTY	хугомонк-Ревущийфьорд", -- [510]
-			"<22:24:38> <Comm>		^1^Sl^T^N1^S186740^t^^	PARTY	хугомонк-Ревущийфьорд", -- [511]
-			"<22:25:05> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	мирикк-Ревущийфьорд", -- [512]
-			"<22:25:06> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [513]
-			"<22:26:21> <DEBUG>		Event:	ENCOUNTER_START	2585	Лазурный Клинок	23	5", -- [514]
-			"<22:26:21> <INFO>		UpdatePlayersData()", -- [515]
-			"<22:27:20> <DEBUG>		Event:	ENCOUNTER_END	2585	Лазурный Клинок	23	5	1", -- [516]
-			"<22:27:22> <DEBUG>		Event:	LOOT_READY	true", -- [517]
-			"<22:27:22> <DEBUG>		Ignoring	nil	as it's a currency", -- [518]
-			"<22:27:22> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:192635::::::::70:269:::::::::|h[Скрученный металл]|h|r	0	1	Creature-0-4243-2515-24551-189555-0001160FEC	1", -- [519]
-			"<22:27:22> <DEBUG>		Event:	LOOT_READY	true", -- [520]
-			"<22:27:22> <DEBUG>		Ignoring	nil	as it's a currency", -- [521]
-			"<22:27:22> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:192635::::::::70:269:::::::::|h[Скрученный металл]|h|r	0	1	Creature-0-4243-2515-24551-189555-0001160FEC	1", -- [522]
-			"<22:27:22> <DEBUG>		OnLootSlotCleared()	2	|cff9d9d9d|Hitem:192635::::::::70:269:::::::::|h[Скрученный металл]|h|r	0", -- [523]
-			"<22:27:22> <DEBUG>		Event:	LOOT_CLOSED", -- [524]
-			"<22:27:22> <DEBUG>		Event:	LOOT_CLOSED", -- [525]
-			"<22:27:23> <Comm>		^1^Sl^T^N1^S189555^t^^	PARTY	хугомонк-Ревущийфьорд", -- [526]
-			"<22:27:23> <Comm>		^1^Sl^T^N1^S189555^t^^	PARTY	хугомонк-Ревущийфьорд", -- [527]
-			"<22:27:26> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2585	193629	|cffa335ee|Hitem:193629::::::::70:269::23:5:7977:6652:8815:1594:8767:1:28:2157:::::|h[Плащ угасшей верности]|h|r	1	Чикенсаня	EVOKER", -- [528]
-			"<22:27:49> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	мирикк-Ревущийфьорд", -- [529]
-			"<22:27:49> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [530]
-			"<22:28:51> <DEBUG>		Event:	LOOT_READY	true", -- [531]
-			"<22:28:51> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192624::::::::70:269:::::::::|h[Растресканная чешуя]|h|r	0	1	Creature-0-4243-2515-24551-187246-0002960FED	1", -- [532]
-			"<22:28:51> <DEBUG>		Ignoring	nil	as it's a currency", -- [533]
-			"<22:28:51> <DEBUG>		Event:	LOOT_READY	true", -- [534]
-			"<22:28:51> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192624::::::::70:269:::::::::|h[Растресканная чешуя]|h|r	0	1	Creature-0-4243-2515-24551-187246-0002960FED	1", -- [535]
-			"<22:28:51> <DEBUG>		Ignoring	nil	as it's a currency", -- [536]
-			"<22:28:51> <DEBUG>		OnLootSlotCleared()	1	|cff9d9d9d|Hitem:192624::::::::70:269:::::::::|h[Растресканная чешуя]|h|r	0", -- [537]
-			"<22:28:51> <DEBUG>		Event:	LOOT_CLOSED", -- [538]
-			"<22:28:51> <DEBUG>		Event:	LOOT_CLOSED", -- [539]
-			"<22:28:52> <Comm>		^1^Sl^T^N1^S187246^t^^	PARTY	хугомонк-Ревущийфьорд", -- [540]
-			"<22:28:52> <Comm>		^1^Sl^T^N1^S187246^t^^	PARTY	хугомонк-Ревущийфьорд", -- [541]
-			"<22:29:30> <DEBUG>		Event:	LOOT_READY	true", -- [542]
-			"<22:29:30> <DEBUG>		Ignoring	nil	as it's a currency", -- [543]
-			"<22:29:31> <DEBUG>		Event:	LOOT_READY	true", -- [544]
-			"<22:29:31> <DEBUG>		Ignoring	nil	as it's a currency", -- [545]
-			"<22:29:31> <DEBUG>		Event:	LOOT_CLOSED", -- [546]
-			"<22:30:29> <DEBUG>		Event:	ENCOUNTER_START	2583	Телаш Серокрылый	23	5", -- [547]
-			"<22:30:29> <INFO>		UpdatePlayersData()", -- [548]
-			"<22:31:36> <DEBUG>		Event:	ENCOUNTER_END	2583	Телаш Серокрылый	23	5	1", -- [549]
-			"<22:31:37> <DEBUG>		Event:	LOOT_READY	true", -- [550]
-			"<22:31:37> <DEBUG>		Ignoring	nil	as it's a currency", -- [551]
-			"<22:31:37> <DEBUG>		Event:	LOOT_READY	true", -- [552]
-			"<22:31:37> <DEBUG>		Ignoring	nil	as it's a currency", -- [553]
-			"<22:31:38> <DEBUG>		Event:	LOOT_CLOSED", -- [554]
-			"<22:31:38> <DEBUG>		Event:	LOOT_CLOSED", -- [555]
-			"<22:31:38> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2583	193647	|cffa335ee|Hitem:193647::::::::70:269::23:5:7977:7936:8784:1594:8767:1:28:2157:::::|h[Комендантский медальон наваждения]|h|r	1	Милкм	ROGUE", -- [556]
-			"<22:32:32> <DEBUG>		Event:	ENCOUNTER_START	2584	Мраскул	23	5", -- [557]
-			"<22:32:32> <INFO>		UpdatePlayersData()", -- [558]
-			"<22:33:49> <DEBUG>		Event:	ENCOUNTER_END	2584	Мраскул	23	5	1", -- [559]
-			"<22:33:50> <DEBUG>		Event:	LOOT_READY	true", -- [560]
-			"<22:33:50> <DEBUG>		Ignoring	nil	as it's a currency", -- [561]
-			"<22:33:51> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2584	193646	|cffa335ee|Hitem:193646::::::::70:269::23:4:7977:6652:1594:8767:1:28:2157:::::|h[Грань преломленного луча]|h|r	1	Язнаюушу-СвежевательДуш	MONK", -- [562]
-			"<22:33:51> <DEBUG>		Event:	LOOT_READY	true", -- [563]
-			"<22:33:51> <DEBUG>		Ignoring	nil	as it's a currency", -- [564]
-			"<22:33:51> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2584	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	1	Язнаюушу-СвежевательДуш	MONK", -- [565]
-			"<22:33:51> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2584	197140	|cff0070dd|Hitem:197140::::::::70:269::23::1:28:2157:::::|h[Дракон нагорья: рисунок в мелкий горошек]|h|r	1	Язнаюушу-СвежевательДуш	MONK", -- [566]
-			"<22:33:51> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2584	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	2	Хугомонк	MONK", -- [567]
-			"<22:33:51> <DEBUG>		Event:	LOOT_CLOSED", -- [568]
-			"<22:33:51> <DEBUG>		Event:	LOOT_CLOSED", -- [569]
-			"<22:33:51> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2584	197127	|cff0070dd|Hitem:197127::::::::70:269::23::1:28:2157:::::|h[Дракон нагорья: большие колючие рога]|h|r	1	Хугомонк	MONK", -- [570]
-			"<22:33:52> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2584	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	2	Милкм	ROGUE", -- [571]
-			"<22:33:54> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2584	193639	|cffa335ee|Hitem:193639::::::::70:269::23:4:7977:6652:1594:8767:1:28:2157:::::|h[Расколотое сердце Мраскула]|h|r	1	Чикенсаня	EVOKER", -- [572]
-			"<22:33:54> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2584	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	2	Чикенсаня	EVOKER", -- [573]
-			"<22:33:54> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2584	197127	|cff0070dd|Hitem:197127::::::::70:269::23::1:28:2157:::::|h[Дракон нагорья: большие колючие рога]|h|r	1	Чикенсаня	EVOKER", -- [574]
-			"<22:33:56> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2584	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	1	Тигрушкинс-Гордунни	MONK", -- [575]
-			"<22:34:22> <DEBUG>		Event:	GROUP_LEFT	1	Party-1615-1-0000361F235A", -- [576]
-			"<22:34:22> <DEBUG>		GetML()", -- [577]
-			"<22:35:32> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [578]
-			"<22:35:32> <INFO>		UpdatePlayersData()", -- [579]
-			"<22:35:34> <DEBUG>		GetML()", -- [580]
-			"<22:36:29> <DEBUG>		Event:	PARTY_LEADER_CHANGED", -- [581]
-			"<22:36:31> <DEBUG>		GetML()", -- [582]
-			"<22:36:31> <Data.Player>		CreatePlayer	Player-1615-0B0B1965", -- [583]
-			"<22:36:31> <DEBUG>		Resetting council as we have a new ML!", -- [584]
-			"<22:36:31> <INFO>		MasterLooter = 	нерассвело-Ревущийфьорд", -- [585]
-			"<22:36:48> <DEBUG>		Timer MLdb_check passed", -- [586]
-			"<22:36:49> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [587]
-			"<22:36:49> <INFO>		UpdatePlayersData()", -- [588]
-			"<22:36:51> <DEBUG>		GetML()", -- [589]
-			"<22:36:58> <DEBUG>		Event:	RAID_INSTANCE_WELCOME	Нелтарий (Эпохальный)	210181	0	0", -- [590]
-			"<22:36:58> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [591]
-			"<22:36:58> <INFO>		UpdatePlayersData()", -- [592]
-			"<22:37:00> <DEBUG>		GetML()", -- [593]
-			"<22:38:12> <Comm>		^1^Sv^T^N1^S3.5.1^t^^	GUILD	аишвария-Ревущийфьорд", -- [594]
-			"<22:38:13> <DEBUG>		Event:	LOOT_READY	true", -- [595]
-			"<22:38:13> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192628::::::::70:269:::::::::|h[Пепел феникса]|h|r	0	1	Creature-0-1631-2519-25210-189247-0008161533	1", -- [596]
-			"<22:38:13> <DEBUG>		Ignoring	nil	as it's a currency", -- [597]
-			"<22:38:13> <DEBUG>		Adding to self.lootSlotInfo	3	|cff1eff00|Hitem:199000::::::::70:269:::3:7968:6652:1700:1:28:2157:::::|h[Перчатки длиннорога с символом лихорадочного света]|h|r	2	1	Creature-0-1631-2519-25210-189227-0000961533	1", -- [598]
-			"<22:38:13> <DEBUG>		Event:	LOOT_READY	true", -- [599]
-			"<22:38:13> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192628::::::::70:269:::::::::|h[Пепел феникса]|h|r	0	1	Creature-0-1631-2519-25210-189247-0008161533	1", -- [600]
-			"<22:38:13> <DEBUG>		Ignoring	nil	as it's a currency", -- [601]
-			"<22:38:13> <DEBUG>		Adding to self.lootSlotInfo	3	|cff1eff00|Hitem:199000::::::::70:269:::3:7968:6652:1700:1:28:2157:::::|h[Перчатки длиннорога с символом лихорадочного света]|h|r	2	1	Creature-0-1631-2519-25210-189227-0000961533	1", -- [602]
-			"<22:38:13> <DEBUG>		OnLootSlotCleared()	1	|cff9d9d9d|Hitem:192628::::::::70:269:::::::::|h[Пепел феникса]|h|r	0", -- [603]
-			"<22:38:13> <DEBUG>		Event:	LOOT_CLOSED", -- [604]
-			"<22:38:13> <DEBUG>		OnLootSlotCleared()	3	|cff1eff00|Hitem:199000::::::::70:269:::3:7968:6652:1700:1:28:2157:::::|h[Перчатки длиннорога с символом лихорадочного света]|h|r	2", -- [605]
-			"<22:38:13> <DEBUG>		Event:	LOOT_CLOSED", -- [606]
-			"<22:38:13> <Comm>		^1^Sl^T^N1^S189227^t^^	PARTY	хугомонк-Ревущийфьорд", -- [607]
-			"<22:38:15> <DEBUG>		Storage:New	|cff1eff00|Hitem:199000::::::::70:269:::3:7968:6652:1700:1:28:2157:::::|h[Перчатки длиннорога с символом лихорадочного света]|h|r	temp", -- [608]
-			"<22:38:15> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199000::::::::70:269:::3:7968:6652:1700:1:28:2157:::::||h[Перчатки длиннорога с символом лихорадочного света]||h||r	5", -- [609]
-			"<22:38:15> <DEBUG>		Found:	nil	nil	nil", -- [610]
-			"<22:38:16> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199000::::::::70:269:::3:7968:6652:1700:1:28:2157:::::||h[Перчатки длиннорога с символом лихорадочного света]||h||r	5", -- [611]
-			"<22:38:16> <DEBUG>		Found:	nil	nil	nil", -- [612]
-			"<22:38:17> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199000::::::::70:269:::3:7968:6652:1700:1:28:2157:::::||h[Перчатки длиннорога с символом лихорадочного света]||h||r	5", -- [613]
-			"<22:38:17> <DEBUG>		Found:	nil	nil	nil", -- [614]
-			"<22:38:18> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199000::::::::70:269:::3:7968:6652:1700:1:28:2157:::::||h[Перчатки длиннорога с символом лихорадочного света]||h||r	5", -- [615]
-			"<22:38:18> <DEBUG>		Found:	nil	nil	nil", -- [616]
-			"<22:38:18> <ERROR>		UpdateAndSendRecentTradableItem: |cff1eff00|Hitem:199000::::::::70:269:::3:7968:6652:1700:1:28:2157:::::|h[Перчатки длиннорога с символом лихорадочного света]|h|r not found in bags", -- [617]
-			"<22:38:45> <DEBUG>		Event:	LOOT_READY	true", -- [618]
-			"<22:38:45> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192628::::::::70:269:::::::::|h[Пепел феникса]|h|r	0	1	Creature-0-1631-2519-25210-189247-0007161533	1", -- [619]
-			"<22:38:45> <DEBUG>		Event:	LOOT_READY	true", -- [620]
-			"<22:38:45> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192628::::::::70:269:::::::::|h[Пепел феникса]|h|r	0	1	Creature-0-1631-2519-25210-189247-0007161533	1", -- [621]
-			"<22:38:45> <DEBUG>		Event:	LOOT_CLOSED", -- [622]
-			"<22:38:45> <DEBUG>		OnLootSlotCleared()	1	|cff9d9d9d|Hitem:192628::::::::70:269:::::::::|h[Пепел феникса]|h|r	0", -- [623]
-			"<22:38:45> <DEBUG>		Event:	LOOT_CLOSED", -- [624]
-			"<22:38:46> <Comm>		^1^Sl^T^N1^S189247^t^^	PARTY	хугомонк-Ревущийфьорд", -- [625]
-			"<22:39:15> <DEBUG>		Event:	LOOT_READY	true", -- [626]
-			"<22:39:15> <DEBUG>		Ignoring	nil	as it's a currency", -- [627]
-			"<22:39:15> <DEBUG>		Event:	LOOT_READY	true", -- [628]
-			"<22:39:15> <DEBUG>		Ignoring	nil	as it's a currency", -- [629]
-			"<22:39:15> <DEBUG>		Event:	LOOT_CLOSED", -- [630]
-			"<22:39:15> <DEBUG>		Event:	LOOT_CLOSED", -- [631]
-			"<22:39:45> <DEBUG>		Event:	LOOT_READY	true", -- [632]
-			"<22:39:45> <DEBUG>		Event:	LOOT_READY	true", -- [633]
-			"<22:39:45> <DEBUG>		Event:	LOOT_CLOSED", -- [634]
-			"<22:39:45> <DEBUG>		Event:	LOOT_CLOSED", -- [635]
-			"<22:39:47> <DEBUG>		Event:	ENCOUNTER_START	2613	Чаргат Дробитель Чешуи	23	5", -- [636]
-			"<22:39:47> <INFO>		UpdatePlayersData()", -- [637]
-			"<22:40:38> <DEBUG>		Event:	ENCOUNTER_END	2613	Чаргат Дробитель Чешуи	23	5	1", -- [638]
-			"<22:40:40> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2613	193768	|cffa335ee|Hitem:193768::::::::70:269::23:5:7977:6652:7935:1594:8767:1:28:2157:::::|h[Печатка губителя драконов]|h|r	1	Фальколайт-Гордунни	DRUID", -- [639]
-			"<22:40:41> <DEBUG>		Event:	LOOT_READY	true", -- [640]
-			"<22:40:41> <DEBUG>		Ignoring	nil	as it's a currency", -- [641]
-			"<22:40:41> <DEBUG>		Event:	LOOT_READY	true", -- [642]
-			"<22:40:41> <DEBUG>		Ignoring	nil	as it's a currency", -- [643]
-			"<22:40:41> <DEBUG>		Event:	LOOT_CLOSED", -- [644]
-			"<22:40:41> <DEBUG>		Event:	LOOT_CLOSED", -- [645]
-			"<22:41:45> <DEBUG>		Event:	LOOT_READY	true", -- [646]
-			"<22:41:45> <DEBUG>		Ignoring	nil	as it's a currency", -- [647]
-			"<22:41:45> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:192715::::::::70:269:::::::::|h[Камень феникса]|h|r	0	1	Creature-0-1631-2519-25210-189247-0002961532	1", -- [648]
-			"<22:41:45> <DEBUG>		Event:	LOOT_READY	true", -- [649]
-			"<22:41:45> <DEBUG>		Ignoring	nil	as it's a currency", -- [650]
-			"<22:41:45> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:192715::::::::70:269:::::::::|h[Камень феникса]|h|r	0	1	Creature-0-1631-2519-25210-189247-0002961532	1", -- [651]
-			"<22:41:46> <DEBUG>		Event:	LOOT_CLOSED", -- [652]
-			"<22:41:46> <DEBUG>		OnLootSlotCleared()	2	|cff9d9d9d|Hitem:192715::::::::70:269:::::::::|h[Камень феникса]|h|r	0", -- [653]
-			"<22:41:46> <DEBUG>		Event:	LOOT_CLOSED", -- [654]
-			"<22:41:46> <Comm>		^1^Sl^T^N1^S189247^t^^	PARTY	хугомонк-Ревущийфьорд", -- [655]
-			"<22:42:38> <DEBUG>		Event:	LOOT_READY	true", -- [656]
-			"<22:42:38> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192628::::::::70:269:::::::::|h[Пепел феникса]|h|r	0	1	Creature-0-1631-2519-25210-189247-0001961532	1", -- [657]
-			"<22:42:38> <DEBUG>		Event:	LOOT_READY	true", -- [658]
-			"<22:42:38> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192628::::::::70:269:::::::::|h[Пепел феникса]|h|r	0	1	Creature-0-1631-2519-25210-189247-0001961532	1", -- [659]
-			"<22:42:38> <DEBUG>		OnLootSlotCleared()	1	|cff9d9d9d|Hitem:192628::::::::70:269:::::::::|h[Пепел феникса]|h|r	0", -- [660]
-			"<22:42:38> <DEBUG>		Event:	LOOT_CLOSED", -- [661]
-			"<22:42:38> <DEBUG>		Event:	LOOT_CLOSED", -- [662]
-			"<22:42:39> <Comm>		^1^Sl^T^N1^S189247^t^^	PARTY	хугомонк-Ревущийфьорд", -- [663]
-			"<22:42:39> <Comm>		^1^Sl^T^N1^S189247^t^^	PARTY	хугомонк-Ревущийфьорд", -- [664]
-			"<22:43:44> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190320	|cff0070dd|Hitem:190320::::::::70:269:::::::::|h[Пробуждающийся огонь]|h|r	2	Eeviee-Drak'thul	HUNTER", -- [665]
-			"<22:45:42> <DEBUG>		Event:	LOOT_READY	true", -- [666]
-			"<22:45:42> <DEBUG>		Ignoring	nil	as it's a currency", -- [667]
-			"<22:45:42> <DEBUG>		Adding to self.lootSlotInfo	3	|cff9d9d9d|Hitem:192717::::::::70:269:::::::::|h[Мерцающая первобытная частица]|h|r	0	1	Creature-0-1631-2519-25210-189470-0002961533	1", -- [668]
-			"<22:45:42> <DEBUG>		Adding to self.lootSlotInfo	4	|cff9d9d9d|Hitem:192635::::::::70:269:::::::::|h[Скрученный металл]|h|r	0	1	Creature-0-1631-2519-25210-189470-0005961533	1", -- [669]
-			"<22:45:42> <DEBUG>		Event:	LOOT_READY	true", -- [670]
-			"<22:45:42> <DEBUG>		Ignoring	nil	as it's a currency", -- [671]
-			"<22:45:42> <DEBUG>		Adding to self.lootSlotInfo	3	|cff9d9d9d|Hitem:192717::::::::70:269:::::::::|h[Мерцающая первобытная частица]|h|r	0	1	Creature-0-1631-2519-25210-189470-0002961533	1", -- [672]
-			"<22:45:42> <DEBUG>		Adding to self.lootSlotInfo	4	|cff9d9d9d|Hitem:192635::::::::70:269:::::::::|h[Скрученный металл]|h|r	0	1	Creature-0-1631-2519-25210-189470-0005961533	1", -- [673]
-			"<22:45:43> <DEBUG>		OnLootSlotCleared()	3	|cff9d9d9d|Hitem:192717::::::::70:269:::::::::|h[Мерцающая первобытная частица]|h|r	0", -- [674]
-			"<22:45:43> <DEBUG>		OnLootSlotCleared()	4	|cff9d9d9d|Hitem:192635::::::::70:269:::::::::|h[Скрученный металл]|h|r	0", -- [675]
-			"<22:45:43> <DEBUG>		Event:	LOOT_CLOSED", -- [676]
-			"<22:45:43> <DEBUG>		Event:	LOOT_CLOSED", -- [677]
-			"<22:45:43> <Comm>		^1^Sl^T^N1^S189470^t^^	PARTY	хугомонк-Ревущийфьорд", -- [678]
-			"<22:45:43> <Comm>		^1^Sl^T^N1^S189470^t^^	PARTY	хугомонк-Ревущийфьорд", -- [679]
-			"<22:45:49> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	бабусянатусе-Ревущийфьорд", -- [680]
-			"<22:45:49> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [681]
-			"<22:45:50> <DEBUG>		Event:	ENCOUNTER_START	2612	Главный кузнец Горек	23	5", -- [682]
-			"<22:45:50> <INFO>		UpdatePlayersData()", -- [683]
-			"<22:46:35> <DEBUG>		Event:	ENCOUNTER_END	2612	Главный кузнец Горек	23	5	1", -- [684]
-			"<22:46:36> <DEBUG>		Event:	LOOT_READY	true", -- [685]
-			"<22:46:36> <DEBUG>		Ignoring	nil	as it's a currency", -- [686]
-			"<22:46:36> <DEBUG>		Adding to self.lootSlotInfo	2	|cffa335ee|Hitem:193781::::::::70:269::23:5:7977:6652:8816:1594:8767:1:28:2157:::::|h[Бриджи воина лавы]|h|r	4	1	Creature-0-1631-2519-25210-189478-0000161532	1", -- [687]
-			"<22:46:36> <DEBUG>		Event:	LOOT_READY	true", -- [688]
-			"<22:46:36> <DEBUG>		Ignoring	nil	as it's a currency", -- [689]
-			"<22:46:36> <DEBUG>		Adding to self.lootSlotInfo	2	|cffa335ee|Hitem:193781::::::::70:269::23:5:7977:6652:8816:1594:8767:1:28:2157:::::|h[Бриджи воина лавы]|h|r	4	1	Creature-0-1631-2519-25210-189478-0000161532	1", -- [690]
-			"<22:46:37> <DEBUG>		OnLootSlotCleared()	2	|cffa335ee|Hitem:193781::::::::70:269::23:5:7977:6652:8816:1594:8767:1:28:2157:::::|h[Бриджи воина лавы]|h|r	4", -- [691]
-			"<22:46:37> <DEBUG>		Event:	LOOT_CLOSED", -- [692]
-			"<22:46:37> <DEBUG>		Event:	LOOT_CLOSED", -- [693]
-			"<22:46:37> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2612	193781	|cffa335ee|Hitem:193781::::::::70:269::23:5:7977:6652:8816:1594:8767:1:28:2157:::::|h[Бриджи воина лавы]|h|r	1	Хугомонк	MONK", -- [694]
-			"<22:46:37> <Comm>		^1^Sl^T^N1^S189478^t^^	PARTY	хугомонк-Ревущийфьорд", -- [695]
-			"<22:46:37> <Comm>		^1^Sl^T^N1^S189478^t^^	PARTY	хугомонк-Ревущийфьорд", -- [696]
-			"<22:46:39> <DEBUG>		Storage:New	|cffa335ee|Hitem:193781::::::::70:269::23:5:7977:6652:8816:1594:8767:1:28:2157:::::|h[Бриджи воина лавы]|h|r	temp", -- [697]
-			"<22:46:39> <DEBUG>		Storage: searching for item:	||cffa335ee||Hitem:193781::::::::70:269::23:5:7977:6652:8816:1594:8767:1:28:2157:::::||h[Бриджи воина лавы]||h||r	5", -- [698]
-			"<22:46:39> <DEBUG>		Found item at	2	10", -- [699]
-			"<22:46:40> <DEBUG>		Storage: searching for item:	||cffa335ee||Hitem:193781::::::::70:269::23:5:7977:6652:8816:1594:8767:1:28:2157:::::||h[Бриджи воина лавы]||h||r	5", -- [700]
-			"<22:46:40> <DEBUG>		Found item at	2	10", -- [701]
-			"<22:46:40> <Comm>		^1^Stradable^T^N1^S|cffa335ee|Hitem:193781::::::::70:269::23:5:7977:6652:8816:1594:8767:1:28:2157:::::|h[Бриджи~`воина~`лавы]|h|r^N2^S189478^t^^	PARTY	хугомонк-Ревущийфьорд", -- [702]
-			"<22:46:47> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190320	|cff0070dd|Hitem:190320::::::::70:269:::::::::|h[Пробуждающийся огонь]|h|r	2	Eeviee-Drak'thul	HUNTER", -- [703]
-			"<22:47:06> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190320	|cff0070dd|Hitem:190320::::::::70:269:::::::::|h[Пробуждающийся огонь]|h|r	3	Eeviee-Drak'thul	HUNTER", -- [704]
-			"<22:47:06> <DEBUG>		TradeUI: Traded item(s) to	нерассвело-Ревущийфьорд", -- [705]
-			"<22:47:06> <DEBUG>		TradeUI:Show()	nil", -- [706]
-			"<22:47:06> <DEBUG>		TradeUI:Hide()", -- [707]
-			"<22:47:09> <DEBUG>		Event:	LOOT_READY	true", -- [708]
-			"<22:47:09> <DEBUG>		Ignoring	nil	as it's a currency", -- [709]
-			"<22:47:09> <DEBUG>		Event:	LOOT_READY	true", -- [710]
-			"<22:47:09> <DEBUG>		Ignoring	nil	as it's a currency", -- [711]
-			"<22:47:10> <DEBUG>		Event:	LOOT_CLOSED", -- [712]
-			"<22:47:10> <DEBUG>		Event:	LOOT_CLOSED", -- [713]
-			"<22:47:40> <DEBUG>		Event:	LOOT_READY	true", -- [714]
-			"<22:47:40> <DEBUG>		Ignoring	nil	as it's a currency", -- [715]
-			"<22:47:40> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:192635::::::::70:269:::::::::|h[Скрученный металл]|h|r	0	2	Creature-0-1631-2519-25210-189470-0003161533	1	Creature-0-1631-2519-25210-189470-0005161533	1", -- [716]
-			"<22:47:40> <DEBUG>		Adding to self.lootSlotInfo	3	|cff9d9d9d|Hitem:192662::::::::70:269:::::::::|h[Огненная частица]|h|r	0	1	Creature-0-1631-2519-25210-189470-0003961535	1", -- [717]
-			"<22:47:41> <DEBUG>		Event:	LOOT_READY	true", -- [718]
-			"<22:47:41> <DEBUG>		Ignoring	nil	as it's a currency", -- [719]
-			"<22:47:41> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:192635::::::::70:269:::::::::|h[Скрученный металл]|h|r	0	2	Creature-0-1631-2519-25210-189470-0003161533	1	Creature-0-1631-2519-25210-189470-0005161533	1", -- [720]
-			"<22:47:41> <DEBUG>		Adding to self.lootSlotInfo	3	|cff9d9d9d|Hitem:192662::::::::70:269:::::::::|h[Огненная частица]|h|r	0	1	Creature-0-1631-2519-25210-189470-0003961535	1", -- [721]
-			"<22:47:41> <DEBUG>		Event:	LOOT_CLOSED", -- [722]
-			"<22:47:41> <DEBUG>		OnLootSlotCleared()	2	|cff9d9d9d|Hitem:192635::::::::70:269:::::::::|h[Скрученный металл]|h|r	0", -- [723]
-			"<22:47:41> <DEBUG>		Event:	LOOT_CLOSED", -- [724]
-			"<22:47:41> <DEBUG>		OnLootSlotCleared()	3	|cff9d9d9d|Hitem:192662::::::::70:269:::::::::|h[Огненная частица]|h|r	0", -- [725]
-			"<22:47:41> <DEBUG>		Event:	LOOT_CLOSED", -- [726]
-			"<22:47:41> <Comm>		^1^Sl^T^N1^S189470^t^^	PARTY	хугомонк-Ревущийфьорд", -- [727]
-			"<22:49:43> <DEBUG>		Event:	LOOT_READY	true", -- [728]
-			"<22:49:43> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192625::::::::70:269:::::::::|h[Неподвижный камень]|h|r	0	1	Creature-0-1631-2519-25210-192781-0000161532	1", -- [729]
-			"<22:49:43> <DEBUG>		Event:	LOOT_READY	true", -- [730]
-			"<22:49:43> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192625::::::::70:269:::::::::|h[Неподвижный камень]|h|r	0	1	Creature-0-1631-2519-25210-192781-0000161532	1", -- [731]
-			"<22:49:43> <DEBUG>		Event:	LOOT_READY	true", -- [732]
-			"<22:49:43> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192625::::::::70:269:::::::::|h[Неподвижный камень]|h|r	0	1	Creature-0-1631-2519-25210-192781-0000161532	1", -- [733]
-			"<22:49:43> <DEBUG>		Event:	LOOT_CLOSED", -- [734]
-			"<22:49:43> <DEBUG>		OnLootSlotCleared()	1	|cff9d9d9d|Hitem:192625::::::::70:269:::::::::|h[Неподвижный камень]|h|r	0", -- [735]
-			"<22:49:43> <DEBUG>		Event:	LOOT_CLOSED", -- [736]
-			"<22:49:43> <Comm>		^1^Sl^T^N1^S192781^t^^	PARTY	хугомонк-Ревущийфьорд", -- [737]
-			"<22:50:34> <DEBUG>		Event:	LOOT_READY	true", -- [738]
-			"<22:50:34> <DEBUG>		Adding to self.lootSlotInfo	1	|cff1eff00|Hitem:199004::::::::70:269:::4:7968:6652:7937:1694:1:28:2157:::::|h[Кушак длиннорога с символом огненной вспышки]|h|r	2	1	Creature-0-1631-2519-25210-192788-0002161532	1", -- [739]
-			"<22:50:35> <DEBUG>		Event:	LOOT_READY	true", -- [740]
-			"<22:50:35> <DEBUG>		Adding to self.lootSlotInfo	1	|cff1eff00|Hitem:199004::::::::70:269:::4:7968:6652:7937:1694:1:28:2157:::::|h[Кушак длиннорога с символом огненной вспышки]|h|r	2	1	Creature-0-1631-2519-25210-192788-0002161532	1", -- [741]
-			"<22:50:35> <DEBUG>		Event:	LOOT_CLOSED", -- [742]
-			"<22:50:35> <DEBUG>		OnLootSlotCleared()	1	|cff1eff00|Hitem:199004::::::::70:269:::4:7968:6652:7937:1694:1:28:2157:::::|h[Кушак длиннорога с символом огненной вспышки]|h|r	2", -- [743]
-			"<22:50:35> <DEBUG>		Event:	LOOT_CLOSED", -- [744]
-			"<22:50:35> <DEBUG>		Event:	ENCOUNTER_START	2610	Магмобивень	23	5", -- [745]
-			"<22:50:35> <INFO>		UpdatePlayersData()", -- [746]
-			"<22:50:35> <Comm>		^1^Sl^T^N1^S192788^t^^	PARTY	хугомонк-Ревущийфьорд", -- [747]
-			"<22:50:37> <DEBUG>		Storage:New	|cff1eff00|Hitem:199004::::::::70:269:::4:7968:6652:7937:1694:1:28:2157:::::|h[Кушак длиннорога с символом огненной вспышки]|h|r	temp", -- [748]
-			"<22:50:37> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199004::::::::70:269:::4:7968:6652:7937:1694:1:28:2157:::::||h[Кушак длиннорога с символом огненной вспышки]||h||r	5", -- [749]
-			"<22:50:37> <DEBUG>		Found:	nil	nil	nil", -- [750]
-			"<22:50:38> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199004::::::::70:269:::4:7968:6652:7937:1694:1:28:2157:::::||h[Кушак длиннорога с символом огненной вспышки]||h||r	5", -- [751]
-			"<22:50:38> <DEBUG>		Found:	nil	nil	nil", -- [752]
-			"<22:50:39> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199004::::::::70:269:::4:7968:6652:7937:1694:1:28:2157:::::||h[Кушак длиннорога с символом огненной вспышки]||h||r	5", -- [753]
-			"<22:50:39> <DEBUG>		Found:	nil	nil	nil", -- [754]
-			"<22:50:40> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199004::::::::70:269:::4:7968:6652:7937:1694:1:28:2157:::::||h[Кушак длиннорога с символом огненной вспышки]||h||r	5", -- [755]
-			"<22:50:40> <DEBUG>		Found:	nil	nil	nil", -- [756]
-			"<22:50:40> <ERROR>		UpdateAndSendRecentTradableItem: |cff1eff00|Hitem:199004::::::::70:269:::4:7968:6652:7937:1694:1:28:2157:::::|h[Кушак длиннорога с символом огненной вспышки]|h|r not found in bags", -- [757]
-			"<22:51:20> <DEBUG>		Event:	ENCOUNTER_END	2610	Магмобивень	23	5	1", -- [758]
-			"<22:51:20> <DEBUG>		Event:	LOOT_READY	true", -- [759]
-			"<22:51:20> <DEBUG>		Ignoring	nil	as it's a currency", -- [760]
-			"<22:51:20> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:192627::::::::70:269:::::::::|h[Кусок обсидиана]|h|r	0	1	Vehicle-0-1631-2519-25210-181861-0000161532	1", -- [761]
-			"<22:51:21> <DEBUG>		Event:	LOOT_READY	true", -- [762]
-			"<22:51:21> <DEBUG>		Ignoring	nil	as it's a currency", -- [763]
-			"<22:51:21> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:192627::::::::70:269:::::::::|h[Кусок обсидиана]|h|r	0	1	Vehicle-0-1631-2519-25210-181861-0000161532	1", -- [764]
-			"<22:51:21> <DEBUG>		OnLootSlotCleared()	2	|cff9d9d9d|Hitem:192627::::::::70:269:::::::::|h[Кусок обсидиана]|h|r	0", -- [765]
-			"<22:51:21> <DEBUG>		Event:	LOOT_CLOSED", -- [766]
-			"<22:51:21> <DEBUG>		Event:	LOOT_CLOSED", -- [767]
-			"<22:51:22> <Comm>		^1^Sl^T^N1^S181861^t^^	PARTY	хугомонк-Ревущийфьорд", -- [768]
-			"<22:51:22> <Comm>		^1^Sl^T^N1^S181861^t^^	PARTY	хугомонк-Ревущийфьорд", -- [769]
-			"<22:51:23> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2610	193789	|cffa335ee|Hitem:193789::::::::70:269::23:5:7977:6652:8816:1594:8767:1:28:2157:::::|h[Пылающие латные набедренники Фурала]|h|r	1	Смэрц	WARRIOR", -- [770]
-			"<22:52:24> <DEBUG>		Event:	LOOT_READY	true", -- [771]
-			"<22:52:24> <DEBUG>		Ignoring	nil	as it's a currency", -- [772]
-			"<22:52:25> <DEBUG>		Event:	LOOT_READY	true", -- [773]
-			"<22:52:25> <DEBUG>		Ignoring	nil	as it's a currency", -- [774]
-			"<22:52:25> <DEBUG>		Event:	LOOT_CLOSED", -- [775]
-			"<22:53:21> <DEBUG>		Event:	ENCOUNTER_START	2611	Полководец Сарга	23	5", -- [776]
-			"<22:53:21> <INFO>		UpdatePlayersData()", -- [777]
-			"<22:54:17> <DEBUG>		Event:	ENCOUNTER_END	2611	Полководец Сарга	23	5	1", -- [778]
-			"<22:54:18> <DEBUG>		Event:	LOOT_READY	true", -- [779]
-			"<22:54:18> <DEBUG>		Ignoring	nil	as it's a currency", -- [780]
-			"<22:54:18> <DEBUG>		Event:	LOOT_READY	true", -- [781]
-			"<22:54:18> <DEBUG>		Ignoring	nil	as it's a currency", -- [782]
-			"<22:54:19> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2611	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	1	Фальколайт-Гордунни	DRUID", -- [783]
-			"<22:54:19> <DEBUG>		Event:	LOOT_CLOSED", -- [784]
-			"<22:54:19> <DEBUG>		Event:	LOOT_CLOSED", -- [785]
-			"<22:54:19> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2611	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	1	Хугомонк	MONK", -- [786]
-			"<22:54:19> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2611	193776	|cffa335ee|Hitem:193776::::::::70:269::23:5:7977:6652:8816:1594:8767:1:28:2157:::::|h[Нагрудный доспех драконоида]|h|r	1	Фальколайт-Гордунни	DRUID", -- [787]
-			"<22:54:19> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2611	197397	|cff0070dd|Hitem:197397::::::::70:269::23::1:28:2157:::::|h[Обновленный протодракон: тяжелая чешуя]|h|r	1	Фальколайт-Гордунни	DRUID", -- [788]
-			"<22:54:20> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2611	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	1	Eeviee-Drak'thul	HUNTER", -- [789]
-			"<22:54:20> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2611	193773	|cffa335ee|Hitem:193773::::::::70:269::23:4:7977:6652:1594:8767:1:28:2157:::::|h[Добыча Нелтария]|h|r	1	Нерассвело	DRUID", -- [790]
-			"<22:54:20> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2611	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	2	Нерассвело	DRUID", -- [791]
-			"<22:54:29> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2611	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	1	Смэрц	WARRIOR", -- [792]
-			"<22:54:31> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2611	197397	|cff0070dd|Hitem:197397::::::::70:269::23::1:28:2157:::::|h[Обновленный протодракон: тяжелая чешуя]|h|r	1	Смэрц	WARRIOR", -- [793]
-			"<22:54:47> <DEBUG>		Event:	GROUP_LEFT	1	Party-1615-1-0000361F6B00", -- [794]
-			"<22:54:47> <DEBUG>		GetML()", -- [795]
-			"<22:54:56> <DEBUG>		Event:	LOOT_READY	true", -- [796]
-			"<22:54:56> <DEBUG>		Ignoring	nil	as it's a currency", -- [797]
-			"<22:54:57> <DEBUG>		Event:	LOOT_READY	true", -- [798]
-			"<22:54:57> <DEBUG>		Ignoring	nil	as it's a currency", -- [799]
-			"<22:54:57> <DEBUG>		Event:	LOOT_CLOSED", -- [800]
-			"<22:54:57> <DEBUG>		Event:	LOOT_CLOSED", -- [801]
-			"<22:55:59> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [802]
-			"<22:55:59> <INFO>		UpdatePlayersData()", -- [803]
-			"<22:56:00> <DEBUG>		GetML()", -- [804]
-			"<22:56:36> <DEBUG>		Event:	PARTY_LEADER_CHANGED", -- [805]
-			"<22:56:38> <DEBUG>		GetML()", -- [806]
-			"<22:56:38> <Data.Player>		CreatePlayer	Player-1604-0F4B93D6", -- [807]
-			"<22:56:38> <DEBUG>		Resetting council as we have a new ML!", -- [808]
-			"<22:56:38> <INFO>		MasterLooter = 	бабичрион-СвежевательДуш", -- [809]
-			"<22:56:53> <DEBUG>		Timer MLdb_check passed", -- [810]
-			"<22:56:53> <Comm>		^1^Sxrealm^T^N1^Sбабичрион-СвежевательДуш^N2^SMLdb_request^t^^	PARTY	хугомонк-Ревущийфьорд", -- [811]
-			"<22:56:53> <Comm>		^1^Sxrealm^T^N1^Sбабичрион-СвежевательДуш^N2^Scouncil_request^t^^	PARTY	хугомонк-Ревущийфьорд", -- [812]
-			"<22:58:25> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	бабусянатусе-Ревущийфьорд", -- [813]
-			"<22:58:25> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [814]
-			"<22:59:03> <DEBUG>		Event:	RAID_INSTANCE_WELCOME	Рубиновые Омуты Жизни (Эпохальный)	208856	0	0", -- [815]
-			"<22:59:03> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [816]
-			"<22:59:03> <INFO>		UpdatePlayersData()", -- [817]
-			"<22:59:05> <DEBUG>		GetML()", -- [818]
-			"<23:01:12> <DEBUG>		Event:	LOOT_READY	true", -- [819]
-			"<23:01:12> <DEBUG>		Ignoring	nil	as it's a currency", -- [820]
-			"<23:01:13> <DEBUG>		Event:	LOOT_READY	true", -- [821]
-			"<23:01:13> <DEBUG>		Ignoring	nil	as it's a currency", -- [822]
-			"<23:01:13> <DEBUG>		Event:	LOOT_CLOSED", -- [823]
-			"<23:01:14> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190315	|cff0070dd|Hitem:190315::::::::70:269:::::::::|h[Пробуждающаяся земля]|h|r	3	Бабичрион-СвежевательДуш	EVOKER", -- [824]
-			"<23:01:49> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190315	|cff0070dd|Hitem:190315::::::::70:269:::::::::|h[Пробуждающаяся земля]|h|r	3	Бабичрион-СвежевательДуш	EVOKER", -- [825]
-			"<23:02:48> <DEBUG>		Event:	LOOT_READY	true", -- [826]
-			"<23:02:48> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192625::::::::70:269:::::::::|h[Неподвижный камень]|h|r	0	1	Creature-0-3896-2521-23005-188011-0000161A60	1", -- [827]
-			"<23:02:48> <DEBUG>		Ignoring	nil	as it's a currency", -- [828]
-			"<23:02:48> <DEBUG>		Event:	LOOT_READY	true", -- [829]
-			"<23:02:48> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192625::::::::70:269:::::::::|h[Неподвижный камень]|h|r	0	1	Creature-0-3896-2521-23005-188011-0000161A60	1", -- [830]
-			"<23:02:48> <DEBUG>		Ignoring	nil	as it's a currency", -- [831]
-			"<23:02:49> <DEBUG>		OnLootSlotCleared()	1	|cff9d9d9d|Hitem:192625::::::::70:269:::::::::|h[Неподвижный камень]|h|r	0", -- [832]
-			"<23:02:49> <DEBUG>		Event:	LOOT_CLOSED", -- [833]
-			"<23:02:49> <Comm>		^1^Sl^T^N1^S188011^t^^	PARTY	хугомонк-Ревущийфьорд", -- [834]
-			"<23:03:40> <DEBUG>		Event:	ENCOUNTER_START	2609	Мелидрусса Истощенная Холодом	23	5", -- [835]
-			"<23:03:40> <INFO>		UpdatePlayersData()", -- [836]
-			"<23:04:45> <DEBUG>		Event:	ENCOUNTER_END	2609	Мелидрусса Истощенная Холодом	23	5	1", -- [837]
-			"<23:04:45> <DEBUG>		Event:	LOOT_READY	true", -- [838]
-			"<23:04:45> <DEBUG>		Ignoring	nil	as it's a currency", -- [839]
-			"<23:04:46> <DEBUG>		Event:	LOOT_READY	true", -- [840]
-			"<23:04:46> <DEBUG>		Ignoring	nil	as it's a currency", -- [841]
-			"<23:04:46> <DEBUG>		Event:	LOOT_CLOSED", -- [842]
-			"<23:04:46> <DEBUG>		Event:	LOOT_CLOSED", -- [843]
-			"<23:04:53> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2609	193757	|cffa335ee|Hitem:193757::::::::70:269::23:4:7977:6652:1594:8767:1:28:2157:::::|h[Пластина рубинового дракончика]|h|r	1	Волчита	MONK", -- [844]
-			"<23:08:01> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	гигаовца-Ревущийфьорд", -- [845]
-			"<23:08:01> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [846]
-			"<23:10:38> <DEBUG>		Event:	LOOT_READY	true", -- [847]
-			"<23:10:38> <DEBUG>		Ignoring	nil	as it's a currency", -- [848]
-			"<23:10:38> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:192635::::::::70:269:::::::::|h[Скрученный металл]|h|r	0	1	Creature-0-3896-2521-23005-190205-0004161BBB	1", -- [849]
-			"<23:10:38> <DEBUG>		Event:	LOOT_READY	true", -- [850]
-			"<23:10:38> <DEBUG>		Ignoring	nil	as it's a currency", -- [851]
-			"<23:10:38> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:192635::::::::70:269:::::::::|h[Скрученный металл]|h|r	0	1	Creature-0-3896-2521-23005-190205-0004161BBB	1", -- [852]
-			"<23:10:38> <DEBUG>		Event:	LOOT_CLOSED", -- [853]
-			"<23:10:38> <DEBUG>		OnLootSlotCleared()	2	|cff9d9d9d|Hitem:192635::::::::70:269:::::::::|h[Скрученный металл]|h|r	0", -- [854]
-			"<23:10:38> <DEBUG>		Event:	LOOT_CLOSED", -- [855]
-			"<23:10:39> <Comm>		^1^Sl^T^N1^S190205^t^^	PARTY	хугомонк-Ревущийфьорд", -- [856]
-			"<23:10:46> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	дельфуего-Ревущийфьорд", -- [857]
-			"<23:10:46> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [858]
-			"<23:11:03> <DEBUG>		Event:	ENCOUNTER_START	2606	Кокия Пламенное Копыто	23	5", -- [859]
-			"<23:11:03> <INFO>		UpdatePlayersData()", -- [860]
-			"<23:12:08> <DEBUG>		Event:	ENCOUNTER_END	2606	Кокия Пламенное Копыто	23	5	1", -- [861]
-			"<23:12:09> <DEBUG>		Event:	LOOT_READY	true", -- [862]
-			"<23:12:09> <DEBUG>		Ignoring	nil	as it's a currency", -- [863]
-			"<23:12:09> <DEBUG>		Event:	LOOT_READY	true", -- [864]
-			"<23:12:09> <DEBUG>		Ignoring	nil	as it's a currency", -- [865]
-			"<23:12:09> <DEBUG>		Event:	LOOT_CLOSED", -- [866]
-			"<23:12:09> <DEBUG>		Event:	LOOT_CLOSED", -- [867]
-			"<23:12:10> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2606	193763	|cffa335ee|Hitem:193763::::::::70:269::23:5:7977:6652:8815:1594:8767:1:28:2157:::::|h[Огнеупорная пелерина]|h|r	1	Лилдрилл-СвежевательДуш	DEMONHUNTER", -- [868]
-			"<23:13:40> <DEBUG>		Event:	LOOT_READY	true", -- [869]
-			"<23:13:40> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192626::::::::70:269:::::::::|h[Куча пыли]|h|r	0	2	Creature-0-3896-2521-23005-197985-0000161D76	1	Creature-0-3896-2521-23005-197982-0001961D76	1", -- [870]
-			"<23:13:40> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:192644::::::::70:269:::::::::|h[Воздушная частица]|h|r	0	1	Creature-0-3896-2521-23005-197982-0000961D76	1", -- [871]
-			"<23:13:40> <DEBUG>		Adding to self.lootSlotInfo	3	|cff1eff00|Hitem:198986::::::::70:269:::3:7968:6652:1697:1:28:2157:::::|h[Сандалии наблюдателя за драконами с символом лихорадочного света]|h|r	2	1	Creature-0-3896-2521-23005-197982-0000961D76	1", -- [872]
-			"<23:13:40> <DEBUG>		Event:	LOOT_READY	true", -- [873]
-			"<23:13:40> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192626::::::::70:269:::::::::|h[Куча пыли]|h|r	0	2	Creature-0-3896-2521-23005-197985-0000161D76	1	Creature-0-3896-2521-23005-197982-0001961D76	1", -- [874]
-			"<23:13:40> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:192644::::::::70:269:::::::::|h[Воздушная частица]|h|r	0	1	Creature-0-3896-2521-23005-197982-0000961D76	1", -- [875]
-			"<23:13:40> <DEBUG>		Adding to self.lootSlotInfo	3	|cff1eff00|Hitem:198986::::::::70:269:::3:7968:6652:1697:1:28:2157:::::|h[Сандалии наблюдателя за драконами с символом лихорадочного света]|h|r	2	1	Creature-0-3896-2521-23005-197982-0000961D76	1", -- [876]
-			"<23:13:41> <DEBUG>		OnLootSlotCleared()	1	|cff9d9d9d|Hitem:192626::::::::70:269:::::::::|h[Куча пыли]|h|r	0", -- [877]
-			"<23:13:41> <DEBUG>		Event:	LOOT_CLOSED", -- [878]
-			"<23:13:41> <DEBUG>		OnLootSlotCleared()	2	|cff9d9d9d|Hitem:192644::::::::70:269:::::::::|h[Воздушная частица]|h|r	0", -- [879]
-			"<23:13:41> <DEBUG>		Event:	LOOT_CLOSED", -- [880]
-			"<23:13:41> <DEBUG>		OnLootSlotCleared()	3	|cff1eff00|Hitem:198986::::::::70:269:::3:7968:6652:1697:1:28:2157:::::|h[Сандалии наблюдателя за драконами с символом лихорадочного света]|h|r	2", -- [881]
-			"<23:13:41> <DEBUG>		Event:	LOOT_CLOSED", -- [882]
-			"<23:13:41> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190326	|cff0070dd|Hitem:190326::::::::70:269:::::::::|h[Пробуждающийся воздух]|h|r	3	Волчита	MONK", -- [883]
-			"<23:13:41> <Comm>		^1^Sl^T^N1^S197982^t^^	PARTY	хугомонк-Ревущийфьорд", -- [884]
-			"<23:13:43> <DEBUG>		Storage:New	|cff1eff00|Hitem:198986::::::::70:269:::3:7968:6652:1697:1:28:2157:::::|h[Сандалии наблюдателя за драконами с символом лихорадочного света]|h|r	temp", -- [885]
-			"<23:13:43> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:198986::::::::70:269:::3:7968:6652:1697:1:28:2157:::::||h[Сандалии наблюдателя за драконами с символом лихорадочного света]||h||r	5", -- [886]
-			"<23:13:43> <DEBUG>		Found:	nil	nil	nil", -- [887]
-			"<23:13:44> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:198986::::::::70:269:::3:7968:6652:1697:1:28:2157:::::||h[Сандалии наблюдателя за драконами с символом лихорадочного света]||h||r	5", -- [888]
-			"<23:13:44> <DEBUG>		Found:	nil	nil	nil", -- [889]
-			"<23:13:45> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:198986::::::::70:269:::3:7968:6652:1697:1:28:2157:::::||h[Сандалии наблюдателя за драконами с символом лихорадочного света]||h||r	5", -- [890]
-			"<23:13:45> <DEBUG>		Found:	nil	nil	nil", -- [891]
-			"<23:13:46> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:198986::::::::70:269:::3:7968:6652:1697:1:28:2157:::::||h[Сандалии наблюдателя за драконами с символом лихорадочного света]||h||r	5", -- [892]
-			"<23:13:46> <DEBUG>		Found:	nil	nil	nil", -- [893]
-			"<23:13:46> <ERROR>		UpdateAndSendRecentTradableItem: |cff1eff00|Hitem:198986::::::::70:269:::3:7968:6652:1697:1:28:2157:::::|h[Сандалии наблюдателя за драконами с символом лихорадочного света]|h|r not found in bags", -- [894]
-			"<23:14:12> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190326	|cff0070dd|Hitem:190326::::::::70:269:::::::::|h[Пробуждающийся воздух]|h|r	3	Лилдрилл-СвежевательДуш	DEMONHUNTER", -- [895]
-			"<23:15:20> <DEBUG>		Event:	ENCOUNTER_START	2623	Киракка и Эркхарт Кровь Бури	23	5", -- [896]
-			"<23:15:20> <INFO>		UpdatePlayersData()", -- [897]
-			"<23:16:11> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	аэрель-Ревущийфьорд", -- [898]
-			"<23:16:11> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [899]
-			"<23:16:30> <DEBUG>		Event:	ENCOUNTER_END	2623	Киракка и Эркхарт Кровь Бури	23	5	1", -- [900]
-			"<23:16:31> <DEBUG>		Event:	LOOT_CLOSED", -- [901]
-			"<23:16:31> <Comm>		^1^Sl^T^N1^S197982^t^^	PARTY	хугомонк-Ревущийфьорд", -- [902]
-			"<23:16:33> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2623	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	2	Бабичрион-СвежевательДуш	EVOKER", -- [903]
-			"<23:16:38> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2623	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	2	Zeroee-Outland	DEATHKNIGHT", -- [904]
-			"<23:16:38> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2623	193753	|cffa335ee|Hitem:193753::::::::70:269::23:5:7977:6652:8816:1594:8767:1:28:2157:::::|h[Кираса взлетающего ужаса]|h|r	1	Zeroee-Outland	DEATHKNIGHT", -- [905]
-			"<23:16:41> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2623	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	1	Лилдрилл-СвежевательДуш	DEMONHUNTER", -- [906]
-			"<23:16:49> <DEBUG>		Event:	LOOT_READY	true", -- [907]
-			"<23:16:49> <DEBUG>		Ignoring	nil	as it's a currency", -- [908]
-			"<23:16:49> <DEBUG>		Adding to self.lootSlotInfo	3	|cffa335ee|Hitem:193751::::::::70:269::23:6:7977:6652:7937:8816:1594:8767:1:28:2157:::::|h[Корона ревущих бурь]|h|r	4	1	Creature-0-3896-2521-23005-190485-0000161D76	1", -- [909]
-			"<23:16:49> <DEBUG>		Event:	LOOT_READY	true", -- [910]
-			"<23:16:49> <DEBUG>		Ignoring	nil	as it's a currency", -- [911]
-			"<23:16:49> <DEBUG>		Adding to self.lootSlotInfo	3	|cffa335ee|Hitem:193751::::::::70:269::23:6:7977:6652:7937:8816:1594:8767:1:28:2157:::::|h[Корона ревущих бурь]|h|r	4	1	Creature-0-3896-2521-23005-190485-0000161D76	1", -- [912]
-			"<23:16:50> <DEBUG>		Event:	LOOT_CLOSED", -- [913]
-			"<23:16:50> <DEBUG>		OnLootSlotCleared()	3	|cffa335ee|Hitem:193751::::::::70:269::23:6:7977:6652:7937:8816:1594:8767:1:28:2157:::::|h[Корона ревущих бурь]|h|r	4", -- [914]
-			"<23:16:50> <DEBUG>		Event:	LOOT_CLOSED", -- [915]
-			"<23:16:50> <Comm>		^1^Sl^T^N1^S190485^t^^	PARTY	хугомонк-Ревущийфьорд", -- [916]
-			"<23:16:50> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2623	193751	|cffa335ee|Hitem:193751::::::::70:269::23:6:7977:6652:7937:8816:1594:8767:1:28:2157:::::|h[Корона ревущих бурь]|h|r	1	Хугомонк	MONK", -- [917]
-			"<23:16:50> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2623	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	2	Хугомонк	MONK", -- [918]
-			"<23:16:52> <DEBUG>		Storage:New	|cffa335ee|Hitem:193751::::::::70:269::23:6:7977:6652:7937:8816:1594:8767:1:28:2157:::::|h[Корона ревущих бурь]|h|r	temp", -- [919]
-			"<23:16:52> <DEBUG>		Storage: searching for item:	||cffa335ee||Hitem:193751::::::::70:269::23:6:7977:6652:7937:8816:1594:8767:1:28:2157:::::||h[Корона ревущих бурь]||h||r	5", -- [920]
-			"<23:16:52> <DEBUG>		Found item at	1	5", -- [921]
-			"<23:16:53> <DEBUG>		Storage: searching for item:	||cffa335ee||Hitem:193751::::::::70:269::23:6:7977:6652:7937:8816:1594:8767:1:28:2157:::::||h[Корона ревущих бурь]||h||r	5", -- [922]
-			"<23:16:53> <DEBUG>		Found item at	1	5", -- [923]
-			"<23:16:53> <Comm>		^1^Stradable^T^N1^S|cffa335ee|Hitem:193751::::::::70:269::23:6:7977:6652:7937:8816:1594:8767:1:28:2157:::::|h[Корона~`ревущих~`бурь]|h|r^N2^S190485^t^^	PARTY	хугомонк-Ревущийфьорд", -- [924]
-			"<23:17:10> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2623	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	1	Волчита	MONK", -- [925]
-			"<23:18:02> <DEBUG>		TradeUI: Traded item(s) to	волчита-Ревущийфьорд", -- [926]
-			"<23:18:02> <DEBUG>		TradeUI:Hide()", -- [927]
-			"<23:18:23> <DEBUG>		Event:	GROUP_LEFT	1	Party-1604-1-0000452A7712", -- [928]
-			"<23:18:23> <DEBUG>		GetML()", -- [929]
-			"<23:18:41> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [930]
-			"<23:18:41> <INFO>		UpdatePlayersData()", -- [931]
-			"<23:18:42> <DEBUG>		GetML()", -- [932]
-			"12/12/22", -- [933]
-			"<13:47:17> <INFO>		Logged In", -- [934]
-			"<13:47:17> [ML]<INFO>		Init", -- [935]
-			"<13:47:17> <INFO>		RCLootCouncil	TradeUI enabled", -- [936]
-			"<13:47:27> <Data.Player>		UpdateCachedPlayer - couldn't get PlayerInfoByGUID	хугомонк-Ревущийфьорд	Player-1615-0B07C4E5", -- [937]
-			"<13:47:27> <INFO>		хугомонк-Ревущийфьорд	3.6.0	nil", -- [938]
-			"<13:47:27> <DEBUG>		ActivateSkin	bfa", -- [939]
-			"<13:47:28> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [940]
-			"<13:47:28> <INFO>		UpdatePlayersData()", -- [941]
-			"<13:47:28> <INFO>		Player relog...", -- [942]
-			"<13:47:29> <DEBUG>		GetPlayersGuildRank()", -- [943]
-			"<13:47:29> <DEBUG>		Found Guild Rank: Новичок", -- [944]
-			"<13:47:31> <DEBUG>		GetML()", -- [945]
-			"<13:47:31> <DEBUG>		Storage: searching for item:	||cff0070dd||Hitem:191578::::::::70:269::23::1:28:2157:::::||h[Рецепт: трансмутация - пробужденный огонь]||h||r	5", -- [946]
-			"<13:47:31> <DEBUG>		Found item at	1	7", -- [947]
-			"<13:47:31> <DEBUG>		Storage: searching for item:	||cff0070dd||Hitem:191578::::::::70:269::23::1:28:2157:::::||h[Рецепт: трансмутация - пробужденный огонь]||h||r	5", -- [948]
-			"<13:47:31> <DEBUG>		Found item at	1	7", -- [949]
-			"<13:47:31> <WARNING>		ItemStorage, db item no link or timeout	|cffa335ee|Hitem:193781::::::::70:269::23:5:7977:6652:8816:1594:8767:1:28:2157:::::|h[Бриджи воина лавы]|h|r	7140	1670780799", -- [950]
-			"<13:47:31> <WARNING>		ItemStorage, db item no link or timeout	|cffa335ee|Hitem:193751::::::::70:269::23:6:7977:6652:7937:8816:1594:8767:1:28:2157:::::|h[Корона ревущих бурь]|h|r	7140	1670782612", -- [951]
-			"<13:47:32> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	хугомонк-Ревущийфьорд", -- [952]
-			"12/12/22", -- [953]
-			"<16:57:54> <INFO>		Logged In", -- [954]
-			"<16:57:54> [ML]<INFO>		Init", -- [955]
-			"<16:57:54> <INFO>		RCLootCouncil	TradeUI enabled", -- [956]
-			"<16:58:03> <Data.Player>		UpdateCachedPlayer - couldn't get PlayerInfoByGUID	хугомонк-Ревущийфьорд	Player-1615-0B07C4E5", -- [957]
-			"<16:58:03> <INFO>		хугомонк-Ревущийфьорд	3.6.0	nil", -- [958]
-			"<16:58:03> <DEBUG>		ActivateSkin	bfa", -- [959]
-			"<16:58:05> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [960]
-			"<16:58:05> <INFO>		UpdatePlayersData()", -- [961]
-			"<16:58:05> <INFO>		Player relog...", -- [962]
-			"<16:58:06> <DEBUG>		GetPlayersGuildRank()", -- [963]
-			"<16:58:06> <DEBUG>		GetPlayersGuildRank()", -- [964]
-			"<16:58:06> <DEBUG>		Found Guild Rank: Новичок", -- [965]
-			"<16:58:08> <DEBUG>		GetML()", -- [966]
-			"<16:58:08> <DEBUG>		Storage: searching for item:	||cff0070dd||Hitem:191578::::::::70:269::23::1:28:2157:::::||h[Рецепт: трансмутация - пробужденный огонь]||h||r	5", -- [967]
-			"<16:58:08> <DEBUG>		Found item at	1	7", -- [968]
-			"<16:58:08> <DEBUG>		Storage: searching for item:	||cff0070dd||Hitem:191578::::::::70:269::23::1:28:2157:::::||h[Рецепт: трансмутация - пробужденный огонь]||h||r	5", -- [969]
-			"<16:58:08> <DEBUG>		Found item at	1	7", -- [970]
-			"<16:58:09> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	хугомонк-Ревущийфьорд", -- [971]
-			"<17:04:37> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	гернина-Ревущийфьорд", -- [972]
-			"<17:07:50> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	мурратик-Ревущийфьорд", -- [973]
-			"12/12/22", -- [974]
-			"<18:24:33> <INFO>		Logged In", -- [975]
-			"<18:24:33> [ML]<INFO>		Init", -- [976]
-			"<18:24:33> <INFO>		RCLootCouncil	TradeUI enabled", -- [977]
-			"<18:24:42> <Data.Player>		UpdateCachedPlayer - couldn't get PlayerInfoByGUID	хугомонк-Ревущийфьорд	Player-1615-0B07C4E5", -- [978]
-			"<18:24:42> <INFO>		хугомонк-Ревущийфьорд	3.6.0	nil", -- [979]
-			"<18:24:42> <DEBUG>		ActivateSkin	bfa", -- [980]
-			"<18:24:44> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [981]
-			"<18:24:44> <INFO>		UpdatePlayersData()", -- [982]
-			"<18:24:44> <INFO>		Player relog...", -- [983]
-			"<18:24:45> <DEBUG>		GetPlayersGuildRank()", -- [984]
-			"<18:24:45> <DEBUG>		Found Guild Rank: Новичок", -- [985]
-			"<18:24:47> <DEBUG>		GetML()", -- [986]
-			"<18:24:47> <DEBUG>		Storage: searching for item:	||cff0070dd||Hitem:191578::::::::70:269::23::1:28:2157:::::||h[Рецепт: трансмутация - пробужденный огонь]||h||r	5", -- [987]
-			"<18:24:47> <DEBUG>		Found item at	1	7", -- [988]
-			"<18:24:47> <DEBUG>		Storage: searching for item:	||cff0070dd||Hitem:191578::::::::70:269::23::1:28:2157:::::||h[Рецепт: трансмутация - пробужденный огонь]||h||r	5", -- [989]
-			"<18:24:47> <DEBUG>		Found item at	1	7", -- [990]
-			"<18:24:47> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	хугомонк-Ревущийфьорд", -- [991]
-			"12/12/22", -- [992]
-			"<22:27:14> <INFO>		Logged In", -- [993]
-			"<22:27:14> [ML]<INFO>		Init", -- [994]
-			"<22:27:14> <INFO>		RCLootCouncil	TradeUI enabled", -- [995]
-			"<22:27:20> <Data.Player>		UpdateCachedPlayer - couldn't get PlayerInfoByGUID	хугомонк-Ревущийфьорд	Player-1615-0B07C4E5", -- [996]
-			"<22:27:20> <INFO>		хугомонк-Ревущийфьорд	3.6.0	nil", -- [997]
-			"<22:27:20> <DEBUG>		ActivateSkin	bfa", -- [998]
-			"<22:27:23> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [999]
-			"<22:27:23> <INFO>		UpdatePlayersData()", -- [1000]
-			"<22:27:23> <INFO>		Player relog...", -- [1001]
-			"<22:27:24> <DEBUG>		GetPlayersGuildRank()", -- [1002]
-			"<22:27:24> <DEBUG>		Found Guild Rank: Новичок", -- [1003]
-			"<22:27:26> <DEBUG>		GetML()", -- [1004]
-			"<22:27:26> <DEBUG>		Storage: searching for item:	||cff0070dd||Hitem:191578::::::::70:269::23::1:28:2157:::::||h[Рецепт: трансмутация - пробужденный огонь]||h||r	5", -- [1005]
-			"<22:27:26> <DEBUG>		Found item at	1	7", -- [1006]
-			"<22:27:26> <DEBUG>		Storage: searching for item:	||cff0070dd||Hitem:191578::::::::70:269::23::1:28:2157:::::||h[Рецепт: трансмутация - пробужденный огонь]||h||r	5", -- [1007]
-			"<22:27:26> <DEBUG>		Found item at	1	7", -- [1008]
-			"<22:27:27> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	хугомонк-Ревущийфьорд", -- [1009]
-			"<22:27:27> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [1010]
-			"<22:28:41> <DEBUG>		Event:	LOOT_READY	true", -- [1011]
-			"<22:28:41> <DEBUG>		Event:	LOOT_READY	true", -- [1012]
-			"<22:29:18> <DEBUG>		Event:	LOOT_READY	true", -- [1013]
-			"<22:29:19> <DEBUG>		Event:	LOOT_READY	true", -- [1014]
-			"<22:29:19> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	200133	|cff0070dd|Hitem:200133::::::::70:269::25:4:6652:1472:5864:8766:1:28:2523:::::|h[Вулканический шакрам]|h|r	1	Хугомонк	MONK", -- [1015]
-			"<22:29:19> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	2	Хугомонк	MONK", -- [1016]
-			"<22:29:53> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	мурратик-Ревущийфьорд", -- [1017]
-			"<22:29:53> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [1018]
-			"<22:30:08> <DEBUG>		Event:	LOOT_READY	true", -- [1019]
-			"<22:30:08> <DEBUG>		Event:	LOOT_READY	true", -- [1020]
-			"<22:30:35> <DEBUG>		Event:	LOOT_READY	true", -- [1021]
-			"<22:30:35> <DEBUG>		Event:	LOOT_READY	true", -- [1022]
-			"<22:30:53> <DEBUG>		Event:	LOOT_READY	true", -- [1023]
-			"<22:30:53> <DEBUG>		Event:	LOOT_READY	true", -- [1024]
-			"<22:30:54> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	1	Хугомонк	MONK", -- [1025]
-			"<22:30:54> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	193900	|cff0070dd|Hitem:193900::::::::70:269:::::::::|h[Призматическая линза]|h|r	1	Хугомонк	MONK", -- [1026]
-			"<22:32:14> <DEBUG>		Event:	LOOT_READY	true", -- [1027]
-			"<22:32:15> <DEBUG>		Event:	LOOT_READY	true", -- [1028]
-			"<22:33:27> <DEBUG>		Event:	PARTY_LEADER_CHANGED", -- [1029]
-			"<22:33:29> <DEBUG>		GetML()", -- [1030]
-			"<22:33:29> <Data.Player>		CreatePlayer	Player-1604-0AC9C9BC", -- [1031]
-			"<22:33:29> <DEBUG>		Resetting council as we have a new ML!", -- [1032]
-			"<22:33:29> <INFO>		MasterLooter = 	танимура-СвежевательДуш", -- [1033]
-			"<22:33:44> <DEBUG>		Timer MLdb_check passed", -- [1034]
-			"<22:33:44> <Comm>		^1^Sxrealm^T^N1^Sтанимура-СвежевательДуш^N2^SMLdb_request^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1035]
-			"<22:33:44> <Comm>		^1^Sxrealm^T^N1^Sтанимура-СвежевательДуш^N2^Scouncil_request^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1036]
-			"<22:34:05> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	дельфуего-Ревущийфьорд", -- [1037]
-			"<22:34:57> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	бишарк-Ревущийфьорд", -- [1038]
-			"<22:36:31> <DEBUG>		Event:	LOOT_READY	true", -- [1039]
-			"<22:36:31> <DEBUG>		Event:	LOOT_READY	true", -- [1040]
-			"<22:36:31> <DEBUG>		Event:	LOOT_READY	true", -- [1041]
-			"<22:37:31> <DEBUG>		Event:	RAID_INSTANCE_WELCOME	Чертоги Насыщения (Эпохальный)	123748	0	0", -- [1042]
-			"<22:37:32> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1043]
-			"<22:37:32> <INFO>		UpdatePlayersData()", -- [1044]
-			"<22:37:33> <DEBUG>		GetML()", -- [1045]
-			"<22:37:48> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1046]
-			"<22:37:48> <INFO>		UpdatePlayersData()", -- [1047]
-			"<22:37:50> <DEBUG>		GetML()", -- [1048]
-			"<22:37:56> <DEBUG>		Event:	RAID_INSTANCE_WELCOME	Чертоги Насыщения (Эпохальный)	123723	0	0", -- [1049]
-			"<22:37:56> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1050]
-			"<22:37:56> <INFO>		UpdatePlayersData()", -- [1051]
-			"<22:37:58> <DEBUG>		GetML()", -- [1052]
-			"<22:38:46> <DEBUG>		Event:	LOOT_READY	true", -- [1053]
-			"<22:38:46> <DEBUG>		Ignoring	nil	as it's a currency", -- [1054]
-			"<22:38:46> <DEBUG>		Event:	LOOT_READY	true", -- [1055]
-			"<22:38:46> <DEBUG>		Ignoring	nil	as it's a currency", -- [1056]
-			"<22:38:47> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	200942	|cff0070dd|Hitem:200942::::::::70:269:::::::::|h[Яркая эмульсия]|h|r	1	Хугомонк	MONK", -- [1057]
-			"<22:38:47> <DEBUG>		Event:	LOOT_CLOSED", -- [1058]
-			"<22:38:47> <DEBUG>		Event:	LOOT_CLOSED", -- [1059]
-			"<22:40:28> <DEBUG>		Event:	LOOT_READY	true", -- [1060]
-			"<22:40:28> <DEBUG>		Ignoring	nil	as it's a currency", -- [1061]
-			"<22:40:28> <DEBUG>		Event:	LOOT_READY	true", -- [1062]
-			"<22:40:28> <DEBUG>		Ignoring	nil	as it's a currency", -- [1063]
-			"<22:40:28> <DEBUG>		Event:	LOOT_CLOSED", -- [1064]
-			"<22:40:28> <DEBUG>		Event:	LOOT_CLOSED", -- [1065]
-			"<22:41:00> <DEBUG>		Event:	LOOT_READY	true", -- [1066]
-			"<22:41:00> <DEBUG>		Ignoring	nil	as it's a currency", -- [1067]
-			"<22:41:01> <DEBUG>		Event:	LOOT_READY	true", -- [1068]
-			"<22:41:01> <DEBUG>		Ignoring	nil	as it's a currency", -- [1069]
-			"<22:41:01> <DEBUG>		Event:	LOOT_CLOSED", -- [1070]
-			"<22:41:01> <DEBUG>		Event:	LOOT_CLOSED", -- [1071]
-			"<22:41:39> <DEBUG>		Event:	ENCOUNTER_START	2615	Страж Иридий	23	5", -- [1072]
-			"<22:41:39> <INFO>		UpdatePlayersData()", -- [1073]
-			"<22:43:25> <DEBUG>		Event:	ENCOUNTER_END	2615	Страж Иридий	23	5	1", -- [1074]
-			"<22:43:27> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2615	193745	|cffa335ee|Hitem:193745::::::::70:269::23:4:7977:6652:1594:8767:1:28:2157:::::|h[Жезл идеального порядка]|h|r	1	Дукхалис-СвежевательДуш	DRUID", -- [1075]
-			"<22:43:27> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2615	193743	|cffa335ee|Hitem:193743::::::::70:269::23:4:7977:6652:1594:8767:1:28:2157:::::|h[Фрагмент Иридия]|h|r	1	Танимура-СвежевательДуш	DEMONHUNTER", -- [1076]
-			"<22:43:30> <DEBUG>		Event:	LOOT_READY	true", -- [1077]
-			"<22:43:30> <DEBUG>		Ignoring	nil	as it's a currency", -- [1078]
-			"<22:43:30> <DEBUG>		Event:	LOOT_READY	true", -- [1079]
-			"<22:43:30> <DEBUG>		Ignoring	nil	as it's a currency", -- [1080]
-			"<22:43:31> <DEBUG>		Event:	LOOT_CLOSED", -- [1081]
-			"<22:43:31> <DEBUG>		Event:	LOOT_CLOSED", -- [1082]
-			"<22:46:09> <DEBUG>		Event:	LOOT_READY	true", -- [1083]
-			"<22:46:09> <DEBUG>		Adding to self.lootSlotInfo	1	|cffffffff|Hitem:192615::::::::70:269:::::::::|h[Светящаяся жидкость]|h|r	1	1	Creature-0-4243-2527-3334-190362-00001766A6	1", -- [1084]
-			"<22:46:09> <DEBUG>		Ignoring	nil	as it's a currency", -- [1085]
-			"<22:46:09> <DEBUG>		Event:	LOOT_READY	true", -- [1086]
-			"<22:46:09> <DEBUG>		Adding to self.lootSlotInfo	1	|cffffffff|Hitem:192615::::::::70:269:::::::::|h[Светящаяся жидкость]|h|r	1	1	Creature-0-4243-2527-3334-190362-00001766A6	1", -- [1087]
-			"<22:46:09> <DEBUG>		Ignoring	nil	as it's a currency", -- [1088]
-			"<22:46:09> <DEBUG>		Event:	LOOT_CLOSED", -- [1089]
-			"<22:46:09> <DEBUG>		OnLootSlotCleared()	1	|cffffffff|Hitem:192615::::::::70:269:::::::::|h[Светящаяся жидкость]|h|r	1", -- [1090]
-			"<22:46:09> <DEBUG>		Event:	LOOT_CLOSED", -- [1091]
-			"<22:46:10> <Comm>		^1^Sl^T^N1^S190362^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1092]
-			"<22:47:51> <DEBUG>		Event:	LOOT_READY	true", -- [1093]
-			"<22:47:51> <DEBUG>		Event:	LOOT_READY	true", -- [1094]
-			"<22:47:52> <DEBUG>		Event:	LOOT_CLOSED", -- [1095]
-			"<22:47:52> <DEBUG>		Event:	LOOT_CLOSED", -- [1096]
-			"<22:47:58> <DEBUG>		Event:	ENCOUNTER_START	2616	Голиаф-проглот	23	5", -- [1097]
-			"<22:47:58> <INFO>		UpdatePlayersData()", -- [1098]
-			"<22:48:52> <DEBUG>		Event:	ENCOUNTER_END	2616	Голиаф-проглот	23	5	1", -- [1099]
-			"<22:48:54> <DEBUG>		Event:	LOOT_READY	true", -- [1100]
-			"<22:48:54> <DEBUG>		Ignoring	nil	as it's a currency", -- [1101]
-			"<22:48:54> <DEBUG>		Event:	LOOT_READY	true", -- [1102]
-			"<22:48:54> <DEBUG>		Ignoring	nil	as it's a currency", -- [1103]
-			"<22:48:54> <DEBUG>		Event:	LOOT_CLOSED", -- [1104]
-			"<22:48:54> <DEBUG>		Event:	LOOT_CLOSED", -- [1105]
-			"<22:48:55> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2616	193725	|cffa335ee|Hitem:193725::::::::70:269::23:5:7977:6652:8813:1594:8767:1:28:2157:::::|h[Наплеч древнего рогоплава]|h|r	1	Дукхалис-СвежевательДуш	DRUID", -- [1106]
-			"<22:49:48> <DEBUG>		Event:	LOOT_READY	true", -- [1107]
-			"<22:49:48> <DEBUG>		Ignoring	nil	as it's a currency", -- [1108]
-			"<22:49:48> <DEBUG>		Event:	LOOT_READY	true", -- [1109]
-			"<22:49:48> <DEBUG>		Ignoring	nil	as it's a currency", -- [1110]
-			"<22:49:48> <DEBUG>		Event:	LOOT_CLOSED", -- [1111]
-			"<22:49:48> <DEBUG>		Event:	LOOT_CLOSED", -- [1112]
-			"<22:50:52> <DEBUG>		Event:	LOOT_READY	true", -- [1113]
-			"<22:50:52> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192623::::::::70:269:::::::::|h[Огромный коготь протодракона]|h|r	0	1	Creature-0-4243-2527-3334-190401-00001766A5	1", -- [1114]
-			"<22:50:52> <DEBUG>		Adding to self.lootSlotInfo	2	|cff1eff00|Hitem:199019::::::::70:269:::3:7968:6652:1678:1:28:2157:::::|h[Обтекаемая накидка со знаком быстрого клинка]|h|r	2	1	Creature-0-4243-2527-3334-190403-00009766A5	1", -- [1115]
-			"<22:50:53> <DEBUG>		Event:	LOOT_READY	true", -- [1116]
-			"<22:50:53> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192623::::::::70:269:::::::::|h[Огромный коготь протодракона]|h|r	0	1	Creature-0-4243-2527-3334-190401-00001766A5	1", -- [1117]
-			"<22:50:53> <DEBUG>		Adding to self.lootSlotInfo	2	|cff1eff00|Hitem:199019::::::::70:269:::3:7968:6652:1678:1:28:2157:::::|h[Обтекаемая накидка со знаком быстрого клинка]|h|r	2	1	Creature-0-4243-2527-3334-190403-00009766A5	1", -- [1118]
-			"<22:50:53> <DEBUG>		OnLootSlotCleared()	1	|cff9d9d9d|Hitem:192623::::::::70:269:::::::::|h[Огромный коготь протодракона]|h|r	0", -- [1119]
-			"<22:50:53> <DEBUG>		OnLootSlotCleared()	2	|cff1eff00|Hitem:199019::::::::70:269:::3:7968:6652:1678:1:28:2157:::::|h[Обтекаемая накидка со знаком быстрого клинка]|h|r	2", -- [1120]
-			"<22:50:53> <DEBUG>		Event:	LOOT_CLOSED", -- [1121]
-			"<22:50:53> <DEBUG>		Event:	LOOT_CLOSED", -- [1122]
-			"<22:50:53> <Comm>		^1^Sl^T^N1^S190403^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1123]
-			"<22:50:53> <Comm>		^1^Sl^T^N1^S190403^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1124]
-			"<22:50:55> <DEBUG>		Storage:New	|cff1eff00|Hitem:199019::::::::70:269:::3:7968:6652:1678:1:28:2157:::::|h[Обтекаемая накидка со знаком быстрого клинка]|h|r	temp", -- [1125]
-			"<22:50:55> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199019::::::::70:269:::3:7968:6652:1678:1:28:2157:::::||h[Обтекаемая накидка со знаком быстрого клинка]||h||r	5", -- [1126]
-			"<22:50:55> <DEBUG>		Found:	nil	nil	nil", -- [1127]
-			"<22:50:56> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199019::::::::70:269:::3:7968:6652:1678:1:28:2157:::::||h[Обтекаемая накидка со знаком быстрого клинка]||h||r	5", -- [1128]
-			"<22:50:56> <DEBUG>		Found:	nil	nil	nil", -- [1129]
-			"<22:50:57> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199019::::::::70:269:::3:7968:6652:1678:1:28:2157:::::||h[Обтекаемая накидка со знаком быстрого клинка]||h||r	5", -- [1130]
-			"<22:50:57> <DEBUG>		Found:	nil	nil	nil", -- [1131]
-			"<22:50:58> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199019::::::::70:269:::3:7968:6652:1678:1:28:2157:::::||h[Обтекаемая накидка со знаком быстрого клинка]||h||r	5", -- [1132]
-			"<22:50:58> <DEBUG>		Found:	nil	nil	nil", -- [1133]
-			"<22:50:58> <ERROR>		UpdateAndSendRecentTradableItem: |cff1eff00|Hitem:199019::::::::70:269:::3:7968:6652:1678:1:28:2157:::::|h[Обтекаемая накидка со знаком быстрого клинка]|h|r not found in bags", -- [1134]
-			"<22:51:37> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190328	|cff0070dd|Hitem:190328::::::::70:269:::::::::|h[Пробуждающийся лед]|h|r	2	Танимура-СвежевательДуш	DEMONHUNTER", -- [1135]
-			"<22:51:38> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	193259	|cff0070dd|Hitem:193259::::::::70:269:::::::::|h[Совершенная чешуя протодракона]|h|r	1	Садилья-СвежевательДуш	DEMONHUNTER", -- [1136]
-			"<22:51:48> <DEBUG>		Event:	ENCOUNTER_START	2617	Каджин Непреклонная	23	5", -- [1137]
-			"<22:51:48> <INFO>		UpdatePlayersData()", -- [1138]
-			"<22:53:07> <DEBUG>		Event:	ENCOUNTER_END	2617	Каджин Непреклонная	23	5	1", -- [1139]
-			"<22:53:08> <DEBUG>		Event:	LOOT_READY	true", -- [1140]
-			"<22:53:08> <DEBUG>		Ignoring	nil	as it's a currency", -- [1141]
-			"<22:53:08> <DEBUG>		Event:	LOOT_READY	true", -- [1142]
-			"<22:53:08> <DEBUG>		Ignoring	nil	as it's a currency", -- [1143]
-			"<22:53:08> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2617	193732	|cffa335ee|Hitem:193732::::::::70:269::23:4:7977:6652:1594:8767:1:28:2157:::::|h[Шар зубчатого льда]|h|r	1	Садилья-СвежевательДуш	DEMONHUNTER", -- [1144]
-			"<22:53:09> <DEBUG>		Event:	LOOT_CLOSED", -- [1145]
-			"<22:53:09> <DEBUG>		Event:	LOOT_CLOSED", -- [1146]
-			"<22:59:03> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	мурратик-Ревущийфьорд", -- [1147]
-			"<22:59:13> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	193223	|cff0070dd|Hitem:193223::::::::70:269::::1:38:2:::::|h[Глянцевая чешуйчатая шкура |A:Professions-ChatIcon-Quality-Tier2:17:23::1|a]|h|r	1	Садилья-СвежевательДуш	DEMONHUNTER", -- [1148]
-			"<22:59:34> <DEBUG>		Event:	ENCOUNTER_START	2618	Изначальное цунами	23	5", -- [1149]
-			"<22:59:34> <INFO>		UpdatePlayersData()", -- [1150]
-			"<23:01:17> <DEBUG>		Event:	ENCOUNTER_END	2618	Изначальное цунами	23	5	1", -- [1151]
-			"<23:01:19> <DEBUG>		Event:	LOOT_READY	true", -- [1152]
-			"<23:01:19> <DEBUG>		Ignoring	nil	as it's a currency", -- [1153]
-			"<23:01:19> <DEBUG>		Adding to self.lootSlotInfo	3	|cffa335ee|Hitem:193739::::::::70:269::23:5:7977:6652:8814:1594:8767:1:28:2157:::::|h[Ботфорты восстановленного порядка]|h|r	4	1	Creature-0-4243-2527-3334-189729-00001766A5	1", -- [1154]
-			"<23:01:19> <DEBUG>		Event:	LOOT_READY	true", -- [1155]
-			"<23:01:19> <DEBUG>		Ignoring	nil	as it's a currency", -- [1156]
-			"<23:01:19> <DEBUG>		Adding to self.lootSlotInfo	3	|cffa335ee|Hitem:193739::::::::70:269::23:5:7977:6652:8814:1594:8767:1:28:2157:::::|h[Ботфорты восстановленного порядка]|h|r	4	1	Creature-0-4243-2527-3334-189729-00001766A5	1", -- [1157]
-			"<23:01:19> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2618	197007	|cff0070dd|Hitem:197007::::::::70:269::23::1:28:2157:::::|h[Горный вивернодракон: узор \"Широкие полоски\"]|h|r	1	Садилья-СвежевательДуш	DEMONHUNTER", -- [1158]
-			"<23:01:19> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2618	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	1	Садилья-СвежевательДуш	DEMONHUNTER", -- [1159]
-			"<23:01:19> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2618	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	2	Танимура-СвежевательДуш	DEMONHUNTER", -- [1160]
-			"<23:01:19> <DEBUG>		OnLootSlotCleared()	3	|cffa335ee|Hitem:193739::::::::70:269::23:5:7977:6652:8814:1594:8767:1:28:2157:::::|h[Ботфорты восстановленного порядка]|h|r	4", -- [1161]
-			"<23:01:19> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2618	193739	|cffa335ee|Hitem:193739::::::::70:269::23:5:7977:6652:8814:1594:8767:1:28:2157:::::|h[Ботфорты восстановленного порядка]|h|r	1	Хугомонк	MONK", -- [1162]
-			"<23:01:20> <DEBUG>		Event:	LOOT_CLOSED", -- [1163]
-			"<23:01:20> <DEBUG>		Event:	LOOT_CLOSED", -- [1164]
-			"<23:01:20> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2618	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	2	Хугомонк	MONK", -- [1165]
-			"<23:01:20> <Comm>		^1^Sl^T^N1^S189729^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1166]
-			"<23:01:20> <Comm>		^1^Sl^T^N1^S189729^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1167]
-			"<23:01:20> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2618	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	2	Дукхалис-СвежевательДуш	DRUID", -- [1168]
-			"<23:01:20> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2618	193739	|cffa335ee|Hitem:193739::::::::70:269::23:5:7977:6652:8814:1594:8767:1:28:2157:::::|h[Ботфорты восстановленного порядка]|h|r	1	Дукхалис-СвежевательДуш	DRUID", -- [1169]
-			"<23:01:21> <DEBUG>		Storage:New	|cffa335ee|Hitem:193739::::::::70:269::23:5:7977:6652:8814:1594:8767:1:28:2157:::::|h[Ботфорты восстановленного порядка]|h|r	temp", -- [1170]
-			"<23:01:21> <DEBUG>		Storage: searching for item:	||cffa335ee||Hitem:193739::::::::70:269::23:5:7977:6652:8814:1594:8767:1:28:2157:::::||h[Ботфорты восстановленного порядка]||h||r	5", -- [1171]
-			"<23:01:21> <DEBUG>		Found item at	3	7", -- [1172]
-			"<23:01:22> <DEBUG>		Storage: searching for item:	||cffa335ee||Hitem:193739::::::::70:269::23:5:7977:6652:8814:1594:8767:1:28:2157:::::||h[Ботфорты восстановленного порядка]||h||r	5", -- [1173]
-			"<23:01:22> <DEBUG>		Found item at	3	7", -- [1174]
-			"<23:01:23> <Comm>		^1^Stradable^T^N1^S|cffa335ee|Hitem:193739::::::::70:269::23:5:7977:6652:8814:1594:8767:1:28:2157:::::|h[Ботфорты~`восстановленного~`порядка]|h|r^N2^S189729^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1175]
-			"<23:01:48> <DEBUG>		TradeUI: Traded item(s) to	танимура(*)-Ревущийфьорд", -- [1176]
-			"<23:01:48> <DEBUG>		TradeUI:Show()	nil", -- [1177]
-			"<23:01:48> <DEBUG>		TradeUI:Hide()", -- [1178]
-			"<23:01:52> <DEBUG>		Event:	GROUP_LEFT	1	Party-1604-1-0000452CF9B9", -- [1179]
-			"<23:01:52> <DEBUG>		GetML()", -- [1180]
-			"<23:03:04> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1181]
-			"<23:03:04> <INFO>		UpdatePlayersData()", -- [1182]
-			"<23:03:05> <DEBUG>		GetML()", -- [1183]
-			"<23:03:23> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	гигаовца-Ревущийфьорд", -- [1184]
-			"<23:03:41> <DEBUG>		Event:	PARTY_LEADER_CHANGED", -- [1185]
-			"<23:03:43> <DEBUG>		GetML()", -- [1186]
-			"<23:03:43> <Data.Player>		CreatePlayer	Player-1615-097038E5", -- [1187]
-			"<23:03:43> <DEBUG>		Resetting council as we have a new ML!", -- [1188]
-			"<23:03:43> <INFO>		MasterLooter = 	бэдасс-Ревущийфьорд", -- [1189]
-			"<23:03:58> <DEBUG>		Timer MLdb_check passed", -- [1190]
-			"<23:03:58> <Comm>		^1^Sxrealm^T^N1^Sбэдасс-Ревущийфьорд^N2^SMLdb_request^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1191]
-			"<23:03:58> <Comm>		^1^Sxrealm^T^N1^Sбэдасс-Ревущийфьорд^N2^Scouncil_request^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1192]
-			"<23:05:52> <DEBUG>		Event:	RAID_INSTANCE_WELCOME	Академия Алгет'ар (Эпохальный)	122047	0	0", -- [1193]
-			"<23:05:53> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1194]
-			"<23:05:53> <INFO>		UpdatePlayersData()", -- [1195]
-			"<23:05:54> <DEBUG>		GetML()", -- [1196]
-			"<23:06:38> <DEBUG>		Event:	LOOT_READY	true", -- [1197]
-			"<23:06:38> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192635::::::::70:269:::::::::|h[Скрученный металл]|h|r	0	1	Creature-0-3893-2526-29085-196045-0003976D6F	1", -- [1198]
-			"<23:06:38> <DEBUG>		Event:	LOOT_READY	true", -- [1199]
-			"<23:06:38> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192635::::::::70:269:::::::::|h[Скрученный металл]|h|r	0	1	Creature-0-3893-2526-29085-196045-0003976D6F	1", -- [1200]
-			"<23:06:38> <DEBUG>		Event:	LOOT_CLOSED", -- [1201]
-			"<23:06:38> <DEBUG>		OnLootSlotCleared()	1	|cff9d9d9d|Hitem:192635::::::::70:269:::::::::|h[Скрученный металл]|h|r	0", -- [1202]
-			"<23:06:38> <DEBUG>		Event:	LOOT_CLOSED", -- [1203]
-			"<23:06:38> <Comm>		^1^Sl^T^N1^S196045^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1204]
-			"<23:07:15> <DEBUG>		Event:	LOOT_READY	true", -- [1205]
-			"<23:07:15> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192624::::::::70:269:::::::::|h[Растресканная чешуя]|h|r	0	1	Creature-0-3893-2526-29085-196694-0002176D6F	1", -- [1206]
-			"<23:07:15> <DEBUG>		Event:	LOOT_READY	true", -- [1207]
-			"<23:07:15> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192624::::::::70:269:::::::::|h[Растресканная чешуя]|h|r	0	1	Creature-0-3893-2526-29085-196694-0002176D6F	1", -- [1208]
-			"<23:07:16> <DEBUG>		OnLootSlotCleared()	1	|cff9d9d9d|Hitem:192624::::::::70:269:::::::::|h[Растресканная чешуя]|h|r	0", -- [1209]
-			"<23:07:16> <DEBUG>		Event:	LOOT_CLOSED", -- [1210]
-			"<23:07:16> <Comm>		^1^Sl^T^N1^S196694^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1211]
-			"<23:07:16> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	198967	|cff0070dd|Hitem:198967::::::::70:269:::::::::|h[Первозданный эфир]|h|r	1	Хугомонк	MONK", -- [1212]
-			"<23:08:05> <DEBUG>		Event:	LOOT_READY	true", -- [1213]
-			"<23:08:05> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192635::::::::70:269:::::::::|h[Скрученный металл]|h|r	0	1	Creature-0-3893-2526-29085-196798-0001976D6F	1", -- [1214]
-			"<23:08:05> <DEBUG>		OnLootSlotCleared()	1	|cff9d9d9d|Hitem:192635::::::::70:269:::::::::|h[Скрученный металл]|h|r	0", -- [1215]
-			"<23:08:05> <DEBUG>		Event:	LOOT_CLOSED", -- [1216]
-			"<23:08:05> <Comm>		^1^Sl^T^N1^S196798^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1217]
-			"<23:08:24> <DEBUG>		Event:	ENCOUNTER_START	2562	Вексам	23	5", -- [1218]
-			"<23:08:24> <INFO>		UpdatePlayersData()", -- [1219]
-			"<23:08:25> <DEBUG>		Event:	LOOT_CLOSED", -- [1220]
-			"<23:08:25> <Comm>		^1^Sl^T^N1^S196798^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1221]
-			"<23:09:28> <DEBUG>		Event:	ENCOUNTER_END	2562	Вексам	23	5	1", -- [1222]
-			"<23:09:34> <DEBUG>		Event:	LOOT_READY	true", -- [1223]
-			"<23:09:34> <DEBUG>		Ignoring	nil	as it's a currency", -- [1224]
-			"<23:09:35> <DEBUG>		Event:	LOOT_READY	true", -- [1225]
-			"<23:09:35> <DEBUG>		Ignoring	nil	as it's a currency", -- [1226]
-			"<23:09:35> <DEBUG>		Event:	LOOT_CLOSED", -- [1227]
-			"<23:09:35> <DEBUG>		Event:	LOOT_CLOSED", -- [1228]
-			"<23:14:16> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	193217	|cff0070dd|Hitem:193217::::::::70:269::::1:38:2:::::|h[Толстая шкура |A:Professions-ChatIcon-Quality-Tier2:17:23::1|a]|h|r	1	Зефистраза	EVOKER", -- [1229]
-			"<23:14:18> <DEBUG>		Event:	LOOT_READY	true", -- [1230]
-			"<23:14:18> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192669::::::::70:269:::::::::|h[Внушительных размеров перо]|h|r	0	1	Creature-0-3893-2526-29085-192333-0000976D6F	1", -- [1231]
-			"<23:14:18> <DEBUG>		Event:	LOOT_READY	true", -- [1232]
-			"<23:14:18> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192669::::::::70:269:::::::::|h[Внушительных размеров перо]|h|r	0	1	Creature-0-3893-2526-29085-192333-0000976D6F	1", -- [1233]
-			"<23:14:19> <DEBUG>		OnLootSlotCleared()	1	|cff9d9d9d|Hitem:192669::::::::70:269:::::::::|h[Внушительных размеров перо]|h|r	0", -- [1234]
-			"<23:14:19> <DEBUG>		Event:	LOOT_CLOSED", -- [1235]
-			"<23:14:19> <DEBUG>		Event:	LOOT_CLOSED", -- [1236]
-			"<23:14:19> <Comm>		^1^Sl^T^N1^S192333^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1237]
-			"<23:14:19> <Comm>		^1^Sl^T^N1^S192333^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1238]
-			"<23:14:44> <DEBUG>		Event:	ENCOUNTER_START	2564	Кроут	23	5", -- [1239]
-			"<23:14:44> <INFO>		UpdatePlayersData()", -- [1240]
-			"<23:15:56> <DEBUG>		Event:	ENCOUNTER_END	2564	Кроут	23	5	1", -- [1241]
-			"<23:15:57> <DEBUG>		Event:	LOOT_READY	true", -- [1242]
-			"<23:15:57> <DEBUG>		Ignoring	nil	as it's a currency", -- [1243]
-			"<23:15:57> <DEBUG>		Event:	LOOT_READY	true", -- [1244]
-			"<23:15:57> <DEBUG>		Ignoring	nil	as it's a currency", -- [1245]
-			"<23:15:57> <DEBUG>		Event:	LOOT_CLOSED", -- [1246]
-			"<23:15:57> <DEBUG>		Event:	LOOT_CLOSED", -- [1247]
-			"<23:15:58> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2564	193722	|cffa335ee|Hitem:193722::::::::70:269::23:6:7977:6652:7936:8814:1594:8767:1:28:2157:::::|h[Лазурный пояс соревнования]|h|r	1	Зефистраза	EVOKER", -- [1248]
-			"<23:18:10> <DEBUG>		Event:	ENCOUNTER_START	2563	Заросшее древо	23	5", -- [1249]
-			"<23:18:10> <INFO>		UpdatePlayersData()", -- [1250]
-			"<23:19:12> <DEBUG>		Event:	ENCOUNTER_END	2563	Заросшее древо	23	5	1", -- [1251]
-			"<23:19:13> <DEBUG>		Event:	LOOT_READY	true", -- [1252]
-			"<23:19:13> <DEBUG>		Ignoring	nil	as it's a currency", -- [1253]
-			"<23:19:14> <DEBUG>		Event:	LOOT_READY	true", -- [1254]
-			"<23:19:14> <DEBUG>		Ignoring	nil	as it's a currency", -- [1255]
-			"<23:19:14> <DEBUG>		Event:	LOOT_CLOSED", -- [1256]
-			"<23:19:14> <DEBUG>		Event:	LOOT_CLOSED", -- [1257]
-			"<23:19:17> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2563	193712	|cffa335ee|Hitem:193712::::::::70:269::23:5:7977:6652:8815:1594:8767:1:28:2157:::::|h[Заляпанный зельями плащ]|h|r	1	Voyeurist-Stormscale	ROGUE", -- [1258]
-			"<23:19:40> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	бабусянатусе-Ревущийфьорд", -- [1259]
-			"<23:20:27> <DEBUG>		Event:	LOOT_READY	true", -- [1260]
-			"<23:20:27> <DEBUG>		Ignoring	nil	as it's a currency", -- [1261]
-			"<23:20:28> <DEBUG>		Event:	LOOT_READY	true", -- [1262]
-			"<23:20:28> <DEBUG>		Ignoring	nil	as it's a currency", -- [1263]
-			"<23:20:28> <DEBUG>		Event:	LOOT_CLOSED", -- [1264]
-			"<23:20:28> <DEBUG>		Event:	LOOT_CLOSED", -- [1265]
-			"<23:20:36> <DEBUG>		Event:	ENCOUNTER_START	2565	Эхо Дорагосы	23	5", -- [1266]
-			"<23:20:36> <INFO>		UpdatePlayersData()", -- [1267]
-			"<23:21:43> <DEBUG>		Event:	ENCOUNTER_END	2565	Эхо Дорагосы	23	5	1", -- [1268]
-			"<23:21:44> <DEBUG>		Event:	LOOT_READY	true", -- [1269]
-			"<23:21:44> <DEBUG>		Ignoring	nil	as it's a currency", -- [1270]
-			"<23:21:44> <DEBUG>		Adding to self.lootSlotInfo	2	|cffa335ee|Hitem:193701::::::::70:269::23:4:7977:6652:1594:8767:1:28:2157:::::|h[Алгет'арская шкатулка с секретом]|h|r	4	1	Creature-0-3893-2526-29085-190609-0000176D6F	1", -- [1271]
-			"<23:21:45> <DEBUG>		Event:	LOOT_READY	true", -- [1272]
-			"<23:21:45> <DEBUG>		Ignoring	nil	as it's a currency", -- [1273]
-			"<23:21:45> <DEBUG>		Adding to self.lootSlotInfo	2	|cffa335ee|Hitem:193701::::::::70:269::23:4:7977:6652:1594:8767:1:28:2157:::::|h[Алгет'арская шкатулка с секретом]|h|r	4	1	Creature-0-3893-2526-29085-190609-0000176D6F	1", -- [1274]
-			"<23:21:45> <DEBUG>		OnLootSlotCleared()	2	|cffa335ee|Hitem:193701::::::::70:269::23:4:7977:6652:1594:8767:1:28:2157:::::|h[Алгет'арская шкатулка с секретом]|h|r	4", -- [1275]
-			"<23:21:46> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2565	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	1	Зефистраза	EVOKER", -- [1276]
-			"<23:21:46> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2565	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	2	Noghle-Blackhand	HUNTER", -- [1277]
-			"<23:21:46> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2565	193701	|cffa335ee|Hitem:193701::::::::70:269::23:4:7977:6652:1594:8767:1:28:2157:::::|h[Алгет'арская шкатулка с секретом]|h|r	1	Хугомонк	MONK", -- [1278]
-			"<23:21:46> <DEBUG>		Event:	LOOT_CLOSED", -- [1279]
-			"<23:21:46> <DEBUG>		Event:	LOOT_CLOSED", -- [1280]
-			"<23:21:46> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2565	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	2	Хугомонк	MONK", -- [1281]
-			"<23:21:46> <Comm>		^1^Sl^T^N1^S190609^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1282]
-			"<23:21:46> <Comm>		^1^Sl^T^N1^S190609^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1283]
-			"<23:21:47> <DEBUG>		Storage:New	|cffa335ee|Hitem:193701::::::::70:269::23:4:7977:6652:1594:8767:1:28:2157:::::|h[Алгет'арская шкатулка с секретом]|h|r	temp", -- [1284]
-			"<23:21:47> <DEBUG>		Storage: searching for item:	||cffa335ee||Hitem:193701::::::::70:269::23:4:7977:6652:1594:8767:1:28:2157:::::||h[Алгет'арская шкатулка с секретом]||h||r	5", -- [1285]
-			"<23:21:47> <DEBUG>		Found item at	1	14", -- [1286]
-			"<23:21:48> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2565	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	2	Voyeurist-Stormscale	ROGUE", -- [1287]
-			"<23:21:48> <DEBUG>		Storage: searching for item:	||cffa335ee||Hitem:193701::::::::70:269::23:4:7977:6652:1594:8767:1:28:2157:::::||h[Алгет'арская шкатулка с секретом]||h||r	5", -- [1288]
-			"<23:21:48> <DEBUG>		Found item at	1	14", -- [1289]
-			"<23:21:48> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2565	197112	|cff0070dd|Hitem:197112::::::::70:269::23::1:28:2157:::::|h[Дракон нагорья: один рог на голове]|h|r	1	Voyeurist-Stormscale	ROGUE", -- [1290]
-			"<23:21:48> <Comm>		^1^Stradable^T^N1^S|cffa335ee|Hitem:193701::::::::70:269::23:4:7977:6652:1594:8767:1:28:2157:::::|h[Алгет'арская~`шкатулка~`с~`секретом]|h|r^N2^S190609^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1291]
-			"<23:22:02> <DEBUG>		Event:	PARTY_LEADER_CHANGED", -- [1292]
-			"<23:22:04> <DEBUG>		GetML()", -- [1293]
-			"<23:22:04> <Data.Player>		CreatePlayer	Player-3691-09BFF0B7", -- [1294]
-			"<23:22:04> <DEBUG>		Resetting council as we have a new ML!", -- [1295]
-			"<23:22:04> <INFO>		MasterLooter = 	Noghle-Blackhand", -- [1296]
-			"<23:22:14> <DEBUG>		TradeUI: Traded item(s) to	Noghle(*)-Ревущийфьорд", -- [1297]
-			"<23:22:14> <DEBUG>		TradeUI:Hide()", -- [1298]
-			"<23:22:19> <DEBUG>		Timer MLdb_check passed", -- [1299]
-			"<23:22:20> <Comm>		^1^Sxrealm^T^N1^SNoghle-Blackhand^N2^SMLdb_request^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1300]
-			"<23:22:20> <Comm>		^1^Sxrealm^T^N1^SNoghle-Blackhand^N2^Scouncil_request^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1301]
-			"<23:22:22> <DEBUG>		Event:	GROUP_LEFT	1	Party-1615-1-000036231B35", -- [1302]
-			"<23:22:22> <DEBUG>		GetML()", -- [1303]
-			"<23:23:36> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1304]
-			"<23:23:36> <INFO>		UpdatePlayersData()", -- [1305]
-			"<23:23:37> <DEBUG>		GetML()", -- [1306]
-			"<23:25:07> <DEBUG>		Event:	PARTY_LEADER_CHANGED", -- [1307]
-			"<23:25:09> <DEBUG>		GetML()", -- [1308]
-			"<23:25:09> <Data.Player>		CreatePlayer	Player-3674-0AC34315", -- [1309]
-			"<23:25:09> <DEBUG>		Resetting council as we have a new ML!", -- [1310]
-			"<23:25:09> <INFO>		MasterLooter = 	Texi-TwistingNether", -- [1311]
-			"<23:25:24> <DEBUG>		Timer MLdb_check passed", -- [1312]
-			"<23:25:24> <Comm>		^1^Sxrealm^T^N1^STexi-TwistingNether^N2^SMLdb_request^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1313]
-			"<23:25:24> <Comm>		^1^Sxrealm^T^N1^STexi-TwistingNether^N2^Scouncil_request^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1314]
-			"<23:26:09> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1315]
-			"<23:26:09> <INFO>		UpdatePlayersData()", -- [1316]
-			"<23:26:11> <DEBUG>		GetML()", -- [1317]
-			"<23:26:29> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	дельфуего-Ревущийфьорд", -- [1318]
-			"<23:26:53> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1319]
-			"<23:26:53> <INFO>		UpdatePlayersData()", -- [1320]
-			"<23:26:55> <DEBUG>		GetML()", -- [1321]
-			"<23:30:19> <DEBUG>		Event:	RAID_INSTANCE_WELCOME	Ульдаман: наследие Тира (Эпохальный)	120580	0	0", -- [1322]
-			"<23:30:19> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1323]
-			"<23:30:19> <INFO>		UpdatePlayersData()", -- [1324]
-			"<23:30:21> <DEBUG>		GetML()", -- [1325]
-			"<23:34:10> <DEBUG>		Event:	LOOT_READY	true", -- [1326]
-			"<23:34:10> <DEBUG>		Ignoring	nil	as it's a currency", -- [1327]
-			"<23:34:10> <DEBUG>		Event:	LOOT_READY	true", -- [1328]
-			"<23:34:10> <DEBUG>		Ignoring	nil	as it's a currency", -- [1329]
-			"<23:34:11> <DEBUG>		Event:	LOOT_CLOSED", -- [1330]
-			"<23:35:14> <DEBUG>		Event:	ENCOUNTER_START	2555	Потерянные дворфы	23	5", -- [1331]
-			"<23:35:14> <INFO>		UpdatePlayersData()", -- [1332]
-			"<23:36:07> <DEBUG>		Event:	ENCOUNTER_END	2555	Потерянные дворфы	23	5	1", -- [1333]
-			"<23:36:12> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2555	193817	|cffa335ee|Hitem:193817::::::::70:269::23:5:7977:6652:8814:1594:8767:1:28:2155:::::|h[Ботфорты стремительности]|h|r	1	Texi-TwistingNether	DRUID", -- [1334]
-			"<23:36:16> <DEBUG>		Event:	LOOT_READY	true", -- [1335]
-			"<23:36:16> <DEBUG>		Ignoring	nil	as it's a currency", -- [1336]
-			"<23:36:17> <DEBUG>		Event:	LOOT_READY	true", -- [1337]
-			"<23:36:17> <DEBUG>		Ignoring	nil	as it's a currency", -- [1338]
-			"<23:36:17> <DEBUG>		Event:	LOOT_CLOSED", -- [1339]
-			"<23:36:17> <DEBUG>		Event:	LOOT_CLOSED", -- [1340]
-			"<23:36:22> <DEBUG>		Event:	LOOT_READY	true", -- [1341]
-			"<23:36:22> <DEBUG>		Event:	LOOT_READY	true", -- [1342]
-			"<23:36:23> <DEBUG>		Event:	LOOT_CLOSED", -- [1343]
-			"<23:36:23> <DEBUG>		Event:	LOOT_CLOSED", -- [1344]
-			"<23:37:41> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	менструа-Ревущийфьорд", -- [1345]
-			"<23:37:57> <DEBUG>		Event:	ENCOUNTER_START	2556	Бромач	23	5", -- [1346]
-			"<23:37:57> <INFO>		UpdatePlayersData()", -- [1347]
-			"<23:38:53> <DEBUG>		Event:	ENCOUNTER_END	2556	Бромач	23	5	1", -- [1348]
-			"<23:38:54> <DEBUG>		Event:	LOOT_READY	true", -- [1349]
-			"<23:38:54> <DEBUG>		Ignoring	nil	as it's a currency", -- [1350]
-			"<23:38:54> <DEBUG>		Adding to self.lootSlotInfo	2	|cffa335ee|Hitem:193668::::::::70:269::23:6:7977:41:7936:8814:1594:8767:1:28:2157:::::|h[Боевой пояс из кожи трогга]|h|r	4	1	Creature-0-3111-2451-20916-184018-0000177338	1", -- [1351]
-			"<23:38:54> <DEBUG>		Event:	LOOT_READY	true", -- [1352]
-			"<23:38:54> <DEBUG>		Ignoring	nil	as it's a currency", -- [1353]
-			"<23:38:54> <DEBUG>		Adding to self.lootSlotInfo	2	|cffa335ee|Hitem:193668::::::::70:269::23:6:7977:41:7936:8814:1594:8767:1:28:2157:::::|h[Боевой пояс из кожи трогга]|h|r	4	1	Creature-0-3111-2451-20916-184018-0000177338	1", -- [1354]
-			"<23:38:55> <DEBUG>		OnLootSlotCleared()	2	|cffa335ee|Hitem:193668::::::::70:269::23:6:7977:41:7936:8814:1594:8767:1:28:2157:::::|h[Боевой пояс из кожи трогга]|h|r	4", -- [1355]
-			"<23:38:55> <DEBUG>		Event:	LOOT_CLOSED", -- [1356]
-			"<23:38:55> <DEBUG>		Event:	LOOT_CLOSED", -- [1357]
-			"<23:38:55> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2556	193668	|cffa335ee|Hitem:193668::::::::70:269::23:6:7977:41:7936:8814:1594:8767:1:28:2157:::::|h[Боевой пояс из кожи трогга]|h|r	1	Хугомонк	MONK", -- [1358]
-			"<23:38:55> <Comm>		^1^Sl^T^N1^S184018^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1359]
-			"<23:38:55> <Comm>		^1^Sl^T^N1^S184018^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1360]
-			"<23:38:57> <DEBUG>		Storage:New	|cffa335ee|Hitem:193668::::::::70:269::23:6:7977:41:7936:8814:1594:8767:1:28:2157:::::|h[Боевой пояс из кожи трогга]|h|r	temp", -- [1361]
-			"<23:38:57> <DEBUG>		Storage: searching for item:	||cffa335ee||Hitem:193668::::::::70:269::23:6:7977:41:7936:8814:1594:8767:1:28:2157:::::||h[Боевой пояс из кожи трогга]||h||r	5", -- [1362]
-			"<23:38:57> <DEBUG>		Found item at	2	5", -- [1363]
-			"<23:38:58> <DEBUG>		Storage: searching for item:	||cffa335ee||Hitem:193668::::::::70:269::23:6:7977:41:7936:8814:1594:8767:1:28:2157:::::||h[Боевой пояс из кожи трогга]||h||r	5", -- [1364]
-			"<23:38:58> <DEBUG>		Found item at	2	5", -- [1365]
-			"<23:38:58> <Comm>		^1^Stradable^T^N1^S|cffa335ee|Hitem:193668::::::::70:269::23:6:7977:41:7936:8814:1594:8767:1:28:2157:::::|h[Боевой~`пояс~`из~`кожи~`трогга]|h|r^N2^S184018^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1366]
-			"<23:38:59> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2556	193809	|cffa335ee|Hitem:193809::::::::70:269::23:6:7977:6652:7937:8784:1594:8767:1:28:2157:::::|h[Выкопанный медальон Бромача]|h|r	1	Nimuz-Draenor	WARRIOR", -- [1367]
-			"<23:40:31> <DEBUG>		Event:	ENCOUNTER_START	2557	Часовая Талондрас	23	5", -- [1368]
-			"<23:40:31> <INFO>		UpdatePlayersData()", -- [1369]
-			"<23:41:14> <DEBUG>		Event:	ENCOUNTER_END	2557	Часовая Талондрас	23	5	1", -- [1370]
-			"<23:41:15> <DEBUG>		Event:	LOOT_READY	true", -- [1371]
-			"<23:41:15> <DEBUG>		Ignoring	nil	as it's a currency", -- [1372]
-			"<23:41:15> <DEBUG>		Event:	LOOT_READY	true", -- [1373]
-			"<23:41:15> <DEBUG>		Ignoring	nil	as it's a currency", -- [1374]
-			"<23:41:16> <DEBUG>		Event:	LOOT_CLOSED", -- [1375]
-			"<23:41:16> <DEBUG>		Event:	LOOT_CLOSED", -- [1376]
-			"<23:41:21> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2557	193807	|cffa335ee|Hitem:193807::::::::70:269::23:5:7977:6652:8813:1594:8767:1:28:2157:::::|h[Наплечники оживленного камня]|h|r	1	Texi-TwistingNether	DRUID", -- [1377]
-			"<23:41:55> <DEBUG>		Event:	LOOT_READY	true", -- [1378]
-			"<23:41:55> <DEBUG>		Ignoring	nil	as it's a currency", -- [1379]
-			"<23:41:55> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:201221::::::::70:269:::::::::|h[Небольшой механизм титанов]|h|r	0	1	Creature-0-3111-2451-20916-186420-0001977338	1", -- [1380]
-			"<23:41:55> <DEBUG>		Adding to self.lootSlotInfo	3	|cff9d9d9d|Hitem:201220::::::::70:269:::::::::|h[Древний инструмент]|h|r	0	2	Creature-0-3111-2451-20916-184130-0001977339	1	Creature-0-3111-2451-20916-184130-0005177338	1", -- [1381]
-			"<23:41:55> <DEBUG>		Event:	LOOT_READY	true", -- [1382]
-			"<23:41:55> <DEBUG>		Ignoring	nil	as it's a currency", -- [1383]
-			"<23:41:55> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:201221::::::::70:269:::::::::|h[Небольшой механизм титанов]|h|r	0	1	Creature-0-3111-2451-20916-186420-0001977338	1", -- [1384]
-			"<23:41:55> <DEBUG>		Adding to self.lootSlotInfo	3	|cff9d9d9d|Hitem:201220::::::::70:269:::::::::|h[Древний инструмент]|h|r	0	2	Creature-0-3111-2451-20916-184130-0001977339	1	Creature-0-3111-2451-20916-184130-0005177338	1", -- [1385]
-			"<23:41:55> <DEBUG>		OnLootSlotCleared()	2	|cff9d9d9d|Hitem:201221::::::::70:269:::::::::|h[Небольшой механизм титанов]|h|r	0", -- [1386]
-			"<23:41:56> <DEBUG>		OnLootSlotCleared()	3	|cff9d9d9d|Hitem:201220::::::::70:269:::::::::|h[Древний инструмент]|h|r	0", -- [1387]
-			"<23:41:56> <DEBUG>		Event:	LOOT_CLOSED", -- [1388]
-			"<23:41:56> <DEBUG>		Event:	LOOT_CLOSED", -- [1389]
-			"<23:41:56> <Comm>		^1^Sl^T^N1^S184130^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1390]
-			"<23:41:56> <Comm>		^1^Sl^T^N1^S184130^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1391]
-			"<23:43:26> <DEBUG>		Event:	LOOT_READY	true", -- [1392]
-			"<23:43:26> <DEBUG>		Ignoring	nil	as it's a currency", -- [1393]
-			"<23:43:26> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:201221::::::::70:269:::::::::|h[Небольшой механизм титанов]|h|r	0	1	Creature-0-3111-2451-20916-184132-0000177339	1", -- [1394]
-			"<23:43:26> <DEBUG>		Event:	LOOT_READY	true", -- [1395]
-			"<23:43:26> <DEBUG>		Ignoring	nil	as it's a currency", -- [1396]
-			"<23:43:26> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:201221::::::::70:269:::::::::|h[Небольшой механизм титанов]|h|r	0	1	Creature-0-3111-2451-20916-184132-0000177339	1", -- [1397]
-			"<23:43:27> <DEBUG>		OnLootSlotCleared()	2	|cff9d9d9d|Hitem:201221::::::::70:269:::::::::|h[Небольшой механизм титанов]|h|r	0", -- [1398]
-			"<23:43:27> <DEBUG>		Event:	LOOT_CLOSED", -- [1399]
-			"<23:43:27> <DEBUG>		Event:	LOOT_CLOSED", -- [1400]
-			"<23:43:27> <Comm>		^1^Sl^T^N1^S184132^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1401]
-			"<23:43:27> <Comm>		^1^Sl^T^N1^S184132^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1402]
-			"<23:44:03> <DEBUG>		Event:	LOOT_READY	true", -- [1403]
-			"<23:44:03> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192610::::::::70:269:::::::::|h[Блестящий глаз зверя]|h|r	0	1	Creature-0-3111-2451-20916-184301-0000177339	1", -- [1404]
-			"<23:44:03> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:192728::::::::70:269:::::::::|h[Неповрежденная паутинная железа]|h|r	0	1	Creature-0-3111-2451-20916-184303-0000177338	1", -- [1405]
-			"<23:44:03> <DEBUG>		Event:	LOOT_READY	true", -- [1406]
-			"<23:44:03> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192610::::::::70:269:::::::::|h[Блестящий глаз зверя]|h|r	0	1	Creature-0-3111-2451-20916-184301-0000177339	1", -- [1407]
-			"<23:44:03> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:192728::::::::70:269:::::::::|h[Неповрежденная паутинная железа]|h|r	0	1	Creature-0-3111-2451-20916-184303-0000177338	1", -- [1408]
-			"<23:44:03> <DEBUG>		OnLootSlotCleared()	1	|cff9d9d9d|Hitem:192610::::::::70:269:::::::::|h[Блестящий глаз зверя]|h|r	0", -- [1409]
-			"<23:44:04> <DEBUG>		Event:	LOOT_CLOSED", -- [1410]
-			"<23:44:04> <DEBUG>		OnLootSlotCleared()	2	|cff9d9d9d|Hitem:192728::::::::70:269:::::::::|h[Неповрежденная паутинная железа]|h|r	0", -- [1411]
-			"<23:44:04> <DEBUG>		Event:	LOOT_CLOSED", -- [1412]
-			"<23:44:04> <Comm>		^1^Sl^T^N1^S184303^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1413]
-			"<23:44:15> <DEBUG>		Event:	ENCOUNTER_START	2558	Тлерон	23	5", -- [1414]
-			"<23:44:15> <INFO>		UpdatePlayersData()", -- [1415]
-			"<23:44:48> <DEBUG>		Event:	ENCOUNTER_END	2558	Тлерон	23	5	1", -- [1416]
-			"<23:44:49> <DEBUG>		Event:	LOOT_READY	true", -- [1417]
-			"<23:44:49> <DEBUG>		Ignoring	nil	as it's a currency", -- [1418]
-			"<23:44:49> <DEBUG>		Event:	LOOT_READY	true", -- [1419]
-			"<23:44:49> <DEBUG>		Ignoring	nil	as it's a currency", -- [1420]
-			"<23:44:49> <DEBUG>		Event:	LOOT_CLOSED", -- [1421]
-			"<23:44:49> <DEBUG>		Event:	LOOT_CLOSED", -- [1422]
-			"<23:44:52> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2558	193796	|cffa335ee|Hitem:193796::::::::70:269::23:4:7977:6652:1594:8767:1:28:2157:::::|h[Ружье грабителя хранилища]|h|r	1	Kadida-TwistingNether	HUNTER", -- [1423]
-			"<23:46:28> <DEBUG>		Event:	LOOT_READY	true", -- [1424]
-			"<23:46:28> <DEBUG>		Ignoring	nil	as it's a currency", -- [1425]
-			"<23:46:28> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:201221::::::::70:269:::::::::|h[Небольшой механизм титанов]|h|r	0	1	Creature-0-3111-2451-20916-186420-0004177338	1", -- [1426]
-			"<23:46:28> <DEBUG>		Event:	LOOT_READY	true", -- [1427]
-			"<23:46:28> <DEBUG>		Ignoring	nil	as it's a currency", -- [1428]
-			"<23:46:28> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:201221::::::::70:269:::::::::|h[Небольшой механизм титанов]|h|r	0	1	Creature-0-3111-2451-20916-186420-0004177338	1", -- [1429]
-			"<23:46:29> <DEBUG>		OnLootSlotCleared()	2	|cff9d9d9d|Hitem:201221::::::::70:269:::::::::|h[Небольшой механизм титанов]|h|r	0", -- [1430]
-			"<23:46:29> <DEBUG>		Event:	LOOT_CLOSED", -- [1431]
-			"<23:46:29> <DEBUG>		Event:	LOOT_CLOSED", -- [1432]
-			"<23:46:29> <Comm>		^1^Sl^T^N1^S186420^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1433]
-			"<23:46:29> <Comm>		^1^Sl^T^N1^S186420^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1434]
-			"<23:48:06> <DEBUG>		Event:	LOOT_READY	true", -- [1435]
-			"<23:48:06> <DEBUG>		Ignoring	nil	as it's a currency", -- [1436]
-			"<23:48:06> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:201221::::::::70:269:::::::::|h[Небольшой механизм титанов]|h|r	0	1	Creature-0-3111-2451-20916-184132-0001177338	1", -- [1437]
-			"<23:48:06> <DEBUG>		Event:	LOOT_READY	true", -- [1438]
-			"<23:48:06> <DEBUG>		Ignoring	nil	as it's a currency", -- [1439]
-			"<23:48:06> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:201221::::::::70:269:::::::::|h[Небольшой механизм титанов]|h|r	0	1	Creature-0-3111-2451-20916-184132-0001177338	1", -- [1440]
-			"<23:48:06> <DEBUG>		OnLootSlotCleared()	2	|cff9d9d9d|Hitem:201221::::::::70:269:::::::::|h[Небольшой механизм титанов]|h|r	0", -- [1441]
-			"<23:48:06> <DEBUG>		Event:	LOOT_CLOSED", -- [1442]
-			"<23:48:06> <DEBUG>		Event:	LOOT_CLOSED", -- [1443]
-			"<23:48:06> <Comm>		^1^Sl^T^N1^S184132^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1444]
-			"<23:48:06> <Comm>		^1^Sl^T^N1^S184132^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1445]
-			"<23:48:30> <DEBUG>		Event:	LOOT_READY	true", -- [1446]
-			"<23:48:30> <DEBUG>		Ignoring	nil	as it's a currency", -- [1447]
-			"<23:48:30> <DEBUG>		Event:	LOOT_READY	true", -- [1448]
-			"<23:48:30> <DEBUG>		Ignoring	nil	as it's a currency", -- [1449]
-			"<23:48:30> <DEBUG>		Event:	LOOT_CLOSED", -- [1450]
-			"<23:48:30> <DEBUG>		Event:	LOOT_CLOSED", -- [1451]
-			"<23:48:34> <DEBUG>		Event:	LOOT_READY	true", -- [1452]
-			"<23:48:34> <DEBUG>		Ignoring	nil	as it's a currency", -- [1453]
-			"<23:48:34> <DEBUG>		Event:	LOOT_READY	true", -- [1454]
-			"<23:48:34> <DEBUG>		Ignoring	nil	as it's a currency", -- [1455]
-			"<23:48:34> <DEBUG>		Event:	LOOT_CLOSED", -- [1456]
-			"<23:49:18> <DEBUG>		Event:	LOOT_READY	true", -- [1457]
-			"<23:49:18> <DEBUG>		Ignoring	nil	as it's a currency", -- [1458]
-			"<23:49:18> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:201165::::::::70:269:::::::::|h[Отполированная побрякушка]|h|r	0	1	Creature-0-3111-2451-20916-184335-000017778E	1", -- [1459]
-			"<23:49:18> <DEBUG>		Event:	LOOT_READY	true", -- [1460]
-			"<23:49:18> <DEBUG>		Ignoring	nil	as it's a currency", -- [1461]
-			"<23:49:18> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:201165::::::::70:269:::::::::|h[Отполированная побрякушка]|h|r	0	1	Creature-0-3111-2451-20916-184335-000017778E	1", -- [1462]
-			"<23:49:18> <DEBUG>		Event:	LOOT_CLOSED", -- [1463]
-			"<23:49:18> <DEBUG>		OnLootSlotCleared()	2	|cff9d9d9d|Hitem:201165::::::::70:269:::::::::|h[Отполированная побрякушка]|h|r	0", -- [1464]
-			"<23:49:18> <DEBUG>		Event:	LOOT_CLOSED", -- [1465]
-			"<23:49:18> <Comm>		^1^Sl^T^N1^S184335^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1466]
-			"<23:50:35> <DEBUG>		Event:	LOOT_READY	true", -- [1467]
-			"<23:50:35> <DEBUG>		Ignoring	nil	as it's a currency", -- [1468]
-			"<23:50:35> <DEBUG>		Adding to self.lootSlotInfo	3	|cff9d9d9d|Hitem:201221::::::::70:269:::::::::|h[Небольшой механизм титанов]|h|r	0	1	Creature-0-3111-2451-20916-184130-0008977338	1", -- [1469]
-			"<23:50:35> <DEBUG>		Event:	LOOT_READY	true", -- [1470]
-			"<23:50:35> <DEBUG>		Ignoring	nil	as it's a currency", -- [1471]
-			"<23:50:35> <DEBUG>		Adding to self.lootSlotInfo	3	|cff9d9d9d|Hitem:201221::::::::70:269:::::::::|h[Небольшой механизм титанов]|h|r	0	1	Creature-0-3111-2451-20916-184130-0008977338	1", -- [1472]
-			"<23:50:35> <DEBUG>		Event:	LOOT_CLOSED", -- [1473]
-			"<23:50:35> <DEBUG>		OnLootSlotCleared()	3	|cff9d9d9d|Hitem:201221::::::::70:269:::::::::|h[Небольшой механизм титанов]|h|r	0", -- [1474]
-			"<23:50:35> <DEBUG>		Event:	LOOT_CLOSED", -- [1475]
-			"<23:50:35> <Comm>		^1^Sl^T^N1^S184130^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1476]
-			"<23:50:39> <DEBUG>		Event:	LOOT_READY	true", -- [1477]
-			"<23:50:39> <DEBUG>		Ignoring	nil	as it's a currency", -- [1478]
-			"<23:50:39> <DEBUG>		Event:	LOOT_READY	true", -- [1479]
-			"<23:50:39> <DEBUG>		Ignoring	nil	as it's a currency", -- [1480]
-			"<23:50:39> <DEBUG>		Event:	LOOT_CLOSED", -- [1481]
-			"<23:51:03> <DEBUG>		Event:	LOOT_READY	true", -- [1482]
-			"<23:51:03> <DEBUG>		Ignoring	nil	as it's a currency", -- [1483]
-			"<23:51:03> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:192631::::::::70:269:::::::::|h[Пронзающий чешую клык]|h|r	0	2	Creature-0-3111-2451-20916-191311-0002177338	1	Creature-0-3111-2451-20916-191311-0002977338	1", -- [1484]
-			"<23:51:04> <DEBUG>		Event:	LOOT_READY	true", -- [1485]
-			"<23:51:04> <DEBUG>		Ignoring	nil	as it's a currency", -- [1486]
-			"<23:51:04> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:192631::::::::70:269:::::::::|h[Пронзающий чешую клык]|h|r	0	2	Creature-0-3111-2451-20916-191311-0002177338	1	Creature-0-3111-2451-20916-191311-0002977338	1", -- [1487]
-			"<23:51:04> <DEBUG>		Event:	LOOT_CLOSED", -- [1488]
-			"<23:51:04> <DEBUG>		OnLootSlotCleared()	2	|cff9d9d9d|Hitem:192631::::::::70:269:::::::::|h[Пронзающий чешую клык]|h|r	0", -- [1489]
-			"<23:51:04> <DEBUG>		Event:	LOOT_CLOSED", -- [1490]
-			"<23:51:04> <Comm>		^1^Sl^T^N1^S191311^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1491]
-			"<23:51:15> <DEBUG>		Event:	LOOT_READY	true", -- [1492]
-			"<23:51:15> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192631::::::::70:269:::::::::|h[Пронзающий чешую клык]|h|r	0	1	Creature-0-3111-2451-20916-191311-0000977338	1", -- [1493]
-			"<23:51:15> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:192675::::::::70:269:::::::::|h[Крылышко]|h|r	0	1	Creature-0-3111-2451-20916-191311-0000177339	1", -- [1494]
-			"<23:51:15> <DEBUG>		Event:	LOOT_READY	true", -- [1495]
-			"<23:51:15> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192631::::::::70:269:::::::::|h[Пронзающий чешую клык]|h|r	0	1	Creature-0-3111-2451-20916-191311-0000977338	1", -- [1496]
-			"<23:51:15> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:192675::::::::70:269:::::::::|h[Крылышко]|h|r	0	1	Creature-0-3111-2451-20916-191311-0000177339	1", -- [1497]
-			"<23:51:15> <DEBUG>		Event:	LOOT_CLOSED", -- [1498]
-			"<23:51:15> <DEBUG>		OnLootSlotCleared()	1	|cff9d9d9d|Hitem:192631::::::::70:269:::::::::|h[Пронзающий чешую клык]|h|r	0", -- [1499]
-			"<23:51:15> <DEBUG>		Event:	LOOT_CLOSED", -- [1500]
-			"<23:51:15> <DEBUG>		OnLootSlotCleared()	2	|cff9d9d9d|Hitem:192675::::::::70:269:::::::::|h[Крылышко]|h|r	0", -- [1501]
-			"<23:51:15> <DEBUG>		Event:	LOOT_CLOSED", -- [1502]
-			"<23:51:15> <Comm>		^1^Sl^T^N1^S191311^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1503]
-			"<23:51:23> <DEBUG>		Event:	ENCOUNTER_START	2559	Хронолорд Дейос	23	5", -- [1504]
-			"<23:51:23> <INFO>		UpdatePlayersData()", -- [1505]
-			"<23:52:33> <DEBUG>		Event:	ENCOUNTER_END	2559	Хронолорд Дейос	23	5	1", -- [1506]
-			"<23:52:37> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2559	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	2	Texi-TwistingNether	DRUID", -- [1507]
-			"<23:52:39> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2559	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	1	Kadida-TwistingNether	HUNTER", -- [1508]
-			"<23:52:39> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2559	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	1	Pjanko-TarrenMill	DRUID", -- [1509]
-			"<23:52:40> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2559	193800	|cffa335ee|Hitem:193800::::::::70:269::23:6:7977:6652:7937:8816:1594:8767:1:28:2155:::::|h[Видение предрешенных исходов]|h|r	1	Pjanko-TarrenMill	DRUID", -- [1510]
-			"<23:52:41> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2559	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	2	Nimuz-Draenor	WARRIOR", -- [1511]
-			"<23:52:41> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2559	193802	|cffa335ee|Hitem:193802::::::::70:269::23:5:7977:6652:8813:1594:8767:1:28:2155:::::|h[Наплечье неизменной истины]|h|r	1	Nimuz-Draenor	WARRIOR", -- [1512]
-			"<23:52:44> <DEBUG>		Event:	LOOT_READY	true", -- [1513]
-			"<23:52:44> <DEBUG>		Ignoring	nil	as it's a currency", -- [1514]
-			"<23:52:44> <DEBUG>		Event:	LOOT_READY	true", -- [1515]
-			"<23:52:44> <DEBUG>		Ignoring	nil	as it's a currency", -- [1516]
-			"<23:52:44> <DEBUG>		Event:	LOOT_CLOSED", -- [1517]
-			"<23:52:44> <DEBUG>		Event:	LOOT_CLOSED", -- [1518]
-			"<23:52:44> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2559	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	2	Хугомонк	MONK", -- [1519]
-			"<23:52:53> <DEBUG>		Event:	GROUP_LEFT	1	Party-3674-1-00003622D193", -- [1520]
-			"<23:52:53> <DEBUG>		GetML()", -- [1521]
-			"<23:53:27> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1522]
-			"<23:53:27> <INFO>		UpdatePlayersData()", -- [1523]
-			"<23:53:29> <DEBUG>		GetML()", -- [1524]
-			"<23:58:53> <DEBUG>		Event:	PARTY_LEADER_CHANGED", -- [1525]
-			"<23:58:55> <DEBUG>		GetML()", -- [1526]
-			"<23:58:55> <Data.Player>		CreatePlayer	Player-3674-0AA6F780", -- [1527]
-			"<23:58:55> <DEBUG>		Resetting council as we have a new ML!", -- [1528]
-			"<23:58:55> <INFO>		MasterLooter = 	Roséy-TwistingNether", -- [1529]
-			"<23:59:10> <DEBUG>		Timer MLdb_check passed", -- [1530]
-			"<23:59:10> <Comm>		^1^Sxrealm^T^N1^SRoséy-TwistingNether^N2^SMLdb_request^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1531]
-			"<23:59:10> <Comm>		^1^Sxrealm^T^N1^SRoséy-TwistingNether^N2^Scouncil_request^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1532]
-			"<23:59:18> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1533]
-			"<23:59:18> <INFO>		UpdatePlayersData()", -- [1534]
-			"<23:59:20> <DEBUG>		GetML()", -- [1535]
-			"<23:59:31> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1536]
-			"<23:59:31> <INFO>		UpdatePlayersData()", -- [1537]
-			"<23:59:33> <DEBUG>		GetML()", -- [1538]
-			"<23:59:47> <DEBUG>		Event:	RAID_INSTANCE_WELCOME	Лощина Бурошкуров (Эпохальный)	118812	0	0", -- [1539]
-			"<23:59:47> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1540]
-			"<23:59:47> <INFO>		UpdatePlayersData()", -- [1541]
-			"<23:59:49> <DEBUG>		GetML()", -- [1542]
-			"<00:00:54> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	гигаовца-Ревущийфьорд", -- [1543]
-			"<00:04:13> <DEBUG>		Event:	LOOT_READY	true", -- [1544]
-			"<00:04:13> <DEBUG>		Ignoring	nil	as it's a currency", -- [1545]
-			"<00:04:13> <DEBUG>		Adding to self.lootSlotInfo	2	|cff1eff00|Hitem:199038::::::::70:269:::3:7969:6652:1694:1:28:2157:::::|h[Резак для рун с символом огненной вспышки]|h|r	2	1	Creature-0-3889-2520-19412-185528-0003977A1C	1", -- [1546]
-			"<00:04:14> <DEBUG>		Event:	LOOT_READY	true", -- [1547]
-			"<00:04:14> <DEBUG>		Ignoring	nil	as it's a currency", -- [1548]
-			"<00:04:14> <DEBUG>		Adding to self.lootSlotInfo	2	|cff1eff00|Hitem:199038::::::::70:269:::3:7969:6652:1694:1:28:2157:::::|h[Резак для рун с символом огненной вспышки]|h|r	2	1	Creature-0-3889-2520-19412-185528-0003977A1C	1", -- [1549]
-			"<00:04:14> <DEBUG>		OnLootSlotCleared()	2	|cff1eff00|Hitem:199038::::::::70:269:::3:7969:6652:1694:1:28:2157:::::|h[Резак для рун с символом огненной вспышки]|h|r	2", -- [1550]
-			"<00:04:14> <DEBUG>		Event:	LOOT_CLOSED", -- [1551]
-			"<00:04:14> <DEBUG>		Event:	LOOT_CLOSED", -- [1552]
-			"<00:04:14> <Comm>		^1^Sl^T^N1^S185528^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1553]
-			"<00:04:14> <Comm>		^1^Sl^T^N1^S185528^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1554]
-			"<00:04:16> <DEBUG>		Storage:New	|cff1eff00|Hitem:199038::::::::70:269:::3:7969:6652:1694:1:28:2157:::::|h[Резак для рун с символом огненной вспышки]|h|r	temp", -- [1555]
-			"<00:04:16> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199038::::::::70:269:::3:7969:6652:1694:1:28:2157:::::||h[Резак для рун с символом огненной вспышки]||h||r	5", -- [1556]
-			"<00:04:16> <DEBUG>		Found:	nil	nil	nil", -- [1557]
-			"<00:04:17> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199038::::::::70:269:::3:7969:6652:1694:1:28:2157:::::||h[Резак для рун с символом огненной вспышки]||h||r	5", -- [1558]
-			"<00:04:17> <DEBUG>		Found:	nil	nil	nil", -- [1559]
-			"<00:04:18> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199038::::::::70:269:::3:7969:6652:1694:1:28:2157:::::||h[Резак для рун с символом огненной вспышки]||h||r	5", -- [1560]
-			"<00:04:18> <DEBUG>		Found:	nil	nil	nil", -- [1561]
-			"<00:04:19> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199038::::::::70:269:::3:7969:6652:1694:1:28:2157:::::||h[Резак для рун с символом огненной вспышки]||h||r	5", -- [1562]
-			"<00:04:19> <DEBUG>		Found:	nil	nil	nil", -- [1563]
-			"<00:04:19> <ERROR>		UpdateAndSendRecentTradableItem: |cff1eff00|Hitem:199038::::::::70:269:::3:7969:6652:1694:1:28:2157:::::|h[Резак для рун с символом огненной вспышки]|h|r not found in bags", -- [1564]
-			"<00:04:57> <DEBUG>		Event:	LOOT_READY	true", -- [1565]
-			"<00:04:57> <DEBUG>		Ignoring	nil	as it's a currency", -- [1566]
-			"<00:04:57> <DEBUG>		Adding to self.lootSlotInfo	2	|cff1eff00|Hitem:199040::::::::70:269:::3:7969:6652:1693:1:28:2157:::::|h[Благословленный ветром молот с символом огненной вспышки]|h|r	2	1	Creature-0-3889-2520-19412-186191-0002177A1A	1", -- [1567]
-			"<00:04:57> <DEBUG>		Event:	LOOT_READY	true", -- [1568]
-			"<00:04:57> <DEBUG>		Ignoring	nil	as it's a currency", -- [1569]
-			"<00:04:57> <DEBUG>		Adding to self.lootSlotInfo	2	|cff1eff00|Hitem:199040::::::::70:269:::3:7969:6652:1693:1:28:2157:::::|h[Благословленный ветром молот с символом огненной вспышки]|h|r	2	1	Creature-0-3889-2520-19412-186191-0002177A1A	1", -- [1570]
-			"<00:04:58> <DEBUG>		OnLootSlotCleared()	2	|cff1eff00|Hitem:199040::::::::70:269:::3:7969:6652:1693:1:28:2157:::::|h[Благословленный ветром молот с символом огненной вспышки]|h|r	2", -- [1571]
-			"<00:04:58> <DEBUG>		Event:	LOOT_CLOSED", -- [1572]
-			"<00:04:58> <DEBUG>		Event:	LOOT_CLOSED", -- [1573]
-			"<00:04:58> <Comm>		^1^Sl^T^N1^S186191^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1574]
-			"<00:04:58> <Comm>		^1^Sl^T^N1^S186191^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1575]
-			"<00:05:00> <DEBUG>		Storage:New	|cff1eff00|Hitem:199040::::::::70:269:::3:7969:6652:1693:1:28:2157:::::|h[Благословленный ветром молот с символом огненной вспышки]|h|r	temp", -- [1576]
-			"<00:05:00> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199040::::::::70:269:::3:7969:6652:1693:1:28:2157:::::||h[Благословленный ветром молот с символом огненной вспышки]||h||r	5", -- [1577]
-			"<00:05:00> <DEBUG>		Found:	nil	nil	nil", -- [1578]
-			"<00:05:01> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199040::::::::70:269:::3:7969:6652:1693:1:28:2157:::::||h[Благословленный ветром молот с символом огненной вспышки]||h||r	5", -- [1579]
-			"<00:05:01> <DEBUG>		Found:	nil	nil	nil", -- [1580]
-			"<00:05:02> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199040::::::::70:269:::3:7969:6652:1693:1:28:2157:::::||h[Благословленный ветром молот с символом огненной вспышки]||h||r	5", -- [1581]
-			"<00:05:02> <DEBUG>		Found:	nil	nil	nil", -- [1582]
-			"<00:05:03> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199040::::::::70:269:::3:7969:6652:1693:1:28:2157:::::||h[Благословленный ветром молот с символом огненной вспышки]||h||r	5", -- [1583]
-			"<00:05:03> <DEBUG>		Found:	nil	nil	nil", -- [1584]
-			"<00:05:03> <ERROR>		UpdateAndSendRecentTradableItem: |cff1eff00|Hitem:199040::::::::70:269:::3:7969:6652:1693:1:28:2157:::::|h[Благословленный ветром молот с символом огненной вспышки]|h|r not found in bags", -- [1585]
-			"<00:06:20> <DEBUG>		Event:	LOOT_READY	true", -- [1586]
-			"<00:06:20> <DEBUG>		Ignoring	nil	as it's a currency", -- [1587]
-			"<00:06:20> <DEBUG>		Event:	LOOT_READY	true", -- [1588]
-			"<00:06:20> <DEBUG>		Ignoring	nil	as it's a currency", -- [1589]
-			"<00:06:20> <DEBUG>		Event:	LOOT_CLOSED", -- [1590]
-			"<00:06:20> <DEBUG>		Event:	LOOT_CLOSED", -- [1591]
-			"<00:07:16> <DEBUG>		Event:	LOOT_READY	true", -- [1592]
-			"<00:07:16> <DEBUG>		Ignoring	nil	as it's a currency", -- [1593]
-			"<00:07:16> <DEBUG>		Adding to self.lootSlotInfo	2	|cff1eff00|Hitem:199047::::::::70:269:::3:7969:6652:1682:1:28:2157:::::|h[Благословленный ветром коготь со знаком быстрого клинка]|h|r	2	1	Creature-0-3889-2520-19412-185534-0005177A1A	1", -- [1594]
-			"<00:07:17> <DEBUG>		Event:	LOOT_READY	true", -- [1595]
-			"<00:07:17> <DEBUG>		Ignoring	nil	as it's a currency", -- [1596]
-			"<00:07:17> <DEBUG>		Adding to self.lootSlotInfo	2	|cff1eff00|Hitem:199047::::::::70:269:::3:7969:6652:1682:1:28:2157:::::|h[Благословленный ветром коготь со знаком быстрого клинка]|h|r	2	1	Creature-0-3889-2520-19412-185534-0005177A1A	1", -- [1597]
-			"<00:07:17> <DEBUG>		Event:	LOOT_CLOSED", -- [1598]
-			"<00:07:17> <DEBUG>		OnLootSlotCleared()	2	|cff1eff00|Hitem:199047::::::::70:269:::3:7969:6652:1682:1:28:2157:::::|h[Благословленный ветром коготь со знаком быстрого клинка]|h|r	2", -- [1599]
-			"<00:07:17> <DEBUG>		Event:	LOOT_CLOSED", -- [1600]
-			"<00:07:17> <Comm>		^1^Sl^T^N1^S185534^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1601]
-			"<00:07:19> <DEBUG>		Storage:New	|cff1eff00|Hitem:199047::::::::70:269:::3:7969:6652:1682:1:28:2157:::::|h[Благословленный ветром коготь со знаком быстрого клинка]|h|r	temp", -- [1602]
-			"<00:07:19> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199047::::::::70:269:::3:7969:6652:1682:1:28:2157:::::||h[Благословленный ветром коготь со знаком быстрого клинка]||h||r	5", -- [1603]
-			"<00:07:19> <DEBUG>		Found:	nil	nil	nil", -- [1604]
-			"<00:07:20> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199047::::::::70:269:::3:7969:6652:1682:1:28:2157:::::||h[Благословленный ветром коготь со знаком быстрого клинка]||h||r	5", -- [1605]
-			"<00:07:20> <DEBUG>		Found:	nil	nil	nil", -- [1606]
-			"<00:07:21> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199047::::::::70:269:::3:7969:6652:1682:1:28:2157:::::||h[Благословленный ветром коготь со знаком быстрого клинка]||h||r	5", -- [1607]
-			"<00:07:21> <DEBUG>		Found:	nil	nil	nil", -- [1608]
-			"<00:07:22> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199047::::::::70:269:::3:7969:6652:1682:1:28:2157:::::||h[Благословленный ветром коготь со знаком быстрого клинка]||h||r	5", -- [1609]
-			"<00:07:22> <DEBUG>		Found:	nil	nil	nil", -- [1610]
-			"<00:07:22> <ERROR>		UpdateAndSendRecentTradableItem: |cff1eff00|Hitem:199047::::::::70:269:::3:7969:6652:1682:1:28:2157:::::|h[Благословленный ветром коготь со знаком быстрого клинка]|h|r not found in bags", -- [1611]
-			"<00:07:57> <DEBUG>		Event:	LOOT_READY	true", -- [1612]
-			"<00:07:57> <DEBUG>		Ignoring	nil	as it's a currency", -- [1613]
-			"<00:07:57> <DEBUG>		Event:	LOOT_READY	true", -- [1614]
-			"<00:07:57> <DEBUG>		Ignoring	nil	as it's a currency", -- [1615]
-			"<00:07:58> <DEBUG>		Event:	LOOT_CLOSED", -- [1616]
-			"<00:07:58> <DEBUG>		Event:	LOOT_CLOSED", -- [1617]
-			"<00:09:19> <DEBUG>		Event:	LOOT_READY	true", -- [1618]
-			"<00:09:19> <DEBUG>		Ignoring	nil	as it's a currency", -- [1619]
-			"<00:09:19> <DEBUG>		Event:	LOOT_READY	true", -- [1620]
-			"<00:09:19> <DEBUG>		Ignoring	nil	as it's a currency", -- [1621]
-			"<00:09:19> <DEBUG>		Event:	LOOT_CLOSED", -- [1622]
-			"<00:09:19> <DEBUG>		Event:	LOOT_CLOSED", -- [1623]
-			"<00:09:26> <DEBUG>		Event:	ENCOUNTER_START	2570	Боевой отряд Когтерезки	23	5", -- [1624]
-			"<00:09:26> <INFO>		UpdatePlayersData()", -- [1625]
-			"<00:10:33> <DEBUG>		Event:	ENCOUNTER_END	2570	Боевой отряд Когтерезки	23	5	1", -- [1626]
-			"<00:10:35> <DEBUG>		Event:	LOOT_READY	true", -- [1627]
-			"<00:10:35> <DEBUG>		Ignoring	nil	as it's a currency", -- [1628]
-			"<00:10:35> <DEBUG>		Event:	LOOT_READY	true", -- [1629]
-			"<00:10:35> <DEBUG>		Ignoring	nil	as it's a currency", -- [1630]
-			"<00:10:35> <DEBUG>		Event:	LOOT_CLOSED", -- [1631]
-			"<00:10:35> <DEBUG>		Event:	LOOT_CLOSED", -- [1632]
-			"<00:10:37> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2570	193671	|cffa335ee|Hitem:193671::::::::70:269::23:5:7977:6652:7935:1594:8767:1:28:2157:::::|h[Окровавленное обручальное кольцо]|h|r	1	Criptic-Nagrand	HUNTER", -- [1633]
-			"<00:11:46> <DEBUG>		Event:	LOOT_READY	true", -- [1634]
-			"<00:11:46> <DEBUG>		Ignoring	nil	as it's a currency", -- [1635]
-			"<00:11:46> <DEBUG>		Event:	LOOT_READY	true", -- [1636]
-			"<00:11:46> <DEBUG>		Ignoring	nil	as it's a currency", -- [1637]
-			"<00:11:46> <DEBUG>		Event:	LOOT_CLOSED", -- [1638]
-			"<00:11:46> <DEBUG>		Event:	LOOT_CLOSED", -- [1639]
-			"<00:13:24> <DEBUG>		Event:	LOOT_READY	true", -- [1640]
-			"<00:13:24> <DEBUG>		Ignoring	nil	as it's a currency", -- [1641]
-			"<00:13:24> <DEBUG>		Event:	LOOT_READY	true", -- [1642]
-			"<00:13:24> <DEBUG>		Ignoring	nil	as it's a currency", -- [1643]
-			"<00:13:24> <DEBUG>		Event:	LOOT_CLOSED", -- [1644]
-			"<00:13:24> <DEBUG>		Event:	LOOT_CLOSED", -- [1645]
-			"<00:14:10> <DEBUG>		Event:	LOOT_READY	true", -- [1646]
-			"<00:14:10> <DEBUG>		Ignoring	nil	as it's a currency", -- [1647]
-			"<00:14:10> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:192617::::::::70:269:::::::::|h[Собачья лапа]|h|r	0	2	Creature-0-3889-2520-19412-185691-0007177A1A	1	Creature-0-3889-2520-19412-185691-0007977A1A	1", -- [1648]
-			"<00:14:10> <DEBUG>		Event:	LOOT_READY	true", -- [1649]
-			"<00:14:10> <DEBUG>		Ignoring	nil	as it's a currency", -- [1650]
-			"<00:14:10> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:192617::::::::70:269:::::::::|h[Собачья лапа]|h|r	0	2	Creature-0-3889-2520-19412-185691-0007177A1A	1	Creature-0-3889-2520-19412-185691-0007977A1A	1", -- [1651]
-			"<00:14:11> <DEBUG>		OnLootSlotCleared()	2	|cff9d9d9d|Hitem:192617::::::::70:269:::::::::|h[Собачья лапа]|h|r	0", -- [1652]
-			"<00:14:11> <DEBUG>		Event:	LOOT_CLOSED", -- [1653]
-			"<00:14:11> <DEBUG>		Event:	LOOT_CLOSED", -- [1654]
-			"<00:14:11> <Comm>		^1^Sl^T^N1^S185691^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1655]
-			"<00:14:11> <Comm>		^1^Sl^T^N1^S185691^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1656]
-			"<00:14:20> <DEBUG>		Event:	ENCOUNTER_START	2567	Выстрел в живот	23	5", -- [1657]
-			"<00:14:20> <INFO>		UpdatePlayersData()", -- [1658]
-			"<00:15:21> <DEBUG>		Event:	ENCOUNTER_END	2567	Выстрел в живот	23	5	1", -- [1659]
-			"<00:15:22> <DEBUG>		Event:	LOOT_READY	true", -- [1660]
-			"<00:15:22> <DEBUG>		Ignoring	nil	as it's a currency", -- [1661]
-			"<00:15:22> <DEBUG>		Adding to self.lootSlotInfo	2	|cffa335ee|Hitem:193793::::::::70:269::23:6:7977:6652:7936:8815:1594:8767:1:28:2157:::::|h[Наручи из шкуры свирепой гиены]|h|r	4	1	Creature-0-3889-2520-19412-186116-0000177A19	1", -- [1662]
-			"<00:15:22> <DEBUG>		Adding to self.lootSlotInfo	3	|cff9d9d9d|Hitem:192621::::::::70:269:::::::::|h[Длинный коготь]|h|r	0	1	Creature-0-3889-2520-19412-186246-0000177A1A	1", -- [1663]
-			"<00:15:22> <DEBUG>		Adding to self.lootSlotInfo	4	|cff9d9d9d|Hitem:192648::::::::70:269:::::::::|h[Необработанный звериный мех]|h|r	0	1	Creature-0-3889-2520-19412-186284-0000977A1A	1", -- [1664]
-			"<00:15:22> <DEBUG>		Event:	LOOT_READY	true", -- [1665]
-			"<00:15:22> <DEBUG>		Ignoring	nil	as it's a currency", -- [1666]
-			"<00:15:22> <DEBUG>		Adding to self.lootSlotInfo	2	|cffa335ee|Hitem:193793::::::::70:269::23:6:7977:6652:7936:8815:1594:8767:1:28:2157:::::|h[Наручи из шкуры свирепой гиены]|h|r	4	1	Creature-0-3889-2520-19412-186116-0000177A19	1", -- [1667]
-			"<00:15:22> <DEBUG>		Adding to self.lootSlotInfo	3	|cff9d9d9d|Hitem:192621::::::::70:269:::::::::|h[Длинный коготь]|h|r	0	1	Creature-0-3889-2520-19412-186246-0000177A1A	1", -- [1668]
-			"<00:15:22> <DEBUG>		Adding to self.lootSlotInfo	4	|cff9d9d9d|Hitem:192648::::::::70:269:::::::::|h[Необработанный звериный мех]|h|r	0	1	Creature-0-3889-2520-19412-186284-0000977A1A	1", -- [1669]
-			"<00:15:23> <DEBUG>		OnLootSlotCleared()	2	|cffa335ee|Hitem:193793::::::::70:269::23:6:7977:6652:7936:8815:1594:8767:1:28:2157:::::|h[Наручи из шкуры свирепой гиены]|h|r	4", -- [1670]
-			"<00:15:23> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2567	193793	|cffa335ee|Hitem:193793::::::::70:269::23:6:7977:6652:7936:8815:1594:8767:1:28:2157:::::|h[Наручи из шкуры свирепой гиены]|h|r	1	Хугомонк	MONK", -- [1671]
-			"<00:15:23> <DEBUG>		OnLootSlotCleared()	3	|cff9d9d9d|Hitem:192621::::::::70:269:::::::::|h[Длинный коготь]|h|r	0", -- [1672]
-			"<00:15:23> <DEBUG>		OnLootSlotCleared()	4	|cff9d9d9d|Hitem:192648::::::::70:269:::::::::|h[Необработанный звериный мех]|h|r	0", -- [1673]
-			"<00:15:23> <DEBUG>		Event:	LOOT_CLOSED", -- [1674]
-			"<00:15:23> <DEBUG>		Event:	LOOT_CLOSED", -- [1675]
-			"<00:15:23> <Comm>		^1^Sl^T^N1^S186284^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1676]
-			"<00:15:23> <Comm>		^1^Sl^T^N1^S186284^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1677]
-			"<00:15:25> <DEBUG>		Storage:New	|cffa335ee|Hitem:193793::::::::70:269::23:6:7977:6652:7936:8815:1594:8767:1:28:2157:::::|h[Наручи из шкуры свирепой гиены]|h|r	temp", -- [1678]
-			"<00:15:25> <DEBUG>		Storage: searching for item:	||cffa335ee||Hitem:193793::::::::70:269::23:6:7977:6652:7936:8815:1594:8767:1:28:2157:::::||h[Наручи из шкуры свирепой гиены]||h||r	5", -- [1679]
-			"<00:15:25> <DEBUG>		Found item at	2	20", -- [1680]
-			"<00:15:25> <DEBUG>		Found:	2	20	0", -- [1681]
-			"<00:15:26> <DEBUG>		Storage: searching for item:	||cffa335ee||Hitem:193793::::::::70:269::23:6:7977:6652:7936:8815:1594:8767:1:28:2157:::::||h[Наручи из шкуры свирепой гиены]||h||r	5", -- [1682]
-			"<00:15:26> <DEBUG>		Found:	nil	nil	nil", -- [1683]
-			"<00:15:27> <DEBUG>		Storage: searching for item:	||cffa335ee||Hitem:193793::::::::70:269::23:6:7977:6652:7936:8815:1594:8767:1:28:2157:::::||h[Наручи из шкуры свирепой гиены]||h||r	5", -- [1684]
-			"<00:15:27> <DEBUG>		Found:	nil	nil	nil", -- [1685]
-			"<00:15:28> <DEBUG>		Storage: searching for item:	||cffa335ee||Hitem:193793::::::::70:269::23:6:7977:6652:7936:8815:1594:8767:1:28:2157:::::||h[Наручи из шкуры свирепой гиены]||h||r	5", -- [1686]
-			"<00:15:28> <DEBUG>		Found:	nil	nil	nil", -- [1687]
-			"<00:15:28> <ERROR>		UpdateAndSendRecentTradableItem: |cffa335ee|Hitem:193793::::::::70:269::23:6:7977:6652:7936:8815:1594:8767:1:28:2157:::::|h[Наручи из шкуры свирепой гиены]|h|r not found in bags", -- [1688]
-			"<00:16:50> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	бабусянатусе-Ревущийфьорд", -- [1689]
-			"<00:17:47> <DEBUG>		Event:	LOOT_READY	true", -- [1690]
-			"<00:17:47> <DEBUG>		Ignoring	nil	as it's a currency", -- [1691]
-			"<00:17:47> <DEBUG>		Event:	LOOT_READY	true", -- [1692]
-			"<00:17:47> <DEBUG>		Ignoring	nil	as it's a currency", -- [1693]
-			"<00:17:47> <DEBUG>		Event:	LOOT_CLOSED", -- [1694]
-			"<00:17:47> <DEBUG>		Event:	LOOT_CLOSED", -- [1695]
-			"<00:19:04> <DEBUG>		Event:	LOOT_READY	true", -- [1696]
-			"<00:19:04> <DEBUG>		Adding to self.lootSlotInfo	1	|cff1eff00|Hitem:198990::::::::70:269:::4:7968:6652:7937:1678:1:28:2157:::::|h[Шнурованный ремень наблюдателя за драконами со знаком быстрого клинка]|h|r	2	1	Creature-0-3889-2520-19412-186242-0003177A1A	1", -- [1697]
-			"<00:19:04> <DEBUG>		Event:	LOOT_READY	true", -- [1698]
-			"<00:19:04> <DEBUG>		Adding to self.lootSlotInfo	1	|cff1eff00|Hitem:198990::::::::70:269:::4:7968:6652:7937:1678:1:28:2157:::::|h[Шнурованный ремень наблюдателя за драконами со знаком быстрого клинка]|h|r	2	1	Creature-0-3889-2520-19412-186242-0003177A1A	1", -- [1699]
-			"<00:19:04> <DEBUG>		Event:	LOOT_CLOSED", -- [1700]
-			"<00:19:04> <DEBUG>		OnLootSlotCleared()	1	|cff1eff00|Hitem:198990::::::::70:269:::4:7968:6652:7937:1678:1:28:2157:::::|h[Шнурованный ремень наблюдателя за драконами со знаком быстрого клинка]|h|r	2", -- [1701]
-			"<00:19:04> <DEBUG>		Event:	LOOT_CLOSED", -- [1702]
-			"<00:19:04> <Comm>		^1^Sl^T^N1^S186242^t^^	PARTY	хугомонк-Ревущийфьорд", -- [1703]
-			"<00:19:06> <DEBUG>		Storage:New	|cff1eff00|Hitem:198990::::::::70:269:::4:7968:6652:7937:1678:1:28:2157:::::|h[Шнурованный ремень наблюдателя за драконами со знаком быстрого клинка]|h|r	temp", -- [1704]
-			"<00:19:06> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:198990::::::::70:269:::4:7968:6652:7937:1678:1:28:2157:::::||h[Шнурованный ремень наблюдателя за драконами со знаком быстрого клинка]||h||r	5", -- [1705]
-			"<00:19:06> <DEBUG>		Found:	nil	nil	nil", -- [1706]
-			"<00:19:07> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:198990::::::::70:269:::4:7968:6652:7937:1678:1:28:2157:::::||h[Шнурованный ремень наблюдателя за драконами со знаком быстрого клинка]||h||r	5", -- [1707]
-			"<00:19:07> <DEBUG>		Found:	nil	nil	nil", -- [1708]
-			"<00:19:08> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:198990::::::::70:269:::4:7968:6652:7937:1678:1:28:2157:::::||h[Шнурованный ремень наблюдателя за драконами со знаком быстрого клинка]||h||r	5", -- [1709]
-			"<00:19:08> <DEBUG>		Found:	nil	nil	nil", -- [1710]
-			"<00:19:09> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:198990::::::::70:269:::4:7968:6652:7937:1678:1:28:2157:::::||h[Шнурованный ремень наблюдателя за драконами со знаком быстрого клинка]||h||r	5", -- [1711]
-			"<00:19:09> <DEBUG>		Found:	nil	nil	nil", -- [1712]
-			"<00:19:09> <ERROR>		UpdateAndSendRecentTradableItem: |cff1eff00|Hitem:198990::::::::70:269:::4:7968:6652:7937:1678:1:28:2157:::::|h[Шнурованный ремень наблюдателя за драконами со знаком быстрого клинка]|h|r not found in bags", -- [1713]
-			"<00:19:25> <DEBUG>		Event:	ENCOUNTER_START	2568	Древорот	23	5", -- [1714]
-			"<00:19:25> <INFO>		UpdatePlayersData()", -- [1715]
-			"<00:20:20> <DEBUG>		Event:	ENCOUNTER_END	2568	Древорот	23	5	1", -- [1716]
-			"<00:20:21> <DEBUG>		Event:	LOOT_READY	true", -- [1717]
-			"<00:20:21> <DEBUG>		Ignoring	nil	as it's a currency", -- [1718]
-			"<00:20:21> <DEBUG>		Event:	LOOT_READY	true", -- [1719]
-			"<00:20:21> <DEBUG>		Ignoring	nil	as it's a currency", -- [1720]
-			"<00:20:22> <DEBUG>		Event:	LOOT_CLOSED", -- [1721]
-			"<00:20:22> <DEBUG>		Event:	LOOT_CLOSED", -- [1722]
-			"<00:20:23> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2568	193653	|cffa335ee|Hitem:193653::::::::70:269::23:6:7977:40:7937:8816:1594:8767:1:28:2157:::::|h[Маска неувядающих листьев]|h|r	1	Rousété-Archimonde	MAGE", -- [1723]
-			"<00:20:23> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2568	193869	|cffa335ee|Hitem:193869::::::::70:269::23::1:28:2157:::::|h[Выкройка: обмотки с ядовитыми шипами]|h|r	1	Rousété-Archimonde	MAGE", -- [1724]
-			"<00:22:57> <DEBUG>		Event:	LOOT_READY	true", -- [1725]
-			"<00:22:57> <DEBUG>		Ignoring	nil	as it's a currency", -- [1726]
-			"<00:22:57> <DEBUG>		Event:	LOOT_READY	true", -- [1727]
-			"<00:22:57> <DEBUG>		Ignoring	nil	as it's a currency", -- [1728]
-			"<00:22:58> <DEBUG>		Event:	LOOT_CLOSED", -- [1729]
-			"<00:22:58> <DEBUG>		Event:	LOOT_CLOSED", -- [1730]
-			"<00:23:33> <DEBUG>		Event:	LOOT_READY	true", -- [1731]
-			"<00:23:33> <DEBUG>		Ignoring	nil	as it's a currency", -- [1732]
-			"<00:23:34> <DEBUG>		Event:	LOOT_READY	true", -- [1733]
-			"<00:23:34> <DEBUG>		Ignoring	nil	as it's a currency", -- [1734]
-			"<00:23:34> <DEBUG>		Event:	LOOT_CLOSED", -- [1735]
-			"<00:23:51> <DEBUG>		Event:	LOOT_READY	true", -- [1736]
-			"<00:23:51> <DEBUG>		Ignoring	nil	as it's a currency", -- [1737]
-			"<00:23:51> <DEBUG>		Event:	LOOT_READY	true", -- [1738]
-			"<00:23:51> <DEBUG>		Ignoring	nil	as it's a currency", -- [1739]
-			"<00:23:52> <DEBUG>		Event:	LOOT_CLOSED", -- [1740]
-			"<00:23:52> <DEBUG>		Event:	LOOT_CLOSED", -- [1741]
-			"<00:24:09> <DEBUG>		Event:	ENCOUNTER_START	2569	Гниломаг Око Гнева	23	5", -- [1742]
-			"<00:24:09> <INFO>		UpdatePlayersData()", -- [1743]
-			"<00:25:24> <DEBUG>		Event:	ENCOUNTER_END	2569	Гниломаг Око Гнева	23	5	1", -- [1744]
-			"<00:25:36> <DEBUG>		Event:	LOOT_READY	true", -- [1745]
-			"<00:25:36> <DEBUG>		Ignoring	nil	as it's a currency", -- [1746]
-			"<00:25:36> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2569	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	1	Rousété-Archimonde	MAGE", -- [1747]
-			"<00:25:36> <DEBUG>		Event:	LOOT_READY	true", -- [1748]
-			"<00:25:36> <DEBUG>		Ignoring	nil	as it's a currency", -- [1749]
-			"<00:25:37> <DEBUG>		Event:	LOOT_CLOSED", -- [1750]
-			"<00:25:37> <DEBUG>		Event:	LOOT_CLOSED", -- [1751]
-			"<00:25:37> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2569	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	2	Хугомонк	MONK", -- [1752]
-			"<00:25:37> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2569	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	1	Criptic-Nagrand	HUNTER", -- [1753]
-			"<00:25:37> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2569	197396	|cff0070dd|Hitem:197396::::::::70:269::23::1:28:2155:::::|h[Обновленный протодракон: окрас \"Ужас небес\"]|h|r	1	Criptic-Nagrand	HUNTER", -- [1754]
-			"<00:25:37> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2569	193660	|cffa335ee|Hitem:193660::::::::70:269::23:4:7977:6652:1594:8767:1:28:2155:::::|h[Идол чистого разложения]|h|r	1	Criptic-Nagrand	HUNTER", -- [1755]
-			"<00:25:39> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2569	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	1	Roséy-TwistingNether	DRUID", -- [1756]
-			"<00:25:39> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2569	193661	|cffa335ee|Hitem:193661::::::::70:269::23:5:7977:6652:8813:1594:8767:1:28:2155:::::|h[Захваты гнилоплета]|h|r	1	Roséy-TwistingNether	DRUID", -- [1757]
-			"<00:25:54> <DEBUG>		Event:	GROUP_LEFT	1	Party-3674-1-000036237B24", -- [1758]
-			"<00:25:54> <DEBUG>		GetML()", -- [1759]
-			"<00:26:15> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1760]
-			"<00:26:15> <INFO>		UpdatePlayersData()", -- [1761]
-			"<00:26:16> <DEBUG>		GetML()", -- [1762]
-			"<00:33:03> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	аэрель-Ревущийфьорд", -- [1763]
-			"<00:39:18> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	нотушка-Ревущийфьорд", -- [1764]
-			"<00:56:46> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	бабусянатусе-Ревущийфьорд", -- [1765]
-			"<01:00:27> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	комт-Ревущийфьорд", -- [1766]
-			"<01:00:58> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	дельфуего-Ревущийфьорд", -- [1767]
-			"<01:07:22> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	ожившийлось-Ревущийфьорд", -- [1768]
-			"<01:17:22> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	алестразар-Ревущийфьорд", -- [1769]
-			"<01:20:10> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	хохохохохох-Ревущийфьорд", -- [1770]
-			"<01:22:41> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1771]
-			"<01:22:41> <INFO>		UpdatePlayersData()", -- [1772]
-			"<01:22:43> <DEBUG>		GetML()", -- [1773]
-			"<01:24:41> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1774]
-			"<01:24:41> <INFO>		UpdatePlayersData()", -- [1775]
-			"<01:24:43> <DEBUG>		GetML()", -- [1776]
-			"12/13/22", -- [1777]
-			"<11:19:40> <INFO>		Logged In", -- [1778]
-			"<11:19:40> [ML]<INFO>		Init", -- [1779]
-			"<11:19:40> <INFO>		RCLootCouncil	TradeUI enabled", -- [1780]
-			"<11:19:48> <Data.Player>		UpdateCachedPlayer - couldn't get PlayerInfoByGUID	хугомонк-Ревущийфьорд	Player-1615-0B07C4E5", -- [1781]
-			"<11:19:48> <INFO>		хугомонк-Ревущийфьорд	3.6.0	nil", -- [1782]
-			"<11:19:48> <DEBUG>		ActivateSkin	bfa", -- [1783]
-			"<11:19:50> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [1784]
-			"<11:19:50> <INFO>		UpdatePlayersData()", -- [1785]
-			"<11:19:50> <INFO>		Player relog...", -- [1786]
-			"<11:19:51> <DEBUG>		GetPlayersGuildRank()", -- [1787]
-			"<11:19:51> <DEBUG>		GetPlayersGuildRank()", -- [1788]
-			"<11:19:51> <DEBUG>		Found Guild Rank: Новичок", -- [1789]
-			"<11:19:53> <DEBUG>		GetML()", -- [1790]
-			"<11:19:53> <DEBUG>		Storage: searching for item:	||cff0070dd||Hitem:191578::::::::70:269::23::1:28:2157:::::||h[Рецепт: трансмутация - пробужденный огонь]||h||r	5", -- [1791]
-			"<11:19:53> <DEBUG>		Found item at	1	7", -- [1792]
-			"<11:19:53> <DEBUG>		Storage: searching for item:	||cff0070dd||Hitem:191578::::::::70:269::23::1:28:2157:::::||h[Рецепт: трансмутация - пробужденный огонь]||h||r	5", -- [1793]
-			"<11:19:53> <DEBUG>		Found item at	1	7", -- [1794]
-			"<11:19:53> <WARNING>		ItemStorage, db item no link or timeout	|cffa335ee|Hitem:193739::::::::70:269::23:5:7977:6652:8814:1594:8767:1:28:2157:::::|h[Ботфорты восстановленного порядка]|h|r	7140	1670868081", -- [1795]
-			"<11:19:53> <WARNING>		ItemStorage, db item no link or timeout	|cffa335ee|Hitem:193701::::::::70:269::23:4:7977:6652:1594:8767:1:28:2157:::::|h[Алгет'арская шкатулка с секретом]|h|r	7140	1670869307", -- [1796]
-			"<11:19:53> <WARNING>		ItemStorage, db item no link or timeout	|cffa335ee|Hitem:193668::::::::70:269::23:6:7977:41:7936:8814:1594:8767:1:28:2157:::::|h[Боевой пояс из кожи трогга]|h|r	7140	1670870337", -- [1797]
-			"<11:19:54> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	хугомонк-Ревущийфьорд", -- [1798]
-			"12/13/22", -- [1799]
-			"<12:43:07> <INFO>		Logged In", -- [1800]
-			"<12:43:07> [ML]<INFO>		Init", -- [1801]
-			"<12:43:07> <INFO>		RCLootCouncil	TradeUI enabled", -- [1802]
-			"<12:43:16> <Data.Player>		UpdateCachedPlayer - couldn't get PlayerInfoByGUID	хугомонк-Ревущийфьорд	Player-1615-0B07C4E5", -- [1803]
-			"<12:43:16> <INFO>		хугомонк-Ревущийфьорд	3.6.0	nil", -- [1804]
-			"<12:43:16> <DEBUG>		ActivateSkin	bfa", -- [1805]
-			"<12:43:19> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [1806]
-			"<12:43:19> <INFO>		UpdatePlayersData()", -- [1807]
-			"<12:43:19> <INFO>		Player relog...", -- [1808]
-			"<12:43:19> <DEBUG>		GetPlayersGuildRank()", -- [1809]
-			"<12:43:20> <DEBUG>		GetPlayersGuildRank()", -- [1810]
-			"<12:43:20> <DEBUG>		Found Guild Rank: Новичок", -- [1811]
-			"<12:43:22> <DEBUG>		GetML()", -- [1812]
-			"<12:43:22> <DEBUG>		Storage: searching for item:	||cff0070dd||Hitem:191578::::::::70:269::23::1:28:2157:::::||h[Рецепт: трансмутация - пробужденный огонь]||h||r	5", -- [1813]
-			"<12:43:22> <DEBUG>		Found item at	1	7", -- [1814]
-			"<12:43:22> <DEBUG>		Storage: searching for item:	||cff0070dd||Hitem:191578::::::::70:269::23::1:28:2157:::::||h[Рецепт: трансмутация - пробужденный огонь]||h||r	5", -- [1815]
-			"<12:43:22> <DEBUG>		Found item at	1	7", -- [1816]
-			"<12:43:22> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	хугомонк-Ревущийфьорд", -- [1817]
-			"<12:43:23> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [1818]
-			"12/13/22", -- [1819]
-			"<12:43:42> <INFO>		Logged In", -- [1820]
-			"<12:43:42> [ML]<INFO>		Init", -- [1821]
-			"<12:43:42> <INFO>		RCLootCouncil	TradeUI enabled", -- [1822]
-			"<12:43:44> <INFO>		хугомонк-Ревущийфьорд	3.6.0	nil", -- [1823]
-			"<12:43:44> <DEBUG>		ActivateSkin	bfa", -- [1824]
-			"<12:43:47> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	true", -- [1825]
-			"<12:43:47> <INFO>		UpdatePlayersData()", -- [1826]
-			"<12:43:47> <INFO>		Player relog...", -- [1827]
-			"<12:43:47> <DEBUG>		GetPlayersGuildRank()", -- [1828]
-			"<12:43:47> <DEBUG>		Found Guild Rank: Новичок", -- [1829]
-			"<12:43:48> <DEBUG>		GetML()", -- [1830]
-			"<12:43:48> <DEBUG>		Storage: searching for item:	||cff0070dd||Hitem:191578::::::::70:269::23::1:28:2157:::::||h[Рецепт: трансмутация - пробужденный огонь]||h||r	5", -- [1831]
-			"<12:43:48> <DEBUG>		Found item at	1	7", -- [1832]
-			"<12:43:48> <DEBUG>		Storage: searching for item:	||cff0070dd||Hitem:191578::::::::70:269::23::1:28:2157:::::||h[Рецепт: трансмутация - пробужденный огонь]||h||r	5", -- [1833]
-			"<12:43:48> <DEBUG>		Found item at	1	7", -- [1834]
-			"<12:43:48> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	хугомонк-Ревущийфьорд", -- [1835]
-			"<12:43:48> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [1836]
-			"12/13/22", -- [1837]
-			"<12:46:56> <INFO>		Logged In", -- [1838]
-			"<12:46:56> [ML]<INFO>		Init", -- [1839]
-			"<12:46:56> <INFO>		RCLootCouncil	TradeUI enabled", -- [1840]
-			"<12:46:58> <INFO>		хугомонк-Ревущийфьорд	3.6.0	nil", -- [1841]
-			"<12:46:58> <DEBUG>		ActivateSkin	bfa", -- [1842]
-			"<12:47:00> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	true", -- [1843]
-			"<12:47:00> <INFO>		UpdatePlayersData()", -- [1844]
-			"<12:47:00> <INFO>		Player relog...", -- [1845]
-			"<12:47:01> <DEBUG>		GetPlayersGuildRank()", -- [1846]
-			"<12:47:01> <DEBUG>		Found Guild Rank: Новичок", -- [1847]
-			"<12:47:01> <DEBUG>		GetML()", -- [1848]
-			"<12:47:01> <DEBUG>		Storage: searching for item:	||cff0070dd||Hitem:191578::::::::70:269::23::1:28:2157:::::||h[Рецепт: трансмутация - пробужденный огонь]||h||r	5", -- [1849]
-			"<12:47:01> <DEBUG>		Found item at	1	7", -- [1850]
-			"<12:47:01> <DEBUG>		Storage: searching for item:	||cff0070dd||Hitem:191578::::::::70:269::23::1:28:2157:::::||h[Рецепт: трансмутация - пробужденный огонь]||h||r	5", -- [1851]
-			"<12:47:01> <DEBUG>		Found item at	1	7", -- [1852]
-			"<12:47:01> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	хугомонк-Ревущийфьорд", -- [1853]
-			"<12:47:01> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [1854]
-			"<12:53:31> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	гигаовца-Ревущийфьорд", -- [1855]
-			"<13:16:40> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	менструа-Ревущийфьорд", -- [1856]
-			"<13:37:39> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	ожившийлось-Ревущийфьорд", -- [1857]
-			"<13:41:35> <DEBUG>		Event:	LOOT_READY	true", -- [1858]
-			"<13:41:35> <DEBUG>		Event:	LOOT_READY	true", -- [1859]
-			"<13:41:38> <DEBUG>		Event:	LOOT_READY	true", -- [1860]
-			"<13:41:39> <DEBUG>		Event:	LOOT_READY	true", -- [1861]
-			"<13:41:42> <DEBUG>		Event:	LOOT_READY	true", -- [1862]
-			"<13:41:42> <DEBUG>		Event:	LOOT_READY	true", -- [1863]
-			"<13:41:45> <DEBUG>		Event:	LOOT_READY	true", -- [1864]
-			"<13:41:45> <DEBUG>		Event:	LOOT_READY	true", -- [1865]
-			"<13:41:48> <DEBUG>		Event:	LOOT_READY	true", -- [1866]
-			"<13:41:48> <DEBUG>		Event:	LOOT_READY	true", -- [1867]
-			"<13:41:51> <DEBUG>		Event:	LOOT_READY	true", -- [1868]
-			"<13:41:51> <DEBUG>		Event:	LOOT_READY	true", -- [1869]
-			"<13:41:54> <DEBUG>		Event:	LOOT_READY	true", -- [1870]
-			"<13:41:54> <DEBUG>		Event:	LOOT_READY	true", -- [1871]
-			"<13:41:57> <DEBUG>		Event:	LOOT_READY	true", -- [1872]
-			"<13:41:58> <DEBUG>		Event:	LOOT_READY	true", -- [1873]
-			"<13:42:00> <DEBUG>		Event:	LOOT_READY	true", -- [1874]
-			"<13:42:01> <DEBUG>		Event:	LOOT_READY	true", -- [1875]
-			"<13:42:43> <DEBUG>		Event:	LOOT_READY	true", -- [1876]
-			"<13:42:44> <DEBUG>		Event:	LOOT_READY	true", -- [1877]
-			"<13:42:48> <DEBUG>		Event:	LOOT_READY	true", -- [1878]
-			"<13:42:49> <DEBUG>		Event:	LOOT_READY	true", -- [1879]
-			"<13:42:57> <DEBUG>		Event:	LOOT_READY	true", -- [1880]
-			"<13:42:58> <DEBUG>		Event:	LOOT_READY	true", -- [1881]
-			"<13:43:02> <DEBUG>		Event:	LOOT_READY	true", -- [1882]
-			"<13:43:02> <DEBUG>		Event:	LOOT_READY	true", -- [1883]
-			"<13:43:06> <DEBUG>		Event:	LOOT_READY	true", -- [1884]
-			"<13:43:06> <DEBUG>		Event:	LOOT_READY	true", -- [1885]
-			"<13:43:09> <DEBUG>		Event:	LOOT_READY	true", -- [1886]
-			"<13:43:09> <DEBUG>		Event:	LOOT_READY	true", -- [1887]
-			"<13:43:12> <DEBUG>		Event:	LOOT_READY	true", -- [1888]
-			"<13:43:12> <DEBUG>		Event:	LOOT_READY	true", -- [1889]
-			"<13:43:15> <DEBUG>		Event:	LOOT_READY	true", -- [1890]
-			"<13:43:15> <DEBUG>		Event:	LOOT_READY	true", -- [1891]
-			"<13:43:19> <DEBUG>		Event:	LOOT_READY	true", -- [1892]
-			"<13:43:19> <DEBUG>		Event:	LOOT_READY	true", -- [1893]
-			"<13:43:22> <DEBUG>		Event:	LOOT_READY	true", -- [1894]
-			"<13:43:23> <DEBUG>		Event:	LOOT_READY	true", -- [1895]
-			"<13:43:31> <DEBUG>		Event:	LOOT_READY	true", -- [1896]
-			"<13:43:31> <DEBUG>		Event:	LOOT_READY	true", -- [1897]
-			"<13:43:34> <DEBUG>		Event:	LOOT_READY	true", -- [1898]
-			"<13:43:34> <DEBUG>		Event:	LOOT_READY	true", -- [1899]
-			"<13:43:37> <DEBUG>		Event:	LOOT_READY	true", -- [1900]
-			"<13:43:37> <DEBUG>		Event:	LOOT_READY	true", -- [1901]
-			"<13:43:42> <DEBUG>		Event:	LOOT_READY	true", -- [1902]
-			"<13:43:42> <DEBUG>		Event:	LOOT_READY	true", -- [1903]
-			"<13:43:45> <DEBUG>		Event:	LOOT_READY	true", -- [1904]
-			"<13:43:45> <DEBUG>		Event:	LOOT_READY	true", -- [1905]
-			"<13:43:50> <DEBUG>		Event:	LOOT_READY	true", -- [1906]
-			"<13:43:51> <DEBUG>		Event:	LOOT_READY	true", -- [1907]
-			"<13:43:53> <DEBUG>		Event:	LOOT_READY	true", -- [1908]
-			"<13:43:54> <DEBUG>		Event:	LOOT_READY	true", -- [1909]
-			"<13:43:57> <DEBUG>		Event:	LOOT_READY	true", -- [1910]
-			"<13:43:57> <DEBUG>		Event:	LOOT_READY	true", -- [1911]
-			"<13:43:59> <DEBUG>		Event:	LOOT_READY	true", -- [1912]
-			"<13:44:00> <DEBUG>		Event:	LOOT_READY	true", -- [1913]
-			"<13:47:23> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	нотушка-Ревущийфьорд", -- [1914]
-			"<13:57:35> <DEBUG>		Event:	LOOT_READY	true", -- [1915]
-			"<13:57:36> <DEBUG>		Event:	LOOT_READY	true", -- [1916]
-			"<13:58:06> <DEBUG>		Event:	LOOT_READY	true", -- [1917]
-			"<13:58:07> <DEBUG>		Event:	LOOT_READY	true", -- [1918]
-			"<13:58:18> <DEBUG>		Event:	LOOT_READY	true", -- [1919]
-			"<13:58:18> <DEBUG>		Event:	LOOT_READY	true", -- [1920]
-			"<13:58:37> <DEBUG>		Event:	LOOT_READY	true", -- [1921]
-			"<13:58:37> <DEBUG>		Event:	LOOT_READY	true", -- [1922]
-			"<13:58:45> <DEBUG>		Event:	LOOT_READY	true", -- [1923]
-			"<13:58:45> <DEBUG>		Event:	LOOT_READY	true", -- [1924]
-			"<13:58:59> <DEBUG>		Event:	LOOT_READY	true", -- [1925]
-			"<13:59:00> <DEBUG>		Event:	LOOT_READY	true", -- [1926]
-			"<13:59:27> <DEBUG>		Event:	LOOT_READY	true", -- [1927]
-			"<13:59:28> <DEBUG>		Event:	LOOT_READY	true", -- [1928]
-			"<13:59:37> <DEBUG>		Event:	LOOT_READY	true", -- [1929]
-			"<13:59:37> <DEBUG>		Event:	LOOT_READY	true", -- [1930]
-			"<13:59:48> <DEBUG>		Event:	LOOT_READY	true", -- [1931]
-			"<13:59:49> <DEBUG>		Event:	LOOT_READY	true", -- [1932]
-			"<14:00:20> <DEBUG>		Event:	LOOT_READY	true", -- [1933]
-			"<14:00:20> <DEBUG>		Event:	LOOT_READY	true", -- [1934]
-			"<14:00:30> <DEBUG>		Event:	LOOT_READY	true", -- [1935]
-			"<14:00:30> <DEBUG>		Event:	LOOT_READY	true", -- [1936]
-			"<14:00:43> <DEBUG>		Event:	LOOT_READY	true", -- [1937]
-			"<14:00:43> <DEBUG>		Event:	LOOT_READY	true", -- [1938]
-			"<14:00:54> <DEBUG>		Event:	LOOT_READY	true", -- [1939]
-			"<14:00:54> <DEBUG>		Event:	LOOT_READY	true", -- [1940]
-			"<14:01:14> <DEBUG>		Event:	LOOT_READY	true", -- [1941]
-			"<14:01:14> <DEBUG>		Event:	LOOT_READY	true", -- [1942]
-			"<14:01:49> <DEBUG>		Event:	LOOT_READY	true", -- [1943]
-			"<14:01:49> <DEBUG>		Event:	LOOT_READY	true", -- [1944]
-			"<14:01:52> <DEBUG>		Event:	LOOT_READY	true", -- [1945]
-			"<14:01:53> <DEBUG>		Event:	LOOT_READY	true", -- [1946]
-			"<14:01:58> <DEBUG>		Event:	LOOT_READY	true", -- [1947]
-			"<14:01:58> <DEBUG>		Event:	LOOT_READY	true", -- [1948]
-			"<14:02:19> <DEBUG>		Event:	LOOT_READY	true", -- [1949]
-			"<14:02:19> <DEBUG>		Event:	LOOT_READY	true", -- [1950]
-			"<14:02:30> <DEBUG>		Event:	LOOT_READY	true", -- [1951]
-			"<14:02:30> <DEBUG>		Event:	LOOT_READY	true", -- [1952]
-			"<14:02:39> <DEBUG>		Event:	LOOT_READY	true", -- [1953]
-			"<14:02:39> <DEBUG>		Event:	LOOT_READY	true", -- [1954]
-			"<14:02:55> <DEBUG>		Event:	LOOT_READY	true", -- [1955]
-			"<14:02:55> <DEBUG>		Event:	LOOT_READY	true", -- [1956]
-			"<14:03:47> <DEBUG>		Event:	LOOT_READY	true", -- [1957]
-			"<14:03:47> <DEBUG>		Event:	LOOT_READY	true", -- [1958]
-			"<14:04:05> <DEBUG>		Event:	LOOT_READY	true", -- [1959]
-			"<14:04:05> <DEBUG>		Event:	LOOT_READY	true", -- [1960]
-			"<14:04:31> <DEBUG>		Event:	LOOT_READY	true", -- [1961]
-			"<14:04:32> <DEBUG>		Event:	LOOT_READY	true", -- [1962]
-			"<14:04:53> <DEBUG>		Event:	LOOT_READY	true", -- [1963]
-			"<14:04:53> <DEBUG>		Event:	LOOT_READY	true", -- [1964]
-			"<14:05:18> <DEBUG>		Event:	LOOT_READY	true", -- [1965]
-			"<14:05:18> <DEBUG>		Event:	LOOT_READY	true", -- [1966]
-			"<14:05:31> <DEBUG>		Event:	LOOT_READY	true", -- [1967]
-			"<14:05:32> <DEBUG>		Event:	LOOT_READY	true", -- [1968]
-			"<14:05:48> <DEBUG>		Event:	LOOT_READY	true", -- [1969]
-			"<14:05:48> <DEBUG>		Event:	LOOT_READY	true", -- [1970]
-			"<14:05:57> <DEBUG>		Event:	LOOT_READY	true", -- [1971]
-			"<14:05:57> <DEBUG>		Event:	LOOT_READY	true", -- [1972]
-			"<14:06:20> <DEBUG>		Event:	LOOT_READY	true", -- [1973]
-			"<14:06:20> <DEBUG>		Event:	LOOT_READY	true", -- [1974]
-			"<14:07:02> <DEBUG>		Event:	LOOT_READY	true", -- [1975]
-			"<14:07:02> <DEBUG>		Event:	LOOT_READY	true", -- [1976]
-			"<14:07:28> <DEBUG>		Event:	LOOT_READY	true", -- [1977]
-			"<14:07:28> <DEBUG>		Event:	LOOT_READY	true", -- [1978]
-			"12/13/22", -- [1979]
-			"<14:37:51> <INFO>		Logged In", -- [1980]
-			"<14:37:51> [ML]<INFO>		Init", -- [1981]
-			"<14:37:51> <INFO>		RCLootCouncil	TradeUI enabled", -- [1982]
-			"<14:37:59> <Data.Player>		UpdateCachedPlayer - couldn't get PlayerInfoByGUID	хугомонк-Ревущийфьорд	Player-1615-0B07C4E5", -- [1983]
-			"<14:37:59> <INFO>		хугомонк-Ревущийфьорд	3.6.0	nil", -- [1984]
-			"<14:37:59> <DEBUG>		ActivateSkin	bfa", -- [1985]
-			"<14:38:02> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [1986]
-			"<14:38:02> <INFO>		UpdatePlayersData()", -- [1987]
-			"<14:38:02> <INFO>		Player relog...", -- [1988]
-			"<14:38:03> <DEBUG>		GetPlayersGuildRank()", -- [1989]
-			"<14:38:03> <DEBUG>		GetPlayersGuildRank()", -- [1990]
-			"<14:38:03> <DEBUG>		Found Guild Rank: Новичок", -- [1991]
-			"<14:38:05> <DEBUG>		GetML()", -- [1992]
-			"<14:38:05> <DEBUG>		Storage: searching for item:	||cff0070dd||Hitem:191578::::::::70:269::23::1:28:2157:::::||h[Рецепт: трансмутация - пробужденный огонь]||h||r	5", -- [1993]
-			"<14:38:05> <DEBUG>		Found item at	1	7", -- [1994]
-			"<14:38:05> <DEBUG>		Storage: searching for item:	||cff0070dd||Hitem:191578::::::::70:269::23::1:28:2157:::::||h[Рецепт: трансмутация - пробужденный огонь]||h||r	5", -- [1995]
-			"<14:38:05> <DEBUG>		Found item at	1	7", -- [1996]
-			"<14:38:05> <Comm>		^1^Sv^T^N1^S3.6.0^t^^	GUILD	хугомонк-Ревущийфьорд", -- [1997]
-			"<14:43:35> <DEBUG>		Event:	LOOT_READY	true", -- [1998]
-			"<14:43:35> <DEBUG>		Event:	LOOT_READY	true", -- [1999]
-			"<14:43:36> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	200135	|cff0070dd|Hitem:200135::::::::70:269::25:4:6652:1472:5864:8766:1:28:2437:::::|h[Ржавый большой меч]|h|r	1	Хугомонк	MONK", -- [2000]
+			"<23:18:45> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N2^t^t^^	RAID	ледотроль-Ревущийфьорд", -- [1]
+			"<23:18:45> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N2^t^t^^	RAID	этовертолет-Ревущийфьорд", -- [2]
+			"<23:18:47> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N2^t^t^^	RAID	ювитта-Ревущийфьорд", -- [3]
+			"<23:18:49> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	ледотроль-Ревущийфьорд", -- [4]
+			"<23:18:49> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	ледотроль-Ревущийфьорд", -- [5]
+			"<23:18:51> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	натазат-Ревущийфьорд", -- [6]
+			"<23:18:52> <Comm>		^1^Shistory^T^N1^Sдельфуего-Ревущийфьорд^N2^T^SmapID^N2522^Sdate^S21/12/22^Sclass^SROGUE^SgroupSize^N21^Sboss^SТеррос^Stime^S21:18:50^SitemReplaced1^S|cffa335ee|Hitem:195503:6628:::::::70:259::5:4:6652:7980:1485:8767::::::|h[Прочный~`осколок~`Терроса]|h|r^StypeCode^Sdefault^Sinstance^SХранилище~`Воплощений-Обычный^Sowner^Sдельфуего-Ревущийфьорд^Sid^S1671635930-3^Sresponse^SОсновной~`спек/Нужно^SdifficultyID^N14^SlootWon^S|cffa335ee|Hitem:195503::::::::70:259::3:4:6652:7979:1472:8767::::::|h[Прочный~`осколок~`Терроса]|h|r^SisAwardReason^b^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^SresponseID^N1^SitemReplaced2^S|cffa335ee|Hitem:200131::::::::70:259::26:4:6652:1481:5865:8767:1:28:2287:::::|h[Возвращенный~`кинжал~`выживающего]|h|r^Svotes^N0^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [7]
+			"<23:18:52> <Comm>		^1^Sawarded^T^N1^N3^N2^Sдельфуего-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [8]
+			"<23:18:55> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	натазат-Ревущийфьорд", -- [9]
+			"<23:18:56> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [10]
+			"<23:18:59> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Натазат	MAGE", -- [11]
+			"<23:18:59> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Натазат	MAGE", -- [12]
+			"<23:19:00> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	198965	|cff0070dd|Hitem:198965::::::::70:269:::::::::|h[Фрагмент первобытной земли]|h|r	1	Мурратик	PALADIN", -- [13]
+			"<23:19:00> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Мурратик	PALADIN", -- [14]
+			"<23:19:01> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190315	|cff0070dd|Hitem:190315::::::::70:269:::::::::|h[Пробуждающаяся земля]|h|r	3	Мурратик	PALADIN", -- [15]
+			"<23:19:17> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N2^t^t^^	RAID	серегя-Ревущийфьорд", -- [16]
+			"<23:19:18> <Comm>		^1^Shistory^T^N1^Sгигаовца-Ревущийфьорд^N2^T^SmapID^N2522^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SMAGE^SgroupSize^N21^Sboss^SТеррос^Stime^S21:19:16^SitemReplaced1^S|cffa335ee|Hitem:193761:6632:::::::70:259::23:4:7977:42:1594:8767:1:28:2157:::::|h[Насыщающий~`посох~`Истощенной~`Холодом]|h|r^Sinstance^SХранилище~`Воплощений-Обычный^Sowner^Sдельфуего-Ревущийфьорд^Sresponse^SОсновной~`спек/Нужно^StypeCode^Sdefault^SdifficultyID^N14^SlootWon^S|cffa335ee|Hitem:195497::::::::70:259::3:4:6652:7979:1472:8767::::::|h[Сейсмопосох~`обнаружения~`землетрясений]|h|r^Sid^S1671635956-4^Sdate^S21/12/22^SresponseID^N1^Svotes^N0^SisAwardReason^b^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [17]
+			"<23:19:18> <Comm>		^1^Sawarded^T^N1^N1^N2^Sгигаовца-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [18]
+			"<23:19:32> <Comm>		^1^Shistory^T^N1^Sнатазат-Ревущийфьорд^N2^T^SmapID^N2522^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SMAGE^SgroupSize^N21^Sboss^SТеррос^Stime^S21:19:29^SitemReplaced1^S|cffa335ee|Hitem:193707::::::::70:259::16:6:8963:7977:6652:9147:1604:8767:1:28:1279:::::|h[Итоговая~`оценка]|h|r^Sinstance^SХранилище~`Воплощений-Обычный^Sowner^Sдельфуего-Ревущийфьорд^Sresponse^SОсновной~`спек/Нужно^StypeCode^Sdefault^SdifficultyID^N14^SlootWon^S|cffa335ee|Hitem:195504::::::::70:259::3:4:6652:7979:1472:8767::::::|h[Пробудившийся~`планарный~`столп]|h|r^Sid^S1671635969-5^Sdate^S21/12/22^SresponseID^N1^Svotes^N0^SisAwardReason^b^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [19]
+			"<23:19:32> <Comm>		^1^Sawarded^T^N1^N2^N2^Sнатазат-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [20]
+			"<23:19:36> <Comm>		^1^Sv^T^N1^S3.6.4^t^^	GUILD	сварщег-Ревущийфьорд", -- [21]
+			"<23:19:37> <Comm>		^1^Sr^T^N1^S3.6.2^N3^T^t^t^^	GUILD	багетлюбви-Ревущийфьорд", -- [22]
+			"<23:19:37> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	ледотроль-Ревущийфьорд", -- [23]
+			"<23:19:37> <Comm>		^1^Sr^T^N1^S3.6.0^N3^T^t^t^^	GUILD	бесогонтв-Ревущийфьорд", -- [24]
+			"<23:19:37> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	натазат-Ревущийфьорд", -- [25]
+			"<23:19:37> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	бишарк-Ревущийфьорд", -- [26]
+			"<23:19:38> <Comm>		^1^Srolls^T^N1^N4^N2^T^Sледотроль-Ревущийфьорд^N71^Sмурратик-Ревущийфьорд^N32^Sменструа-Ревущийфьорд^N60^Sбабусянатусе-Ревущийфьорд^N43^Sювитта-Ревущийфьорд^N81^Sбишарк-Ревущийфьорд^N14^Sледиланатель-Ревущийфьорд^N42^Sватрониум-Ревущийфьорд^N19^Sнотушка-Ревущийфьорд^N27^Sлинлот-Ревущийфьорд^N65^Sсерегя-Ревущийфьорд^N6^Sожившийлось-Ревущийфьорд^N38^Sэтовертолет-Ревущийфьорд^N10^Sаскельт-Ревущийфьорд^N36^Sкомт-Ревущийфьорд^N34^Sгигаовца-Ревущийфьорд^N92^Sдельфуего-Ревущийфьорд^N94^Sзлюдра-Ревущийфьорд^N56^Sхугомонк-Ревущийфьорд^N52^Sнатазат-Ревущийфьорд^N29^Sаландир-Ревущийфьорд^N99^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [27]
+			"<23:19:42> <Comm>		^1^Shistory^T^N1^Sожившийлось-Ревущийфьорд^N2^T^SmapID^N2522^Sdate^S21/12/22^Sclass^SDEATHKNIGHT^SgroupSize^N20^Sboss^SТеррос^Stime^S21:19:39^SitemReplaced1^S|cffa335ee|Hitem:200563::::::::70:259::26:4:6652:1485:5864:8767:1:28:2287:::::|h[Панцирь~`для~`изначального~`ритуала]|h|r^StypeCode^Sdefault^Sinstance^SХранилище~`Воплощений-Обычный^Sowner^Sдельфуего-Ревущийфьорд^Sid^S1671635979-6^Sresponse^SОффспек/Не~`откажусь^SdifficultyID^N14^SlootWon^S|cffa335ee|Hitem:194303::::::::70:259::3:4:6652:7979:1472:8767::::::|h[Рокочущий~`рубин]|h|r^SisAwardReason^b^Scolor^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^SresponseID^N2^SitemReplaced2^S|cffa335ee|Hitem:194299::::::::70:259::5:4:7980:6652:1485:8767::::::|h[Украшение~`пламени]|h|r^Svotes^N0^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [28]
+			"<23:19:42> <Comm>		^1^Sawarded^T^N1^N4^N2^Sожившийлось-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [29]
+			"<23:19:43> <Comm>		^1^Ssession_end^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [30]
+			"<23:19:50> <Comm>		^1^Sv^T^N1^S3.6.4^t^^	GUILD	комт-Ревущийфьорд", -- [31]
+			"<23:19:50> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SОтряд~`Репка^N4^N0^N5^N391.8125^N6^N266^t^^	RAID	комт-Ревущийфьорд", -- [32]
+			"<23:19:50> <Data.Player>		CreatePlayer	Player-1615-0AC000DE", -- [33]
+			"<23:19:50> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	ледотроль-Ревущийфьорд", -- [34]
+			"<23:19:50> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	натазат-Ревущийфьорд", -- [35]
+			"<23:19:50> <Comm>		^1^Sr^T^N1^S3.6.2^N3^T^t^t^^	GUILD	багетлюбви-Ревущийфьорд", -- [36]
+			"<23:19:50> <Comm>		^1^Sr^T^N1^S3.6.0^N3^T^t^t^^	GUILD	бесогонтв-Ревущийфьорд", -- [37]
+			"<23:19:50> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	бишарк-Ревущийфьорд", -- [38]
+			"<23:19:58> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190315	|cff0070dd|Hitem:190315::::::::70:269:::::::::|h[Пробуждающаяся земля]|h|r	1	Бишарк	SHAMAN", -- [39]
+			"<23:19:59> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Бишарк	SHAMAN", -- [40]
+			"<23:19:59> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:194303::::::::70:259::3:4:6652:7979:1472:8767::::::|h[Рокочущий~`рубин]|h|r^N2^Sожившийлось-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [41]
+			"<23:19:59> <Comm>		^1^SfakeLoot^T^N1^S|cff9d9d9d|Hitem:192623::::::::70:264:::::::::|h[Огромный~`коготь~`протодракона]|h|r^N2^S197835^t^^	RAID	бишарк-Ревущийфьорд", -- [42]
+			"<23:20:02> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:195504::::::::70:259::3:4:6652:7979:1472:8767::::::|h[Пробудившийся~`планарный~`столп]|h|r^N2^Sнатазат-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [43]
+			"<23:20:12> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:195497::::::::70:259::3:4:6652:7979:1472:8767::::::|h[Сейсмопосох~`обнаружения~`землетрясений]|h|r^N2^Sгигаовца-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [44]
+			"<23:20:22> <Comm>		^1^Sl^T^N1^S198424^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [45]
+			"<23:20:22> <Comm>		^1^Sl^T^N1^S198424^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [46]
+			"<23:20:26> <Comm>		^1^Sl^T^N1^S199124^t^^	RAID	злюдра-Ревущийфьорд", -- [47]
+			"<23:20:32> <Comm>		^1^Sl^T^N1^S192767^t^^	RAID	ледотроль-Ревущийфьорд", -- [48]
+			"<23:20:32> <Comm>		^1^Sl^T^N1^S192767^t^^	RAID	ледотроль-Ревущийфьорд", -- [49]
+			"<23:20:32> <Comm>		^1^Sv^T^N1^S3.6.4^t^^	GUILD	лаурэлин-Ревущийфьорд", -- [50]
+			"<23:20:33> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	ледотроль-Ревущийфьорд", -- [51]
+			"<23:20:33> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	натазат-Ревущийфьорд", -- [52]
+			"<23:20:33> <Comm>		^1^Sr^T^N1^S3.6.2^N3^T^t^t^^	GUILD	багетлюбви-Ревущийфьорд", -- [53]
+			"<23:20:33> <Comm>		^1^Sr^T^N1^S3.6.0^N3^T^t^t^^	GUILD	бесогонтв-Ревущийфьорд", -- [54]
+			"<23:20:33> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	бишарк-Ревущийфьорд", -- [55]
+			"<23:20:33> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	198974	|cff0070dd|Hitem:198974::::::::70:269:::::::::|h[Украшение с удивительным узором]|h|r	1	Гигаовца	MAGE", -- [56]
+			"<23:20:33> <Comm>		^1^Sl^T^N1^S199124^t^^	RAID	гигаовца-Ревущийфьорд", -- [57]
+			"<23:20:33> <Comm>		^1^Sl^T^N1^S199124^t^^	RAID	гигаовца-Ревущийфьорд", -- [58]
+			"<23:21:16> <DEBUG>		Event:	LOOT_READY	true", -- [59]
+			"<23:21:16> <DEBUG>		Adding to self.lootSlotInfo	1	|cffffffff|Hitem:192615::::::::70:269:::::::::|h[Светящаяся жидкость]|h|r	1	1	Creature-0-4250-2522-20091-199182-000523446A	1", -- [60]
+			"<23:21:16> <DEBUG>		Ignoring	nil	as it's a currency", -- [61]
+			"<23:21:16> <DEBUG>		Adding to self.lootSlotInfo	3	|cff1eff00|Hitem:199025::::::::70:269:::3:7969:6652:1698:1:28:2158:::::|h[Булава длиннорога с символом лихорадочного света]|h|r	2	1	Creature-0-4250-2522-20091-199124-000123446A	1", -- [62]
+			"<23:21:17> <DEBUG>		Event:	LOOT_READY	true", -- [63]
+			"<23:21:17> <DEBUG>		Adding to self.lootSlotInfo	1	|cffffffff|Hitem:192615::::::::70:269:::::::::|h[Светящаяся жидкость]|h|r	1	1	Creature-0-4250-2522-20091-199182-000523446A	1", -- [64]
+			"<23:21:17> <DEBUG>		Ignoring	nil	as it's a currency", -- [65]
+			"<23:21:17> <DEBUG>		Adding to self.lootSlotInfo	3	|cff1eff00|Hitem:199025::::::::70:269:::3:7969:6652:1698:1:28:2158:::::|h[Булава длиннорога с символом лихорадочного света]|h|r	2	1	Creature-0-4250-2522-20091-199124-000123446A	1", -- [66]
+			"<23:21:17> <DEBUG>		OnLootSlotCleared()	1	|cffffffff|Hitem:192615::::::::70:269:::::::::|h[Светящаяся жидкость]|h|r	1", -- [67]
+			"<23:21:17> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190328	|cff0070dd|Hitem:190328::::::::70:269:::::::::|h[Пробуждающийся лед]|h|r	1	Аландир	DEMONHUNTER", -- [68]
+			"<23:21:17> <Comm>		^1^Sl^T^N1^S199182^t^^	RAID	менструа-Ревущийфьорд", -- [69]
+			"<23:21:17> <Comm>		^1^Sl^T^N1^S199182^t^^	RAID	менструа-Ревущийфьорд", -- [70]
+			"<23:21:17> <DEBUG>		OnLootSlotCleared()	3	|cff1eff00|Hitem:199025::::::::70:269:::3:7969:6652:1698:1:28:2158:::::|h[Булава длиннорога с символом лихорадочного света]|h|r	2", -- [71]
+			"<23:21:18> <Comm>		^1^Sl^T^N1^S192767^t^^	RAID	ювитта-Ревущийфьорд", -- [72]
+			"<23:21:18> <Comm>		^1^Sl^T^N1^S192767^t^^	RAID	ювитта-Ревущийфьорд", -- [73]
+			"<23:21:18> <DEBUG>		Event:	LOOT_CLOSED", -- [74]
+			"<23:21:18> <DEBUG>		Event:	LOOT_CLOSED", -- [75]
+			"<23:21:18> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190328	|cff0070dd|Hitem:190328::::::::70:269:::::::::|h[Пробуждающийся лед]|h|r	1	Хугомонк	MONK", -- [76]
+			"<23:21:18> <Comm>		^1^Sl^T^N1^S199124^t^^	RAID	хугомонк-Ревущийфьорд", -- [77]
+			"<23:21:18> <Comm>		^1^Sl^T^N1^S199124^t^^	RAID	хугомонк-Ревущийфьорд", -- [78]
+			"<23:21:18> <Comm>		^1^Sl^T^N1^S199182^t^^	RAID	аландир-Ревущийфьорд", -- [79]
+			"<23:21:18> <Comm>		^1^Sl^T^N1^S199182^t^^	RAID	аландир-Ревущийфьорд", -- [80]
+			"<23:21:18> <Comm>		^1^Sl^T^N1^S192767^t^^	RAID	этовертолет-Ревущийфьорд", -- [81]
+			"<23:21:18> <Comm>		^1^Sl^T^N1^S192767^t^^	RAID	этовертолет-Ревущийфьорд", -- [82]
+			"<23:21:19> <Comm>		^1^Sl^T^N1^S192767^t^^	RAID	нотушка-Ревущийфьорд", -- [83]
+			"<23:21:19> <Comm>		^1^Sl^T^N1^S192767^t^^	RAID	нотушка-Ревущийфьорд", -- [84]
+			"<23:21:19> <Comm>		^1^Sl^T^N1^S192767^t^^	RAID	ледиланатель-Ревущийфьорд", -- [85]
+			"<23:21:20> <DEBUG>		Storage:New	|cff1eff00|Hitem:199025::::::::70:269:::3:7969:6652:1698:1:28:2158:::::|h[Булава длиннорога с символом лихорадочного света]|h|r	temp", -- [86]
+			"<23:21:20> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199025::::::::70:269:::3:7969:6652:1698:1:28:2158:::::||h[Булава длиннорога с символом лихорадочного света]||h||r	5", -- [87]
+			"<23:21:20> <DEBUG>		Found:	nil	nil	nil", -- [88]
+			"<23:21:20> <Comm>		^1^Sl^T^N1^S199182^t^^	RAID	гигаовца-Ревущийфьорд", -- [89]
+			"<23:21:20> <Comm>		^1^Sl^T^N1^S199182^t^^	RAID	гигаовца-Ревущийфьорд", -- [90]
+			"<23:21:20> <Comm>		^1^Sl^T^N1^S199182^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [91]
+			"<23:21:20> <Comm>		^1^Sl^T^N1^S199182^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [92]
+			"<23:21:21> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199025::::::::70:269:::3:7969:6652:1698:1:28:2158:::::||h[Булава длиннорога с символом лихорадочного света]||h||r	5", -- [93]
+			"<23:21:21> <DEBUG>		Found:	nil	nil	nil", -- [94]
+			"<23:21:21> <Comm>		^1^Sl^T^N1^S199182^t^^	RAID	комт-Ревущийфьорд", -- [95]
+			"<23:21:22> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199025::::::::70:269:::3:7969:6652:1698:1:28:2158:::::||h[Булава длиннорога с символом лихорадочного света]||h||r	5", -- [96]
+			"<23:21:22> <DEBUG>		Found:	nil	nil	nil", -- [97]
+			"<23:21:22> <Comm>		^1^Sl^T^N1^S199182^t^^	RAID	ледотроль-Ревущийфьорд", -- [98]
+			"<23:21:22> <Comm>		^1^Sl^T^N1^S199182^t^^	RAID	ледотроль-Ревущийфьорд", -- [99]
+			"<23:21:23> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199025::::::::70:269:::3:7969:6652:1698:1:28:2158:::::||h[Булава длиннорога с символом лихорадочного света]||h||r	5", -- [100]
+			"<23:21:23> <DEBUG>		Found:	nil	nil	nil", -- [101]
+			"<23:21:23> <ERROR>		UpdateAndSendRecentTradableItem: |cff1eff00|Hitem:199025::::::::70:269:::3:7969:6652:1698:1:28:2158:::::|h[Булава длиннорога с символом лихорадочного света]|h|r not found in bags", -- [102]
+			"<23:21:39> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190328	|cff0070dd|Hitem:190328::::::::70:269:::::::::|h[Пробуждающийся лед]|h|r	3	Дельфуего	ROGUE", -- [103]
+			"<23:21:40> <Comm>		^1^Sl^T^N1^S199182^t^^	RAID	дельфуего-Ревущийфьорд", -- [104]
+			"<23:21:40> <Comm>		^1^Sl^T^N1^S199182^t^^	RAID	дельфуего-Ревущийфьорд", -- [105]
+			"<23:22:16> <Comm>		^1^Sl^T^N1^S199333^t^^	RAID	нотушка-Ревущийфьорд", -- [106]
+			"<23:22:16> <Comm>		^1^Sl^T^N1^S199333^t^^	RAID	ватрониум-Ревущийфьорд", -- [107]
+			"<23:22:16> <Comm>		^1^Sl^T^N1^S199333^t^^	RAID	ювитта-Ревущийфьорд", -- [108]
+			"<23:22:16> <Comm>		^1^Sl^T^N1^S199333^t^^	RAID	ювитта-Ревущийфьорд", -- [109]
+			"<23:22:17> <Comm>		^1^Sl^T^N1^S199182^t^^	RAID	ожившийлось-Ревущийфьорд", -- [110]
+			"<23:22:17> <Comm>		^1^Sl^T^N1^S199182^t^^	RAID	ожившийлось-Ревущийфьорд", -- [111]
+			"<23:22:22> <Comm>		^1^Sl^T^N1^S199333^t^^	RAID	мурратик-Ревущийфьорд", -- [112]
+			"<23:22:22> <Comm>		^1^Sl^T^N1^S199333^t^^	RAID	мурратик-Ревущийфьорд", -- [113]
+			"<23:22:28> <Comm>		^1^Sv^T^N1^S3.6.4^t^^	GUILD	линлот-Ревущийфьорд", -- [114]
+			"<23:22:28> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SМастер~`Огня^N4^N0^N5^N385.3125^N6^N254^t^^	RAID	линлот-Ревущийфьорд", -- [115]
+			"<23:22:28> <Comm>		^1^Sr^T^N1^S3.6.2^N3^T^t^t^^	GUILD	багетлюбви-Ревущийфьорд", -- [116]
+			"<23:22:29> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	бишарк-Ревущийфьорд", -- [117]
+			"<23:22:29> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	ледотроль-Ревущийфьорд", -- [118]
+			"<23:22:29> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	натазат-Ревущийфьорд", -- [119]
+			"<23:22:29> <Comm>		^1^Sr^T^N1^S3.6.0^N3^T^t^t^^	GUILD	бесогонтв-Ревущийфьорд", -- [120]
+			"<23:22:31> <DEBUG>		Event:	ENCOUNTER_START	2592	Сеннарт Дыхание Льда	14	21", -- [121]
+			"<23:22:31> <INFO>		UpdatePlayersData()", -- [122]
+			"<23:22:31> <Comm>		^1^SStartHandleLoot^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [123]
+			"<23:22:33> <Comm>		^1^Sv^T^N1^S3.6.4^t^^	GUILD	комт-Ревущийфьорд", -- [124]
+			"<23:22:33> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SОтряд~`Репка^N4^N0^N5^N391.8125^N6^N266^t^^	RAID	комт-Ревущийфьорд", -- [125]
+			"<23:22:33> <Comm>		^1^Sr^T^N1^S3.6.2^N3^T^t^t^^	GUILD	багетлюбви-Ревущийфьорд", -- [126]
+			"<23:22:33> <Comm>		^1^Sr^T^N1^S3.6.0^N3^T^t^t^^	GUILD	бесогонтв-Ревущийфьорд", -- [127]
+			"<23:22:33> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	ледотроль-Ревущийфьорд", -- [128]
+			"<23:22:33> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	натазат-Ревущийфьорд", -- [129]
+			"<23:22:33> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	бишарк-Ревущийфьорд", -- [130]
+			"<23:22:34> <DEBUG>		Event:	ENCOUNTER_END	2592	Сеннарт Дыхание Льда	14	21	0", -- [131]
+			"<23:22:39> <Comm>		^1^Sl^T^N1^S199333^t^^	RAID	злюдра-Ревущийфьорд", -- [132]
+			"<23:22:41> <Comm>		^1^SfakeLoot^T^N1^S|cff9d9d9d|Hitem:192655::::::::70:264:::::::::|h[Холодная~`паучья~`лапка]|h|r^N2^S199182^t^^	RAID	бишарк-Ревущийфьорд", -- [133]
+			"<23:22:42> <Comm>		^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|2^B^S|5^N3^S|17^B^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [134]
+			"<23:22:42> <INFO>		OnMLDBReceived", -- [135]
+			"<23:22:42> <Comm>		^1^Scouncil^T^N1^T^S1615-0A722347^B^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [136]
+			"<23:22:42> <DEBUG>		isCouncil	false", -- [137]
+			"<23:23:19> <Comm>		^1^Sv^T^N1^S3.6.4^t^^	GUILD	серегя-Ревущийфьорд", -- [138]
+			"<23:23:19> <Comm>		^1^SpI^T^N1^SHEALER^N2^SОтряд~`Репка^N4^N0^N5^N385.375^N6^N264^t^^	RAID	серегя-Ревущийфьорд", -- [139]
+			"<23:23:19> <Comm>		^1^Sr^T^N1^S3.6.2^N3^T^t^t^^	GUILD	багетлюбви-Ревущийфьорд", -- [140]
+			"<23:23:19> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	ледотроль-Ревущийфьорд", -- [141]
+			"<23:23:19> <Comm>		^1^Sr^T^N1^S3.6.0^N3^T^t^t^^	GUILD	бесогонтв-Ревущийфьорд", -- [142]
+			"<23:23:19> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	натазат-Ревущийфьорд", -- [143]
+			"<23:23:19> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	бишарк-Ревущийфьорд", -- [144]
+			"<23:24:15> <Comm>		^1^Sv^T^N1^S3.6.4^t^^	GUILD	хохохохохох-Ревущийфьорд", -- [145]
+			"<23:24:16> <Comm>		^1^Sr^T^N1^S3.6.2^N3^T^t^t^^	GUILD	багетлюбви-Ревущийфьорд", -- [146]
+			"<23:24:16> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	ледотроль-Ревущийфьорд", -- [147]
+			"<23:24:16> <Comm>		^1^Sr^T^N1^S3.6.0^N3^T^t^t^^	GUILD	бесогонтв-Ревущийфьорд", -- [148]
+			"<23:24:16> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	натазат-Ревущийфьорд", -- [149]
+			"<23:24:16> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	бишарк-Ревущийфьорд", -- [150]
+			"<23:24:40> <Comm>		^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|2^B^S|5^N3^S|17^B^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [151]
+			"<23:24:40> <INFO>		OnMLDBReceived", -- [152]
+			"<23:24:40> <Comm>		^1^Scouncil^T^N1^T^S1615-0A722347^B^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [153]
+			"<23:24:40> <DEBUG>		isCouncil	false", -- [154]
+			"<23:25:41> <Comm>		^1^Sl^T^N1^S199333^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [155]
+			"<23:25:41> <Comm>		^1^Sl^T^N1^S199333^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [156]
+			"<23:25:41> <DEBUG>		Event:	ENCOUNTER_START	2592	Сеннарт Дыхание Льда	14	22", -- [157]
+			"<23:25:41> <INFO>		UpdatePlayersData()", -- [158]
+			"<23:25:42> <Comm>		^1^SStartHandleLoot^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [159]
+			"<23:30:52> <DEBUG>		Event:	ENCOUNTER_END	2592	Сеннарт Дыхание Льда	14	22	1", -- [160]
+			"<23:30:53> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:195506::::::::70:269::3:6:6652:8821:8817:7979:1472:8767::::::|h[Рукавицы с алмазной гравировкой]|h|r", -- [161]
+			"<23:30:53> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:194304::::::::70:269::3:4:6652:7979:1472:8767::::::|h[Смертельные силки ледяной крови]|h|r", -- [162]
+			"<23:30:53> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:194304::::::::70:269::3:4:6652:7979:1472:8767::::::|h[Смертельные силки ледяной крови]|h|r", -- [163]
+			"<23:30:53> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:196593::::::::70:269::3:4:7979:8827:1472:8767::::::|h[Камень Кузни из наивысшего нефрита]|h|r", -- [164]
+			"<23:30:53> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:196588::::::::70:269::3:4:7979:8827:1472:8767::::::|h[Камень Кузни из жуткого нефрита]|h|r", -- [165]
+			"<23:30:54> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Менструа	DEATHKNIGHT", -- [166]
+			"<23:30:54> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Менструа	DEATHKNIGHT", -- [167]
+			"<23:30:54> <DEBUG>		Event:	LOOT_READY	true", -- [168]
+			"<23:30:54> <DEBUG>		Ignoring	nil	as it's a currency", -- [169]
+			"<23:30:54> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Мурратик	PALADIN", -- [170]
+			"<23:30:54> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Ювитта	EVOKER", -- [171]
+			"<23:30:54> <DEBUG>		Event:	LOOT_READY	true", -- [172]
+			"<23:30:54> <DEBUG>		Ignoring	nil	as it's a currency", -- [173]
+			"<23:30:54> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Мурратик	PALADIN", -- [174]
+			"<23:30:54> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Ювитта	EVOKER", -- [175]
+			"<23:30:54> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Ожившийлось	DEATHKNIGHT", -- [176]
+			"<23:30:54> <Comm>		^1^Sl^T^N1^S187967^t^^	RAID	менструа-Ревущийфьорд", -- [177]
+			"<23:30:54> <Comm>		^1^Sl^T^N1^S187967^t^^	RAID	менструа-Ревущийфьорд", -- [178]
+			"<23:30:54> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Ожившийлось	DEATHKNIGHT", -- [179]
+			"<23:30:55> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Нотушка	DEATHKNIGHT", -- [180]
+			"<23:30:55> <Comm>		^1^Sl^T^N1^S187967^t^^	RAID	ожившийлось-Ревущийфьорд", -- [181]
+			"<23:30:55> <Comm>		^1^Sl^T^N1^S187967^t^^	RAID	ожившийлось-Ревущийфьорд", -- [182]
+			"<23:30:55> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Нотушка	DEATHKNIGHT", -- [183]
+			"<23:30:55> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Хугомонк	MONK", -- [184]
+			"<23:30:55> <Comm>		^1^Sl^T^N1^S187967^t^^	RAID	нотушка-Ревущийфьорд", -- [185]
+			"<23:30:55> <Comm>		^1^Sl^T^N1^S187967^t^^	RAID	нотушка-Ревущийфьорд", -- [186]
+			"<23:30:55> <DEBUG>		Event:	LOOT_CLOSED", -- [187]
+			"<23:30:55> <DEBUG>		Event:	LOOT_CLOSED", -- [188]
+			"<23:30:55> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Хугомонк	MONK", -- [189]
+			"<23:30:55> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Аландир	DEMONHUNTER", -- [190]
+			"<23:30:56> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Аландир	DEMONHUNTER", -- [191]
+			"<23:30:56> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Линлот	HUNTER", -- [192]
+			"<23:30:56> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Линлот	HUNTER", -- [193]
+			"<23:30:56> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Этовертолет	WARRIOR", -- [194]
+			"<23:30:57> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Этовертолет	WARRIOR", -- [195]
+			"<23:30:57> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Гигаовца	MAGE", -- [196]
+			"<23:30:57> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Ватрониум	SHAMAN", -- [197]
+			"<23:30:57> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Гигаовца	MAGE", -- [198]
+			"<23:30:57> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Ватрониум	SHAMAN", -- [199]
+			"<23:30:58> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Бабусянатусе	PRIEST", -- [200]
+			"<23:30:58> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Бабусянатусе	PRIEST", -- [201]
+			"<23:30:58> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Ледиланатель	MAGE", -- [202]
+			"<23:30:58> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Ледиланатель	MAGE", -- [203]
+			"<23:30:58> <Comm>		^1^SlootTable^T^N1^T^N1^T^Sstring^S196588:::::::::::3:4:7979:8827:1472:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SСеннарт~`Дыхание~`Льда^t^N2^T^Sstring^S196593:::::::::::3:4:7979:8827:1472:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SСеннарт~`Дыхание~`Льда^t^N3^T^Sstring^S195506:::::::::::3:6:6652:8821:8817:7979:1472:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SСеннарт~`Дыхание~`Льда^t^N4^T^Sstring^S194304:::::::::::3:4:6652:7979:1472:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SСеннарт~`Дыхание~`Льда^t^N5^T^Sstring^S194304:::::::::::3:4:6652:7979:1472:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SСеннарт~`Дыхание~`Льда^t^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [204]
+			"<23:30:58> <INFO>		Autopassed on: 	|cffa335ee|Hitem:196588::::::::70:269::3:4:7979:8827:1472:8767::::::|h[Камень Кузни из жуткого нефрита]|h|r", -- [205]
+			"<23:30:58> <INFO>		Autopassed on: 	|cffa335ee|Hitem:195506::::::::70:269::3:6:6652:8821:8817:7979:1472:8767::::::|h[Рукавицы с алмазной гравировкой]|h|r", -- [206]
+			"<23:30:58> <INFO>		GetPlayersGear	|cffa335ee|Hitem:196588::::::::70:269::3:4:7979:8827:1472:8767::::::|h[Камень Кузни из жуткого нефрита]|h|r	INVTYPE_LEGS", -- [207]
+			"<23:30:58> <INFO>		GetPlayersGear	|cffa335ee|Hitem:196593::::::::70:269::3:4:7979:8827:1472:8767::::::|h[Камень Кузни из наивысшего нефрита]|h|r	INVTYPE_LEGS", -- [208]
+			"<23:30:58> <INFO>		GetPlayersGear	|cffa335ee|Hitem:195506::::::::70:269::3:6:6652:8821:8817:7979:1472:8767::::::|h[Рукавицы с алмазной гравировкой]|h|r	INVTYPE_HAND", -- [209]
+			"<23:30:58> <INFO>		GetPlayersGear	|cffa335ee|Hitem:194304::::::::70:269::3:4:6652:7979:1472:8767::::::|h[Смертельные силки ледяной крови]|h|r	INVTYPE_TRINKET", -- [210]
+			"<23:30:58> <INFO>		GetPlayersGear	|cffa335ee|Hitem:194304::::::::70:269::3:4:6652:7979:1472:8767::::::|h[Смертельные силки ледяной крови]|h|r	INVTYPE_TRINKET", -- [211]
+			"<23:30:58> <INFO>		LootFrame:Start	5	nil", -- [212]
+			"<23:30:58> <DEBUG>		LootFrame:	|cffa335ee|Hitem:194304::::::::70:269::3:4:6652:7979:1472:8767::::::|h[Смертельные силки ледяной крови]|h|r	is a dublicate of	|cffa335ee|Hitem:194304::::::::70:269::3:4:6652:7979:1472:8767::::::|h[Смертельные силки ледяной крови]|h|r", -- [213]
+			"<23:30:58> <DEBUG>		Restoring entry:	default	1", -- [214]
+			"<23:30:58> <DEBUG>		GetButtons	default", -- [215]
+			"<23:30:58> <DEBUG>		Restoring entry:	default	1", -- [216]
+			"<23:30:58> <DEBUG>		GetButtons	default", -- [217]
+			"<23:30:59> <Comm>		^1^SlootAck^T^N1^N253^N2^N377.5^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^N5^B^t^Sdiff^T^N1^N0^N2^N0^N3^N10^N4^N17^N5^N17^t^Sgear1^T^N1^S200391:6493:::::::70:253::3:5:7979:6652:8827:1472:8767^N2^S200391:6493:::::::70:253::3:5:7979:6652:8827:1472:8767^N3^S193752::::::::70:253::16:8:8962:7977:6652:8822:8817:9144:1601:8767:1:28:1279^N4^S193769::::::::70:253::23:4:7977:6652:1594:8767:1:28:2157^N5^S193769::::::::70:253::23:4:7977:6652:1594:8767:1:28:2157^t^Sgear2^T^N4^S198542::::::::70:253::36:4:6652:1430:5865:8767:1:28:2537^N5^S198542::::::::70:253::36:4:6652:1430:5865:8767:1:28:2537^t^t^t^^	RAID	ледотроль-Ревущийфьорд", -- [218]
+			"<23:30:59> <Comm>		^1^SlootAck^T^N1^N263^N2^N379.125^N3^T^Sresponse^T^N1^B^N2^B^N3^B^t^Sdiff^T^N1^N7^N2^N7^N3^N-9^N4^N17^N5^N17^t^Sgear1^T^N1^S192001::::::::70:263::42:4:6652:1485:5864:8767:1:28:2287^N2^S192001::::::::70:263::42:4:6652:1485:5864:8767:1:28:2287^N3^S200398::::::::70:263::35:6:6652:8829:8968:7977:1475:8767^N4^S193697::::::::70:263::16:6:8964:7977:6652:9144:1607:8767:1:28:1279^N5^S193697::::::::70:263::16:6:8964:7977:6652:9144:1607:8767:1:28:1279^t^Sgear2^T^N4^S193743::::::::70:263::23:4:7977:6652:1594:8767:1:28:2157^N5^S193743::::::::70:263::23:4:7977:6652:1594:8767:1:28:2157^t^t^t^^	RAID	ватрониум-Ревущийфьорд", -- [219]
+			"<23:30:59> <Comm>		^1^SlootAck^T^N1^N105^N2^N389.375^N3^T^Sresponse^T^N1^B^N2^B^N3^B^t^Sdiff^T^N1^N0^N2^N0^N3^N7^N4^N17^N5^N17^t^Sgear1^T^N1^S200355:6538:::::::70:105::3:5:7979:6652:8827:1472:8767:1:28:1040^N2^S200355:6538:::::::70:105::3:5:7979:6652:8827:1472:8767:1:28:1040^N3^S201943::::::::70:105::13:5:8851:8852:8802:8850:8793:7:28:2164:29:36:30:40:38:8:40:847:45:198059:46:194566^N4^S200563::::::::70:105::25:4:6652:1475:5864:8767:1:28:2602^N5^S200563::::::::70:105::25:4:6652:1475:5864:8767:1:28:2602^t^Sgear2^T^N4^S198539::::::::70:105::36:4:6652:1430:5865:8767:1:28:2537^N5^S198539::::::::70:105::36:4:6652:1430:5865:8767:1:28:2537^t^t^t^^	RAID	злюдра-Ревущийфьорд", -- [220]
+			"<23:30:59> <Comm>		^1^SlootAck^T^N1^N577^N2^N392.8125^N3^T^Sresponse^T^N2^B^N3^B^N4^B^N5^B^t^Sdiff^T^N1^N-3^N2^N-3^N3^N-3^N4^N7^N5^N7^t^Sgear1^T^N1^S193684::::::::70:577::16:8:8966:7977:6652:8822:8820:9144:1614:8767:1:28:1279^N2^S193684::::::::70:577::16:8:8966:7977:6652:8822:8820:9144:1614:8767:1:28:1279^N3^S137480::::::::70:577::16:8:8966:7977:6652:8822:8817:9144:3271:8767:1:28:1279^N4^S193701::::::::70:577::16:6:7977:6652:9144:8963:1604:8767:1:28:1279^N5^S193701::::::::70:577::16:6:7977:6652:9144:8963:1604:8767:1:28:1279^t^Sgear2^T^N4^S193697::::::::70:577::16:6:8966:7977:6652:9144:1614:8767:1:28:1279^N5^S193697::::::::70:577::16:6:8966:7977:6652:9144:1614:8767:1:28:1279^t^t^t^^	RAID	аландир-Ревущийфьорд", -- [221]
+			"<23:30:59> <Comm>		^1^SlootAck^T^N1^N1467^N2^N383.375^N3^T^Sresponse^T^t^Sdiff^T^N1^N7^N2^N7^N3^N-6^N4^N17^N5^N17^t^Sgear1^T^N1^S192001:6538:::::::70:1467::42:4:42:1485:5864:8767:1:28:2287^N2^S192001:6538:::::::70:1467::42:4:42:1485:5864:8767:1:28:2287^N3^S200380::::::::70:1467::3:5:7979:6652:8829:1472:8767^N4^S193743::::::::70:1467::23:4:7977:6652:1594:8767:1:28:2157^N5^S193743::::::::70:1467::23:4:7977:6652:1594:8767:1:28:2157^t^Sgear2^T^N4^S200563::::::::70:1467::27:4:6652:1488:5864:8767:1:28:2534^N5^S200563::::::::70:1467::27:4:6652:1488:5864:8767:1:28:2534^t^t^t^^	RAID	ювитта-Ревущийфьорд", -- [222]
+			"<23:30:59> <Comm>		^1^SlootAck^T^N1^N66^N2^N391.0625^N3^T^Sresponse^T^N1^B^N2^B^t^Sdiff^T^N1^N-9^N2^N-9^N3^N-6^N4^N-3^N5^N-3^t^Sgear1^T^N1^S134271:6492:::::::70:66::16:8:8968:7977:41:8822:8820:9144:3277:8767:1:28:1279^N2^S134271:6492:::::::70:66::16:8:8968:7977:41:8822:8820:9144:3277:8767:1:28:1279^N3^S200416::::::::70:66::3:5:7979:6652:8829:1472:8767:1:28:1040^N4^S194306::::::::70:66::3:4:7979:6652:1472:8767^N5^S194306::::::::70:66::3:4:7979:6652:1472:8767^t^Sgear2^T^N4^S133642::::::::70:66::16:6:8966:7977:6652:9144:3271:8767:1:28:1279^N5^S133642::::::::70:66::16:6:8966:7977:6652:9144:3271:8767:1:28:1279^t^t^t^^	RAID	мурратик-Ревущийфьорд", -- [223]
+			"<23:30:59> <Comm>		^1^SlootAck^T^N1^N264^N2^N385.375^N3^T^Sresponse^T^N1^B^N2^B^N3^B^t^Sdiff^T^N1^N-3^N2^N-3^N3^N17^N4^N7^N5^N7^t^Sgear1^T^N1^S134212:6538:::::::70:264::16:8:8966:7977:6652:8822:8820:9144:3271:8767:1:28:1279^N2^S134212:6538:::::::70:264::16:8:8966:7977:6652:8822:8820:9144:3271:8767:1:28:1279^N3^S193752::::::::70:264::23:5:7977:6652:8813:1594:8767:1:28:2157^N4^S191491::::::::70:264::13:4:8836:8840:8902:8802:3:28:2164:38:8:40:200^N5^S191491::::::::70:264::13:4:8836:8840:8902:8802:3:28:2164:38:8:40:200^t^Sgear2^T^N4^S200563::::::::70:264::26:4:6652:1485:5864:8767:1:28:2287^N5^S200563::::::::70:264::26:4:6652:1485:5864:8767:1:28:2287^t^t^t^^	RAID	серегя-Ревущийфьорд", -- [224]
+			"<23:30:59> <Comm>		^1^SlootAck^T^N1^N254^N2^N374.1875^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^N5^B^t^Sdiff^T^N1^N17^N2^N17^N3^N4^N4^N139^N5^N139^t^Sgear1^T^N1^S193759::::::::70:254::23:5:7977:6652:8816:1594:8767:1:28:2157^N2^S193759::::::::70:254::23:5:7977:6652:8816:1594:8767:1:28:2157^N3^S199443::::::::70:254::14:6:8943:6652:8822:8817:1507:8767:1:28:2474^N4^S193697::::::::70:254::17:3:7978:7975:6652:2:9:70:28:2587^N5^S193697::::::::70:254::17:3:7978:7975:6652:2:9:70:28:2587^t^Sgear2^T^N4^S193743::::::::70:254::17:3:7978:7975:6652:2:9:70:28:2587^N5^S193743::::::::70:254::17:3:7978:7975:6652:2:9:70:28:2587^t^t^t^^	RAID	аскельт-Ревущийфьорд", -- [225]
+			"<23:30:59> <Comm>		^1^SlootAck^T^N1^N62^N2^N379.25^N3^T^Sresponse^T^N1^B^N2^B^N3^B^t^Sdiff^T^N1^N0^N2^N0^N3^N17^N4^N17^N5^N17^t^Sgear1^T^N1^S195479::::::::70:62::3:6:6652:8821:8820:7979:1472:8767^N2^S195479::::::::70:62::3:6:6652:8821:8820:7979:1472:8767^N3^S193775::::::::70:62::23:5:7977:6652:8813:1594:8767:1:28:2157^N4^S198407::::::::70:62::74:4:9136:6652:1476:8767:1:28:2437^N5^S198407::::::::70:62::74:4:9136:6652:1476:8767:1:28:2437^t^Sgear2^T^N4^S193743::::::::70:62::23:4:7977:6652:1594:8767:1:28:2157^N5^S193743::::::::70:62::23:4:7977:6652:1594:8767:1:28:2157^t^t^t^^	RAID	натазат-Ревущийфьорд", -- [226]
+			"<23:30:59> <Comm>		^1^SlootAck^T^N1^N256^N2^N385.4375^N3^T^Sresponse^T^N1^B^N2^B^N3^B^t^Sdiff^T^N1^N-3^N2^N-3^N3^N17^N4^N10^N5^N10^t^Sgear1^T^N1^S133610:6543:::::::70:256::16:8:8966:7977:6652:8822:8820:9144:3271:8767:1:28:1279^N2^S133610:6543:::::::70:256::16:8:8966:7977:6652:8822:8820:9144:3271:8767:1:28:1279^N3^S193713::::::::70:256::23:5:7977:6652:8813:1594:8767:1:28:2157^N4^S200563::::::::70:256::26:4:6652:1481:5865:8767:1:28:2287^N5^S200563::::::::70:256::26:4:6652:1481:5865:8767:1:28:2287^t^Sgear2^T^N4^S191492::::::::70:256::13:4:8836:8840:8902:8802:3:28:2164:38:8:40:201^N5^S191492::::::::70:256::13:4:8836:8840:8902:8802:3:28:2164:38:8:40:201^t^t^t^^	RAID	хохохохохох-Ревущийфьорд", -- [227]
+			"<23:30:59> <Comm>		^1^SlootAck^T^N1^N252^N2^N390.25^N3^T^Sresponse^T^N5^B^N2^B^N4^B^t^Sdiff^T^N1^N-3^N2^N-3^N3^N-6^N4^N-3^N5^N-3^t^Sgear1^T^N1^S190523:6492:::::::70:252::13:5:8836:8840:8902:8960:8802:3:28:2164:38:8:40:157^N2^S190523:6492:::::::70:252::13:5:8836:8840:8902:8960:8802:3:28:2164:38:8:40:157^N3^S200407::::::::70:252::3:5:7979:6652:8829:1472:8767:1:28:1040^N4^S110012::::::::70:252::33:6:8966:7977:6652:9144:3277:8767:1:28:1279^N5^S110012::::::::70:252::33:6:8966:7977:6652:9144:3277:8767:1:28:1279^t^Sgear2^T^N4^S193762::::::::70:252::16:6:7977:6652:9144:8969:1624:8767:1:28:1279^N5^S193762::::::::70:252::16:6:7977:6652:9144:8969:1624:8767:1:28:1279^t^t^t^^	RAID	менструа-Ревущийфьорд", -- [228]
+			"<23:30:59> <Comm>		^1^SlootAck^T^N1^N71^N2^N383.0625^N3^T^Sresponse^T^N1^B^N4^B^N5^B^t^Sdiff^T^N1^N10^N2^N10^N3^N-6^N4^N17^N5^N17^t^Sgear1^T^N1^S200683:6494:::::::70:71::26:4:6652:1481:5865:8767:1:28:2287^N2^S200683:6494:::::::70:71::26:4:6652:1481:5865:8767:1:28:2287^N3^S200425::::::::70:71::3:5:7979:6652:8829:1472:8767:1:28:1040^N4^S193679::::::::70:71::23:4:7977:6652:1594:8767:1:28:2155^N5^S193679::::::::70:71::23:4:7977:6652:1594:8767:1:28:2155^t^Sgear2^T^N4^S193701::::::::70:71::16:6:8965:7977:6652:9144:1611:8767:1:28:1279^N5^S193701::::::::70:71::16:6:8965:7977:6652:9144:1611:8767:1:28:1279^t^t^t^^	RAID	этовертолет-Ревущийфьорд", -- [229]
+			"<23:30:59> <Comm>		^1^SlootAck^T^N1^N259^N2^N393.5625^N3^T^Sresponse^T^N1^B^N3^B^N4^B^N5^B^t^Sdiff^T^N1^N4^N2^N4^N3^N0^N4^N13^N5^N13^t^Sgear1^T^N1^S191994::::::::70:259::43:4:6652:1488:5864:8767:1:28:2533^N2^S191994::::::::70:259::43:4:6652:1488:5864:8767:1:28:2533^N3^S193721::::::::70:259::33:8:8965:7977:6652:8822:8817:9144:1611:8767:1:28:1279^N4^S133642::::::::70:259::33:6:8966:7977:6652:9144:3271:8767:1:28:1279^N5^S133642::::::::70:259::33:6:8966:7977:6652:9144:3271:8767:1:28:1279^t^Sgear2^T^N4^S198542::::::::70:259::36:4:6652:1430:5865:8767:1:28:2246^N5^S198542::::::::70:259::36:4:6652:1430:5865:8767:1:28:2246^t^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [230]
+			"<23:30:59> <Comm>		^1^SlootAck^T^N1^N252^N2^N385.125^N3^T^Sresponse^T^N5^B^N2^B^N4^B^t^Sdiff^T^N1^N7^N2^N7^N3^N13^N4^N17^N5^N17^t^Sgear1^T^N1^S193706:6490:::::::70:252::16:8:7977:6652:8822:8820:9144:8963:1604:8767:1:28:1279^N2^S193706:6490:::::::70:252::16:8:7977:6652:8822:8820:9144:8963:1604:8767:1:28:1279^N3^S192008::::::::70:252::36:4:6652:1478:5865:8767:1:28:2287^N4^S194303::::::::70:252::5:4:6652:7980:1485:8767^N5^S194303::::::::70:252::5:4:6652:7980:1485:8767^t^Sgear2^T^N4^S193701::::::::70:252::23:4:7977:6652:1594:8767:1:28:2157^N5^S193701::::::::70:252::23:4:7977:6652:1594:8767:1:28:2157^t^t^t^^	RAID	нотушка-Ревущийфьорд", -- [231]
+			"<23:30:59> <Comm>		^1^SlootAck^T^N1^N257^N2^N383.5^N3^T^Sresponse^T^N1^B^N2^B^N3^B^t^Sdiff^T^N1^N17^N2^N17^N3^N7^N4^N17^N5^N17^t^Sgear1^T^N1^S193810:6543:::::::70:257::23:5:7977:6652:8816:1594:8767:1:28:2157^N2^S193810:6543:::::::70:257::23:5:7977:6652:8816:1594:8767:1:28:2157^N3^S144118::::::::70:257::33:8:8963:7977:6652:8822:8817:9144:3272:8767:1:28:1279^N4^S191491::::::::70:257::13:4:8836:8840:8902:8801:3:28:2164:38:7:40:200^N5^S191491::::::::70:257::13:4:8836:8840:8902:8801:3:28:2164:38:7:40:200^t^Sgear2^T^N4^S193678::::::::70:257::23:4:7977:41:1594:8767:1:28:2155^N5^S193678::::::::70:257::23:4:7977:41:1594:8767:1:28:2155^t^t^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [232]
+			"<23:30:59> <Comm>		^1^SlootAck^T^N1^N254^N2^N385.3125^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^N5^B^t^Sdiff^T^N1^N-3^N2^N-3^N3^N-6^N4^N13^N5^N13^t^Sgear1^T^N1^S193643:6492:::::::70:254::33:8:8966:7977:6652:8822:8820:9144:1614:8767:1:28:1279^N2^S193643:6492:::::::70:254::33:8:8966:7977:6652:8822:8820:9144:1614:8767:1:28:1279^N3^S200389::::::::70:254::3:5:7979:6652:8829:1472:8767:1:28:1040^N4^S200859::::::::70:254::27:4:6652:1494:5849:8767:1:28:2534^N5^S200859::::::::70:254::27:4:6652:1494:5849:8767:1:28:2534^t^Sgear2^T^N4^S193701::::::::70:254::16:6:8966:7977:6652:9144:1614:8767:1:28:1279^N5^S193701::::::::70:254::16:6:8966:7977:6652:9144:1614:8767:1:28:1279^t^t^t^^	RAID	линлот-Ревущийфьорд", -- [233]
+			"<23:30:59> <Comm>		^1^SlootAck^T^N1^N269^N2^N383.375^N3^T^Sresponse^T^N1^B^N3^B^t^Sdiff^T^N1^N17^N2^N17^N3^N13^N4^N17^N5^N17^t^Sgear1^T^N1^S193684:6493:::::::70:269::23:5:7977:6652:8816:1594:8767:1:28:2157^N2^S193684:6493:::::::70:269::23:5:7977:6652:8816:1594:8767:1:28:2157^N3^S191992::::::::70:269::36:4:6652:1478:5865:8767:1:28:2275^N4^S192797::::::::70:269::37:4:6652:1481:5862:8767:1:28:2521^N5^S192797::::::::70:269::37:4:6652:1481:5862:8767:1:28:2521^t^Sgear2^T^N4^S193701::::::::70:269::23:4:7977:6652:1594:8767:1:28:2157^N5^S193701::::::::70:269::23:4:7977:6652:1594:8767:1:28:2157^t^t^t^^	RAID	хугомонк-Ревущийфьорд", -- [234]
+			"<23:30:59> <Comm>		^1^SlootAck^T^N1^N63^N2^N388.75^N3^T^Sresponse^T^N1^B^N2^B^N3^B^t^Sdiff^T^N1^N7^N2^N7^N3^N13^N4^N17^N5^N17^t^Sgear1^T^N1^S201939:6540:::::::70:63::13:5:8851:8852:8802:8850:8793:7:28:2164:29:40:30:49:38:8:40:855:44:198059:45:194566^N2^S201939:6540:::::::70:63::13:5:8851:8852:8802:8850:8793:7:28:2164:29:40:30:49:38:8:40:855:44:198059:45:194566^N3^S201938::::::::70:63::13:5:8851:8852:8800:8850:8793:7:28:2164:29:40:30:36:38:6:40:853:44:198059:45:194566^N4^S191492::::::::70:63::13:4:8836:8840:8902:8802:3:28:2164:38:8:40:201^N5^S191492::::::::70:63::13:4:8836:8840:8902:8802:3:28:2164:38:8:40:201^t^Sgear2^T^N4^S193791::::::::70:63::23:4:7977:6652:1594:8767:1:28:2155^N5^S193791::::::::70:63::23:4:7977:6652:1594:8767:1:28:2155^t^t^t^^	RAID	ледиланатель-Ревущийфьорд", -- [235]
+			"<23:30:59> <Comm>		^1^SlootAck^T^N1^N64^N2^N383^N3^T^Sresponse^T^N1^B^N2^B^N3^B^t^Sdiff^T^N1^N-3^N2^N-3^N3^N10^N4^N17^N5^N17^t^Sgear1^T^N1^S193750:6539:::::::70:64::16:8:8966:7977:6652:8822:8820:9144:1614:8767:1:28:1279^N2^S193750:6539:::::::70:64::16:8:8966:7977:6652:8822:8820:9144:1614:8767:1:28:1279^N3^S191986::::::::70:64::73:4:6652:1485:5861:8767:1:28:2437^N4^S200563::::::::70:64::26:4:6652:1485:5858:8767:1:28:2516^N5^S200563::::::::70:64::26:4:6652:1485:5858:8767:1:28:2516^t^Sgear2^T^N4^S193660::::::::70:64::23:4:7977:6652:1594:8767:1:28:2155^N5^S193660::::::::70:64::23:4:7977:6652:1594:8767:1:28:2155^t^t^t^^	RAID	гигаовца-Ревущийфьорд", -- [236]
+			"<23:30:59> <Comm>		^1^SlootAck^T^N1^N250^N2^N395^N3^T^Sresponse^T^N5^B^N2^B^N4^B^t^Sdiff^T^N1^N-16^N2^N-16^N3^N-3^N4^N0^N5^N0^t^Sgear1^T^N1^S190523:6489:::::::70:250::13:6:8836:8840:8902:8960:8802:8845:4:28:2164:38:8:40:157:44:197921^N2^S190523:6489:::::::70:250::13:6:8836:8840:8902:8960:8802:8845:4:28:2164:38:8:40:157:44:197921^N3^S109858::::::::70:250::33:8:8966:7977:6652:8822:8817:9144:3277:8767:1:28:1279^N4^S194303::::::::70:250::3:4:6652:7979:1472:8767^N5^S194303::::::::70:250::3:4:6652:7979:1472:8767^t^Sgear2^T^N4^S194299::::::::70:250::5:4:7980:6652:1485:8767^N5^S194299::::::::70:250::5:4:7980:6652:1485:8767^t^t^t^^	RAID	ожившийлось-Ревущийфьорд", -- [237]
+			"<23:30:59> <Comm>		^1^SlootAck^T^N1^N266^N2^N391.8125^N3^T^Sresponse^T^N3^B^N2^B^t^Sdiff^T^N1^N-6^N2^N-6^N3^N-3^N4^N10^N5^N10^t^Sgear1^T^N1^S133610:6540:::::::70:266::16:8:8967:7977:6652:8822:8820:9144:3274:8767:1:28:1279^N2^S133610:6540:::::::70:266::16:8:8967:7977:6652:8822:8820:9144:3274:8767:1:28:1279^N3^S193713::::::::70:266::16:8:8966:7977:6652:8822:8817:9144:1614:8767:1:28:1279^N4^S198407::::::::70:266::37:4:41:1433:5865:8767:1:28:2287^N5^S198407::::::::70:266::37:4:41:1433:5865:8767:1:28:2287^t^Sgear2^T^N4^S191492::::::::70:266::13:5:8836:8840:8902:8799:8845:4:28:2164:38:5:40:201:46:197921^N5^S191492::::::::70:266::13:5:8836:8840:8902:8799:8845:4:28:2164:38:5:40:201:46:197921^t^t^t^^	RAID	комт-Ревущийфьорд", -- [238]
+			"<23:30:59> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Злюдра	DRUID", -- [239]
+			"<23:30:59> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Серегя	SHAMAN", -- [240]
+			"<23:30:59> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Злюдра	DRUID", -- [241]
+			"<23:30:59> <Comm>		^1^SlootAck^T^N1^N264^N2^N383.75^N3^T^Sresponse^T^N1^B^N2^B^N3^B^t^Sdiff^T^N1^N20^N2^N20^N3^N-6^N4^N17^N5^N17^t^Sgear1^T^N1^S192001::::::::70:264::29:4:6652:1472:5864:8766:1:28:2400^N2^S192001::::::::70:264::29:4:6652:1472:5864:8766:1:28:2400^N3^S200398::::::::70:264::3:5:7979:6652:8829:1472:8767^N4^S194300::::::::70:264::3:4:6652:7979:1472:8767^N5^S194300::::::::70:264::3:4:6652:7979:1472:8767^t^Sgear2^T^N4^S193743::::::::70:264::23:4:7977:6652:1594:8767:1:28:2157^N5^S193743::::::::70:264::23:4:7977:6652:1594:8767:1:28:2157^t^t^t^^	RAID	бишарк-Ревущийфьорд", -- [242]
+			"<23:31:00> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Серегя	SHAMAN", -- [243]
+			"<23:31:00> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Аскельт	HUNTER", -- [244]
+			"<23:31:00> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Аскельт	HUNTER", -- [245]
+			"<23:31:01> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^	RAID	комт-Ревущийфьорд", -- [246]
+			"<23:31:01> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N1^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [247]
+			"<23:31:02> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^SPASS^t^t^^	RAID	мурратик-Ревущийфьорд", -- [248]
+			"<23:31:02> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	мурратик-Ревущийфьорд", -- [249]
+			"<23:31:02> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^	RAID	ожившийлось-Ревущийфьорд", -- [250]
+			"<23:31:02> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	мурратик-Ревущийфьорд", -- [251]
+			"<23:31:03> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^SPASS^t^t^^	RAID	ватрониум-Ревущийфьорд", -- [252]
+			"<23:31:03> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	ватрониум-Ревущийфьорд", -- [253]
+			"<23:31:06> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^SPASS^t^t^^	RAID	гигаовца-Ревущийфьорд", -- [254]
+			"<23:31:06> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	гигаовца-Ревущийфьорд", -- [255]
+			"<23:31:06> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^SPASS^t^t^^	RAID	комт-Ревущийфьорд", -- [256]
+			"<23:31:06> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	комт-Ревущийфьорд", -- [257]
+			"<23:31:06> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	ювитта-Ревущийфьорд", -- [258]
+			"<23:31:06> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^	RAID	нотушка-Ревущийфьорд", -- [259]
+			"<23:31:07> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^	RAID	менструа-Ревущийфьорд", -- [260]
+			"<23:31:07> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N1^t^t^^	RAID	этовертолет-Ревущийфьорд", -- [261]
+			"<23:31:08> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N3^t^t^^	RAID	аландир-Ревущийфьорд", -- [262]
+			"<23:31:09> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N1^t^t^^	RAID	натазат-Ревущийфьорд", -- [263]
+			"<23:31:09> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N1^t^t^^	RAID	натазат-Ревущийфьорд", -- [264]
+			"<23:31:10> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	ожившийлось-Ревущийфьорд", -- [265]
+			"<23:31:11> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^SPASS^t^t^^	RAID	хохохохохох-Ревущийфьорд", -- [266]
+			"<23:31:11> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	хохохохохох-Ревущийфьорд", -- [267]
+			"<23:31:11> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Комт	WARLOCK", -- [268]
+			"<23:31:11> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	менструа-Ревущийфьорд", -- [269]
+			"<23:31:11> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Комт	WARLOCK", -- [270]
+			"<23:31:11> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^SPASS^t^t^^	RAID	злюдра-Ревущийфьорд", -- [271]
+			"<23:31:11> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	злюдра-Ревущийфьорд", -- [272]
+			"<23:31:12> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^SPASS^t^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [273]
+			"<23:31:12> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [274]
+			"<23:31:12> <Comm>		^1^Soffline_timer^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [275]
+			"<23:31:13> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^SPASS^t^t^^	RAID	бишарк-Ревущийфьорд", -- [276]
+			"<23:31:13> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	бишарк-Ревущийфьорд", -- [277]
+			"<23:31:15> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N1^t^t^^	RAID	нотушка-Ревущийфьорд", -- [278]
+			"<23:31:15> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N1^t^t^^	RAID	ювитта-Ревущийфьорд", -- [279]
+			"<23:31:17> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Бишарк	SHAMAN", -- [280]
+			"<23:31:17> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	191784	|cffa335ee|Hitem:191784::::::::70:269:::::::::|h[Драконий осколок знания]|h|r	1	Бишарк	SHAMAN", -- [281]
+			"<23:31:17> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Натазат	MAGE", -- [282]
+			"<23:31:18> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Натазат	MAGE", -- [283]
+			"<23:31:18> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2592	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Бишарк	SHAMAN", -- [284]
+			"<23:31:19> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	ювитта-Ревущийфьорд", -- [285]
+			"<23:31:21> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	этовертолет-Ревущийфьорд", -- [286]
+			"<23:31:23> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N1^t^t^^	RAID	ледиланатель-Ревущийфьорд", -- [287]
+			"<23:31:23> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N1^t^t^^	RAID	ледиланатель-Ревущийфьорд", -- [288]
+			"<23:31:28> <Comm>		^1^Srolls^T^N1^N2^N2^T^Sледотроль-Ревущийфьорд^N44^Sмурратик-Ревущийфьорд^N7^Sменструа-Ревущийфьорд^N83^Sбабусянатусе-Ревущийфьорд^N29^Sювитта-Ревущийфьорд^N22^Sожившийлось-Ревущийфьорд^N73^Sледиланатель-Ревущийфьорд^N19^Sватрониум-Ревущийфьорд^N61^Sбишарк-Ревущийфьорд^N56^Sнотушка-Ревущийфьорд^N40^Sлинлот-Ревущийфьорд^N36^Sсерегя-Ревущийфьорд^N64^Sэтовертолет-Ревущийфьорд^N10^Sхохохохохох-Ревущийфьорд^N49^Sаскельт-Ревущийфьорд^N70^Sкомт-Ревущийфьорд^N59^Sгигаовца-Ревущийфьорд^N20^Sдельфуего-Ревущийфьорд^N24^Sзлюдра-Ревущийфьорд^N21^Sхугомонк-Ревущийфьорд^N87^Sнатазат-Ревущийфьорд^N99^Sаландир-Ревущийфьорд^N62^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [289]
+			"<23:31:31> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^SPASS^t^t^^	RAID	ювитта-Ревущийфьорд", -- [290]
+			"<23:31:31> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	ювитта-Ревущийфьорд", -- [291]
+			"<23:31:37> <Comm>		^1^Shistory^T^N1^Sдельфуего-Ревущийфьорд^N2^T^SmapID^N2522^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SROGUE^SgroupSize^N22^Sboss^SСеннарт~`Дыхание~`Льда^Stime^S21:31:34^SitemReplaced1^S|cffa335ee|Hitem:191994::::::::70:259::43:4:6652:1488:5864:8767:1:28:2533:::::|h[Брюки~`из~`шкуры~`выдрека]|h|r^Sinstance^SХранилище~`Воплощений-Обычный^Sowner^Sдельфуего-Ревущийфьорд^Sresponse^SОсновной~`спек/Нужно^StypeCode^Sdefault^SdifficultyID^N14^SlootWon^S|cffa335ee|Hitem:196593::::::::70:259::3:4:7979:8827:1472:8767::::::|h[Камень~`Кузни~`из~`наивысшего~`нефрита]|h|r^Sid^S1671636694-7^Sdate^S21/12/22^SresponseID^N1^Svotes^N0^SisAwardReason^b^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [292]
+			"<23:31:37> <Comm>		^1^Sawarded^T^N1^N2^N2^Sдельфуего-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [293]
+			"<23:31:47> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N2^t^t^^	RAID	серегя-Ревущийфьорд", -- [294]
+			"<23:31:47> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N2^t^t^^	RAID	серегя-Ревущийфьорд", -- [295]
+			"<23:31:55> <Comm>		^1^Srolls^T^N1^N1^N2^T^Sледотроль-Ревущийфьорд^N39^Sмурратик-Ревущийфьорд^N7^Sменструа-Ревущийфьорд^N62^Sбабусянатусе-Ревущийфьорд^N57^Sювитта-Ревущийфьорд^N93^Sожившийлось-Ревущийфьорд^N88^Sледиланатель-Ревущийфьорд^N36^Sватрониум-Ревущийфьорд^N5^Sбишарк-Ревущийфьорд^N99^Sнотушка-Ревущийфьорд^N74^Sлинлот-Ревущийфьорд^N76^Sсерегя-Ревущийфьорд^N51^Sэтовертолет-Ревущийфьорд^N37^Sхохохохохох-Ревущийфьорд^N53^Sаскельт-Ревущийфьорд^N44^Sкомт-Ревущийфьорд^N97^Sгигаовца-Ревущийфьорд^N61^Sдельфуего-Ревущийфьорд^N17^Sзлюдра-Ревущийфьорд^N72^Sхугомонк-Ревущийфьорд^N16^Sнатазат-Ревущийфьорд^N92^Sаландир-Ревущийфьорд^N80^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [296]
+			"<23:31:58> <DEBUG>		LootFrame:Response	TIMEOUT	Response:	Кандидат не ответил вовремя", -- [297]
+			"<23:31:58> <DEBUG>		SendResponse	group	4	TIMEOUT	nil	nil	nil	nil	nil	nil	nil	nil	nil	nil", -- [298]
+			"<23:31:58> <DEBUG>		SendResponse	group	5	TIMEOUT	nil	nil	nil	nil	nil	nil	nil	nil	nil	nil", -- [299]
+			"<23:31:58> <DEBUG>		Trashing entry:	2	|cffa335ee|Hitem:194304::::::::70:269::3:4:6652:7979:1472:8767::::::|h[Смертельные силки ледяной крови]|h|r", -- [300]
+			"<23:31:58> <DEBUG>		LootFrame:Response	TIMEOUT	Response:	Кандидат не ответил вовремя", -- [301]
+			"<23:31:58> <DEBUG>		SendResponse	group	2	TIMEOUT	nil	nil	nil	nil	nil	nil	nil	nil	nil	nil", -- [302]
+			"<23:31:58> <DEBUG>		Trashing entry:	1	|cffa335ee|Hitem:196593::::::::70:269::3:4:7979:8827:1472:8767::::::|h[Камень Кузни из наивысшего нефрита]|h|r", -- [303]
+			"<23:31:59> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^STIMEOUT^t^t^^	RAID	хугомонк-Ревущийфьорд", -- [304]
+			"<23:31:59> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^STIMEOUT^t^t^^	RAID	хугомонк-Ревущийфьорд", -- [305]
+			"<23:31:59> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^STIMEOUT^t^t^^	RAID	хугомонк-Ревущийфьорд", -- [306]
+			"<23:32:03> <Comm>		^1^Shistory^T^N1^Sкомт-Ревущийфьорд^N2^T^SmapID^N2522^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SWARLOCK^SgroupSize^N22^Sboss^SСеннарт~`Дыхание~`Льда^Stime^S21:32:00^SitemReplaced1^S|cffa335ee|Hitem:133610:6540:::::::70:259::16:8:8967:7977:6652:8822:8820:9144:3274:8767:1:28:1279:::::|h[Поножи~`кружащихся~`рун]|h|r^Sinstance^SХранилище~`Воплощений-Обычный^Sowner^Sдельфуего-Ревущийфьорд^Sresponse^SОсновной~`спек/Нужно^StypeCode^Sdefault^SdifficultyID^N14^SlootWon^S|cffa335ee|Hitem:196588::::::::70:259::3:4:7979:8827:1472:8767::::::|h[Камень~`Кузни~`из~`жуткого~`нефрита]|h|r^Sid^S1671636720-8^Sdate^S21/12/22^SresponseID^N1^Svotes^N0^SisAwardReason^b^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [307]
+			"<23:32:03> <Comm>		^1^Sawarded^T^N1^N1^N2^Sкомт-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [308]
+			"<23:32:15> <Comm>		^1^Shistory^T^N1^Sнотушка-Ревущийфьорд^N2^T^SmapID^N2522^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SDEATHKNIGHT^SgroupSize^N22^Sboss^SСеннарт~`Дыхание~`Льда^Stime^S21:32:12^SitemReplaced1^S|cffa335ee|Hitem:192008::::::::70:259::36:4:6652:1478:5865:8767:1:28:2287:::::|h[Сотворенные~`драконами~`рукавицы]|h|r^Sinstance^SХранилище~`Воплощений-Обычный^Sowner^Sдельфуего-Ревущийфьорд^Sresponse^SОсновной~`спек/Нужно^StypeCode^Sdefault^SdifficultyID^N14^SlootWon^S|cffa335ee|Hitem:195506::::::::70:259::3:6:6652:8821:8817:7979:1472:8767::::::|h[Рукавицы~`с~`алмазной~`гравировкой]|h|r^Sid^S1671636732-9^Sdate^S21/12/22^SresponseID^N1^Svotes^N0^SisAwardReason^b^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [309]
+			"<23:32:15> <Comm>		^1^Sawarded^T^N1^N3^N2^Sнотушка-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [310]
+			"<23:32:34> <Comm>		^1^Shistory^T^N1^Sнатазат-Ревущийфьорд^N2^T^SmapID^N2522^Sdate^S21/12/22^Sclass^SMAGE^SgroupSize^N22^Sboss^SСеннарт~`Дыхание~`Льда^Stime^S21:32:31^SitemReplaced1^S|cffa335ee|Hitem:198407::::::::70:259::74:4:9136:6652:1476:8767:1:28:2437:::::|h[Лазурный~`чародейский~`усилитель]|h|r^StypeCode^Sdefault^Sinstance^SХранилище~`Воплощений-Обычный^Sowner^Sдельфуего-Ревущийфьорд^Sid^S1671636751-10^Sresponse^SОсновной~`спек/Нужно^SdifficultyID^N14^SlootWon^S|cffa335ee|Hitem:194304::::::::70:259::3:4:6652:7979:1472:8767::::::|h[Смертельные~`силки~`ледяной~`крови]|h|r^SisAwardReason^b^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^SresponseID^N1^SitemReplaced2^S|cffa335ee|Hitem:193743::::::::70:259::23:4:7977:6652:1594:8767:1:28:2157:::::|h[Фрагмент~`Иридия]|h|r^Svotes^N0^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [311]
+			"<23:32:34> <Comm>		^1^Sawarded^T^N1^N4^N2^Sнатазат-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [312]
+			"<23:32:37> <Comm>		^1^Shistory^T^N1^Sледиланатель-Ревущийфьорд^N2^T^SmapID^N2522^Sdate^S21/12/22^Sclass^SMAGE^SgroupSize^N22^Sboss^SСеннарт~`Дыхание~`Льда^Stime^S21:32:34^SitemReplaced1^S|cffa335ee|Hitem:191492::::::::70:259::13:4:8836:8840:8902:8802:3:28:2164:38:8:40:201:::::|h[Стремительный~`алхимический~`камень~`|A:Professions-ChatIcon-Quality-Tier5:17:17::1|a]|h|r^StypeCode^Sdefault^Sinstance^SХранилище~`Воплощений-Обычный^Sowner^Sдельфуего-Ревущийфьорд^Sid^S1671636754-11^Sresponse^SОсновной~`спек/Нужно^SdifficultyID^N14^SlootWon^S|cffa335ee|Hitem:194304::::::::70:259::3:4:6652:7979:1472:8767::::::|h[Смертельные~`силки~`ледяной~`крови]|h|r^SisAwardReason^b^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^SresponseID^N1^SitemReplaced2^S|cffa335ee|Hitem:193791::::::::70:259::23:4:7977:6652:1594:8767:1:28:2155:::::|h[Пробивающий~`время~`коготь]|h|r^Svotes^N0^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [313]
+			"<23:32:37> <Comm>		^1^Sawarded^T^N1^N5^N2^Sледиланатель-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [314]
+			"<23:32:38> <Comm>		^1^Ssession_end^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [315]
+			"<23:32:43> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:194304::::::::70:259::3:4:6652:7979:1472:8767::::::|h[Смертельные~`силки~`ледяной~`крови]|h|r^N2^Sледиланатель-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [316]
+			"<23:33:07> <DEBUG>		Event:	LOOT_CLOSED", -- [317]
+			"<23:33:07> <DEBUG>		Event:	LOOT_READY	true", -- [318]
+			"<23:33:07> <DEBUG>		Event:	LOOT_READY	true", -- [319]
+			"<23:33:07> <DEBUG>		Event:	LOOT_CLOSED", -- [320]
+			"<23:33:14> <Comm>		^1^Sl^T^N1^S197793^t^^	RAID	ювитта-Ревущийфьорд", -- [321]
+			"<23:33:14> <Comm>		^1^Sl^T^N1^S197793^t^^	RAID	ювитта-Ревущийфьорд", -- [322]
+			"<23:33:59> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:195506::::::::70:259::3:6:6652:8821:8817:7979:1472:8767::::::|h[Рукавицы~`с~`алмазной~`гравировкой]|h|r^N2^Sнотушка-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [323]
+			"<23:34:00> <Comm>		^1^Sl^T^N1^S197831^t^^	RAID	ювитта-Ревущийфьорд", -- [324]
+			"<23:34:00> <Comm>		^1^Sl^T^N1^S197831^t^^	RAID	ювитта-Ревущийфьорд", -- [325]
+			"<23:34:06> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:194304::::::::70:259::3:4:6652:7979:1472:8767::::::|h[Смертельные~`силки~`ледяной~`крови]|h|r^N2^Sнатазат-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [326]
+			"<23:34:08> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:196588::::::::70:259::3:4:7979:8827:1472:8767::::::|h[Камень~`Кузни~`из~`жуткого~`нефрита]|h|r^N2^Sкомт-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [327]
+			"<23:34:10> <Comm>		^1^Sl^T^N1^S192767^t^^	RAID	ожившийлось-Ревущийфьорд", -- [328]
+			"<23:34:10> <Comm>		^1^Sl^T^N1^S192767^t^^	RAID	ожившийлось-Ревущийфьорд", -- [329]
+			"<23:34:11> <Comm>		^1^Sl^T^N1^S197801^t^^	RAID	злюдра-Ревущийфьорд", -- [330]
+			"<23:34:11> <Comm>		^1^Sl^T^N1^S197801^t^^	RAID	злюдра-Ревущийфьорд", -- [331]
+			"<23:34:12> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190328	|cff0070dd|Hitem:190328::::::::70:269:::::::::|h[Пробуждающийся лед]|h|r	3	Гигаовца	MAGE", -- [332]
+			"<23:34:22> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	ожившийлось-Ревущийфьорд", -- [333]
+			"<23:34:22> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	ожившийлось-Ревущийфьорд", -- [334]
+			"<23:34:22> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	этовертолет-Ревущийфьорд", -- [335]
+			"<23:34:22> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	аландир-Ревущийфьорд", -- [336]
+			"<23:34:23> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190328	|cff0070dd|Hitem:190328::::::::70:269:::::::::|h[Пробуждающийся лед]|h|r	3	Ледиланатель	MAGE", -- [337]
+			"<23:34:23> <Comm>		^1^Sl^T^N1^S197801^t^^	RAID	ледиланатель-Ревущийфьорд", -- [338]
+			"<23:34:23> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190326	|cff0070dd|Hitem:190326::::::::70:269:::::::::|h[Пробуждающийся воздух]|h|r	2	Бабусянатусе	PRIEST", -- [339]
+			"<23:34:23> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [340]
+			"<23:34:23> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [341]
+			"<23:34:24> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	злюдра-Ревущийфьорд", -- [342]
+			"<23:34:24> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	злюдра-Ревущийфьорд", -- [343]
+			"<23:34:24> <DEBUG>		Event:	LOOT_READY	true", -- [344]
+			"<23:34:24> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192625::::::::70:269:::::::::|h[Неподвижный камень]|h|r	0	1	Creature-0-4250-2522-20091-197801-0001A3446A	1", -- [345]
+			"<23:34:24> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:192626::::::::70:269:::::::::|h[Куча пыли]|h|r	0	1	Creature-0-4250-2522-20091-196856-0001A3446A	1", -- [346]
+			"<23:34:24> <DEBUG>		Ignoring	nil	as it's a currency", -- [347]
+			"<23:34:24> <DEBUG>		Event:	LOOT_READY	true", -- [348]
+			"<23:34:24> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192625::::::::70:269:::::::::|h[Неподвижный камень]|h|r	0	1	Creature-0-4250-2522-20091-197801-0001A3446A	1", -- [349]
+			"<23:34:24> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:192626::::::::70:269:::::::::|h[Куча пыли]|h|r	0	1	Creature-0-4250-2522-20091-196856-0001A3446A	1", -- [350]
+			"<23:34:24> <DEBUG>		Ignoring	nil	as it's a currency", -- [351]
+			"<23:34:25> <Comm>		^1^Sl^T^N1^S197801^t^^	RAID	нотушка-Ревущийфьорд", -- [352]
+			"<23:34:25> <Comm>		^1^Sl^T^N1^S197801^t^^	RAID	нотушка-Ревущийфьорд", -- [353]
+			"<23:34:25> <DEBUG>		OnLootSlotCleared()	1	|cff9d9d9d|Hitem:192625::::::::70:269:::::::::|h[Неподвижный камень]|h|r	0", -- [354]
+			"<23:34:25> <DEBUG>		Event:	LOOT_CLOSED", -- [355]
+			"<23:34:25> <DEBUG>		OnLootSlotCleared()	2	|cff9d9d9d|Hitem:192626::::::::70:269:::::::::|h[Куча пыли]|h|r	0", -- [356]
+			"<23:34:25> <DEBUG>		Event:	LOOT_CLOSED", -- [357]
+			"<23:34:25> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	хугомонк-Ревущийфьорд", -- [358]
+			"<23:34:26> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190315	|cff0070dd|Hitem:190315::::::::70:269:::::::::|h[Пробуждающаяся земля]|h|r	1	Комт	WARLOCK", -- [359]
+			"<23:34:26> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	гигаовца-Ревущийфьорд", -- [360]
+			"<23:34:26> <Comm>		^1^Sl^T^N1^S192767^t^^	RAID	комт-Ревущийфьорд", -- [361]
+			"<23:34:26> <Comm>		^1^Sl^T^N1^S192767^t^^	RAID	комт-Ревущийфьорд", -- [362]
+			"<23:34:30> <DEBUG>		Event:	ENCOUNTER_START	2605	Курог Зловещий Тотем	14	22", -- [363]
+			"<23:34:30> <INFO>		UpdatePlayersData()", -- [364]
+			"<23:34:30> <Comm>		^1^SStartHandleLoot^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [365]
+			"<23:34:31> <Comm>		^1^SfakeLoot^T^N1^S|cff9d9d9d|Hitem:192618::::::::70:264:::::::::|h[Кусочки~`льда]|h|r^N2^S192767^t^^	RAID	бишарк-Ревущийфьорд", -- [366]
+			"<23:34:32> <Comm>		^1^Sl^T^N1^S192767^t^^	RAID	линлот-Ревущийфьорд", -- [367]
+			"<23:34:32> <Comm>		^1^Sl^T^N1^S192767^t^^	RAID	линлот-Ревущийфьорд", -- [368]
+			"<23:34:36> <DEBUG>		Event:	ENCOUNTER_END	2605	Курог Зловещий Тотем	14	22	0", -- [369]
+			"<23:34:48> <Comm>		^1^Sl^T^N1^S192767^t^^	RAID	натазат-Ревущийфьорд", -- [370]
+			"<23:34:48> <Comm>		^1^Sl^T^N1^S192767^t^^	RAID	натазат-Ревущийфьорд", -- [371]
+			"<23:34:48> <Comm>		^1^Sl^T^N1^S197801^t^^	RAID	аландир-Ревущийфьорд", -- [372]
+			"<23:34:51> <Comm>		^1^SfakeLoot^T^N1^S|cff9d9d9d|Hitem:192618::::::::70:264:::::::::|h[Кусочки~`льда]|h|r^N2^S192767^t^^	RAID	бишарк-Ревущийфьорд", -- [373]
+			"<23:35:46> <DEBUG>		Event:	ENCOUNTER_START	2605	Курог Зловещий Тотем	14	22", -- [374]
+			"<23:35:46> <INFO>		UpdatePlayersData()", -- [375]
+			"<23:35:47> <Comm>		^1^SStartHandleLoot^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [376]
+			"<23:40:56> <DEBUG>		Event:	ENCOUNTER_END	2605	Курог Зловещий Тотем	14	22	1", -- [377]
+			"<23:40:57> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:195515::::::::70:269::3:7:6652:7937:7979:8821:8818:1472:8767::::::|h[Кушак духовных поисков Магаты]|h|r", -- [378]
+			"<23:40:57> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:195514::::::::70:269::3:6:6652:7979:8821:8817:1472:8767::::::|h[Обмотки коварного тотема]|h|r", -- [379]
+			"<23:40:57> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:196586::::::::70:269::3:4:7979:8830:1472:8767::::::|h[Камень Кузни из жуткого аметиста]|h|r", -- [380]
+			"<23:40:57> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:196586::::::::70:269::3:4:7979:8830:1472:8767::::::|h[Камень Кузни из жуткого аметиста]|h|r", -- [381]
+			"<23:40:57> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Дельфуего	ROGUE", -- [382]
+			"<23:40:57> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Дельфуего	ROGUE", -- [383]
+			"<23:40:58> <Comm>		^1^Sl^T^N1^S184986^t^^	RAID	дельфуего-Ревущийфьорд", -- [384]
+			"<23:40:58> <Comm>		^1^Sl^T^N1^S184986^t^^	RAID	дельфуего-Ревущийфьорд", -- [385]
+			"<23:40:58> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Мурратик	PALADIN", -- [386]
+			"<23:40:58> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Мурратик	PALADIN", -- [387]
+			"<23:40:58> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Нотушка	DEATHKNIGHT", -- [388]
+			"<23:40:59> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Нотушка	DEATHKNIGHT", -- [389]
+			"<23:40:59> <Comm>		^1^Sl^T^N1^S184986^t^^	RAID	нотушка-Ревущийфьорд", -- [390]
+			"<23:40:59> <Comm>		^1^Sl^T^N1^S184986^t^^	RAID	нотушка-Ревущийфьорд", -- [391]
+			"<23:41:00> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Ювитта	EVOKER", -- [392]
+			"<23:41:01> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Ювитта	EVOKER", -- [393]
+			"<23:41:01> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Ватрониум	SHAMAN", -- [394]
+			"<23:41:01> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Ледотроль	HUNTER", -- [395]
+			"<23:41:01> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Аландир	DEMONHUNTER", -- [396]
+			"<23:41:01> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Ватрониум	SHAMAN", -- [397]
+			"<23:41:01> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Ледотроль	HUNTER", -- [398]
+			"<23:41:01> <Comm>		^1^Stradable^T^N1^S|cffa335ee|Hitem:196586::::::::70:259::3:4:7979:8830:1472:8767::::::|h[Камень~`Кузни~`из~`жуткого~`аметиста]|h|r^N2^S184986^t^^	RAID	дельфуего-Ревущийфьорд", -- [399]
+			"<23:41:01> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Аландир	DEMONHUNTER", -- [400]
+			"<23:41:02> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Натазат	MAGE", -- [401]
+			"<23:41:02> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Натазат	MAGE", -- [402]
+			"<23:41:02> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Этовертолет	WARRIOR", -- [403]
+			"<23:41:02> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Этовертолет	WARRIOR", -- [404]
+			"<23:41:03> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Хохохохохох	PRIEST", -- [405]
+			"<23:41:03> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Хохохохохох	PRIEST", -- [406]
+			"<23:41:03> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Бабусянатусе	PRIEST", -- [407]
+			"<23:41:03> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Бабусянатусе	PRIEST", -- [408]
+			"<23:41:03> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Линлот	HUNTER", -- [409]
+			"<23:41:03> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Ледиланатель	MAGE", -- [410]
+			"<23:41:03> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Линлот	HUNTER", -- [411]
+			"<23:41:03> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Ледиланатель	MAGE", -- [412]
+			"<23:41:03> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Гигаовца	MAGE", -- [413]
+			"<23:41:04> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Гигаовца	MAGE", -- [414]
+			"<23:41:04> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Комт	WARLOCK", -- [415]
+			"<23:41:04> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Комт	WARLOCK", -- [416]
+			"<23:41:05> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Аскельт	HUNTER", -- [417]
+			"<23:41:06> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Аскельт	HUNTER", -- [418]
+			"<23:41:06> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Серегя	SHAMAN", -- [419]
+			"<23:41:06> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Серегя	SHAMAN", -- [420]
+			"<23:41:07> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Бишарк	SHAMAN", -- [421]
+			"<23:41:07> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Бишарк	SHAMAN", -- [422]
+			"<23:41:09> <Comm>		^1^SlootTable^T^N1^T^N1^T^Sstring^S196586:::::::::::3:4:7979:8830:1472:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SКурог~`Зловещий~`Тотем^t^N2^T^Sstring^S196586:::::::::::3:4:7979:8830:1472:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SКурог~`Зловещий~`Тотем^t^N3^T^Sstring^S196586:::::::::::3:4:7979:8830:1472:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SКурог~`Зловещий~`Тотем^t^N4^T^Sstring^S195514:::::::::::3:6:6652:7979:8821:8817:1472:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SКурог~`Зловещий~`Тотем^t^N5^T^Sstring^S195515:::::::::::3:7:6652:7937:7979:8821:8818:1472:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SКурог~`Зловещий~`Тотем^t^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [423]
+			"<23:41:09> <INFO>		Autopassed on: 	|cffa335ee|Hitem:196586::::::::70:269::3:4:7979:8830:1472:8767::::::|h[Камень Кузни из жуткого аметиста]|h|r", -- [424]
+			"<23:41:09> <INFO>		Autopassed on: 	|cffa335ee|Hitem:196586::::::::70:269::3:4:7979:8830:1472:8767::::::|h[Камень Кузни из жуткого аметиста]|h|r", -- [425]
+			"<23:41:09> <INFO>		Autopassed on: 	|cffa335ee|Hitem:196586::::::::70:269::3:4:7979:8830:1472:8767::::::|h[Камень Кузни из жуткого аметиста]|h|r", -- [426]
+			"<23:41:09> <INFO>		Autopassed on: 	|cffa335ee|Hitem:195515::::::::70:269::3:7:6652:7937:7979:8821:8818:1472:8767::::::|h[Кушак духовных поисков Магаты]|h|r", -- [427]
+			"<23:41:09> <INFO>		GetPlayersGear	|cffa335ee|Hitem:196586::::::::70:269::3:4:7979:8830:1472:8767::::::|h[Камень Кузни из жуткого аметиста]|h|r	INVTYPE_ROBE", -- [428]
+			"<23:41:09> <INFO>		GetPlayersGear	|cffa335ee|Hitem:196586::::::::70:269::3:4:7979:8830:1472:8767::::::|h[Камень Кузни из жуткого аметиста]|h|r	INVTYPE_ROBE", -- [429]
+			"<23:41:09> <INFO>		GetPlayersGear	|cffa335ee|Hitem:196586::::::::70:269::3:4:7979:8830:1472:8767::::::|h[Камень Кузни из жуткого аметиста]|h|r	INVTYPE_ROBE", -- [430]
+			"<23:41:09> <INFO>		GetPlayersGear	|cffa335ee|Hitem:195514::::::::70:269::3:6:6652:7979:8821:8817:1472:8767::::::|h[Обмотки коварного тотема]|h|r	INVTYPE_HAND", -- [431]
+			"<23:41:09> <INFO>		GetPlayersGear	|cffa335ee|Hitem:195515::::::::70:269::3:7:6652:7937:7979:8821:8818:1472:8767::::::|h[Кушак духовных поисков Магаты]|h|r	INVTYPE_WAIST", -- [432]
+			"<23:41:09> <INFO>		LootFrame:Start	5	nil", -- [433]
+			"<23:41:09> <DEBUG>		Restoring entry:	default	2", -- [434]
+			"<23:41:09> <DEBUG>		GetButtons	default", -- [435]
+			"<23:41:09> <Comm>		^1^SlootAck^T^N1^N253^N2^N377.5^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^N5^B^t^Sdiff^T^N1^N16^N2^N16^N3^N16^N4^N16^N5^N23^t^Sgear1^T^N1^S191997:6625:::::::70:253::73:4:6652:1485:5861:8767:1:28:2437^N2^S191997:6625:::::::70:253::73:4:6652:1485:5861:8767:1:28:2437^N3^S191997:6625:::::::70:253::73:4:6652:1485:5861:8767:1:28:2437^N4^S193752::::::::70:253::16:8:8962:7977:6652:8822:8817:9144:1601:8767:1:28:1279^N5^S193794::::::::70:253::23:6:7977:6652:7936:8814:1594:8767:1:28:2157^t^Sgear2^T^t^t^t^^	RAID	ледотроль-Ревущийфьорд", -- [436]
+			"<23:41:09> <Comm>		^1^SlootAck^T^N1^N105^N2^N389.375^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N5^B^t^Sdiff^T^N1^N-10^N2^N-10^N3^N-10^N4^N13^N5^N13^t^Sgear1^T^N1^S193399:6625:::::::70:105::13:8:8836:8840:8902:8802:8845:8932:8960:8793:8:28:2164:29:32:30:49:38:8:40:294:45:197921:46:193945:47:194566^N2^S193399:6625:::::::70:105::13:8:8836:8840:8902:8802:8845:8932:8960:8793:8:28:2164:29:32:30:49:38:8:40:294:45:197921:46:193945:47:194566^N3^S193399:6625:::::::70:105::13:8:8836:8840:8902:8802:8845:8932:8960:8793:8:28:2164:29:32:30:49:38:8:40:294:45:197921:46:193945:47:194566^N4^S201943::::::::70:105::13:5:8851:8852:8802:8850:8793:7:28:2164:29:36:30:40:38:8:40:847:45:198059:46:194566^N5^S191995::::::::70:105::42:5:6652:7936:1485:5864:8767:1:28:2287^t^Sgear2^T^t^t^t^^	RAID	злюдра-Ревущийфьорд", -- [437]
+			"<23:41:09> <Comm>		^1^SlootAck^T^N1^N66^N2^N391.0625^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^N5^B^t^Sdiff^T^N1^N0^N2^N0^N3^N0^N4^N0^N5^N3^t^Sgear1^T^N1^S200414:6624:::::::70:66::3:5:7979:6652:8830:1469:8767:1:28:1040^N2^S200414:6624:::::::70:66::3:5:7979:6652:8830:1469:8767:1:28:1040^N3^S200414:6624:::::::70:66::3:5:7979:6652:8830:1469:8767:1:28:1040^N4^S200416::::::::70:66::3:5:7979:6652:8829:1472:8767:1:28:1040^N5^S137499::::::::70:66::16:9:8966:7977:6652:7937:8822:8818:9144:3271:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	мурратик-Ревущийфьорд", -- [438]
+			"<23:41:09> <Comm>		^1^SlootAck^T^N1^N1467^N2^N383.375^N3^T^Sresponse^T^t^Sdiff^T^N1^N29^N2^N29^N3^N29^N4^N0^N5^N19^t^Sgear1^T^N1^S191997:6624:::::::70:1467::28:4:6652:1468:5865:8766:1:28:2474^N2^S191997:6624:::::::70:1467::28:4:6652:1468:5865:8766:1:28:2474^N3^S191997:6624:::::::70:1467::28:4:6652:1468:5865:8766:1:28:2474^N4^S200380::::::::70:1467::3:5:7979:6652:8829:1472:8767^N5^S192037::::::::70:1467::36:5:6652:7937:1478:5865:8767:1:28:2275^t^Sgear2^T^t^t^t^^	RAID	ювитта-Ревущийфьорд", -- [439]
+			"<23:41:09> <Comm>		^1^SlootAck^T^N1^N264^N2^N385.375^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^N5^B^t^Sdiff^T^N1^N16^N2^N16^N3^N16^N4^N23^N5^N23^t^Sgear1^T^N1^S191997:6618:::::::70:264::37:4:6652:1481:5865:8767:1:28:2385^N2^S191997:6618:::::::70:264::37:4:6652:1481:5865:8767:1:28:2385^N3^S191997:6618:::::::70:264::37:4:6652:1481:5865:8767:1:28:2385^N4^S193752::::::::70:264::23:5:7977:6652:8813:1594:8767:1:28:2157^N5^S193794::::::::70:264::23:6:7977:40:7937:8814:1594:8767:1:28:2157^t^Sgear2^T^t^t^t^^	RAID	серегя-Ревущийфьорд", -- [440]
+			"<23:41:09> <Comm>		^1^SlootAck^T^N1^N71^N2^N383.0625^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^N5^B^t^Sdiff^T^N1^N3^N2^N3^N3^N3^N4^N0^N5^N13^t^Sgear1^T^N1^S190495:6625:::::::70:71::13:5:8836:8840:8902:8802:8790:6:28:2164:29:49:30:36:38:8:40:167:45:192552^N2^S190495:6625:::::::70:71::13:5:8836:8840:8902:8802:8790:6:28:2164:29:49:30:36:38:8:40:167:45:192552^N3^S190495:6625:::::::70:71::13:5:8836:8840:8902:8802:8790:6:28:2164:29:49:30:36:38:8:40:167:45:192552^N4^S200425::::::::70:71::3:5:7979:6652:8829:1472:8767:1:28:1040^N5^S192011::::::::70:71::73:5:6652:7937:1485:5864:8767:1:28:2437^t^Sgear2^T^t^t^t^^	RAID	этовертолет-Ревущийфьорд", -- [441]
+			"<23:41:09> <Comm>		^1^SlootAck^T^N1^N62^N2^N379.25^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^t^Sdiff^T^N1^N0^N2^N0^N3^N0^N4^N23^N5^N23^t^Sgear1^T^N1^S134219:6624:::::::70:62::35:8:8967:7977:6652:8822:8820:9144:3274:8767^N2^S134219:6624:::::::70:62::35:8:8967:7977:6652:8822:8820:9144:3274:8767^N3^S134219:6624:::::::70:62::35:8:8967:7977:6652:8822:8820:9144:3274:8767^N4^S193775::::::::70:62::23:5:7977:6652:8813:1594:8767:1:28:2157^N5^S193691::192912::::::70:62::23:6:7977:6652:7935:8814:1594:8767:1:28:2157^t^Sgear2^T^t^t^t^^	RAID	натазат-Ревущийфьорд", -- [442]
+			"<23:41:09> <Comm>		^1^SlootAck^T^N1^N254^N2^N374.1875^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^N5^B^t^Sdiff^T^N1^N23^N2^N23^N3^N23^N4^N10^N5^N23^t^Sgear1^T^N1^S193734:6625:::::::70:254::23:5:7977:6652:8816:1594:8767:1:28:2157^N2^S193734:6625:::::::70:254::23:5:7977:6652:8816:1594:8767:1:28:2157^N3^S193734:6625:::::::70:254::23:5:7977:6652:8816:1594:8767:1:28:2157^N4^S199443::::::::70:254::14:6:8943:6652:8822:8817:1507:8767:1:28:2474^N5^S193722::::::::70:254::23:6:7977:6652:7936:8814:1594:8767:1:28:2157^t^Sgear2^T^t^t^t^^	RAID	аскельт-Ревущийфьорд", -- [443]
+			"<23:41:09> <Comm>		^1^SlootAck^T^N1^N263^N2^N379.125^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^N5^B^t^Sdiff^T^N1^N36^N2^N36^N3^N36^N4^N-3^N5^N16^t^Sgear1^T^N1^S193782::::::::70:263::2:5:7976:6652:8816:1581:8766:1:28:2156^N2^S193782::::::::70:263::2:5:7976:6652:8816:1581:8766:1:28:2156^N3^S193782::::::::70:263::2:5:7976:6652:8816:1581:8766:1:28:2156^N4^S200398::::::::70:263::35:6:6652:8829:8968:7977:1475:8767^N5^S192003::::::::70:263::37:5:6652:7937:1481:5865:8767:1:28:2275^t^Sgear2^T^t^t^t^^	RAID	ватрониум-Ревущийфьорд", -- [444]
+			"<23:41:09> <Comm>		^1^SlootAck^T^N1^N252^N2^N390.25^N3^T^Sresponse^T^N4^B^N5^B^t^Sdiff^T^N1^N0^N2^N0^N3^N0^N4^N0^N5^N3^t^Sgear1^T^N1^S200405:6625:::::::70:252::3:5:7979:6652:8830:1472:8767:1:28:1040^N2^S200405:6625:::::::70:252::3:5:7979:6652:8830:1472:8767:1:28:1040^N3^S200405:6625:::::::70:252::3:5:7979:6652:8830:1472:8767:1:28:1040^N4^S200407::::::::70:252::3:5:7979:6652:8829:1472:8767:1:28:1040^N5^S193650::192981::::::70:252::16:9:8966:7977:6652:7935:8822:8818:9144:1614:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	менструа-Ревущийфьорд", -- [445]
+			"<23:41:09> <Comm>		^1^SlootAck^T^N1^N256^N2^N385.4375^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^t^Sdiff^T^N1^N13^N2^N13^N3^N13^N4^N23^N5^N23^t^Sgear1^T^N1^S193515:6625:::::::70:256::13:6:8837:8838:4785:8802:8850:8790:7:28:2164:29:49:30:36:38:8:40:426:44:198059:45:192552^N2^S193515:6625:::::::70:256::13:6:8837:8838:4785:8802:8850:8790:7:28:2164:29:49:30:36:38:8:40:426:44:198059:45:192552^N3^S193515:6625:::::::70:256::13:6:8837:8838:4785:8802:8850:8790:7:28:2164:29:49:30:36:38:8:40:426:44:198059:45:192552^N4^S193713::::::::70:256::23:5:7977:6652:8813:1594:8767:1:28:2157^N5^S193691::192901::::::70:256::23:6:7977:6652:7935:8814:1594:8767:1:28:2157^t^Sgear2^T^t^t^t^^	RAID	хохохохохох-Ревущийфьорд", -- [446]
+			"<23:41:09> <Comm>		^1^SlootAck^T^N1^N577^N2^N392.8125^N3^T^Sresponse^T^N5^B^t^Sdiff^T^N1^N-16^N2^N-16^N3^N-16^N4^N3^N5^N3^t^Sgear1^T^N1^S133615::::::::70:577::35:8:8972:7977:6652:8822:8820:9144:3290:8767^N2^S133615::::::::70:577::35:8:8972:7977:6652:8822:8820:9144:3290:8767^N3^S133615::::::::70:577::35:8:8972:7977:6652:8822:8820:9144:3290:8767^N4^S137480::::::::70:577::16:8:8966:7977:6652:8822:8817:9144:3271:8767:1:28:1279^N5^S109829::::::::70:577::33:9:8966:7977:6652:7937:8822:8818:9144:3277:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	аландир-Ревущийфьорд", -- [447]
+			"<23:41:09> <Comm>		^1^SlootAck^T^N1^N254^N2^N385.3125^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^N5^B^t^Sdiff^T^N1^N0^N2^N0^N3^N0^N4^N0^N5^N3^t^Sgear1^T^N1^S137498:6625:::::::70:254::16:8:8967:7977:6652:8822:8820:9144:3274:8767:1:28:1279^N2^S137498:6625:::::::70:254::16:8:8967:7977:6652:8822:8820:9144:3274:8767:1:28:1279^N3^S137498:6625:::::::70:254::16:8:8967:7977:6652:8822:8820:9144:3274:8767:1:28:1279^N4^S200389::::::::70:254::3:5:7979:6652:8829:1472:8767:1:28:1040^N5^S193722::::::::70:254::33:9:8966:7977:6652:7937:8822:8818:9144:1614:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	линлот-Ревущийфьорд", -- [448]
+			"<23:41:09> <Comm>		^1^SlootAck^T^N1^N269^N2^N383.375^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N5^B^t^Sdiff^T^N1^N6^N2^N6^N3^N6^N4^N19^N5^N13^t^Sgear1^T^N1^S143959:6624:::::::70:269::16:8:7977:6652:8822:8820:9144:8965:3279:8767:1:28:1279^N2^S143959:6624:::::::70:269::16:8:7977:6652:8822:8820:9144:8965:3279:8767:1:28:1279^N3^S143959:6624:::::::70:269::16:8:7977:6652:8822:8820:9144:8965:3279:8767:1:28:1279^N4^S191992::::::::70:269::36:4:6652:1478:5865:8767:1:28:2275^N5^S191995::::::::70:269::73:5:6652:7937:1485:5864:8767:1:28:2437^t^Sgear2^T^t^t^t^^	RAID	хугомонк-Ревущийфьорд", -- [449]
+			"<23:41:09> <Comm>		^1^SlootAck^T^N1^N257^N2^N383.5^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^t^Sdiff^T^N1^N0^N2^N0^N3^N0^N4^N13^N5^N23^t^Sgear1^T^N1^S200324:6625:::::::70:257::35:6:6652:8830:8967:7977:1472:8767^N2^S200324:6625:::::::70:257::35:6:6652:8830:8967:7977:1472:8767^N3^S200324:6625:::::::70:257::35:6:6652:8830:8967:7977:1472:8767^N4^S144118::::::::70:257::33:8:8963:7977:6652:8822:8817:9144:3272:8767:1:28:1279^N5^S193691::::::::70:257::23:6:7977:6652:7937:8814:1594:8767:1:28:2157^t^Sgear2^T^t^t^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [450]
+			"<23:41:09> <Comm>		^1^SlootAck^T^N1^N63^N2^N388.75^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^t^Sdiff^T^N1^N3^N2^N3^N3^N3^N4^N19^N5^N3^t^Sgear1^T^N1^S193683:6625:::::::70:63::16:8:8966:7977:43:8822:8820:9144:1614:8767:1:28:1279^N2^S193683:6625:::::::70:63::16:8:8966:7977:43:8822:8820:9144:1614:8767:1:28:1279^N3^S193683:6625:::::::70:63::16:8:8966:7977:43:8822:8820:9144:1614:8767:1:28:1279^N4^S201938::::::::70:63::13:5:8851:8852:8800:8850:8793:7:28:2164:29:40:30:36:38:6:40:853:44:198059:45:194566^N5^S193691::192948::::::70:63::33:9:8966:7977:6652:7935:8822:8818:9144:1614:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	ледиланатель-Ревущийфьорд", -- [451]
+			"<23:41:09> <Comm>		^1^SlootAck^T^N1^N259^N2^N393.8125^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N5^B^t^Sdiff^T^N1^N0^N2^N0^N3^N0^N4^N6^N5^N0^t^Sgear1^T^N1^S193680::::::::70:259::16:8:8967:7977:6652:8822:8820:9144:1617:8767:1:28:1279^N2^S193680::::::::70:259::16:8:8967:7977:6652:8822:8820:9144:1617:8767:1:28:1279^N3^S193680::::::::70:259::16:8:8967:7977:6652:8822:8820:9144:1617:8767:1:28:1279^N4^S193721::::::::70:259::33:8:8965:7977:6652:8822:8817:9144:1611:8767:1:28:1279^N5^S109829::::::::70:259::33:9:8967:7977:6652:7936:8822:8818:9144:3280:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [452]
+			"<23:41:09> <Comm>		^1^SlootAck^T^N1^N64^N2^N383^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^t^Sdiff^T^N1^N0^N2^N0^N3^N0^N4^N16^N5^N26^t^Sgear1^T^N1^S200315:6624:::::::70:64::3:5:7979:6652:8830:1472:8767^N2^S200315:6624:::::::70:64::3:5:7979:6652:8830:1472:8767^N3^S200315:6624:::::::70:64::3:5:7979:6652:8830:1472:8767^N4^S191986::::::::70:64::73:4:6652:1485:5861:8767:1:28:2437^N5^S191989::::::::70:64::73:5:6652:7936:1481:5855:8766:1:28:2437^t^Sgear2^T^t^t^t^^	RAID	гигаовца-Ревущийфьорд", -- [453]
+			"<23:41:09> <Comm>		^1^SlootAck^T^N1^N252^N2^N385.9375^N3^T^Sresponse^T^N4^B^N5^B^t^Sdiff^T^N1^N3^N2^N3^N3^N3^N4^N6^N5^N6^t^Sgear1^T^N1^S134503:6625:::::::70:252::16:8:8966:7977:6652:8822:8820:9144:3271:8767:1:28:1279^N2^S134503:6625:::::::70:252::16:8:8966:7977:6652:8822:8820:9144:3271:8767:1:28:1279^N3^S134503:6625:::::::70:252::16:8:8966:7977:6652:8822:8820:9144:3271:8767:1:28:1279^N4^S195506::::::::70:252::3:6:6652:8821:8817:7979:1472:8767^N5^S136773::::::::70:252::33:9:8965:7977:6652:7937:8822:8818:9144:3268:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	нотушка-Ревущийфьорд", -- [454]
+			"<23:41:09> <Comm>		^1^SlootAck^T^N1^N250^N2^N395^N3^T^Sresponse^T^N4^B^N5^B^t^Sdiff^T^N1^N0^N2^N0^N3^N0^N4^N3^N5^N0^t^Sgear1^T^N1^S195494:6625:::::::70:250::3:6:7979:8821:8820:6652:1472:8767^N2^S195494:6625:::::::70:250::3:6:7979:8821:8820:6652:1472:8767^N3^S195494:6625:::::::70:250::3:6:7979:8821:8820:6652:1472:8767^N4^S109858::::::::70:250::33:8:8966:7977:6652:8822:8817:9144:3277:8767:1:28:1279^N5^S144116::192948::::::70:250::33:9:8967:7977:6652:7935:8822:8818:9144:3285:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	ожившийлось-Ревущийфьорд", -- [455]
+			"<23:41:09> <Comm>		^1^SlootAck^T^N1^N266^N2^N391.8125^N3^T^Sresponse^T^N4^B^t^Sdiff^T^N1^N-3^N2^N-3^N3^N-3^N4^N3^N5^N3^t^Sgear1^T^N1^S134415:6625:::::::70:266::16:8:8968:7977:6652:8822:8820:9144:3277:8767:1:28:1279^N2^S134415:6625:::::::70:266::16:8:8968:7977:6652:8822:8820:9144:3277:8767:1:28:1279^N3^S134415:6625:::::::70:266::16:8:8968:7977:6652:8822:8820:9144:3277:8767:1:28:1279^N4^S193713::::::::70:266::16:8:8966:7977:6652:8822:8817:9144:1614:8767:1:28:1279^N5^S144081::::::::70:266::33:9:8966:7977:6652:7936:8822:8818:9144:3282:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	комт-Ревущийфьорд", -- [456]
+			"<23:41:09> <Comm>		^1^SlootAck^T^N1^N264^N2^N383.75^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^N5^B^t^Sdiff^T^N1^N23^N2^N23^N3^N23^N4^N0^N5^N23^t^Sgear1^T^N1^S193782:6619:::::::70:264::23:5:7977:6652:8816:1594:8767:1:28:2157^N2^S193782:6619:::::::70:264::23:5:7977:6652:8816:1594:8767:1:28:2157^N3^S193782:6619:::::::70:264::23:5:7977:6652:8816:1594:8767:1:28:2157^N4^S200398::::::::70:264::3:5:7979:6652:8829:1472:8767^N5^S193656::::::::70:264::23:6:7977:6652:7937:8814:1594:8767:1:28:2157^t^Sgear2^T^t^t^t^^	RAID	бишарк-Ревущийфьорд", -- [457]
+			"<23:41:11> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^	RAID	комт-Ревущийфьорд", -- [458]
+			"<23:41:11> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N1^t^t^^	RAID	комт-Ревущийфьорд", -- [459]
+			"<23:41:11> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N1^t^t^^	RAID	комт-Ревущийфьорд", -- [460]
+			"<23:41:12> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N1^t^t^^	RAID	натазат-Ревущийфьорд", -- [461]
+			"<23:41:12> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	ледиланатель-Ревущийфьорд", -- [462]
+			"<23:41:13> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N1^t^t^^	RAID	комт-Ревущийфьорд", -- [463]
+			"<23:41:13> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	ювитта-Ревущийфьорд", -- [464]
+			"<23:41:13> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	ювитта-Ревущийфьорд", -- [465]
+			"<23:41:13> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	ювитта-Ревущийфьорд", -- [466]
+			"<23:41:16> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N1^t^t^^	RAID	гигаовца-Ревущийфьорд", -- [467]
+			"<23:41:16> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	менструа-Ревущийфьорд", -- [468]
+			"<23:41:16> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	менструа-Ревущийфьорд", -- [469]
+			"<23:41:16> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	менструа-Ревущийфьорд", -- [470]
+			"<23:41:16> <DEBUG>		LootFrame:Response	1	Response:	Основной спек/Нужно", -- [471]
+			"<23:41:16> <DEBUG>		SendResponse	group	4	1	nil	nil	nil	nil	nil	nil	nil	nil	nil	nil", -- [472]
+			"<23:41:16> <DEBUG>		Trashing entry:	1	|cffa335ee|Hitem:195514::::::::70:269::3:6:6652:7979:8821:8817:1472:8767::::::|h[Обмотки коварного тотема]|h|r", -- [473]
+			"<23:41:17> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N1^t^t^^	RAID	хугомонк-Ревущийфьорд", -- [474]
+			"<23:41:17> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^	RAID	нотушка-Ревущийфьорд", -- [475]
+			"<23:41:17> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N1^t^t^^	RAID	нотушка-Ревущийфьорд", -- [476]
+			"<23:41:17> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N1^t^t^^	RAID	нотушка-Ревущийфьорд", -- [477]
+			"<23:41:17> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^SPASS^t^t^^	RAID	ювитта-Ревущийфьорд", -- [478]
+			"<23:41:17> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N1^t^t^^	RAID	злюдра-Ревущийфьорд", -- [479]
+			"<23:41:17> <DEBUG>		Event:	LOOT_READY	true", -- [480]
+			"<23:41:17> <DEBUG>		Ignoring	nil	as it's a currency", -- [481]
+			"<23:41:17> <DEBUG>		Event:	LOOT_READY	true", -- [482]
+			"<23:41:17> <DEBUG>		Ignoring	nil	as it's a currency", -- [483]
+			"<23:41:18> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	ювитта-Ревущийфьорд", -- [484]
+			"<23:41:18> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Хугомонк	MONK", -- [485]
+			"<23:41:18> <DEBUG>		Event:	LOOT_CLOSED", -- [486]
+			"<23:41:18> <DEBUG>		Event:	LOOT_CLOSED", -- [487]
+			"<23:41:18> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Хугомонк	MONK", -- [488]
+			"<23:41:18> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^	RAID	ожившийлось-Ревущийфьорд", -- [489]
+			"<23:41:18> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N1^t^t^^	RAID	ожившийлось-Ревущийфьорд", -- [490]
+			"<23:41:18> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N1^t^t^^	RAID	ожившийлось-Ревущийфьорд", -- [491]
+			"<23:41:20> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N2^t^t^^	RAID	аландир-Ревущийфьорд", -- [492]
+			"<23:41:20> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N1^t^t^^	RAID	хохохохохох-Ревущийфьорд", -- [493]
+			"<23:41:22> <Comm>		^1^Shistory^T^N1^Sкомт-Ревущийфьорд^N2^T^SmapID^N2522^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SWARLOCK^SgroupSize^N22^Sboss^SКурог~`Зловещий~`Тотем^Stime^S21:41:19^SitemReplaced1^S|cffa335ee|Hitem:134415:6625:::::::70:259::16:8:8968:7977:6652:8822:8820:9144:3277:8767:1:28:1279:::::|h[Резонирующие~`одеяния~`чародея]|h|r^Sinstance^SХранилище~`Воплощений-Обычный^Sowner^Sдельфуего-Ревущийфьорд^Sresponse^SОсновной~`спек/Нужно^StypeCode^Sdefault^SdifficultyID^N14^SlootWon^S|cffa335ee|Hitem:196586::::::::70:259::3:4:7979:8830:1472:8767::::::|h[Камень~`Кузни~`из~`жуткого~`аметиста]|h|r^Sid^S1671637279-12^Sdate^S21/12/22^SresponseID^N1^Svotes^N0^SisAwardReason^b^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [494]
+			"<23:41:22> <Comm>		^1^Sawarded^T^N1^N1^N2^Sкомт-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [495]
+			"<23:41:22> <Comm>		^1^Soffline_timer^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [496]
+			"<23:41:23> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Злюдра	DRUID", -- [497]
+			"<23:41:23> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2605	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Злюдра	DRUID", -- [498]
+			"<23:41:24> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N3^t^t^^	RAID	аландир-Ревущийфьорд", -- [499]
+			"<23:41:24> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N3^t^t^^	RAID	аландир-Ревущийфьорд", -- [500]
+			"<23:41:24> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N3^t^t^^	RAID	аландир-Ревущийфьорд", -- [501]
+			"<23:41:29> <Comm>		^1^Shistory^T^N1^Sнотушка-Ревущийфьорд^N2^T^SmapID^N2522^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SDEATHKNIGHT^SgroupSize^N22^Sboss^SКурог~`Зловещий~`Тотем^Stime^S21:41:26^SitemReplaced1^S|cffa335ee|Hitem:134503:6625:::::::70:259::16:8:8966:7977:6652:8822:8820:9144:3271:8767:1:28:1279:::::|h[Инфернальная~`кираса]|h|r^Sinstance^SХранилище~`Воплощений-Обычный^Sowner^Sдельфуего-Ревущийфьорд^Sresponse^SОсновной~`спек/Нужно^StypeCode^Sdefault^SdifficultyID^N14^SlootWon^S|cffa335ee|Hitem:196586::::::::70:259::3:4:7979:8830:1472:8767::::::|h[Камень~`Кузни~`из~`жуткого~`аметиста]|h|r^Sid^S1671637286-13^Sdate^S21/12/22^SresponseID^N1^Svotes^N0^SisAwardReason^b^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [502]
+			"<23:41:29> <Comm>		^1^Sawarded^T^N1^N2^N2^Sнотушка-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [503]
+			"<23:41:40> <Comm>		^1^Srolls^T^N1^N4^N2^T^Sледотроль-Ревущийфьорд^N4^Sмурратик-Ревущийфьорд^N32^Sменструа-Ревущийфьорд^N15^Sбабусянатусе-Ревущийфьорд^N42^Sювитта-Ревущийфьорд^N20^Sожившийлось-Ревущийфьорд^N52^Sледиланатель-Ревущийфьорд^N77^Sватрониум-Ревущийфьорд^N99^Sбишарк-Ревущийфьорд^N47^Sнотушка-Ревущийфьорд^N27^Sлинлот-Ревущийфьорд^N100^Sсерегя-Ревущийфьорд^N87^Sэтовертолет-Ревущийфьорд^N88^Sхохохохохох-Ревущийфьорд^N11^Sаскельт-Ревущийфьорд^N90^Sкомт-Ревущийфьорд^N14^Sгигаовца-Ревущийфьорд^N41^Sдельфуего-Ревущийфьорд^N24^Sзлюдра-Ревущийфьорд^N60^Sхугомонк-Ревущийфьорд^N66^Sнатазат-Ревущийфьорд^N48^Sаландир-Ревущийфьорд^N16^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [504]
+			"<23:41:47> <Comm>		^1^Shistory^T^N1^Sхугомонк-Ревущийфьорд^N2^T^SmapID^N2522^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SMONK^SgroupSize^N22^Sboss^SКурог~`Зловещий~`Тотем^Stime^S21:41:44^SitemReplaced1^S|cffa335ee|Hitem:191992::::::::70:259::36:4:6652:1478:5865:8767:1:28:2275:::::|h[Захваты~`из~`шкуры~`выдрека]|h|r^Sinstance^SХранилище~`Воплощений-Обычный^Sowner^Sдельфуего-Ревущийфьорд^Sresponse^SОсновной~`спек/Нужно^StypeCode^Sdefault^SdifficultyID^N14^SlootWon^S|cffa335ee|Hitem:195514::::::::70:259::3:6:6652:7979:8821:8817:1472:8767::::::|h[Обмотки~`коварного~`тотема]|h|r^Sid^S1671637304-14^Sdate^S21/12/22^SresponseID^N1^Svotes^N0^SisAwardReason^b^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [505]
+			"<23:41:47> <Comm>		^1^Sawarded^T^N1^N4^N2^Sхугомонк-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [506]
+			"<23:41:54> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N1^t^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [507]
+			"<23:41:58> <Comm>		^1^Srolls^T^N1^N5^N2^T^Sледотроль-Ревущийфьорд^N47^Sмурратик-Ревущийфьорд^N31^Sменструа-Ревущийфьорд^N86^Sбабусянатусе-Ревущийфьорд^N11^Sювитта-Ревущийфьорд^N30^Sожившийлось-Ревущийфьорд^N4^Sледиланатель-Ревущийфьорд^N5^Sватрониум-Ревущийфьорд^N60^Sбишарк-Ревущийфьорд^N19^Sнотушка-Ревущийфьорд^N85^Sлинлот-Ревущийфьорд^N9^Sсерегя-Ревущийфьорд^N80^Sэтовертолет-Ревущийфьорд^N84^Sхохохохохох-Ревущийфьорд^N3^Sаскельт-Ревущийфьорд^N25^Sкомт-Ревущийфьорд^N38^Sгигаовца-Ревущийфьорд^N73^Sдельфуего-Ревущийфьорд^N53^Sзлюдра-Ревущийфьорд^N51^Sхугомонк-Ревущийфьорд^N78^Sнатазат-Ревущийфьорд^N64^Sаландир-Ревущийфьорд^N21^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [508]
+			"<23:42:02> <Comm>		^1^Shistory^T^N1^Sгигаовца-Ревущийфьорд^N2^T^SmapID^N2522^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SMAGE^SgroupSize^N22^Sboss^SКурог~`Зловещий~`Тотем^Stime^S21:41:59^SitemReplaced1^S|cff0070dd|Hitem:191989::::::::70:259::73:5:6652:7936:1481:5855:8766:1:28:2437:::::|h[Шнурованный~`ремень~`кобальтового~`дозорного]|h|r^Sinstance^SХранилище~`Воплощений-Обычный^Sowner^Sдельфуего-Ревущийфьорд^Sresponse^SОсновной~`спек/Нужно^StypeCode^Sdefault^SdifficultyID^N14^SlootWon^S|cffa335ee|Hitem:195515::::::::70:259::3:7:6652:7937:7979:8821:8818:1472:8767::::::|h[Кушак~`духовных~`поисков~`Магаты]|h|r^Sid^S1671637319-15^Sdate^S21/12/22^SresponseID^N1^Svotes^N0^SisAwardReason^b^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [509]
+			"<23:42:02> <Comm>		^1^Sawarded^T^N1^N5^N2^Sгигаовца-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [510]
+			"<23:42:04> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N1^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [511]
+			"<23:42:08> <DEBUG>		TradeUI: Traded item(s) to	дельфуего-Ревущийфьорд", -- [512]
+			"<23:42:08> <DEBUG>		TradeUI:Show()	nil", -- [513]
+			"<23:42:08> <DEBUG>		TradeUI:Hide()", -- [514]
+			"<23:42:09> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:195514::::::::70:259::3:6:6652:7979:8821:8817:1472:8767::::::|h[Обмотки~`коварного~`тотема]|h|r^N2^Sхугомонк-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [515]
+			"<23:42:12> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Мурратик	PALADIN", -- [516]
+			"<23:42:12> <Comm>		^1^Sl^T^N1^S192761^t^^	RAID	мурратик-Ревущийфьорд", -- [517]
+			"<23:42:12> <Comm>		^1^Sl^T^N1^S192761^t^^	RAID	мурратик-Ревущийфьорд", -- [518]
+			"<23:42:17> <Comm>		^1^Ssession_end^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [519]
+			"<23:42:25> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:195515::::::::70:259::3:7:6652:7937:7979:8821:8818:1472:8767::::::|h[Кушак~`духовных~`поисков~`Магаты]|h|r^N2^Sгигаовца-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [520]
+			"<23:42:43> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:196586::::::::70:259::3:4:7979:8830:1472:8767::::::|h[Камень~`Кузни~`из~`жуткого~`аметиста]|h|r^N2^Sкомт-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [521]
+			"<23:42:51> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:196586::::::::70:259::3:4:7979:8830:1472:8767::::::|h[Камень~`Кузни~`из~`жуткого~`аметиста]|h|r^N2^Sнотушка-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [522]
+			"<23:43:12> <Comm>		^1^SfakeLoot^T^N1^S|cff9d9d9d|Hitem:192662::::::::70:264:::::::::|h[Огненная~`частица]|h|r^N2^S192761^t^^	RAID	бишарк-Ревущийфьорд", -- [523]
+			"<23:44:56> <Comm>		^1^Sl^T^N1^S0^t^^	RAID	бишарк-Ревущийфьорд", -- [524]
+			"<23:44:56> <Comm>		^1^Sl^T^N1^S0^t^^	RAID	бишарк-Ревущийфьорд", -- [525]
+			"<23:45:04> <Comm>		^1^Sl^T^N1^S198500^t^^	RAID	ледотроль-Ревущийфьорд", -- [526]
+			"<23:45:04> <Comm>		^1^Sl^T^N1^S198500^t^^	RAID	ледотроль-Ревущийфьорд", -- [527]
+			"<23:45:14> <Comm>		^1^Sl^T^N1^S198500^t^^	RAID	гигаовца-Ревущийфьорд", -- [528]
+			"<23:45:14> <Comm>		^1^Sl^T^N1^S198500^t^^	RAID	гигаовца-Ревущийфьорд", -- [529]
+			"<23:45:21> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	ожившийлось-Ревущийфьорд", -- [530]
+			"<23:45:21> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	ожившийлось-Ревущийфьорд", -- [531]
+			"<23:45:22> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190326	|cff0070dd|Hitem:190326::::::::70:269:::::::::|h[Пробуждающийся воздух]|h|r	2	Бабусянатусе	PRIEST", -- [532]
+			"<23:45:24> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	нотушка-Ревущийфьорд", -- [533]
+			"<23:45:24> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	аскельт-Ревущийфьорд", -- [534]
+			"<23:45:24> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	аскельт-Ревущийфьорд", -- [535]
+			"<23:45:26> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	натазат-Ревущийфьорд", -- [536]
+			"<23:45:26> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	натазат-Ревущийфьорд", -- [537]
+			"<23:45:32> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	ледотроль-Ревущийфьорд", -- [538]
+			"<23:45:34> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	дельфуего-Ревущийфьорд", -- [539]
+			"<23:45:34> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	дельфуего-Ревущийфьорд", -- [540]
+			"<23:46:12> <DEBUG>		Event:	LOOT_READY	true", -- [541]
+			"<23:46:12> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Менструа	DEATHKNIGHT", -- [542]
+			"<23:46:12> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Дельфуего	ROGUE", -- [543]
+			"<23:46:12> <Comm>		^1^Sl^T^N1^S196855^t^^	RAID	менструа-Ревущийфьорд", -- [544]
+			"<23:46:12> <Comm>		^1^Sl^T^N1^S196855^t^^	RAID	менструа-Ревущийфьорд", -- [545]
+			"<23:46:12> <DEBUG>		Event:	LOOT_READY	true", -- [546]
+			"<23:46:12> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Этовертолет	WARRIOR", -- [547]
+			"<23:46:12> <DEBUG>		Event:	LOOT_CLOSED", -- [548]
+			"<23:46:12> <DEBUG>		Event:	LOOT_CLOSED", -- [549]
+			"<23:46:12> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Хугомонк	MONK", -- [550]
+			"<23:46:12> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Нотушка	DEATHKNIGHT", -- [551]
+			"<23:46:13> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Линлот	HUNTER", -- [552]
+			"<23:46:13> <Comm>		^1^Sl^T^N1^S196855^t^^	RAID	нотушка-Ревущийфьорд", -- [553]
+			"<23:46:13> <Comm>		^1^Sl^T^N1^S196855^t^^	RAID	нотушка-Ревущийфьорд", -- [554]
+			"<23:46:13> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Натазат	MAGE", -- [555]
+			"<23:46:13> <Comm>		^1^Sl^T^N1^S196855^t^^	RAID	натазат-Ревущийфьорд", -- [556]
+			"<23:46:13> <Comm>		^1^Sl^T^N1^S196855^t^^	RAID	натазат-Ревущийфьорд", -- [557]
+			"<23:46:14> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Аскельт	HUNTER", -- [558]
+			"<23:46:14> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Ювитта	EVOKER", -- [559]
+			"<23:46:15> <Comm>		^1^Sl^T^N1^S196855^t^^	RAID	ювитта-Ревущийфьорд", -- [560]
+			"<23:46:15> <Comm>		^1^Sl^T^N1^S196855^t^^	RAID	ювитта-Ревущийфьорд", -- [561]
+			"<23:46:15> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Бабусянатусе	PRIEST", -- [562]
+			"<23:46:15> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Комт	WARLOCK", -- [563]
+			"<23:46:16> <Comm>		^1^Sl^T^N1^S196855^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [564]
+			"<23:46:16> <Comm>		^1^Sl^T^N1^S196855^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [565]
+			"<23:46:16> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Гигаовца	MAGE", -- [566]
+			"<23:46:16> <Comm>		^1^Sl^T^N1^S196855^t^^	RAID	гигаовца-Ревущийфьорд", -- [567]
+			"<23:46:16> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Бишарк	SHAMAN", -- [568]
+			"<23:46:18> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Серегя	SHAMAN", -- [569]
+			"<23:46:18> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Ледотроль	HUNTER", -- [570]
+			"<23:46:22> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Хохохохохох	PRIEST", -- [571]
+			"<23:47:00> <Comm>		^1^Sl^T^N1^S197147^t^^	RAID	менструа-Ревущийфьорд", -- [572]
+			"<23:47:00> <Comm>		^1^Sl^T^N1^S197147^t^^	RAID	менструа-Ревущийфьорд", -- [573]
+			"<23:47:00> <Comm>		^1^Sl^T^N1^S197147^t^^	RAID	ожившийлось-Ревущийфьорд", -- [574]
+			"<23:47:00> <Comm>		^1^Sl^T^N1^S197147^t^^	RAID	ожившийлось-Ревущийфьорд", -- [575]
+			"<23:47:03> <Comm>		^1^Sl^T^N1^S197148^t^^	RAID	хохохохохох-Ревущийфьорд", -- [576]
+			"<23:47:03> <Comm>		^1^Sl^T^N1^S197149^t^^	RAID	злюдра-Ревущийфьорд", -- [577]
+			"<23:47:06> <DEBUG>		Event:	LOOT_READY	true", -- [578]
+			"<23:47:06> <DEBUG>		Ignoring	nil	as it's a currency", -- [579]
+			"<23:47:06> <DEBUG>		Event:	LOOT_READY	true", -- [580]
+			"<23:47:06> <DEBUG>		Ignoring	nil	as it's a currency", -- [581]
+			"<23:47:06> <DEBUG>		Event:	LOOT_CLOSED", -- [582]
+			"<23:47:34> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190315	|cff0070dd|Hitem:190315::::::::70:269:::::::::|h[Пробуждающаяся земля]|h|r	1	Мурратик	PALADIN", -- [583]
+			"<23:47:34> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Мурратик	PALADIN", -- [584]
+			"<23:47:57> <Comm>		^1^Sl^T^N1^S199027^t^^	RAID	гигаовца-Ревущийфьорд", -- [585]
+			"<23:47:57> <Comm>		^1^Sl^T^N1^S199027^t^^	RAID	гигаовца-Ревущийфьорд", -- [586]
+			"<23:47:59> <Comm>		^1^Sl^T^N1^S199027^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [587]
+			"<23:47:59> <Comm>		^1^Sl^T^N1^S199027^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [588]
+			"<23:48:29> <DEBUG>		Event:	LOOT_READY	true", -- [589]
+			"<23:48:29> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192618::::::::70:269:::::::::|h[Кусочки льда]|h|r	0	1	Creature-0-4250-2522-20091-199028-00002354E0	1", -- [590]
+			"<23:48:30> <DEBUG>		Event:	LOOT_READY	true", -- [591]
+			"<23:48:30> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192618::::::::70:269:::::::::|h[Кусочки льда]|h|r	0	1	Creature-0-4250-2522-20091-199028-00002354E0	1", -- [592]
+			"<23:48:30> <DEBUG>		OnLootSlotCleared()	1	|cff9d9d9d|Hitem:192618::::::::70:269:::::::::|h[Кусочки льда]|h|r	0", -- [593]
+			"<23:48:30> <DEBUG>		Event:	LOOT_CLOSED", -- [594]
+			"<23:48:30> <DEBUG>		Event:	LOOT_CLOSED", -- [595]
+			"<23:48:30> <Comm>		^1^Sl^T^N1^S199028^t^^	RAID	аландир-Ревущийфьорд", -- [596]
+			"<23:48:30> <Comm>		^1^Sl^T^N1^S199028^t^^	RAID	аландир-Ревущийфьорд", -- [597]
+			"<23:48:30> <Comm>		^1^Sl^T^N1^S199028^t^^	RAID	хугомонк-Ревущийфьорд", -- [598]
+			"<23:48:30> <Comm>		^1^Sl^T^N1^S199028^t^^	RAID	хугомонк-Ревущийфьорд", -- [599]
+			"<23:48:31> <Comm>		^1^Sl^T^N1^S199028^t^^	RAID	ожившийлось-Ревущийфьорд", -- [600]
+			"<23:48:31> <Comm>		^1^Sl^T^N1^S199028^t^^	RAID	ожившийлось-Ревущийфьорд", -- [601]
+			"<23:48:31> <Comm>		^1^Sl^T^N1^S199028^t^^	RAID	хохохохохох-Ревущийфьорд", -- [602]
+			"<23:48:31> <Comm>		^1^Sl^T^N1^S199028^t^^	RAID	хохохохохох-Ревущийфьорд", -- [603]
+			"<23:48:32> <Comm>		^1^Sl^T^N1^S199028^t^^	RAID	злюдра-Ревущийфьорд", -- [604]
+			"<23:48:32> <Comm>		^1^Sl^T^N1^S199028^t^^	RAID	злюдра-Ревущийфьорд", -- [605]
+			"<23:48:37> <Comm>		^1^Sl^T^N1^S199028^t^^	RAID	этовертолет-Ревущийфьорд", -- [606]
+			"<23:48:37> <Comm>		^1^Sl^T^N1^S199028^t^^	RAID	этовертолет-Ревущийфьорд", -- [607]
+			"<23:49:09> <Comm>		^1^Sl^T^N1^S199030^t^^	RAID	аландир-Ревущийфьорд", -- [608]
+			"<23:49:09> <Comm>		^1^Sl^T^N1^S199030^t^^	RAID	аландир-Ревущийфьорд", -- [609]
+			"<23:49:10> <Comm>		^1^Sl^T^N1^S199030^t^^	RAID	комт-Ревущийфьорд", -- [610]
+			"<23:49:10> <Comm>		^1^Sl^T^N1^S199030^t^^	RAID	комт-Ревущийфьорд", -- [611]
+			"<23:49:11> <Comm>		^1^Sl^T^N1^S199030^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [612]
+			"<23:49:11> <Comm>		^1^Sl^T^N1^S199030^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [613]
+			"<23:49:11> <Comm>		^1^Sl^T^N1^S199030^t^^	RAID	натазат-Ревущийфьорд", -- [614]
+			"<23:49:11> <Comm>		^1^Sl^T^N1^S199030^t^^	RAID	натазат-Ревущийфьорд", -- [615]
+			"<23:49:48> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Мурратик	PALADIN", -- [616]
+			"<23:49:48> <DEBUG>		Event:	LOOT_READY	true", -- [617]
+			"<23:49:48> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Дельфуего	ROGUE", -- [618]
+			"<23:49:49> <DEBUG>		Event:	LOOT_READY	true", -- [619]
+			"<23:49:49> <Comm>		^1^Sl^T^N1^S199029^t^^	RAID	дельфуего-Ревущийфьорд", -- [620]
+			"<23:49:49> <Comm>		^1^Sl^T^N1^S199029^t^^	RAID	дельфуего-Ревущийфьорд", -- [621]
+			"<23:49:49> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Нотушка	DEATHKNIGHT", -- [622]
+			"<23:49:49> <DEBUG>		Event:	LOOT_CLOSED", -- [623]
+			"<23:49:49> <DEBUG>		Event:	LOOT_CLOSED", -- [624]
+			"<23:49:49> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Хугомонк	MONK", -- [625]
+			"<23:49:49> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Этовертолет	WARRIOR", -- [626]
+			"<23:49:49> <Comm>		^1^Sl^T^N1^S199029^t^^	RAID	этовертолет-Ревущийфьорд", -- [627]
+			"<23:49:50> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Хохохохохох	PRIEST", -- [628]
+			"<23:49:51> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Гигаовца	MAGE", -- [629]
+			"<23:49:51> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Линлот	HUNTER", -- [630]
+			"<23:49:52> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Бабусянатусе	PRIEST", -- [631]
+			"<23:49:52> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Натазат	MAGE", -- [632]
+			"<23:49:53> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Бишарк	SHAMAN", -- [633]
+			"<23:49:53> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Серегя	SHAMAN", -- [634]
+			"<23:49:53> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Комт	WARLOCK", -- [635]
+			"<23:49:53> <Comm>		^1^Sl^T^N1^S199029^t^^	RAID	комт-Ревущийфьорд", -- [636]
+			"<23:50:04> <DEBUG>		Event:	ENCOUNTER_START	2590	Совет стихий	14	22", -- [637]
+			"<23:50:04> <INFO>		UpdatePlayersData()", -- [638]
+			"<23:50:04> <Comm>		^1^SStartHandleLoot^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [639]
+			"<23:50:09> <DEBUG>		Event:	ENCOUNTER_END	2590	Совет стихий	14	22	0", -- [640]
+			"<23:54:29> <DEBUG>		Event:	ENCOUNTER_START	2590	Совет стихий	14	22", -- [641]
+			"<23:54:29> <INFO>		UpdatePlayersData()", -- [642]
+			"<23:54:29> <Comm>		^1^SStartHandleLoot^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [643]
+			"<23:58:16> <DEBUG>		Event:	ENCOUNTER_END	2590	Совет стихий	14	22	1", -- [644]
+			"<23:58:17> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:195485::::::::70:269::3:7:6652:7936:8821:8820:7979:1472:8767::::::|h[Маска ужаса советника]|h|r", -- [645]
+			"<23:58:17> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:195489::::::::70:269::3:4:6652:7979:1472:8767::::::|h[Кувалда демиурга]|h|r", -- [646]
+			"<23:58:17> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:195487::::::::70:269::3:6:6652:8821:8820:7979:1472:8767::::::|h[Пепельный хауберк Эмбар]|h|r", -- [647]
+			"<23:58:17> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:195486::::::::70:269::3:6:6652:8821:8817:7979:1472:8767::::::|h[Наплечи из изломанной глины]|h|r", -- [648]
+			"<23:58:17> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:195518::::::::70:269::3:4:6652:7979:1472:8767::::::|h[Усиленный крушитель куалаши]|h|r", -- [649]
+			"<23:58:17> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Мурратик	PALADIN", -- [650]
+			"<23:58:17> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Мурратик	PALADIN", -- [651]
+			"<23:58:17> <Comm>		^1^Sl^T^N1^S187767^t^^	RAID	мурратик-Ревущийфьорд", -- [652]
+			"<23:58:17> <Comm>		^1^Sl^T^N1^S187767^t^^	RAID	мурратик-Ревущийфьорд", -- [653]
+			"<23:58:18> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Менструа	DEATHKNIGHT", -- [654]
+			"<23:58:18> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Менструа	DEATHKNIGHT", -- [655]
+			"<23:58:18> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	4	Ожившийлось	DEATHKNIGHT", -- [656]
+			"<23:58:18> <DEBUG>		Event:	LOOT_READY	true", -- [657]
+			"<23:58:18> <DEBUG>		Ignoring	nil	as it's a currency", -- [658]
+			"<23:58:18> <Comm>		^1^Sl^T^N1^S187771^t^^	RAID	ожившийлось-Ревущийфьорд", -- [659]
+			"<23:58:18> <Comm>		^1^Sl^T^N1^S187771^t^^	RAID	ожившийлось-Ревущийфьорд", -- [660]
+			"<23:58:18> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Ювитта	EVOKER", -- [661]
+			"<23:58:18> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Ювитта	EVOKER", -- [662]
+			"<23:58:19> <DEBUG>		Event:	LOOT_READY	true", -- [663]
+			"<23:58:19> <DEBUG>		Ignoring	nil	as it's a currency", -- [664]
+			"<23:58:19> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	4	Ватрониум	SHAMAN", -- [665]
+			"<23:58:19> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Хугомонк	MONK", -- [666]
+			"<23:58:19> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Хугомонк	MONK", -- [667]
+			"<23:58:19> <DEBUG>		Event:	LOOT_CLOSED", -- [668]
+			"<23:58:19> <DEBUG>		Event:	LOOT_CLOSED", -- [669]
+			"<23:58:19> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	200945	|cffa335ee|Hitem:200945::::::::70:269:::::::::|h[Молот доблести]|h|r	1	Хугомонк	MONK", -- [670]
+			"<23:58:19> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Нотушка	DEATHKNIGHT", -- [671]
+			"<23:58:19> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Линлот	HUNTER", -- [672]
+			"<23:58:20> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Нотушка	DEATHKNIGHT", -- [673]
+			"<23:58:20> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Линлот	HUNTER", -- [674]
+			"<23:58:20> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Натазат	MAGE", -- [675]
+			"<23:58:20> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Этовертолет	WARRIOR", -- [676]
+			"<23:58:20> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Бабусянатусе	PRIEST", -- [677]
+			"<23:58:20> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Бабусянатусе	PRIEST", -- [678]
+			"<23:58:20> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Этовертолет	WARRIOR", -- [679]
+			"<23:58:20> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Натазат	MAGE", -- [680]
+			"<23:58:21> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Аскельт	HUNTER", -- [681]
+			"<23:58:21> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Хохохохохох	PRIEST", -- [682]
+			"<23:58:21> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Аскельт	HUNTER", -- [683]
+			"<23:58:21> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Серегя	SHAMAN", -- [684]
+			"<23:58:21> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	4	Аландир	DEMONHUNTER", -- [685]
+			"<23:58:21> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	4	Злюдра	DRUID", -- [686]
+			"<23:58:21> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Дельфуего	ROGUE", -- [687]
+			"<23:58:21> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Дельфуего	ROGUE", -- [688]
+			"<23:58:22> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Хохохохохох	PRIEST", -- [689]
+			"<23:58:22> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Серегя	SHAMAN", -- [690]
+			"<23:58:23> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Комт	WARLOCK", -- [691]
+			"<23:58:23> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Комт	WARLOCK", -- [692]
+			"<23:58:23> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Бишарк	SHAMAN", -- [693]
+			"<23:58:24> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Бишарк	SHAMAN", -- [694]
+			"<23:58:28> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Ледотроль	HUNTER", -- [695]
+			"<23:58:28> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Ледотроль	HUNTER", -- [696]
+			"<23:58:30> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	4	Ледиланатель	MAGE", -- [697]
+			"<23:58:30> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Гигаовца	MAGE", -- [698]
+			"<23:58:31> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2590	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Гигаовца	MAGE", -- [699]
+			"<23:58:31> <Comm>		^1^SlootTable^T^N1^T^N1^T^Sstring^S195487:::::::::::3:6:6652:8821:8820:7979:1472:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SСовет~`стихий^t^N2^T^Sstring^S195518:::::::::::3:4:6652:7979:1472:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SСовет~`стихий^t^N3^T^Sstring^S195485:::::::::::3:7:6652:7936:8821:8820:7979:1472:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SСовет~`стихий^t^N4^T^Sstring^S195486:::::::::::3:6:6652:8821:8817:7979:1472:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SСовет~`стихий^t^N5^T^Sstring^S195489:::::::::::3:4:6652:7979:1472:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SСовет~`стихий^t^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [700]
+			"<23:58:31> <INFO>		Autopassed on: 	|cffa335ee|Hitem:195487::::::::70:269::3:6:6652:8821:8820:7979:1472:8767::::::|h[Пепельный хауберк Эмбар]|h|r", -- [701]
+			"<23:58:31> <INFO>		Autopassed on: 	|cffa335ee|Hitem:195518::::::::70:269::3:4:6652:7979:1472:8767::::::|h[Усиленный крушитель куалаши]|h|r", -- [702]
+			"<23:58:31> <INFO>		Autopassed on: 	|cffa335ee|Hitem:195485::::::::70:269::3:7:6652:7936:8821:8820:7979:1472:8767::::::|h[Маска ужаса советника]|h|r", -- [703]
+			"<23:58:31> <INFO>		GetPlayersGear	|cffa335ee|Hitem:195487::::::::70:269::3:6:6652:8821:8820:7979:1472:8767::::::|h[Пепельный хауберк Эмбар]|h|r	INVTYPE_CHEST", -- [704]
+			"<23:58:31> <INFO>		GetPlayersGear	|cffa335ee|Hitem:195518::::::::70:269::3:4:6652:7979:1472:8767::::::|h[Усиленный крушитель куалаши]|h|r	INVTYPE_2HWEAPON", -- [705]
+			"<23:58:31> <INFO>		GetPlayersGear	|cffa335ee|Hitem:195485::::::::70:269::3:7:6652:7936:8821:8820:7979:1472:8767::::::|h[Маска ужаса советника]|h|r	INVTYPE_HEAD", -- [706]
+			"<23:58:31> <INFO>		GetPlayersGear	|cffa335ee|Hitem:195486::::::::70:269::3:6:6652:8821:8817:7979:1472:8767::::::|h[Наплечи из изломанной глины]|h|r	INVTYPE_SHOULDER", -- [707]
+			"<23:58:31> <INFO>		GetPlayersGear	|cffa335ee|Hitem:195489::::::::70:269::3:4:6652:7979:1472:8767::::::|h[Кувалда демиурга]|h|r	INVTYPE_WEAPON", -- [708]
+			"<23:58:31> <INFO>		LootFrame:Start	5	nil", -- [709]
+			"<23:58:31> <DEBUG>		Restoring entry:	default	1", -- [710]
+			"<23:58:31> <DEBUG>		GetButtons	default", -- [711]
+			"<23:58:31> <DEBUG>		Restoring entry:	default	1", -- [712]
+			"<23:58:31> <DEBUG>		GetButtons	default", -- [713]
+			"<23:58:31> <Comm>		^1^SlootAck^T^N1^N253^N2^N377.5^N3^T^Sresponse^T^N2^B^N3^B^N4^B^N5^B^t^Sdiff^T^N1^N10^N2^N0^N3^N17^N4^N20^N5^N0^t^Sgear1^T^N1^S191997:6625:::::::70:253::73:4:6652:1485:5861:8767:1:28:2437^N2^S195490:6527:::::::70:253::3:4:6652:7979:1472:8767^N3^S193726::::::::70:253::23:6:7977:6652:7936:8816:1594:8767:1:28:2157^N4^S192002::::::::70:253::73:4:6652:1481:5855:8766:1:28:2437^N5^S195490:6527:::::::70:253::3:4:6652:7979:1472:8767^t^Sgear2^T^t^t^t^^	RAID	ледотроль-Ревущийфьорд", -- [714]
+			"<23:58:31> <Comm>		^1^SlootAck^T^N1^N263^N2^N379.125^N3^T^Sresponse^T^N3^B^N4^B^t^Sdiff^T^N1^N30^N2^N10^N3^N10^N4^N0^N5^N10^t^Sgear1^T^N1^S193782::::::::70:263::2:5:7976:6652:8816:1581:8766:1:28:2156^N2^S199306:6638:::::::70:263::14:4:8943:6652:1507:8767:1:28:2474^N3^S192000::192960::::::70:263::42:5:6652:7935:1485:5861:8767:1:28:2287^N4^S195499::::::::70:263::3:6:6652:8821:8817:7979:1472:8767^N5^S199306:6638:::::::70:263::14:4:8943:6652:1507:8767:1:28:2474^t^Sgear2^T^N2^S193631:6638:::::::70:263::16:6:8962:7977:6652:9147:1601:8767:1:28:1279^N5^S193631:6638:::::::70:263::16:6:8962:7977:6652:9147:1601:8767:1:28:1279^t^t^t^^	RAID	ватрониум-Ревущийфьорд", -- [715]
+			"<23:58:31> <Comm>		^1^SlootAck^T^N1^N66^N2^N391.0625^N3^T^Sresponse^T^N1^B^N3^B^N4^B^t^Sdiff^T^N1^N-6^N2^N-13^N3^N5^N4^N-13^N5^N-13^t^Sgear1^T^N1^S200414:6624:::::::70:66::3:5:7979:6652:8830:1469:8767:1:28:1040^N2^S193700:6650:::::::70:66::35:6:8971:7977:6652:9147:1630:8767^N3^S198326::198298::::::70:66::13:6:8836:8840:8902:8799:8950:8864:6:28:2164:29:36:38:5:40:619:49:198236:50:198259^N4^S195477::::::::70:66::5:6:7980:6652:8825:8817:1485:8767^N5^S193700:6650:::::::70:66::35:6:8971:7977:6652:9147:1630:8767^t^Sgear2^T^N2^S190503::::::::70:66::13:6:8836:8840:8902:8801:8845:8793:7:28:2164:29:49:30:32:38:7:40:122:44:197921:45:194567^N5^S190503::::::::70:66::13:6:8836:8840:8902:8801:8845:8793:7:28:2164:29:49:30:32:38:7:40:122:44:197921:45:194567^t^t^t^^	RAID	мурратик-Ревущийфьорд", -- [716]
+			"<23:58:31> <Comm>		^1^SlootAck^T^N1^N254^N2^N385.3125^N3^T^Sresponse^T^N2^B^N3^B^N4^B^N5^B^t^Sdiff^T^N1^N-6^N2^N0^N3^N4^N4^N0^N5^N0^t^Sgear1^T^N1^S137498:6625:::::::70:254::16:8:8967:7977:6652:8822:8820:9144:3274:8767:1:28:1279^N2^S195490:6527:::::::70:254::3:4:6652:7979:1472:8767^N3^S199444::::::::70:254::14:7:8943:6652:7936:8822:8820:1507:8767:1:28:2474^N4^S143970::::::::70:254::33:8:8965:7977:6652:8822:8817:9144:3279:8767:1:28:1279^N5^S195490:6527:::::::70:254::3:4:6652:7979:1472:8767^t^Sgear2^T^t^t^t^^	RAID	линлот-Ревущийфьорд", -- [717]
+			"<23:58:31> <Comm>		^1^SlootAck^T^N1^N254^N2^N374.1875^N3^T^Sresponse^T^N2^B^N3^B^N4^B^N5^B^t^Sdiff^T^N1^N17^N2^N23^N3^N-6^N4^N17^N5^N23^t^Sgear1^T^N1^S193734:6625:::::::70:254::23:5:7977:6652:8816:1594:8767:1:28:2157^N2^S197945::::::::70:254::43:3:6652:1488:8766:1:28:2533^N3^S200390::::::::70:254::35:7:6652:7937:8828:7977:8967:1469:8767^N4^S193637::::::::70:254::23:5:7977:6652:8813:1594:8767:1:28:2157^N5^S197945::::::::70:254::43:3:6652:1488:8766:1:28:2533^t^Sgear2^T^t^t^t^^	RAID	аскельт-Ревущийфьорд", -- [718]
+			"<23:58:31> <Comm>		^1^SlootAck^T^N1^N71^N2^N383.0625^N3^T^Sresponse^T^N1^B^N3^B^N4^B^t^Sdiff^T^N1^N-3^N2^N7^N3^N17^N4^N17^N5^N7^t^Sgear1^T^N1^S190495:6625:::::::70:71::13:5:8836:8840:8902:8802:8790:6:28:2164:29:49:30:36:38:8:40:167:45:192552^N2^S192031:6627:::::::70:71::42:4:6652:1485:5864:8767:1:28:2287^N3^S193819::192945::::::70:71::23:6:7977:6652:7935:8816:1594:8767:1:28:2155^N4^S193802::::::::70:71::23:5:7977:41:8813:1594:8767:1:28:2155^N5^S192031:6627:::::::70:71::42:4:6652:1485:5864:8767:1:28:2287^t^Sgear2^T^t^t^t^^	RAID	этовертолет-Ревущийфьорд", -- [719]
+			"<23:58:31> <Comm>		^1^SlootAck^T^N1^N105^N2^N389.375^N3^T^Sresponse^T^N1^B^N3^B^t^Sdiff^T^N1^N-16^N2^N-6^N3^N-16^N4^N7^N5^N-6^t^Sgear1^T^N1^S193399:6625:::::::70:105::13:8:8836:8840:8902:8802:8845:8932:8960:8793:8:28:2164:29:32:30:49:38:8:40:294:45:197921:46:193945:47:194566^N2^S193707:6651:::::::70:105::16:6:7977:6652:9147:8967:1617:8767:1:28:1279^N3^S193400::::::::70:105::13:8:8836:8840:8902:8802:8845:8932:8960:8793:8:28:2164:29:36:30:49:38:8:40:320:45:197921:46:193945:47:194566^N4^S201942::::::::70:105::13:5:8851:8852:8802:8850:8793:7:28:2164:29:49:30:32:38:8:40:849:45:198059:46:194566^N5^S193707:6651:::::::70:105::16:6:7977:6652:9147:8967:1617:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	злюдра-Ревущийфьорд", -- [720]
+			"<23:58:31> <Comm>		^1^SlootAck^T^N1^N252^N2^N390.25^N3^T^Sresponse^T^N1^B^N3^B^N4^B^t^Sdiff^T^N1^N-6^N2^N7^N3^N10^N4^N17^N5^N7^t^Sgear1^T^N1^S200405:6625:::::::70:252::3:5:7979:6652:8830:1472:8767:1:28:1040^N2^S197922:3368:::::::70:252::42:4:6652:1485:5864:8767:1:28:2287^N3^S201951::::::::70:252::13:5:8851:8852:8801:8850:8791:7:28:2164:29:32:30:40:38:7:40:842:45:198059:46:194578^N4^S193802::::::::70:252::23:5:7977:6652:8813:1594:8767:1:28:2155^N5^S197922:3368:::::::70:252::42:4:6652:1485:5864:8767:1:28:2287^t^Sgear2^T^t^t^t^^	RAID	менструа-Ревущийфьорд", -- [721]
+			"<23:58:31> <Comm>		^1^SlootAck^T^N1^N62^N2^N380.3125^N3^T^Sresponse^T^N1^B^N2^B^N4^B^N5^B^t^Sdiff^T^N1^N-6^N2^N7^N3^N3^N4^N139^N5^N7^t^Sgear1^T^N1^S134219:6624:::::::70:62::35:8:8967:7977:6652:8822:8820:9144:3274:8767^N2^S193707::::::::70:62::16:6:8963:7977:6652:9147:1604:8767:1:28:1279^N3^S193523::::::::70:62::13:4:8836:8840:8902:8800:5:28:2164:29:49:30:36:38:6:40:445^N4^S193788::::::::70:62::17:4:7978:7975:6652:8813:2:9:70:28:2587^N5^S193707::::::::70:62::16:6:8963:7977:6652:9147:1604:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	натазат-Ревущийфьорд", -- [722]
+			"<23:58:31> <Comm>		^1^SlootAck^T^N1^N1467^N2^N383.375^N3^T^Sresponse^T^t^Sdiff^T^N1^N23^N2^N7^N3^N13^N4^N0^N5^N7^t^Sgear1^T^N1^S191997:6624:::::::70:1467::28:4:6652:1468:5865:8766:1:28:2474^N2^S200246:6639:::::::70:1467::26:4:6652:1485:5864:8767:1:28:2287^N3^S144017::::::::70:1467::33:9:8961:7977:6652:7936:8822:8820:9144:3266:8767:1:28:1279^N4^S143970::::::::70:1467::33:8:7977:6652:8822:8817:9144:8965:3279:8767:1:28:1279^N5^S200246:6639:::::::70:1467::26:4:6652:1485:5864:8767:1:28:2287^t^Sgear2^T^t^t^t^^	RAID	ювитта-Ревущийфьорд", -- [723]
+			"<23:58:31> <Comm>		^1^SlootAck^T^N1^N577^N2^N392.8125^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N5^B^t^Sdiff^T^N1^N-22^N2^N0^N3^N-3^N4^N-6^N5^N0^t^Sgear1^T^N1^S133615::::::::70:577::35:8:8972:7977:6652:8822:8820:9144:3290:8767^N2^S190518:6626:::::::70:577::13:8:8836:8840:8902:8800:8845:8791:8796:8960:8:28:2164:29:40:30:36:38:6:40:182:45:197921:46:194578:47:193551^N3^S134196::::::::70:577::16:9:8966:7977:6652:7936:8822:8820:9144:3271:8767:1:28:1279^N4^S133620::::::::70:577::33:8:8967:7977:6652:8822:8817:9144:3274:8767:1:28:1279^N5^S190518:6626:::::::70:577::13:8:8836:8840:8902:8800:8845:8791:8796:8960:8:28:2164:29:40:30:36:38:6:40:182:45:197921:46:194578:47:193551^t^Sgear2^T^N2^S193646:6626:::::::70:577::33:6:8965:7977:6652:9147:1611:8767:1:28:1279^N5^S193646:6626:::::::70:577::33:6:8965:7977:6652:9147:1611:8767:1:28:1279^t^t^t^^	RAID	аландир-Ревущийфьорд", -- [724]
+			"<23:58:31> <Comm>		^1^SlootAck^T^N1^N256^N2^N385.8125^N3^T^Sresponse^T^N1^B^N2^B^N4^B^t^Sdiff^T^N1^N7^N2^N4^N3^N-3^N4^N-3^N5^N4^t^Sgear1^T^N1^S193515:6625:::::::70:256::13:6:8837:8838:4785:8802:8850:8790:7:28:2164:29:49:30:36:38:8:40:426:44:198059:45:192552^N2^S193761:6651:::::::70:256::33:6:8964:7977:6652:9147:1607:8767:1:28:1279^N3^S134392::::::::70:256::16:9:8966:7977:6652:7936:8822:8820:9144:3271:8767:1:28:1279^N4^S136775::::::::70:256::16:8:8966:7977:6652:8822:8817:9144:3271:8767:1:28:1279^N5^S193761:6651:::::::70:256::33:6:8964:7977:6652:9147:1607:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	хохохохохох-Ревущийфьорд", -- [725]
+			"<23:58:31> <Comm>		^1^SlootAck^T^N1^N269^N2^N384.5625^N3^T^Sresponse^T^N1^B^N2^B^N3^B^t^Sdiff^T^N1^N0^N2^N-6^N3^N13^N4^N7^N5^N-6^t^Sgear1^T^N1^S143959:6624:::::::70:269::16:8:7977:6652:8822:8820:9144:8965:3279:8767:1:28:1279^N2^S195483:6645:::::::70:269::3:4:6652:7979:1472:8767^N3^S191993::::::::70:269::36:5:6652:7937:1478:5865:8767:1:28:2246^N4^S201942::::::::70:269::13:5:8851:8852:8802:8850:8795:7:28:2164:29:36:30:32:38:8:40:849:45:198059:46:194572^N5^S195483:6645:::::::70:269::3:4:6652:7979:1472:8767^t^Sgear2^T^t^t^t^^	RAID	хугомонк-Ревущийфьорд", -- [726]
+			"<23:58:31> <Comm>		^1^SlootAck^T^N1^N260^N2^N392.5^N3^T^Sresponse^T^N1^B^N2^B^N3^B^t^Sdiff^T^N1^N-6^N2^N0^N3^N0^N4^N-3^N5^N0^t^Sgear1^T^N1^S193680::::::::70:260::16:8:8967:7977:6652:8822:8820:9144:1617:8767:1:28:1279^N2^S195510::::::::70:260::3:4:6652:7979:1472:8767^N3^S193751::::::::70:260::33:9:8965:7977:6652:7937:8822:8820:9144:1611:8767:1:28:1279^N4^S193642::::::::70:260::33:8:8966:7977:6652:8822:8817:9144:1614:8767:1:28:1279^N5^S195510::::::::70:260::3:4:6652:7979:1472:8767^t^Sgear2^T^N2^S195503:6628:::::::70:260::5:4:6652:7980:1485:8767^N5^S195503:6628:::::::70:260::5:4:6652:7980:1485:8767^t^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [727]
+			"<23:58:31> <Comm>		^1^SlootAck^T^N1^N257^N2^N383.5^N3^T^Sresponse^T^N1^B^N2^B^N4^B^t^Sdiff^T^N1^N-6^N2^N4^N3^N0^N4^N17^N5^N4^t^Sgear1^T^N1^S200324:6625:::::::70:257::35:6:6652:8830:8967:7977:1472:8767^N2^S193761:6639:::::::70:257::33:6:7977:6652:9147:8964:1607:8767:1:28:1279^N3^S193641::::::::70:257::16:9:8965:7977:6652:7937:8822:8820:9144:1611:8767:1:28:1279^N4^S193690::::::::70:257::23:5:7977:6652:8813:1594:8767:1:28:2157^N5^S193761:6639:::::::70:257::33:6:7977:6652:9147:8964:1607:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [728]
+			"<23:58:31> <Comm>		^1^SlootAck^T^N1^N264^N2^N385.375^N3^T^Sresponse^T^N3^B^N4^B^t^Sdiff^T^N1^N10^N2^N7^N3^N-13^N4^N-3^N5^N7^t^Sgear1^T^N1^S191997:6618:::::::70:264::37:4:6652:1481:5865:8767:1:28:2385^N2^S200247:6639:::::::70:264::26:4:6652:1488:5861:8767:1:28:2287^N3^S195476::192925::::::70:264::5:7:42:7935:7980:8825:8820:1485:8767^N4^S193704::::::::70:264::33:8:8966:7977:6652:8822:8817:9144:1614:8767:1:28:1279^N5^S200247:6639:::::::70:264::26:4:6652:1488:5861:8767:1:28:2287^t^Sgear2^T^N2^S200439::::::::70:264::26:4:6652:1485:5864:8767:1:28:2287^N5^S200439::::::::70:264::26:4:6652:1485:5864:8767:1:28:2287^t^t^t^^	RAID	серегя-Ревущийфьорд", -- [729]
+			"<23:58:31> <Comm>		^1^SlootAck^T^N1^N64^N2^N389.25^N3^T^Sresponse^T^N1^B^N2^B^N4^B^N5^B^t^Sdiff^T^N1^N-3^N2^N-6^N3^N-9^N4^N17^N5^N-6^t^Sgear1^T^N1^S109899:6625:::::::70:64::16:8:8966:7977:6652:8822:8820:9144:3277:8767:1:28:1279^N2^S193710:6639:::::::70:64::33:6:7977:6652:9147:8968:1620:8767:1:28:1279^N3^S200318::::::::70:64::3:6:7979:6652:7936:8828:1472:8767^N4^S193788:6683:::::::70:64::23:5:7977:6652:8813:1594:8767:1:28:2157^N5^S193710:6639:::::::70:64::33:6:7977:6652:9147:8968:1620:8767:1:28:1279^t^Sgear2^T^N2^S110035::::::::70:64::33:6:8967:7977:6652:9144:3280:8767:1:28:1279^N5^S110035::::::::70:64::33:6:8967:7977:6652:9144:3280:8767:1:28:1279^t^t^t^^	RAID	ледиланатель-Ревущийфьорд", -- [730]
+			"<23:58:31> <Comm>		^1^SlootAck^T^N1^N252^N2^N385.9375^N3^T^Sresponse^T^N1^B^N3^B^N4^B^t^Sdiff^T^N1^N-3^N2^N-13^N3^N0^N4^N17^N5^N-13^t^Sgear1^T^N1^S134503:6625:::::::70:252::16:8:8966:7977:6652:8822:8820:9144:3271:8767:1:28:1279^N2^S193638:3368:::::::70:252::35:6:8969:7977:40:9147:1624:8767^N3^S195498::::::::70:252::3:7:6652:7936:8821:8820:7979:1472:8767^N4^S193741::::::::70:252::23:5:7977:6652:8813:1594:8767:1:28:2157^N5^S193638:3368:::::::70:252::35:6:8969:7977:40:9147:1624:8767^t^Sgear2^T^t^t^t^^	RAID	нотушка-Ревущийфьорд", -- [731]
+			"<23:58:31> <Comm>		^1^SlootAck^T^N1^N64^N2^N384.625^N3^T^Sresponse^T^N1^B^N2^B^N4^B^N5^B^t^Sdiff^T^N1^N-6^N2^N0^N3^N0^N4^N13^N5^N0^t^Sgear1^T^N1^S200315:6624:::::::70:64::3:5:7979:6652:8830:1472:8767^N2^S195497::::::::70:64::3:4:6652:7979:1472:8767^N3^S195485::::::::70:64::3:7:6652:7936:8821:8820:7979:1472:8767^N4^S192015::::::::70:64::37:4:40:1481:5862:8767:1:28:2275^N5^S195497::::::::70:64::3:4:6652:7979:1472:8767^t^Sgear2^T^t^t^t^^	RAID	гигаовца-Ревущийфьорд", -- [732]
+			"<23:58:31> <Comm>		^1^SlootAck^T^N1^N250^N2^N395^N3^T^Sresponse^T^N1^B^N3^B^N4^B^t^Sdiff^T^N1^N-6^N2^N-19^N3^N10^N4^N10^N5^N-19^t^Sgear1^T^N1^S195494:6625:::::::70:250::3:6:7979:8821:8820:6652:1472:8767^N2^S193695:3368:::::::70:250::35:6:8971:7977:6652:9147:1630:8767^N3^S192005::192972::::::70:250::37:5:6652:7935:1481:5865:8767:1:28:2521^N4^S201952::::::::70:250::13:5:8851:8852:8801:8850:8793:7:28:2164:29:49:30:36:38:7:40:843:45:198059:46:194566^N5^S193695:3368:::::::70:250::35:6:8971:7977:6652:9147:1630:8767^t^Sgear2^T^t^t^t^^	RAID	ожившийлось-Ревущийфьорд", -- [733]
+			"<23:58:31> <Comm>		^1^SlootAck^T^N1^N264^N2^N383.75^N3^T^Sresponse^T^N3^B^N4^B^t^Sdiff^T^N1^N17^N2^N0^N3^N7^N4^N0^N5^N0^t^Sgear1^T^N1^S193782:6619:::::::70:264::23:5:7977:6652:8816:1594:8767:1:28:2157^N2^S201997::::::::70:264::33:6:8965:7977:6652:9147:1611:8767:1:28:1279^N3^S134473::::::::70:264::16:9:8963:7977:6652:7937:8822:8820:9144:3261:8767:1:28:1279^N4^S193704::::::::70:264::16:8:7977:6652:8822:8817:9144:8965:1611:8767:1:28:1279^N5^S201997::::::::70:264::33:6:8965:7977:6652:9147:1611:8767:1:28:1279^t^Sgear2^T^N2^S195475::::::::70:264::5:4:6652:7980:1485:8767^N5^S195475::::::::70:264::5:4:6652:7980:1485:8767^t^t^t^^	RAID	бишарк-Ревущийфьорд", -- [734]
+			"<23:58:31> <Comm>		^1^SlootAck^T^N1^N266^N2^N391.25^N3^T^Sresponse^T^N1^B^N2^B^N4^B^N5^B^t^Sdiff^T^N1^N-6^N2^N-3^N3^N-22^N4^N-6^N5^N-3^t^Sgear1^T^N1^S200333::::::::70:266::3:5:7979:6652:8830:1472:8767:1:28:1040^N2^S193687:6651:::::::70:266::16:6:8966:7977:6652:9147:1614:8767:1:28:1279^N3^S134216::::::::70:266::35:9:8972:7977:6652:7936:8822:8820:9144:3290:8767^N4^S195493::::::::70:266::3:6:6652:7979:8821:8817:1472:8767^N5^S193687:6651:::::::70:266::16:6:8966:7977:6652:9147:1614:8767:1:28:1279^t^Sgear2^T^N2^S193709::::::::70:266::33:6:7977:6652:9144:8969:1624:8767:1:28:1279^N5^S193709::::::::70:266::33:6:7977:6652:9144:8969:1624:8767:1:28:1279^t^t^t^^	RAID	комт-Ревущийфьорд", -- [735]
+			"<23:58:33> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N1^t^t^^	RAID	менструа-Ревущийфьорд", -- [736]
+			"<23:58:34> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N1^t^t^^	RAID	натазат-Ревущийфьорд", -- [737]
+			"<23:58:34> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	злюдра-Ревущийфьорд", -- [738]
+			"<23:58:34> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	комт-Ревущийфьорд", -- [739]
+			"<23:58:34> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	ледиланатель-Ревущийфьорд", -- [740]
+			"<23:58:35> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^	RAID	ватрониум-Ревущийфьорд", -- [741]
+			"<23:58:36> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	менструа-Ревущийфьорд", -- [742]
+			"<23:58:36> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	нотушка-Ревущийфьорд", -- [743]
+			"<23:58:36> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	бишарк-Ревущийфьорд", -- [744]
+			"<23:58:37> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	ватрониум-Ревущийфьорд", -- [745]
+			"<23:58:38> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	этовертолет-Ревущийфьорд", -- [746]
+			"<23:58:38> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^SPASS^t^t^^	RAID	аландир-Ревущийфьорд", -- [747]
+			"<23:58:38> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	гигаовца-Ревущийфьорд", -- [748]
+			"<23:58:38> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	мурратик-Ревущийфьорд", -- [749]
+			"<23:58:38> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^	RAID	ювитта-Ревущийфьорд", -- [750]
+			"<23:58:39> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	бишарк-Ревущийфьорд", -- [751]
+			"<23:58:39> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Snote^b^Sresponse^SPASS^t^t^^	RAID	мурратик-Ревущийфьорд", -- [752]
+			"<23:58:39> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N3^t^t^^	RAID	хохохохохох-Ревущийфьорд", -- [753]
+			"<23:58:39> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	нотушка-Ревущийфьорд", -- [754]
+			"<23:58:40> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N2^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [755]
+			"<23:58:40> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N2^t^t^^	RAID	ожившийлось-Ревущийфьорд", -- [756]
+			"<23:58:40> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N2^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [757]
+			"<23:58:41> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N3^t^t^^	RAID	линлот-Ревущийфьорд", -- [758]
+			"<23:58:41> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	ожившийлось-Ревущийфьорд", -- [759]
+			"<23:58:41> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	ватрониум-Ревущийфьорд", -- [760]
+			"<23:58:43> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^	RAID	бишарк-Ревущийфьорд", -- [761]
+			"<23:58:43> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	злюдра-Ревущийфьорд", -- [762]
+			"<23:58:43> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N2^t^t^^	RAID	аскельт-Ревущийфьорд", -- [763]
+			"<23:58:43> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	ювитта-Ревущийфьорд", -- [764]
+			"<23:58:44> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N3^t^t^^	RAID	хохохохохох-Ревущийфьорд", -- [765]
+			"<23:58:44> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	серегя-Ревущийфьорд", -- [766]
+			"<23:58:45> <Comm>		^1^Soffline_timer^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [767]
+			"<23:58:45> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	ювитта-Ревущийфьорд", -- [768]
+			"<23:58:46> <Comm>		^1^Srolls^T^N1^N1^N2^T^Sледотроль-Ревущийфьорд^N87^Sмурратик-Ревущийфьорд^N86^Sменструа-Ревущийфьорд^N99^Sбабусянатусе-Ревущийфьорд^N78^Sювитта-Ревущийфьорд^N59^Sожившийлось-Ревущийфьорд^N38^Sледиланатель-Ревущийфьорд^N82^Sватрониум-Ревущийфьорд^N45^Sбишарк-Ревущийфьорд^N64^Sнотушка-Ревущийфьорд^N36^Sлинлот-Ревущийфьорд^N94^Sсерегя-Ревущийфьорд^N53^Sэтовертолет-Ревущийфьорд^N24^Sхохохохохох-Ревущийфьорд^N32^Sаскельт-Ревущийфьорд^N23^Sкомт-Ревущийфьорд^N4^Sгигаовца-Ревущийфьорд^N39^Sдельфуего-Ревущийфьорд^N77^Sзлюдра-Ревущийфьорд^N52^Sхугомонк-Ревущийфьорд^N12^Sнатазат-Ревущийфьорд^N28^Sаландир-Ревущийфьорд^N62^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [769]
+			"<23:58:47> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^SPASS^t^t^^	RAID	ювитта-Ревущийфьорд", -- [770]
+			"<23:58:47> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	серегя-Ревущийфьорд", -- [771]
+			"<23:58:47> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N1^t^t^^	RAID	этовертолет-Ревущийфьорд", -- [772]
+			"<23:58:48> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	ювитта-Ревущийфьорд", -- [773]
+			"<23:58:49> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^	RAID	ледотроль-Ревущийфьорд", -- [774]
+			"<23:58:50> <DEBUG>		LootFrame:Response	3	Response:	Незначительное улучшение", -- [775]
+			"<23:58:50> <DEBUG>		SendResponse	group	4	3	nil	nil	nil	nil	nil	nil	nil	nil	nil	nil", -- [776]
+			"<23:58:50> <DEBUG>		Trashing entry:	1	|cffa335ee|Hitem:195486::::::::70:269::3:6:6652:8821:8817:7979:1472:8767::::::|h[Наплечи из изломанной глины]|h|r", -- [777]
+			"<23:58:50> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N3^t^t^^	RAID	хугомонк-Ревущийфьорд", -- [778]
+			"<23:58:50> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^SPASS^t^t^^	RAID	злюдра-Ревущийфьорд", -- [779]
+			"<23:58:52> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^	RAID	серегя-Ревущийфьорд", -- [780]
+			"<23:58:55> <DEBUG>		LootFrame:Response	PASS	Response:	Отказаться", -- [781]
+			"<23:58:55> <DEBUG>		SendResponse	group	5	PASS	nil	nil	nil	nil	nil	nil	nil	nil	nil	nil", -- [782]
+			"<23:58:55> <DEBUG>		Trashing entry:	1	|cffa335ee|Hitem:195489::::::::70:269::3:4:6652:7979:1472:8767::::::|h[Кувалда демиурга]|h|r", -- [783]
+			"<23:58:55> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	хугомонк-Ревущийфьорд", -- [784]
+			"<23:59:05> <Comm>		^1^Sv^T^N1^S3.6.4^t^^	GUILD	хохохохохох-Ревущийфьорд", -- [785]
+			"<23:59:05> <Comm>		^1^SpI^T^N1^SHEALER^N2^SОтряд~`Репка^N4^N0^N5^N385.8125^N6^N256^t^^	RAID	хохохохохох-Ревущийфьорд", -- [786]
+			"<23:59:05> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	ледотроль-Ревущийфьорд", -- [787]
+			"<23:59:05> <Comm>		^1^Sr^T^N1^S3.6.0^N3^T^t^t^^	GUILD	бесогонтв-Ревущийфьорд", -- [788]
+			"<23:59:05> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	натазат-Ревущийфьорд", -- [789]
+			"<23:59:05> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	бишарк-Ревущийфьорд", -- [790]
+			"<23:59:09> <Comm>		^1^SlootAck^T^N1^N256^N2^N385.8125^N3^T^Sresponse^T^N1^B^N2^B^N4^B^t^Sdiff^T^N1^N7^N2^N4^N3^N-3^N4^N-3^N5^N4^t^Sgear1^T^N1^S193515:6625:::::::70:256::13:6:8837:8838:4785:8802:8850:8790:7:28:2164:29:49:30:36:38:8:40:426:44:198059:45:192552^N2^S193761:6651:::::::70:256::33:6:8964:7977:6652:9147:1607:8767:1:28:1279^N3^S134392::::::::70:256::16:9:8966:7977:6652:7936:8822:8820:9144:3271:8767:1:28:1279^N4^S136775::::::::70:256::16:8:8966:7977:6652:8822:8817:9144:3271:8767:1:28:1279^N5^S193761:6651:::::::70:256::33:6:8964:7977:6652:9147:1607:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	хохохохохох-Ревущийфьорд", -- [791]
+			"<23:59:11> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N3^t^t^^	RAID	хохохохохох-Ревущийфьорд", -- [792]
+			"<23:59:12> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N3^t^t^^	RAID	хохохохохох-Ревущийфьорд", -- [793]
+			"<23:59:21> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N2^t^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [794]
+			"<23:59:25> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [795]
+			"<23:59:39> <Comm>		^1^Shistory^T^N1^Sхугомонк-Ревущийфьорд^N2^T^SmapID^N2522^Scolor^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^Sclass^SMONK^SgroupSize^N22^Sboss^SСовет~`стихий^Stime^S21:59:36^SitemReplaced1^S|cffa335ee|Hitem:201942::::::::70:260::13:5:8851:8852:8802:8850:8795:7:28:2164:29:36:30:32:38:8:40:849:45:198059:46:194572:::::|h[Испытанные~`наплечники~`первопроходца~`|A:Professions-ChatIcon-Quality-Tier5:17:17::1|a]|h|r^Sinstance^SХранилище~`Воплощений-Обычный^Sowner^Sдельфуего-Ревущийфьорд^Sresponse^SНезначительное~`улучшение^StypeCode^Sdefault^SdifficultyID^N14^SlootWon^S|cffa335ee|Hitem:195486::::::::70:260::3:6:6652:8821:8817:7979:1472:8767::::::|h[Наплечи~`из~`изломанной~`глины]|h|r^Sid^S1671638376-16^Sdate^S21/12/22^SresponseID^N3^Svotes^N0^SisAwardReason^b^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [796]
+			"<23:59:39> <Comm>		^1^Sawarded^T^N1^N4^N2^Sхугомонк-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [797]
+			"<23:59:44> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	аландир-Ревущийфьорд", -- [798]
+			"<23:59:44> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	аландир-Ревущийфьорд", -- [799]
+			"<23:59:45> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	гигаовца-Ревущийфьорд", -- [800]
+			"<23:59:46> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	злюдра-Ревущийфьорд", -- [801]
+			"<23:59:46> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	ожившийлось-Ревущийфьорд", -- [802]
+			"<23:59:46> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	ожившийлось-Ревущийфьорд", -- [803]
+			"<23:59:46> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	натазат-Ревущийфьорд", -- [804]
+			"<23:59:46> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	натазат-Ревущийфьорд", -- [805]
+			"<23:59:47> <Comm>		^1^Shistory^T^N1^Sнатазат-Ревущийфьорд^N2^T^SmapID^N2522^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SMAGE^SgroupSize^N22^Sboss^SСовет~`стихий^Stime^S21:59:45^SitemReplaced1^S|cffa335ee|Hitem:193523::::::::70:260::13:4:8836:8840:8902:8800:5:28:2164:29:49:30:36:38:6:40:445:::::|h[Яркий~`головной~`покров~`из~`ткани~`стихий~`|A:Professions-ChatIcon-Quality-Tier3:17:18::1|a]|h|r^Sinstance^SХранилище~`Воплощений-Обычный^Sowner^Sдельфуего-Ревущийфьорд^Sresponse^SОсновной~`спек/Нужно^StypeCode^Sdefault^SdifficultyID^N14^SlootWon^S|cffa335ee|Hitem:195485::::::::70:260::3:7:6652:7936:8821:8820:7979:1472:8767::::::|h[Маска~`ужаса~`советника]|h|r^Sid^S1671638385-17^Sdate^S21/12/22^SresponseID^N1^Svotes^N0^SisAwardReason^b^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [806]
+			"<23:59:47> <Comm>		^1^Sawarded^T^N1^N3^N2^Sнатазат-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [807]
+			"<23:59:49> <Comm>		^1^SfakeLoot^T^N1^S|cff9d9d9d|Hitem:192626::::::::70:264:::::::::|h[Куча~`пыли]|h|r^N2^S196856^t^^	RAID	серегя-Ревущийфьорд", -- [808]
+			"<23:59:49> <Comm>		^1^SfakeLoot^T^N1^S|cff9d9d9d|Hitem:192644::::::::70:264:::::::::|h[Воздушная~`частица]|h|r^N2^S196856^t^^	RAID	бишарк-Ревущийфьорд", -- [809]
+			"<23:59:50> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	комт-Ревущийфьорд", -- [810]
+			"<23:59:51> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [811]
+			"<23:59:51> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [812]
+			"<23:59:51> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	нотушка-Ревущийфьорд", -- [813]
+			"<23:59:52> <DEBUG>		TradeUI: Traded item(s) to	дельфуего-Ревущийфьорд", -- [814]
+			"<23:59:52> <DEBUG>		TradeUI:Hide()", -- [815]
+			"<23:59:53> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:195486::::::::70:260::3:6:6652:8821:8817:7979:1472:8767::::::|h[Наплечи~`из~`изломанной~`глины]|h|r^N2^Sхугомонк-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [816]
+			"<00:00:04> <Comm>		^1^Srolls^T^N1^N2^N2^T^Sледотроль-Ревущийфьорд^N18^Sмурратик-Ревущийфьорд^N98^Sменструа-Ревущийфьорд^N63^Sбабусянатусе-Ревущийфьорд^N23^Sювитта-Ревущийфьорд^N5^Sожившийлось-Ревущийфьорд^N7^Sледиланатель-Ревущийфьорд^N64^Sватрониум-Ревущийфьорд^N81^Sбишарк-Ревущийфьорд^N54^Sнотушка-Ревущийфьорд^N91^Sлинлот-Ревущийфьорд^N19^Sсерегя-Ревущийфьорд^N77^Sэтовертолет-Ревущийфьорд^N73^Sхохохохохох-Ревущийфьорд^N83^Sаскельт-Ревущийфьорд^N17^Sкомт-Ревущийфьорд^N70^Sгигаовца-Ревущийфьорд^N30^Sдельфуего-Ревущийфьорд^N76^Sзлюдра-Ревущийфьорд^N55^Sхугомонк-Ревущийфьорд^N3^Sнатазат-Ревущийфьорд^N8^Sаландир-Ревущийфьорд^N15^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [817]
+			"<00:00:22> <Comm>		^1^Shistory^T^N1^Sменструа-Ревущийфьорд^N2^T^SmapID^N2522^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SDEATHKNIGHT^SgroupSize^N22^Sboss^SСовет~`стихий^Stime^S22:00:19^SitemReplaced1^S|cffa335ee|Hitem:197922:3368:::::::70:260::42:4:6652:1485:5864:8767:1:28:2287:::::|h[Копье~`атакующей~`кавалерии]|h|r^Sinstance^SХранилище~`Воплощений-Обычный^Sowner^Sдельфуего-Ревущийфьорд^Sresponse^SОсновной~`спек/Нужно^StypeCode^Sdefault^SdifficultyID^N14^SlootWon^S|cffa335ee|Hitem:195518::::::::70:260::3:4:6652:7979:1472:8767::::::|h[Усиленный~`крушитель~`куалаши]|h|r^Sid^S1671638419-18^Sdate^S21/12/22^SresponseID^N1^Svotes^N0^SisAwardReason^b^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [818]
+			"<00:00:22> <Comm>		^1^Sawarded^T^N1^N2^N2^Sменструа-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [819]
+			"<00:00:39> <DEBUG>		Event:	LOOT_READY	true", -- [820]
+			"<00:00:39> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192626::::::::70:269:::::::::|h[Куча пыли]|h|r	0	3	Creature-0-4250-2522-20091-196856-0000A3446A	1	Creature-0-4250-2522-20091-196856-000223446A	1	Creature-0-4250-2522-20091-196856-0002A3446A	1", -- [821]
+			"<00:00:39> <DEBUG>		Adding to self.lootSlotInfo	3	|cff1eff00|Hitem:199026::::::::70:269:::3:7969:6652:1715:1:28:2158:::::|h[Благословленный пламенем клинок с меткой безмятежности]|h|r	2	1	Creature-0-4250-2522-20091-198878-0001A3446A	1", -- [822]
+			"<00:00:39> <DEBUG>		Event:	LOOT_READY	true", -- [823]
+			"<00:00:39> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192626::::::::70:269:::::::::|h[Куча пыли]|h|r	0	3	Creature-0-4250-2522-20091-196856-0000A3446A	1	Creature-0-4250-2522-20091-196856-000223446A	1	Creature-0-4250-2522-20091-196856-0002A3446A	1", -- [824]
+			"<00:00:39> <DEBUG>		Adding to self.lootSlotInfo	3	|cff1eff00|Hitem:199026::::::::70:269:::3:7969:6652:1715:1:28:2158:::::|h[Благословленный пламенем клинок с меткой безмятежности]|h|r	2	1	Creature-0-4250-2522-20091-198878-0001A3446A	1", -- [825]
+			"<00:00:40> <DEBUG>		OnLootSlotCleared()	1	|cff9d9d9d|Hitem:192626::::::::70:269:::::::::|h[Куча пыли]|h|r	0", -- [826]
+			"<00:00:40> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190326	|cff0070dd|Hitem:190326::::::::70:269:::::::::|h[Пробуждающийся воздух]|h|r	1	Хугомонк	MONK", -- [827]
+			"<00:00:40> <DEBUG>		OnLootSlotCleared()	3	|cff1eff00|Hitem:199026::::::::70:269:::3:7969:6652:1715:1:28:2158:::::|h[Благословленный пламенем клинок с меткой безмятежности]|h|r	2", -- [828]
+			"<00:00:40> <DEBUG>		Event:	LOOT_CLOSED", -- [829]
+			"<00:00:40> <DEBUG>		Event:	LOOT_CLOSED", -- [830]
+			"<00:00:40> <Comm>		^1^Sl^T^N1^S198878^t^^	RAID	хугомонк-Ревущийфьорд", -- [831]
+			"<00:00:40> <Comm>		^1^Sl^T^N1^S198878^t^^	RAID	хугомонк-Ревущийфьорд", -- [832]
+			"<00:00:41> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	гигаовца-Ревущийфьорд", -- [833]
+			"<00:00:41> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	гигаовца-Ревущийфьорд", -- [834]
+			"<00:00:41> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	ватрониум-Ревущийфьорд", -- [835]
+			"<00:00:41> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	ватрониум-Ревущийфьорд", -- [836]
+			"<00:00:42> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	линлот-Ревущийфьорд", -- [837]
+			"<00:00:42> <DEBUG>		Storage:New	|cff1eff00|Hitem:199026::::::::70:269:::3:7969:6652:1715:1:28:2158:::::|h[Благословленный пламенем клинок с меткой безмятежности]|h|r	temp", -- [838]
+			"<00:00:42> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199026::::::::70:269:::3:7969:6652:1715:1:28:2158:::::||h[Благословленный пламенем клинок с меткой безмятежности]||h||r	5", -- [839]
+			"<00:00:42> <DEBUG>		Found:	nil	nil	nil", -- [840]
+			"<00:00:42> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	комт-Ревущийфьорд", -- [841]
+			"<00:00:43> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199026::::::::70:269:::3:7969:6652:1715:1:28:2158:::::||h[Благословленный пламенем клинок с меткой безмятежности]||h||r	5", -- [842]
+			"<00:00:43> <DEBUG>		Found:	nil	nil	nil", -- [843]
+			"<00:00:43> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190326	|cff0070dd|Hitem:190326::::::::70:269:::::::::|h[Пробуждающийся воздух]|h|r	2	Хохохохохох	PRIEST", -- [844]
+			"<00:00:43> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	злюдра-Ревущийфьорд", -- [845]
+			"<00:00:44> <Comm>		^1^Shistory^T^N1^Sювитта-Ревущийфьорд^N2^T^SmapID^N2522^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SEVOKER^SgroupSize^N22^Sboss^SСовет~`стихий^Stime^S22:00:41^SitemReplaced1^S|cff0070dd|Hitem:191997:6624:::::::70:260::28:4:6652:1468:5865:8766:1:28:2474:::::|h[Кольчуга~`он'арского~`сокольничего]|h|r^Sinstance^SХранилище~`Воплощений-Обычный^Sowner^Sдельфуего-Ревущийфьорд^Sresponse^SОсновной~`спек/Нужно^StypeCode^Sdefault^SdifficultyID^N14^SlootWon^S|cffa335ee|Hitem:195487::::::::70:260::3:6:6652:8821:8820:7979:1472:8767::::::|h[Пепельный~`хауберк~`Эмбар]|h|r^Sid^S1671638441-19^Sdate^S21/12/22^SresponseID^N1^Svotes^N0^SisAwardReason^b^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [846]
+			"<00:00:44> <Comm>		^1^Sawarded^T^N1^N1^N2^Sювитта-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [847]
+			"<00:00:44> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199026::::::::70:269:::3:7969:6652:1715:1:28:2158:::::||h[Благословленный пламенем клинок с меткой безмятежности]||h||r	5", -- [848]
+			"<00:00:44> <DEBUG>		Found:	nil	nil	nil", -- [849]
+			"<00:00:45> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199026::::::::70:269:::3:7969:6652:1715:1:28:2158:::::||h[Благословленный пламенем клинок с меткой безмятежности]||h||r	5", -- [850]
+			"<00:00:45> <DEBUG>		Found:	nil	nil	nil", -- [851]
+			"<00:00:45> <ERROR>		UpdateAndSendRecentTradableItem: |cff1eff00|Hitem:199026::::::::70:269:::3:7969:6652:1715:1:28:2158:::::|h[Благословленный пламенем клинок с меткой безмятежности]|h|r not found in bags", -- [852]
+			"<00:00:46> <Comm>		^1^Sl^T^N1^S198868^t^^	RAID	мурратик-Ревущийфьорд", -- [853]
+			"<00:00:46> <Comm>		^1^Sl^T^N1^S198868^t^^	RAID	мурратик-Ревущийфьорд", -- [854]
+			"<00:00:52> <Comm>		^1^SfakeLoot^T^N1^S|cff9d9d9d|Hitem:192644::::::::70:264:::::::::|h[Воздушная~`частица]|h|r^N2^S196856^t^^	RAID	серегя-Ревущийфьорд", -- [855]
+			"<00:01:23> <Comm>		^1^Srolls^T^N1^N5^N2^T^Sледотроль-Ревущийфьорд^N78^Sмурратик-Ревущийфьорд^N37^Sменструа-Ревущийфьорд^N19^Sбабусянатусе-Ревущийфьорд^N25^Sювитта-Ревущийфьорд^N15^Sожившийлось-Ревущийфьорд^N91^Sледиланатель-Ревущийфьорд^N67^Sватрониум-Ревущийфьорд^N41^Sбишарк-Ревущийфьорд^N48^Sнотушка-Ревущийфьорд^N59^Sлинлот-Ревущийфьорд^N22^Sсерегя-Ревущийфьорд^N43^Sэтовертолет-Ревущийфьорд^N58^Sхохохохохох-Ревущийфьорд^N80^Sаскельт-Ревущийфьорд^N13^Sкомт-Ревущийфьорд^N35^Sгигаовца-Ревущийфьорд^N10^Sдельфуего-Ревущийфьорд^N3^Sзлюдра-Ревущийфьорд^N6^Sхугомонк-Ревущийфьорд^N39^Sнатазат-Ревущийфьорд^N47^Sаландир-Ревущийфьорд^N17^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [856]
+			"<00:01:26> <DEBUG>		Event:	LOOT_READY	true", -- [857]
+			"<00:01:26> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Бабусянатусе	PRIEST", -- [858]
+			"<00:01:26> <DEBUG>		Event:	LOOT_READY	true", -- [859]
+			"<00:01:26> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Менструа	DEATHKNIGHT", -- [860]
+			"<00:01:27> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Мурратик	PALADIN", -- [861]
+			"<00:01:27> <DEBUG>		Event:	LOOT_CLOSED", -- [862]
+			"<00:01:27> <DEBUG>		Event:	LOOT_CLOSED", -- [863]
+			"<00:01:27> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Хугомонк	MONK", -- [864]
+			"<00:01:27> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Этовертолет	WARRIOR", -- [865]
+			"<00:01:27> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190326	|cff0070dd|Hitem:190326::::::::70:269:::::::::|h[Пробуждающийся воздух]|h|r	2	Этовертолет	WARRIOR", -- [866]
+			"<00:01:27> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Нотушка	DEATHKNIGHT", -- [867]
+			"<00:01:27> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Гигаовца	MAGE", -- [868]
+			"<00:01:27> <Comm>		^1^Sl^T^N1^S192769^t^^	RAID	гигаовца-Ревущийфьорд", -- [869]
+			"<00:01:27> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Хохохохохох	PRIEST", -- [870]
+			"<00:01:28> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Аскельт	HUNTER", -- [871]
+			"<00:01:28> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Ювитта	EVOKER", -- [872]
+			"<00:01:28> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Натазат	MAGE", -- [873]
+			"<00:01:29> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Линлот	HUNTER", -- [874]
+			"<00:01:29> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Ледотроль	HUNTER", -- [875]
+			"<00:01:29> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Комт	WARLOCK", -- [876]
+			"<00:01:30> <Comm>		^1^Sl^T^N1^S192769^t^^	RAID	комт-Ревущийфьорд", -- [877]
+			"<00:01:30> <Comm>		^1^Sl^T^N1^S192769^t^^	RAID	комт-Ревущийфьорд", -- [878]
+			"<00:01:30> <Comm>		^1^Sl^T^N1^S192769^t^^	RAID	ледотроль-Ревущийфьорд", -- [879]
+			"<00:01:31> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Серегя	SHAMAN", -- [880]
+			"<00:01:32> <Comm>		^1^Shistory^T^N1^Sожившийлось-Ревущийфьорд^N2^T^SmapID^N2522^Scolor^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^Sclass^SDEATHKNIGHT^SgroupSize^N22^Sboss^SСовет~`стихий^Stime^S22:01:29^SitemReplaced1^S|cffa335ee|Hitem:193695:3368:::::::70:260::35:6:8971:7977:6652:9147:1630:8767::::::|h[Боевой~`клинок~`загонщика~`дичи]|h|r^Sinstance^SХранилище~`Воплощений-Обычный^Sowner^Sдельфуего-Ревущийфьорд^Sresponse^SОффспек/Не~`откажусь^StypeCode^Sdefault^SdifficultyID^N14^SlootWon^S|cffa335ee|Hitem:195489::::::::70:260::3:4:6652:7979:1472:8767::::::|h[Кувалда~`демиурга]|h|r^Sid^S1671638489-20^Sdate^S21/12/22^SresponseID^N2^Svotes^N0^SisAwardReason^b^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [881]
+			"<00:01:32> <Comm>		^1^Sawarded^T^N1^N5^N2^Sожившийлось-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [882]
+			"<00:01:33> <Comm>		^1^Ssession_end^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [883]
+			"<00:01:35> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Бишарк	SHAMAN", -- [884]
+			"<00:01:54> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:195518::::::::70:260::3:4:6652:7979:1472:8767::::::|h[Усиленный~`крушитель~`куалаши]|h|r^N2^Sменструа-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [885]
+			"<00:01:57> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:195489::::::::70:260::3:4:6652:7979:1472:8767::::::|h[Кувалда~`демиурга]|h|r^N2^Sожившийлось-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [886]
+			"<00:02:00> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:195487::::::::70:260::3:6:6652:8821:8820:7979:1472:8767::::::|h[Пепельный~`хауберк~`Эмбар]|h|r^N2^Sювитта-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [887]
+			"<00:02:02> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:195485::::::::70:260::3:7:6652:7936:8821:8820:7979:1472:8767::::::|h[Маска~`ужаса~`советника]|h|r^N2^Sнатазат-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [888]
+			"<00:03:23> <DEBUG>		Event:	ENCOUNTER_START	2635	Дафия Перерожденная	14	21", -- [889]
+			"<00:03:23> <INFO>		UpdatePlayersData()", -- [890]
+			"<00:03:23> <Comm>		^1^SStartHandleLoot^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [891]
+			"<00:04:37> <DEBUG>		Event:	ENCOUNTER_END	2635	Дафия Перерожденная	14	21	0", -- [892]
+			"<00:10:13> <DEBUG>		Event:	ENCOUNTER_START	2635	Дафия Перерожденная	14	22", -- [893]
+			"<00:10:13> <INFO>		UpdatePlayersData()", -- [894]
+			"<00:10:13> <Comm>		^1^SStartHandleLoot^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [895]
+			"<00:11:32> <Comm>		^1^Sv^T^N1^S3.5.1^t^^	GUILD	аишвария-Ревущийфьорд", -- [896]
+			"<00:14:31> <DEBUG>		Event:	ENCOUNTER_END	2635	Дафия Перерожденная	14	22	1", -- [897]
+			"<00:14:32> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:195496::::::::70:269::3:6:6652:7937:8784:7979:1472:8767::::::|h[Око мстительного урагана]|h|r", -- [898]
+			"<00:14:32> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:195495::::::::70:269::3:6:6652:7979:8821:8818:1472:8767::::::|h[Лихие перепрыгиватели оврагов]|h|r", -- [899]
+			"<00:14:32> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:196587::::::::70:269::3:4:7979:8829:1472:8767::::::|h[Камень Кузни из жуткого граната]|h|r", -- [900]
+			"<00:14:32> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:196587::::::::70:269::3:4:7979:8829:1472:8767::::::|h[Камень Кузни из жуткого граната]|h|r", -- [901]
+			"<00:14:32> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Дельфуего	ROGUE", -- [902]
+			"<00:14:32> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Дельфуего	ROGUE", -- [903]
+			"<00:14:33> <DEBUG>		Event:	LOOT_READY	true", -- [904]
+			"<00:14:33> <DEBUG>		Ignoring	nil	as it's a currency", -- [905]
+			"<00:14:33> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Мурратик	PALADIN", -- [906]
+			"<00:14:33> <Comm>		^1^Sl^T^N1^S189813^t^^	RAID	дельфуего-Ревущийфьорд", -- [907]
+			"<00:14:33> <Comm>		^1^Sl^T^N1^S189813^t^^	RAID	дельфуего-Ревущийфьорд", -- [908]
+			"<00:14:33> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Мурратик	PALADIN", -- [909]
+			"<00:14:33> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Менструа	DEATHKNIGHT", -- [910]
+			"<00:14:33> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Менструа	DEATHKNIGHT", -- [911]
+			"<00:14:33> <DEBUG>		Event:	LOOT_READY	true", -- [912]
+			"<00:14:33> <DEBUG>		Ignoring	nil	as it's a currency", -- [913]
+			"<00:14:33> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Хохохохохох	PRIEST", -- [914]
+			"<00:14:33> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Нотушка	DEATHKNIGHT", -- [915]
+			"<00:14:33> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Хохохохохох	PRIEST", -- [916]
+			"<00:14:33> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Нотушка	DEATHKNIGHT", -- [917]
+			"<00:14:34> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Хугомонк	MONK", -- [918]
+			"<00:14:34> <DEBUG>		Event:	LOOT_CLOSED", -- [919]
+			"<00:14:34> <DEBUG>		Event:	LOOT_CLOSED", -- [920]
+			"<00:14:34> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Хугомонк	MONK", -- [921]
+			"<00:14:34> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	4	Аландир	DEMONHUNTER", -- [922]
+			"<00:14:34> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	4	Ватрониум	SHAMAN", -- [923]
+			"<00:14:34> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	4	Ожившийлось	DEATHKNIGHT", -- [924]
+			"<00:14:34> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Ювитта	EVOKER", -- [925]
+			"<00:14:35> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Ювитта	EVOKER", -- [926]
+			"<00:14:36> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	4	Злюдра	DRUID", -- [927]
+			"<00:14:36> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Бабусянатусе	PRIEST", -- [928]
+			"<00:14:36> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Бабусянатусе	PRIEST", -- [929]
+			"<00:14:36> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Этовертолет	WARRIOR", -- [930]
+			"<00:14:36> <Comm>		^1^Stradable^T^N1^S|cffa335ee|Hitem:196587::::::::70:259::3:4:7979:8829:1472:8767::::::|h[Камень~`Кузни~`из~`жуткого~`граната]|h|r^N2^S189813^t^^	RAID	дельфуего-Ревущийфьорд", -- [931]
+			"<00:14:36> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Бишарк	SHAMAN", -- [932]
+			"<00:14:36> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Этовертолет	WARRIOR", -- [933]
+			"<00:14:36> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Линлот	HUNTER", -- [934]
+			"<00:14:36> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Серегя	SHAMAN", -- [935]
+			"<00:14:36> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Линлот	HUNTER", -- [936]
+			"<00:14:36> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Бишарк	SHAMAN", -- [937]
+			"<00:14:37> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Серегя	SHAMAN", -- [938]
+			"<00:14:37> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Ледотроль	HUNTER", -- [939]
+			"<00:14:37> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Натазат	MAGE", -- [940]
+			"<00:14:37> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	4	Ледиланатель	MAGE", -- [941]
+			"<00:14:37> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Натазат	MAGE", -- [942]
+			"<00:14:37> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Ледотроль	HUNTER", -- [943]
+			"<00:14:37> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Гигаовца	MAGE", -- [944]
+			"<00:14:38> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Гигаовца	MAGE", -- [945]
+			"<00:14:38> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Комт	WARLOCK", -- [946]
+			"<00:14:38> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Комт	WARLOCK", -- [947]
+			"<00:14:39> <Comm>		^1^SlootTable^T^N1^T^N1^T^Sstring^S196587:::::::::::3:4:7979:8829:1472:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SДафия~`Перерожденная^t^N2^T^Sstring^S196587:::::::::::3:4:7979:8829:1472:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SДафия~`Перерожденная^t^N3^T^Sstring^S196587:::::::::::3:4:7979:8829:1472:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SДафия~`Перерожденная^t^N4^T^Sstring^S195495:::::::::::3:6:6652:7979:8821:8818:1472:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SДафия~`Перерожденная^t^N5^T^Sstring^S195496:::::::::::3:6:6652:7937:8784:7979:1472:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SДафия~`Перерожденная^t^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [948]
+			"<00:14:39> <INFO>		Autopassed on: 	|cffa335ee|Hitem:196587::::::::70:269::3:4:7979:8829:1472:8767::::::|h[Камень Кузни из жуткого граната]|h|r", -- [949]
+			"<00:14:39> <INFO>		Autopassed on: 	|cffa335ee|Hitem:196587::::::::70:269::3:4:7979:8829:1472:8767::::::|h[Камень Кузни из жуткого граната]|h|r", -- [950]
+			"<00:14:39> <INFO>		Autopassed on: 	|cffa335ee|Hitem:196587::::::::70:269::3:4:7979:8829:1472:8767::::::|h[Камень Кузни из жуткого граната]|h|r", -- [951]
+			"<00:14:39> <INFO>		Autopassed on: 	|cffa335ee|Hitem:195495::::::::70:269::3:6:6652:7979:8821:8818:1472:8767::::::|h[Лихие перепрыгиватели оврагов]|h|r", -- [952]
+			"<00:14:39> <INFO>		GetPlayersGear	|cffa335ee|Hitem:196587::::::::70:269::3:4:7979:8829:1472:8767::::::|h[Камень Кузни из жуткого граната]|h|r	INVTYPE_HAND", -- [953]
+			"<00:14:39> <INFO>		GetPlayersGear	|cffa335ee|Hitem:196587::::::::70:269::3:4:7979:8829:1472:8767::::::|h[Камень Кузни из жуткого граната]|h|r	INVTYPE_HAND", -- [954]
+			"<00:14:39> <INFO>		GetPlayersGear	|cffa335ee|Hitem:196587::::::::70:269::3:4:7979:8829:1472:8767::::::|h[Камень Кузни из жуткого граната]|h|r	INVTYPE_HAND", -- [955]
+			"<00:14:39> <INFO>		GetPlayersGear	|cffa335ee|Hitem:195495::::::::70:269::3:6:6652:7979:8821:8818:1472:8767::::::|h[Лихие перепрыгиватели оврагов]|h|r	INVTYPE_FEET", -- [956]
+			"<00:14:39> <INFO>		GetPlayersGear	|cffa335ee|Hitem:195496::::::::70:269::3:6:6652:7937:8784:7979:1472:8767::::::|h[Око мстительного урагана]|h|r	INVTYPE_NECK", -- [957]
+			"<00:14:39> <INFO>		LootFrame:Start	5	nil", -- [958]
+			"<00:14:39> <DEBUG>		Restoring entry:	default	1", -- [959]
+			"<00:14:39> <DEBUG>		GetButtons	default", -- [960]
+			"<00:14:39> <Comm>		^1^SlootAck^T^N1^N253^N2^N377.5^N3^T^Sresponse^T^N1^B^N2^B^N3^B^t^Sdiff^T^N1^N16^N2^N16^N3^N16^N4^N9^N5^N81^t^Sgear1^T^N1^S193752::::::::70:253::16:8:8962:7977:6652:8822:8817:9144:1601:8767:1:28:1279^N2^S193752::::::::70:253::16:8:8962:7977:6652:8822:8817:9144:1601:8767:1:28:1279^N3^S193752::::::::70:253::16:8:8962:7977:6652:8822:8817:9144:1601:8767:1:28:1279^N4^S193421:6612:::::::70:253::13:5:8836:8840:8902:8800:8790:6:28:2164:29:32:30:40:38:6:40:352:47:192552^N5^S195210::::::::70:253::11:2:8776:8984:2:9:70:28:2154^t^Sgear2^T^t^t^t^^	RAID	ледотроль-Ревущийфьорд", -- [961]
+			"<00:14:39> <Comm>		^1^SlootAck^T^N1^N71^N2^N383.0625^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^t^Sdiff^T^N1^N0^N2^N0^N3^N0^N4^N13^N5^N0^t^Sgear1^T^N1^S200425::::::::70:71::3:5:7979:6652:8829:1472:8767:1:28:1040^N2^S200425::::::::70:71::3:5:7979:6652:8829:1472:8767:1:28:1040^N3^S200425::::::::70:71::3:5:7979:6652:8829:1472:8767:1:28:1040^N4^S189537::::::::70:71::13:6:8837:8838:4785:8802:8850:8790:7:28:2164:29:40:30:36:38:8:40:165:45:198059:46:192552^N5^S195496::192918:192918:::::70:71::3:6:6652:7979:1472:8767:8784:8781^t^Sgear2^T^t^t^t^^	RAID	этовертолет-Ревущийфьорд", -- [962]
+			"<00:14:39> <Comm>		^1^SlootAck^T^N1^N577^N2^N392.8125^N3^T^Sresponse^T^N4^B^t^Sdiff^T^N1^N3^N2^N3^N3^N3^N4^N3^N5^N13^t^Sgear1^T^N1^S137480::::::::70:577::16:8:8966:7977:6652:8822:8817:9144:3271:8767:1:28:1279^N2^S137480::::::::70:577::16:8:8966:7977:6652:8822:8817:9144:3271:8767:1:28:1279^N3^S137480::::::::70:577::16:8:8966:7977:6652:8822:8817:9144:3271:8767:1:28:1279^N4^S109787:6611:::::::70:577::33:8:8966:7977:6652:8822:8818:9144:3277:8767:1:28:1279^N5^S137487::192926:192926:::::70:577::33:8:8963:7977:6652:9144:3261:8767:8783:8781:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	аландир-Ревущийфьорд", -- [963]
+			"<00:14:39> <Comm>		^1^SlootAck^T^N1^N254^N2^N374.1875^N3^T^Sresponse^T^N1^B^N2^B^N3^B^t^Sdiff^T^N1^N10^N2^N10^N3^N10^N4^N3^N5^N23^t^Sgear1^T^N1^S199443::::::::70:254::14:6:8943:6652:8822:8817:1507:8767:1:28:2474^N2^S199443::::::::70:254::14:6:8943:6652:8822:8817:1507:8767:1:28:2474^N3^S199443::::::::70:254::14:6:8943:6652:8822:8817:1507:8767:1:28:2474^N4^S193715:6606:::::::70:254::16:8:8966:7977:6652:8822:8818:9144:1614:8767:1:28:1279^N5^S193647::::::::70:254::23:6:7977:42:7937:8784:1594:8767:1:28:2157^t^Sgear2^T^t^t^t^^	RAID	аскельт-Ревущийфьорд", -- [964]
+			"<00:14:39> <Comm>		^1^SlootAck^T^N1^N105^N2^N389.375^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^t^Sdiff^T^N1^N13^N2^N13^N3^N13^N4^N10^N5^N0^t^Sgear1^T^N1^S201943::::::::70:105::13:5:8851:8852:8802:8850:8793:7:28:2164:29:36:30:40:38:8:40:847:45:198059:46:194566^N2^S201943::::::::70:105::13:5:8851:8852:8802:8850:8793:7:28:2164:29:36:30:40:38:8:40:847:45:198059:46:194566^N3^S201943::::::::70:105::13:5:8851:8852:8802:8850:8793:7:28:2164:29:36:30:40:38:8:40:847:45:198059:46:194566^N4^S199425::::::::70:105::14:6:8943:6652:8822:8818:1507:8767:1:28:2474^N5^S200762::192973:192973:::::70:105::81:5:6652:1478:8767:8784:8781:1:28:2471^t^Sgear2^T^t^t^t^^	RAID	злюдра-Ревущийфьорд", -- [965]
+			"<00:14:39> <Comm>		^1^SlootAck^T^N1^N256^N2^N385.8125^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^t^Sdiff^T^N1^N23^N2^N23^N3^N23^N4^N13^N5^N6^t^Sgear1^T^N1^S193713::::::::70:256::23:5:7977:6652:8813:1594:8767:1:28:2157^N2^S193713::::::::70:256::23:5:7977:6652:8813:1594:8767:1:28:2157^N3^S193713::::::::70:256::23:5:7977:6652:8813:1594:8767:1:28:2157^N4^S191984:6606:::::::70:256::73:4:6652:1485:5864:8767:1:28:2437^N5^S200970::192972:192972:::::70:256::14:2:8783:8781:1:28:2078^t^Sgear2^T^t^t^t^^	RAID	хохохохохох-Ревущийфьорд", -- [966]
+			"<00:14:39> <Comm>		^1^SlootAck^T^N1^N252^N2^N391.125^N3^T^Sresponse^T^N4^B^t^Sdiff^T^N1^N0^N2^N0^N3^N0^N4^N16^N5^N-10^t^Sgear1^T^N1^S200407::::::::70:252::3:5:7979:6652:8829:1472:8767:1:28:1040^N2^S200407::::::::70:252::3:5:7979:6652:8829:1472:8767:1:28:1040^N3^S200407::::::::70:252::3:5:7979:6652:8829:1472:8767:1:28:1040^N4^S193728:6605:::::::70:252::16:8:8962:7977:6652:8822:8818:9144:1601:8767:1:28:1279^N5^S193001::192958:192958:192958::::70:252::13:9:8836:8840:8902:8960:8783:8782:8802:8791:8845:7:28:2164:29:49:30:32:38:8:40:260:48:194578:49:197921^t^Sgear2^T^t^t^t^^	RAID	менструа-Ревущийфьорд", -- [967]
+			"<00:14:39> <Comm>		^1^SlootAck^T^N1^N263^N2^N379.125^N3^T^Sresponse^T^N1^B^N2^B^N3^B^t^Sdiff^T^N1^N-3^N2^N-3^N3^N-3^N4^N13^N5^N6^t^Sgear1^T^N1^S200398::::::::70:263::35:6:6652:8829:8968:7977:1475:8767^N2^S200398::::::::70:263::35:6:6652:8829:8968:7977:1475:8767^N3^S200398::::::::70:263::35:6:6652:8829:8968:7977:1475:8767^N4^S191998:6611:::::::70:263::73:4:6652:1485:5864:8767:1:28:2437^N5^S200970::::::::70:263::14:2:7936:8783:1:28:2078^t^Sgear2^T^t^t^t^^	RAID	ватрониум-Ревущийфьорд", -- [968]
+			"<00:14:39> <Comm>		^1^SlootAck^T^N1^N62^N2^N380.5^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^t^Sdiff^T^N1^N23^N2^N23^N3^N23^N4^N13^N5^N13^t^Sgear1^T^N1^S193775::::::::70:62::23:5:7977:6652:8813:1594:8767:1:28:2157^N2^S193775::::::::70:62::23:5:7977:6652:8813:1594:8767:1:28:2157^N3^S193775::::::::70:62::23:5:7977:6652:8813:1594:8767:1:28:2157^N4^S191984::::::::70:62::42:4:40:1485:5864:8767:1:28:2275^N5^S134529::::::::70:62::16:8:8963:7977:6652:7936:8784:9144:3261:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	натазат-Ревущийфьорд", -- [969]
+			"<00:14:39> <Comm>		^1^SlootAck^T^N1^N66^N2^N391.0625^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^t^Sdiff^T^N1^N0^N2^N0^N3^N0^N4^N3^N5^N6^t^Sgear1^T^N1^S200416::::::::70:66::3:5:7979:6652:8829:1472:8767:1:28:1040^N2^S200416::::::::70:66::3:5:7979:6652:8829:1472:8767:1:28:1040^N3^S200416::::::::70:66::3:5:7979:6652:8829:1472:8767:1:28:1040^N4^S193630:6605:::::::70:66::16:8:8966:7977:6652:8822:8818:9144:1614:8767:1:28:1279^N5^S193647::192959:192959:::::70:66::33:8:8965:7977:6652:9144:1611:8767:8784:8781:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	мурратик-Ревущийфьорд", -- [970]
+			"<00:14:39> <Comm>		^1^SlootAck^T^N1^N264^N2^N385.375^N3^T^Sresponse^T^N1^B^N2^B^N3^B^t^Sdiff^T^N1^N23^N2^N23^N3^N23^N4^N3^N5^N6^t^Sgear1^T^N1^S193752::::::::70:264::23:5:7977:6652:8813:1594:8767:1:28:2157^N2^S193752::::::::70:264::23:5:7977:6652:8813:1594:8767:1:28:2157^N3^S193752::::::::70:264::23:5:7977:6652:8813:1594:8767:1:28:2157^N4^S109791:6612:::::::70:264::33:8:8966:7977:6652:8822:8818:9144:3277:8767:1:28:1279^N5^S200970::192924:192924:::::70:264::14:2:8783:8781:1:28:2078^t^Sgear2^T^t^t^t^^	RAID	серегя-Ревущийфьорд", -- [971]
+			"<00:14:39> <Comm>		^1^SlootAck^T^N1^N259^N2^N393.8125^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^t^Sdiff^T^N1^N6^N2^N6^N3^N6^N4^N0^N5^N-10^t^Sgear1^T^N1^S193721::::::::70:259::33:8:8965:7977:6652:8822:8817:9144:1611:8767:1:28:1279^N2^S193721::::::::70:259::33:8:8965:7977:6652:8822:8817:9144:1611:8767:1:28:1279^N3^S193721::::::::70:259::33:8:8965:7977:6652:8822:8817:9144:1611:8767:1:28:1279^N4^S200739:6606:::::::70:259::81:5:8821:8818:6652:1478:8767:1:28:2471^N5^S193001::192990:192925:192925::::70:259::13:9:8836:8840:8902:8960:8784:8782:8802:8795:8845:7:28:2164:29:49:30:40:38:8:40:260:48:194572:49:197921^t^Sgear2^T^t^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [972]
+			"<00:14:39> <Comm>		^1^SlootAck^T^N1^N269^N2^N385^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^t^Sdiff^T^N1^N0^N2^N0^N3^N0^N4^N0^N5^N13^t^Sgear1^T^N1^S195514::::::::70:269::3:6:6652:7979:8821:8817:1472:8767^N2^S195514::::::::70:269::3:6:6652:7979:8821:8817:1472:8767^N3^S195514::::::::70:269::3:6:6652:7979:8821:8817:1472:8767^N4^S200739:6612:::::::70:269::81:5:8821:8818:6652:1478:8767:1:28:2471^N5^S193647::::::::70:269::16:8:8963:7977:6652:7937:8783:9144:1604:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	хугомонк-Ревущийфьорд", -- [973]
+			"<00:14:39> <Comm>		^1^SlootAck^T^N1^N1467^N2^N384.8125^N3^T^Sresponse^T^t^Sdiff^T^N1^N0^N2^N0^N3^N0^N4^N16^N5^N6^t^Sgear1^T^N1^S200380::::::::70:1467::3:5:7979:6652:8829:1472:8767^N2^S200380::::::::70:1467::3:5:7979:6652:8829:1472:8767^N3^S200380::::::::70:1467::3:5:7979:6652:8829:1472:8767^N4^S193715:6612:::::::70:1467::33:8:8962:7977:6652:8822:8818:9144:1601:8767:1:28:1279^N5^S200970::::::::70:1467::14:2:7936:8783:1:28:2151^t^Sgear2^T^t^t^t^^	RAID	ювитта-Ревущийфьорд", -- [974]
+			"<00:14:39> <Comm>		^1^SlootAck^T^N1^N254^N2^N385.3125^N3^T^Sresponse^T^N1^B^N2^B^N3^B^t^Sdiff^T^N1^N0^N2^N0^N3^N0^N4^N29^N5^N29^t^Sgear1^T^N1^S200389::::::::70:254::3:5:7979:6652:8829:1472:8767:1:28:1040^N2^S200389::::::::70:254::3:5:7979:6652:8829:1472:8767:1:28:1040^N3^S200389::::::::70:254::3:5:7979:6652:8829:1472:8767:1:28:1040^N4^S198590:6605:::::::70:254::74:5:8978:6652:8814:1488:8766:1:28:2474^N5^S200445::::::::70:254::25:6:6652:7936:8783:1478:5855:8766:1:28:2602^t^Sgear2^T^t^t^t^^	RAID	линлот-Ревущийфьорд", -- [975]
+			"<00:14:39> <Comm>		^1^SlootAck^T^N1^N64^N2^N384.625^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^t^Sdiff^T^N1^N16^N2^N16^N3^N16^N4^N16^N5^N6^t^Sgear1^T^N1^S191986::::::::70:64::73:4:6652:1485:5861:8767:1:28:2437^N2^S191986::::::::70:64::73:4:6652:1485:5861:8767:1:28:2437^N3^S191986::::::::70:64::73:4:6652:1485:5861:8767:1:28:2437^N4^S191984:6605:::::::70:64::37:4:40:1481:5865:8767:1:28:2275^N5^S201759::192981::::::70:64::13:9:8836:8840:8902:8784:8780:8801:8791:8932:8960:7:28:2164:29:49:30:40:38:7:40:834:47:194578:50:193945^t^Sgear2^T^t^t^t^^	RAID	гигаовца-Ревущийфьорд", -- [976]
+			"<00:14:39> <Comm>		^1^SlootAck^T^N1^N250^N2^N395^N3^T^Sresponse^T^N4^B^t^Sdiff^T^N1^N3^N2^N3^N3^N3^N4^N3^N5^N-10^t^Sgear1^T^N1^S109858::::::::70:250::33:8:8966:7977:6652:8822:8817:9144:3277:8767:1:28:1279^N2^S109858::::::::70:250::33:8:8966:7977:6652:8822:8817:9144:3277:8767:1:28:1279^N3^S109858::::::::70:250::33:8:8966:7977:6652:8822:8817:9144:3277:8767:1:28:1279^N4^S193630:6612:::::::70:250::16:8:8966:7977:6652:8822:8818:9144:1614:8767:1:28:1279^N5^S193001::192985:192948:192948::::70:250::13:9:8836:8840:8902:8960:8783:8782:8802:8793:8845:7:28:2164:29:32:30:36:38:8:40:260:48:194566:49:197921^t^Sgear2^T^t^t^t^^	RAID	ожившийлось-Ревущийфьорд", -- [977]
+			"<00:14:39> <Comm>		^1^SlootAck^T^N1^N252^N2^N385.9375^N3^T^Sresponse^T^N4^B^t^Sdiff^T^N1^N6^N2^N6^N3^N6^N4^N19^N5^N23^t^Sgear1^T^N1^S195506::::::::70:252::3:6:6652:8821:8817:7979:1472:8767^N2^S195506::::::::70:252::3:6:6652:8821:8817:7979:1472:8767^N3^S195506::::::::70:252::3:6:6652:8821:8817:7979:1472:8767^N4^S200457::::::::70:252::25:1:1472:1:28:2078^N5^S193676::::::::70:252::23:5:7977:7936:8783:1594:8767:1:28:2155^t^Sgear2^T^t^t^t^^	RAID	нотушка-Ревущийфьорд", -- [978]
+			"<00:14:39> <Comm>		^1^SlootAck^T^N1^N257^N2^N383.5^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^t^Sdiff^T^N1^N13^N2^N13^N3^N13^N4^N10^N5^N6^t^Sgear1^T^N1^S144118::::::::70:257::33:8:8963:7977:6652:8822:8817:9144:3272:8767:1:28:1279^N2^S144118::::::::70:257::33:8:8963:7977:6652:8822:8817:9144:3272:8767:1:28:1279^N3^S144118::::::::70:257::33:8:8963:7977:6652:8822:8817:9144:3272:8767:1:28:1279^N4^S199418:6606:::::::70:257::14:6:8943:6652:8822:8818:1507:8767:1:28:2474^N5^S195502::192957:192957:192957::::70:257::3:6:6652:7979:1472:8767:8783:8782^t^Sgear2^T^t^t^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [979]
+			"<00:14:39> <Comm>		^1^SlootAck^T^N1^N266^N2^N391.25^N3^T^Sresponse^T^N4^B^t^Sdiff^T^N1^N3^N2^N3^N3^N3^N4^N19^N5^N6^t^Sgear1^T^N1^S193713::::::::70:266::16:8:8966:7977:6652:8822:8817:9144:1614:8767:1:28:1279^N2^S193713::::::::70:266::16:8:8966:7977:6652:8822:8817:9144:1614:8767:1:28:1279^N3^S193713::::::::70:266::16:8:8966:7977:6652:8822:8817:9144:1614:8767:1:28:1279^N4^S200459:6606:::::::70:266::25:1:1472:1:28:2078^N5^S193676::::::::70:266::33:8:8965:7977:6652:7937:8783:9144:1611:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	комт-Ревущийфьорд", -- [980]
+			"<00:14:39> <Comm>		^1^SlootAck^T^N1^N63^N2^N387.5^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^t^Sdiff^T^N1^N19^N2^N19^N3^N19^N4^N3^N5^N23^t^Sgear1^T^N1^S201938::::::::70:63::13:5:8851:8852:8800:8850:8793:7:28:2164:29:40:30:36:38:6:40:853:44:198059:45:194566^N2^S201938::::::::70:63::13:5:8851:8852:8800:8850:8793:7:28:2164:29:40:30:36:38:6:40:853:44:198059:45:194566^N3^S201938::::::::70:63::13:5:8851:8852:8800:8850:8793:7:28:2164:29:40:30:36:38:6:40:853:44:198059:45:194566^N4^S191984:6606:::::::70:63::72:5:9135:6652:1494:5865:8767:1:28:2437^N5^S193809::::::::70:63::23:6:7977:6652:7937:8783:1594:8767:1:28:2157^t^Sgear2^T^t^t^t^^	RAID	ледиланатель-Ревущийфьорд", -- [981]
+			"<00:14:39> <Comm>		^1^SlootAck^T^N1^N264^N2^N383.75^N3^T^Sresponse^T^N1^B^N2^B^N3^B^t^Sdiff^T^N1^N0^N2^N0^N3^N0^N4^N19^N5^N0^t^Sgear1^T^N1^S200398::::::::70:264::3:5:7979:6652:8829:1472:8767^N2^S200398::::::::70:264::3:5:7979:6652:8829:1472:8767^N3^S200398::::::::70:264::3:5:7979:6652:8829:1472:8767^N4^S200458::::::::70:264::25:1:1472:1:28:2078^N5^S137487::::::::70:264::33:8:7977:6652:7937:8784:9144:8967:3274:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	бишарк-Ревущийфьорд", -- [982]
+			"<00:14:41> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N1^t^t^^	RAID	хохохохохох-Ревущийфьорд", -- [983]
+			"<00:14:41> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^	RAID	комт-Ревущийфьорд", -- [984]
+			"<00:14:41> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N1^t^t^^	RAID	комт-Ревущийфьорд", -- [985]
+			"<00:14:41> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N1^t^t^^	RAID	комт-Ревущийфьорд", -- [986]
+			"<00:14:42> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	ювитта-Ревущийфьорд", -- [987]
+			"<00:14:42> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	ювитта-Ревущийфьорд", -- [988]
+			"<00:14:42> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	ювитта-Ревущийфьорд", -- [989]
+			"<00:14:43> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [990]
+			"<00:14:44> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N1^t^t^^	RAID	ватрониум-Ревущийфьорд", -- [991]
+			"<00:14:45> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Аскельт	HUNTER", -- [992]
+			"<00:14:45> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2635	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Аскельт	HUNTER", -- [993]
+			"<00:14:47> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	менструа-Ревущийфьорд", -- [994]
+			"<00:14:47> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	менструа-Ревущийфьорд", -- [995]
+			"<00:14:47> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	менструа-Ревущийфьорд", -- [996]
+			"<00:14:48> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	этовертолет-Ревущийфьорд", -- [997]
+			"<00:14:48> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	натазат-Ревущийфьорд", -- [998]
+			"<00:14:48> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N1^t^t^^	RAID	линлот-Ревущийфьорд", -- [999]
+			"<00:14:50> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^SPASS^t^t^^	RAID	аскельт-Ревущийфьорд", -- [1000]
+			"<00:14:50> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	менструа-Ревущийфьорд", -- [1001]
+			"<00:14:50> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N1^t^t^^	RAID	ватрониум-Ревущийфьорд", -- [1002]
+			"<00:14:50> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N1^t^t^^	RAID	комт-Ревущийфьорд", -- [1003]
+			"<00:14:50> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	аскельт-Ревущийфьорд", -- [1004]
+			"<00:14:50> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	гигаовца-Ревущийфьорд", -- [1005]
+			"<00:14:51> <DEBUG>		LootFrame:Response	PASS	Response:	Отказаться", -- [1006]
+			"<00:14:51> <DEBUG>		SendResponse	group	5	PASS	nil	nil	nil	nil	nil	nil	nil	nil	nil	nil", -- [1007]
+			"<00:14:51> <DEBUG>		Trashing entry:	1	|cffa335ee|Hitem:195496::::::::70:269::3:6:6652:7937:8784:7979:1472:8767::::::|h[Око мстительного урагана]|h|r", -- [1008]
+			"<00:14:51> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	ледиланатель-Ревущийфьорд", -- [1009]
+			"<00:14:51> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	хугомонк-Ревущийфьорд", -- [1010]
+			"<00:14:52> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N1^t^t^^	RAID	ювитта-Ревущийфьорд", -- [1011]
+			"<00:14:52> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N2^t^t^^	RAID	аландир-Ревущийфьорд", -- [1012]
+			"<00:14:52> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N2^t^t^^	RAID	аландир-Ревущийфьорд", -- [1013]
+			"<00:14:52> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N2^t^t^^	RAID	аландир-Ревущийфьорд", -- [1014]
+			"<00:14:53> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N1^t^t^^	RAID	злюдра-Ревущийфьорд", -- [1015]
+			"<00:14:53> <Comm>		^1^Soffline_timer^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [1016]
+			"<00:14:53> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N1^t^t^^	RAID	нотушка-Ревущийфьорд", -- [1017]
+			"<00:14:54> <Comm>		^1^Srolls^T^N1^N1^N2^T^Sледотроль-Ревущийфьорд^N90^Sмурратик-Ревущийфьорд^N37^Sменструа-Ревущийфьорд^N53^Sбабусянатусе-Ревущийфьорд^N96^Sювитта-Ревущийфьорд^N61^Sожившийлось-Ревущийфьорд^N22^Sледиланатель-Ревущийфьорд^N32^Sватрониум-Ревущийфьорд^N12^Sбишарк-Ревущийфьорд^N70^Sнотушка-Ревущийфьорд^N30^Sлинлот-Ревущийфьорд^N78^Sсерегя-Ревущийфьорд^N69^Sэтовертолет-Ревущийфьорд^N68^Sхохохохохох-Ревущийфьорд^N13^Sаскельт-Ревущийфьорд^N24^Sкомт-Ревущийфьорд^N5^Sгигаовца-Ревущийфьорд^N19^Sдельфуего-Ревущийфьорд^N57^Sзлюдра-Ревущийфьорд^N6^Sхугомонк-Ревущийфьорд^N91^Sнатазат-Ревущийфьорд^N29^Sаландир-Ревущийфьорд^N87^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1018]
+			"<00:14:54> <Comm>		^1^Srolls^T^N1^N2^N2^T^Sледотроль-Ревущийфьорд^N90^Sмурратик-Ревущийфьорд^N37^Sменструа-Ревущийфьорд^N53^Sбабусянатусе-Ревущийфьорд^N96^Sювитта-Ревущийфьорд^N61^Sожившийлось-Ревущийфьорд^N22^Sледиланатель-Ревущийфьорд^N32^Sватрониум-Ревущийфьорд^N12^Sбишарк-Ревущийфьорд^N70^Sнотушка-Ревущийфьорд^N30^Sлинлот-Ревущийфьорд^N78^Sсерегя-Ревущийфьорд^N69^Sэтовертолет-Ревущийфьорд^N68^Sхохохохохох-Ревущийфьорд^N13^Sаскельт-Ревущийфьорд^N24^Sкомт-Ревущийфьорд^N5^Sгигаовца-Ревущийфьорд^N19^Sдельфуего-Ревущийфьорд^N57^Sзлюдра-Ревущийфьорд^N6^Sхугомонк-Ревущийфьорд^N91^Sнатазат-Ревущийфьорд^N29^Sаландир-Ревущийфьорд^N87^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1019]
+			"<00:14:54> <Comm>		^1^Srolls^T^N1^N3^N2^T^Sледотроль-Ревущийфьорд^N90^Sмурратик-Ревущийфьорд^N37^Sменструа-Ревущийфьорд^N53^Sбабусянатусе-Ревущийфьорд^N96^Sювитта-Ревущийфьорд^N61^Sожившийлось-Ревущийфьорд^N22^Sледиланатель-Ревущийфьорд^N32^Sватрониум-Ревущийфьорд^N12^Sбишарк-Ревущийфьорд^N70^Sнотушка-Ревущийфьорд^N30^Sлинлот-Ревущийфьорд^N78^Sсерегя-Ревущийфьорд^N69^Sэтовертолет-Ревущийфьорд^N68^Sхохохохохох-Ревущийфьорд^N13^Sаскельт-Ревущийфьорд^N24^Sкомт-Ревущийфьорд^N5^Sгигаовца-Ревущийфьорд^N19^Sдельфуего-Ревущийфьорд^N57^Sзлюдра-Ревущийфьорд^N6^Sхугомонк-Ревущийфьорд^N91^Sнатазат-Ревущийфьорд^N29^Sаландир-Ревущийфьорд^N87^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1020]
+			"<00:14:55> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^	RAID	ожившийлось-Ревущийфьорд", -- [1021]
+			"<00:14:55> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N1^t^t^^	RAID	ожившийлось-Ревущийфьорд", -- [1022]
+			"<00:14:55> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N1^t^t^^	RAID	ожившийлось-Ревущийфьорд", -- [1023]
+			"<00:14:55> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	линлот-Ревущийфьорд", -- [1024]
+			"<00:14:56> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N2^t^t^^	RAID	серегя-Ревущийфьорд", -- [1025]
+			"<00:14:56> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^	RAID	нотушка-Ревущийфьорд", -- [1026]
+			"<00:14:56> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N1^t^t^^	RAID	нотушка-Ревущийфьорд", -- [1027]
+			"<00:14:56> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N1^t^t^^	RAID	нотушка-Ревущийфьорд", -- [1028]
+			"<00:14:59> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N1^t^t^^	RAID	ювитта-Ревущийфьорд", -- [1029]
+			"<00:14:59> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	ожившийлось-Ревущийфьорд", -- [1030]
+			"<00:15:00> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N3^t^t^^	RAID	аландир-Ревущийфьорд", -- [1031]
+			"<00:15:00> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N1^t^t^^	RAID	ледотроль-Ревущийфьорд", -- [1032]
+			"<00:15:01> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	мурратик-Ревущийфьорд", -- [1033]
+			"<00:15:02> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N2^t^t^^	RAID	ледотроль-Ревущийфьорд", -- [1034]
+			"<00:15:02> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N1^t^t^^	RAID	бишарк-Ревущийфьорд", -- [1035]
+			"<00:15:03> <Comm>		^1^Shistory^T^N1^Sнотушка-Ревущийфьорд^N2^T^SmapID^N2522^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SDEATHKNIGHT^SgroupSize^N22^Sboss^SДафия~`Перерожденная^Stime^S22:15:00^SitemReplaced1^S|cffa335ee|Hitem:195506::::::::70:259::3:6:6652:8821:8817:7979:1472:8767::::::|h[Рукавицы~`с~`алмазной~`гравировкой]|h|r^Sinstance^SХранилище~`Воплощений-Обычный^Sowner^Sдельфуего-Ревущийфьорд^Sresponse^SОсновной~`спек/Нужно^StypeCode^Sdefault^SdifficultyID^N14^SlootWon^S|cffa335ee|Hitem:196587::::::::70:259::3:4:7979:8829:1472:8767::::::|h[Камень~`Кузни~`из~`жуткого~`граната]|h|r^Sid^S1671639300-21^Sdate^S21/12/22^SresponseID^N1^Svotes^N0^SisAwardReason^b^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1036]
+			"<00:15:03> <Comm>		^1^Sawarded^T^N1^N1^N2^Sнотушка-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1037]
+			"<00:15:03> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N2^t^t^^	RAID	бишарк-Ревущийфьорд", -- [1038]
+			"<00:15:09> <Comm>		^1^Shistory^T^N1^Sожившийлось-Ревущийфьорд^N2^T^SmapID^N2522^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SDEATHKNIGHT^SgroupSize^N22^Sboss^SДафия~`Перерожденная^Stime^S22:15:06^SitemReplaced1^S|cffa335ee|Hitem:109858::::::::70:259::33:8:8966:7977:6652:8822:8817:9144:3277:8767:1:28:1279:::::|h[Перчатки~`золотой~`стали]|h|r^Sinstance^SХранилище~`Воплощений-Обычный^Sowner^Sдельфуего-Ревущийфьорд^Sresponse^SОсновной~`спек/Нужно^StypeCode^Sdefault^SdifficultyID^N14^SlootWon^S|cffa335ee|Hitem:196587::::::::70:259::3:4:7979:8829:1472:8767::::::|h[Камень~`Кузни~`из~`жуткого~`граната]|h|r^Sid^S1671639306-22^Sdate^S21/12/22^SresponseID^N1^Svotes^N0^SisAwardReason^b^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1039]
+			"<00:15:09> <Comm>		^1^Sawarded^T^N1^N2^N2^Sожившийлось-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1040]
+			"<00:15:21> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N2^t^t^^	RAID	серегя-Ревущийфьорд", -- [1041]
+			"<00:15:21> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Snote^Sхаста^Sresponse^N2^t^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [1042]
+			"<00:15:30> <Comm>		^1^Srolls^T^N1^N5^N2^T^Sледотроль-Ревущийфьорд^N48^Sмурратик-Ревущийфьорд^N33^Sменструа-Ревущийфьорд^N31^Sбабусянатусе-Ревущийфьорд^N77^Sювитта-Ревущийфьорд^N55^Sожившийлось-Ревущийфьорд^N87^Sледиланатель-Ревущийфьорд^N94^Sватрониум-Ревущийфьорд^N79^Sбишарк-Ревущийфьорд^N84^Sнотушка-Ревущийфьорд^N19^Sлинлот-Ревущийфьорд^N99^Sсерегя-Ревущийфьорд^N46^Sэтовертолет-Ревущийфьорд^N17^Sхохохохохох-Ревущийфьорд^N32^Sаскельт-Ревущийфьорд^N96^Sкомт-Ревущийфьорд^N13^Sгигаовца-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^N39^Sзлюдра-Ревущийфьорд^N78^Sхугомонк-Ревущийфьорд^N88^Sнатазат-Ревущийфьорд^N37^Sаландир-Ревущийфьорд^N18^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1043]
+			"<00:16:25> <Comm>		^1^Srolls^T^N1^N4^N2^T^Sледотроль-Ревущийфьорд^N63^Sмурратик-Ревущийфьорд^N80^Sменструа-Ревущийфьорд^N60^Sбабусянатусе-Ревущийфьорд^N12^Sювитта-Ревущийфьорд^N94^Sожившийлось-Ревущийфьорд^N27^Sледиланатель-Ревущийфьорд^N47^Sватрониум-Ревущийфьорд^N24^Sбишарк-Ревущийфьорд^N10^Sнотушка-Ревущийфьорд^N38^Sлинлот-Ревущийфьорд^N11^Sсерегя-Ревущийфьорд^N99^Sэтовертолет-Ревущийфьорд^N44^Sхохохохохох-Ревущийфьорд^N46^Sаскельт-Ревущийфьорд^N49^Sкомт-Ревущийфьорд^N93^Sгигаовца-Ревущийфьорд^N4^Sдельфуего-Ревущийфьорд^N61^Sзлюдра-Ревущийфьорд^N87^Sхугомонк-Ревущийфьорд^N22^Sнатазат-Ревущийфьорд^N31^Sаландир-Ревущийфьорд^N39^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1044]
+			"<00:16:33> <Comm>		^1^Shistory^T^N1^Sювитта-Ревущийфьорд^N2^T^SmapID^N2522^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SEVOKER^SgroupSize^N22^Sboss^SДафия~`Перерожденная^Stime^S22:16:30^SitemReplaced1^S|cffa335ee|Hitem:193715:6612:::::::70:259::33:8:8962:7977:6652:8822:8818:9144:1601:8767:1:28:1279:::::|h[Сапоги~`взрывного~`роста]|h|r^Sinstance^SХранилище~`Воплощений-Обычный^Sowner^Sдельфуего-Ревущийфьорд^Sresponse^SОсновной~`спек/Нужно^StypeCode^Sdefault^SdifficultyID^N14^SlootWon^S|cffa335ee|Hitem:195495::::::::70:259::3:6:6652:7979:8821:8818:1472:8767::::::|h[Лихие~`перепрыгиватели~`оврагов]|h|r^Sid^S1671639390-23^Sdate^S21/12/22^SresponseID^N1^Svotes^N0^SisAwardReason^b^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1045]
+			"<00:16:33> <Comm>		^1^Sawarded^T^N1^N4^N2^Sювитта-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1046]
+			"<00:16:37> <Comm>		^1^Shistory^T^N1^Sватрониум-Ревущийфьорд^N2^T^SmapID^N2522^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SSHAMAN^SgroupSize^N22^Sboss^SДафия~`Перерожденная^Stime^S22:16:34^SitemReplaced1^S|cffa335ee|Hitem:200970::::::::70:259::14:2:7936:8783:1:28:2078:::::|h[Обсидиановый~`ошейник]|h|r^Sinstance^SХранилище~`Воплощений-Обычный^Sowner^Sдельфуего-Ревущийфьорд^Sresponse^SОсновной~`спек/Нужно^StypeCode^Sdefault^SdifficultyID^N14^SlootWon^S|cffa335ee|Hitem:195496::::::::70:259::3:6:6652:7937:8784:7979:1472:8767::::::|h[Око~`мстительного~`урагана]|h|r^Sid^S1671639394-24^Sdate^S21/12/22^SresponseID^N1^Svotes^N0^SisAwardReason^b^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1047]
+			"<00:16:37> <Comm>		^1^Sawarded^T^N1^N5^N2^Sватрониум-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1048]
+			"<00:16:40> <Comm>		^1^Ssession_end^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [1049]
+			"<00:16:47> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:195495::::::::70:259::3:6:6652:7979:8821:8818:1472:8767::::::|h[Лихие~`перепрыгиватели~`оврагов]|h|r^N2^Sювитта-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1050]
+			"<00:16:51> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:195496::::::::70:259::3:6:6652:7937:8784:7979:1472:8767::::::|h[Око~`мстительного~`урагана]|h|r^N2^Sватрониум-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1051]
+			"<00:16:55> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:196587::::::::70:259::3:4:7979:8829:1472:8767::::::|h[Камень~`Кузни~`из~`жуткого~`граната]|h|r^N2^Sнотушка-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1052]
+			"<00:16:58> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:196587::::::::70:259::3:4:7979:8829:1472:8767::::::|h[Камень~`Кузни~`из~`жуткого~`граната]|h|r^N2^Sожившийлось-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1053]
+			"<00:17:05> <DEBUG>		Event:	LOOT_READY	true", -- [1054]
+			"<00:17:05> <DEBUG>		Ignoring	nil	as it's a currency", -- [1055]
+			"<00:17:05> <DEBUG>		Adding to self.lootSlotInfo	2	|cff1eff00|Hitem:199010::::::::70:269:::3:7968:6652:1685:1:28:2158:::::|h[Набедренники могучей волны с символом бесподобия]|h|r	2	1	Creature-0-4250-2522-20091-198266-0003A35B4F	1", -- [1056]
+			"<00:17:06> <DEBUG>		Event:	LOOT_READY	true", -- [1057]
+			"<00:17:06> <DEBUG>		Ignoring	nil	as it's a currency", -- [1058]
+			"<00:17:06> <DEBUG>		Adding to self.lootSlotInfo	2	|cff1eff00|Hitem:199010::::::::70:269:::3:7968:6652:1685:1:28:2158:::::|h[Набедренники могучей волны с символом бесподобия]|h|r	2	1	Creature-0-4250-2522-20091-198266-0003A35B4F	1", -- [1059]
+			"<00:17:06> <DEBUG>		OnLootSlotCleared()	2	|cff1eff00|Hitem:199010::::::::70:269:::3:7968:6652:1685:1:28:2158:::::|h[Набедренники могучей волны с символом бесподобия]|h|r	2", -- [1060]
+			"<00:17:06> <DEBUG>		Event:	LOOT_CLOSED", -- [1061]
+			"<00:17:06> <DEBUG>		Event:	LOOT_CLOSED", -- [1062]
+			"<00:17:07> <Comm>		^1^Sl^T^N1^S198266^t^^	RAID	хугомонк-Ревущийфьорд", -- [1063]
+			"<00:17:07> <Comm>		^1^Sl^T^N1^S198266^t^^	RAID	хугомонк-Ревущийфьорд", -- [1064]
+			"<00:17:07> <Comm>		^1^Sl^T^N1^S198266^t^^	RAID	гигаовца-Ревущийфьорд", -- [1065]
+			"<00:17:08> <DEBUG>		Storage:New	|cff1eff00|Hitem:199010::::::::70:269:::3:7968:6652:1685:1:28:2158:::::|h[Набедренники могучей волны с символом бесподобия]|h|r	temp", -- [1066]
+			"<00:17:08> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199010::::::::70:269:::3:7968:6652:1685:1:28:2158:::::||h[Набедренники могучей волны с символом бесподобия]||h||r	5", -- [1067]
+			"<00:17:08> <DEBUG>		Found:	nil	nil	nil", -- [1068]
+			"<00:17:09> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199010::::::::70:269:::3:7968:6652:1685:1:28:2158:::::||h[Набедренники могучей волны с символом бесподобия]||h||r	5", -- [1069]
+			"<00:17:09> <DEBUG>		Found:	nil	nil	nil", -- [1070]
+			"<00:17:10> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199010::::::::70:269:::3:7968:6652:1685:1:28:2158:::::||h[Набедренники могучей волны с символом бесподобия]||h||r	5", -- [1071]
+			"<00:17:10> <DEBUG>		Found:	nil	nil	nil", -- [1072]
+			"<00:17:11> <Comm>		^1^Sl^T^N1^S198266^t^^	RAID	хохохохохох-Ревущийфьорд", -- [1073]
+			"<00:17:11> <Comm>		^1^Sl^T^N1^S198266^t^^	RAID	хохохохохох-Ревущийфьорд", -- [1074]
+			"<00:17:11> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:199010::::::::70:269:::3:7968:6652:1685:1:28:2158:::::||h[Набедренники могучей волны с символом бесподобия]||h||r	5", -- [1075]
+			"<00:17:11> <DEBUG>		Found:	nil	nil	nil", -- [1076]
+			"<00:17:11> <ERROR>		UpdateAndSendRecentTradableItem: |cff1eff00|Hitem:199010::::::::70:269:::3:7968:6652:1685:1:28:2158:::::|h[Набедренники могучей волны с символом бесподобия]|h|r not found in bags", -- [1077]
+			"<00:18:01> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Бабусянатусе	PRIEST", -- [1078]
+			"<00:18:09> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Аландир	DEMONHUNTER", -- [1079]
+			"<00:18:10> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Нотушка	DEATHKNIGHT", -- [1080]
+			"<00:18:10> <Comm>		^1^Sl^T^N1^S198214^t^^	RAID	нотушка-Ревущийфьорд", -- [1081]
+			"<00:18:10> <Comm>		^1^Sl^T^N1^S198214^t^^	RAID	нотушка-Ревущийфьорд", -- [1082]
+			"<00:18:11> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Ожившийлось	DEATHKNIGHT", -- [1083]
+			"<00:18:11> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Ледотроль	HUNTER", -- [1084]
+			"<00:18:11> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Ювитта	EVOKER", -- [1085]
+			"<00:18:12> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Ледиланатель	MAGE", -- [1086]
+			"<00:18:12> <Comm>		^1^Sl^T^N1^S198214^t^^	RAID	ювитта-Ревущийфьорд", -- [1087]
+			"<00:18:12> <Comm>		^1^Sl^T^N1^S198214^t^^	RAID	ювитта-Ревущийфьорд", -- [1088]
+			"<00:18:12> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Этовертолет	WARRIOR", -- [1089]
+			"<00:18:12> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Гигаовца	MAGE", -- [1090]
+			"<00:18:12> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Бишарк	SHAMAN", -- [1091]
+			"<00:18:12> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Аскельт	HUNTER", -- [1092]
+			"<00:18:13> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Комт	WARLOCK", -- [1093]
+			"<00:18:14> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Хохохохохох	PRIEST", -- [1094]
+			"<00:18:16> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Линлот	HUNTER", -- [1095]
+			"<00:18:16> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Злюдра	DRUID", -- [1096]
+			"<00:18:17> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Дельфуего	ROGUE", -- [1097]
+			"<00:18:17> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Серегя	SHAMAN", -- [1098]
+			"<00:18:18> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Ватрониум	SHAMAN", -- [1099]
+			"<00:18:33> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Натазат	MAGE", -- [1100]
+			"<00:28:15> <DEBUG>		Event:	ENCOUNTER_START	2614	Хранительница стаи Денна	14	22", -- [1101]
+			"<00:28:15> <INFO>		UpdatePlayersData()", -- [1102]
+			"<00:28:16> <Comm>		^1^SStartHandleLoot^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [1103]
+			"<00:29:50> <DEBUG>		Event:	ENCOUNTER_END	2614	Хранительница стаи Денна	14	22	0", -- [1104]
+			"<00:32:54> <DEBUG>		Event:	ENCOUNTER_START	2614	Хранительница стаи Денна	14	22", -- [1105]
+			"<00:32:54> <INFO>		UpdatePlayersData()", -- [1106]
+			"<00:32:55> <Comm>		^1^SStartHandleLoot^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [1107]
+			"<00:35:25> <DEBUG>		Event:	ENCOUNTER_END	2614	Хранительница стаи Денна	14	22	0", -- [1108]
+			"<00:38:54> <Comm>		^1^Sv^T^N1^S3.6.4^t^^	GUILD	томмишелби-Ревущийфьорд", -- [1109]
+			"<00:38:54> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [1110]
+			"<00:38:55> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	ледотроль-Ревущийфьорд", -- [1111]
+			"<00:38:55> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	натазат-Ревущийфьорд", -- [1112]
+			"<00:38:55> <Comm>		^1^Sr^T^N1^S3.6.0^N3^T^t^t^^	GUILD	бесогонтв-Ревущийфьорд", -- [1113]
+			"<00:38:55> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	бишарк-Ревущийфьорд", -- [1114]
+			"<00:39:50> <DEBUG>		Event:	ENCOUNTER_START	2614	Хранительница стаи Денна	14	22", -- [1115]
+			"<00:39:50> <INFO>		UpdatePlayersData()", -- [1116]
+			"<00:39:50> <Comm>		^1^SStartHandleLoot^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [1117]
+			"<00:41:42> <DEBUG>		Event:	ENCOUNTER_END	2614	Хранительница стаи Денна	14	22	0", -- [1118]
+			"<00:44:05> <DEBUG>		Event:	ENCOUNTER_START	2614	Хранительница стаи Денна	14	22", -- [1119]
+			"<00:44:05> <INFO>		UpdatePlayersData()", -- [1120]
+			"<00:44:05> <Comm>		^1^SStartHandleLoot^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [1121]
+			"<00:50:42> <DEBUG>		Event:	ENCOUNTER_END	2614	Хранительница стаи Денна	14	22	1", -- [1122]
+			"<00:50:43> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:195525::::::::70:269::3:7:6652:7937:7979:8821:8819:1472:8767::::::|h[Наручи преданного мастера огня]|h|r", -- [1123]
+			"<00:50:43> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:194307::::::::70:269::3:4:7979:6652:1472:8767::::::|h[Обещание хранительницы стаи]|h|r", -- [1124]
+			"<00:50:43> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:195523::::::::70:269::3:6:6652:7979:8821:8817:1472:8767::::::|h[Защитные полуперчатки хранителя яиц]|h|r", -- [1125]
+			"<00:50:43> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:196604::::::::70:269::3:4:7979:8826:1472:8767::::::|h[Камень Кузни из почитаемого лазурита]|h|r", -- [1126]
+			"<00:50:43> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:196599::::::::70:269::3:4:7979:8826:1472:8767::::::|h[Камень Кузни из таинственного лазурита]|h|r", -- [1127]
+			"<00:50:44> <DEBUG>		Event:	LOOT_READY	true", -- [1128]
+			"<00:50:44> <DEBUG>		Ignoring	nil	as it's a currency", -- [1129]
+			"<00:50:44> <DEBUG>		Event:	LOOT_READY	true", -- [1130]
+			"<00:50:44> <DEBUG>		Ignoring	nil	as it's a currency", -- [1131]
+			"<00:50:44> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Менструа	DEATHKNIGHT", -- [1132]
+			"<00:50:44> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Менструа	DEATHKNIGHT", -- [1133]
+			"<00:50:44> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Ожившийлось	DEATHKNIGHT", -- [1134]
+			"<00:50:44> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Бабусянатусе	PRIEST", -- [1135]
+			"<00:50:44> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Бабусянатусе	PRIEST", -- [1136]
+			"<00:50:44> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Ожившийлось	DEATHKNIGHT", -- [1137]
+			"<00:50:44> <Comm>		^1^Sl^T^N1^S190245^t^^	RAID	ожившийлось-Ревущийфьорд", -- [1138]
+			"<00:50:44> <Comm>		^1^Sl^T^N1^S190245^t^^	RAID	ожившийлось-Ревущийфьорд", -- [1139]
+			"<00:50:44> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Нотушка	DEATHKNIGHT", -- [1140]
+			"<00:50:45> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Хугомонк	MONK", -- [1141]
+			"<00:50:45> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Мурратик	PALADIN", -- [1142]
+			"<00:50:45> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Нотушка	DEATHKNIGHT", -- [1143]
+			"<00:50:45> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Мурратик	PALADIN", -- [1144]
+			"<00:50:45> <Comm>		^1^Sl^T^N1^S190245^t^^	RAID	нотушка-Ревущийфьорд", -- [1145]
+			"<00:50:45> <Comm>		^1^Sl^T^N1^S190245^t^^	RAID	нотушка-Ревущийфьорд", -- [1146]
+			"<00:50:45> <DEBUG>		Event:	LOOT_CLOSED", -- [1147]
+			"<00:50:45> <DEBUG>		Event:	LOOT_CLOSED", -- [1148]
+			"<00:50:45> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Хугомонк	MONK", -- [1149]
+			"<00:50:45> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Аландир	DEMONHUNTER", -- [1150]
+			"<00:50:45> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Этовертолет	WARRIOR", -- [1151]
+			"<00:50:45> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Линлот	HUNTER", -- [1152]
+			"<00:50:45> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Этовертолет	WARRIOR", -- [1153]
+			"<00:50:45> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Аландир	DEMONHUNTER", -- [1154]
+			"<00:50:45> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Линлот	HUNTER", -- [1155]
+			"<00:50:46> <Comm>		^1^Sl^T^N1^S190245^t^^	RAID	аландир-Ревущийфьорд", -- [1156]
+			"<00:50:46> <Comm>		^1^Sl^T^N1^S190245^t^^	RAID	аландир-Ревущийфьорд", -- [1157]
+			"<00:50:46> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Ватрониум	SHAMAN", -- [1158]
+			"<00:50:46> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Ледиланатель	MAGE", -- [1159]
+			"<00:50:46> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Ватрониум	SHAMAN", -- [1160]
+			"<00:50:46> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Ледиланатель	MAGE", -- [1161]
+			"<00:50:46> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Злюдра	DRUID", -- [1162]
+			"<00:50:46> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Злюдра	DRUID", -- [1163]
+			"<00:50:47> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Аскельт	HUNTER", -- [1164]
+			"<00:50:47> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Хохохохохох	PRIEST", -- [1165]
+			"<00:50:47> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Бишарк	SHAMAN", -- [1166]
+			"<00:50:47> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Серегя	SHAMAN", -- [1167]
+			"<00:50:47> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Натазат	MAGE", -- [1168]
+			"<00:50:47> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Хохохохохох	PRIEST", -- [1169]
+			"<00:50:47> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Бишарк	SHAMAN", -- [1170]
+			"<00:50:47> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	191784	|cffa335ee|Hitem:191784::::::::70:269:::::::::|h[Драконий осколок знания]|h|r	1	Аскельт	HUNTER", -- [1171]
+			"<00:50:47> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Натазат	MAGE", -- [1172]
+			"<00:50:47> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Аскельт	HUNTER", -- [1173]
+			"<00:50:47> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Серегя	SHAMAN", -- [1174]
+			"<00:50:48> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Ювитта	EVOKER", -- [1175]
+			"<00:50:48> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Ювитта	EVOKER", -- [1176]
+			"<00:50:48> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Гигаовца	MAGE", -- [1177]
+			"<00:50:48> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Гигаовца	MAGE", -- [1178]
+			"<00:50:49> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Ледотроль	HUNTER", -- [1179]
+			"<00:50:49> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Ледотроль	HUNTER", -- [1180]
+			"<00:50:49> <Comm>		^1^SlootTable^T^N1^T^N1^T^Sstring^S196604:::::::::::3:4:7979:8826:1472:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SХранительница~`стаи~`Денна^t^N2^T^Sstring^S196599:::::::::::3:4:7979:8826:1472:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SХранительница~`стаи~`Денна^t^N3^T^Sstring^S195523:::::::::::3:6:6652:7979:8821:8817:1472:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SХранительница~`стаи~`Денна^t^N4^T^Sstring^S195525:::::::::::3:7:6652:7937:7979:8821:8819:1472:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SХранительница~`стаи~`Денна^t^N5^T^Sstring^S194307:::::::::::3:4:7979:6652:1472:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SХранительница~`стаи~`Денна^t^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1181]
+			"<00:50:49> <INFO>		Autopassed on: 	|cffa335ee|Hitem:196604::::::::70:269::3:4:7979:8826:1472:8767::::::|h[Камень Кузни из почитаемого лазурита]|h|r", -- [1182]
+			"<00:50:49> <INFO>		Autopassed on: 	|cffa335ee|Hitem:196599::::::::70:269::3:4:7979:8826:1472:8767::::::|h[Камень Кузни из таинственного лазурита]|h|r", -- [1183]
+			"<00:50:49> <INFO>		Autopassed on: 	|cffa335ee|Hitem:195523::::::::70:269::3:6:6652:7979:8821:8817:1472:8767::::::|h[Защитные полуперчатки хранителя яиц]|h|r", -- [1184]
+			"<00:50:49> <INFO>		GetPlayersGear	|cffa335ee|Hitem:196604::::::::70:269::3:4:7979:8826:1472:8767::::::|h[Камень Кузни из почитаемого лазурита]|h|r	INVTYPE_SHOULDER", -- [1185]
+			"<00:50:49> <INFO>		GetPlayersGear	|cffa335ee|Hitem:196599::::::::70:269::3:4:7979:8826:1472:8767::::::|h[Камень Кузни из таинственного лазурита]|h|r	INVTYPE_SHOULDER", -- [1186]
+			"<00:50:49> <INFO>		GetPlayersGear	|cffa335ee|Hitem:195523::::::::70:269::3:6:6652:7979:8821:8817:1472:8767::::::|h[Защитные полуперчатки хранителя яиц]|h|r	INVTYPE_HAND", -- [1187]
+			"<00:50:49> <INFO>		GetPlayersGear	|cffa335ee|Hitem:195525::::::::70:269::3:7:6652:7937:7979:8821:8819:1472:8767::::::|h[Наручи преданного мастера огня]|h|r	INVTYPE_WRIST", -- [1188]
+			"<00:50:49> <INFO>		GetPlayersGear	|cffa335ee|Hitem:194307::::::::70:269::3:4:7979:6652:1472:8767::::::|h[Обещание хранительницы стаи]|h|r	INVTYPE_TRINKET", -- [1189]
+			"<00:50:49> <INFO>		LootFrame:Start	5	nil", -- [1190]
+			"<00:50:49> <DEBUG>		Restoring entry:	default	1", -- [1191]
+			"<00:50:49> <DEBUG>		GetButtons	default", -- [1192]
+			"<00:50:49> <DEBUG>		Restoring entry:	default	1", -- [1193]
+			"<00:50:49> <DEBUG>		GetButtons	default", -- [1194]
+			"<00:50:50> <Comm>		^1^SlootAck^T^N1^N253^N2^N377.5^N3^T^Sresponse^T^N1^B^N3^B^N4^B^N5^B^t^Sdiff^T^N1^N29^N2^N29^N3^N19^N4^N22^N5^N26^t^Sgear1^T^N1^S192002::::::::70:253::73:4:6652:1481:5855:8766:1:28:2437^N2^S192002::::::::70:253::73:4:6652:1481:5855:8766:1:28:2437^N3^S193752::::::::70:253::16:8:8962:7977:6652:8822:8817:9144:1601:8767:1:28:1279^N4^S192004:6573:::::::70:253::42:5:6652:7937:1485:5858:8767:1:28:2275^N5^S193769::::::::70:253::23:4:7977:6652:1594:8767:1:28:2157^t^Sgear2^T^N5^S198542::::::::70:253::36:4:6652:1430:5865:8767:1:28:2537^t^t^t^^	RAID	ледотроль-Ревущийфьорд", -- [1195]
+			"<00:50:50> <Comm>		^1^SlootAck^T^N1^N1467^N2^N385.8125^N3^T^Sresponse^T^t^Sdiff^T^N1^N9^N2^N9^N3^N3^N4^N3^N5^N26^t^Sgear1^T^N1^S143970::::::::70:1467::33:8:7977:6652:8822:8817:9144:8965:3279:8767:1:28:1279^N2^S143970::::::::70:1467::33:8:7977:6652:8822:8817:9144:8965:3279:8767:1:28:1279^N3^S200380::::::::70:1467::3:5:7979:6652:8829:1472:8767^N4^S195516:6574:::::::70:1467::3:7:6652:7937:7979:8821:8819:1472:8767^N5^S193743::::::::70:1467::23:4:7977:6652:1594:8767:1:28:2157^t^Sgear2^T^N5^S200563::::::::70:1467::27:4:6652:1488:5864:8767:1:28:2534^t^t^t^^	RAID	ювитта-Ревущийфьорд", -- [1196]
+			"<00:50:50> <Comm>		^1^SlootAck^T^N1^N263^N2^N379.5^N3^T^Sresponse^T^N2^B^N3^B^N4^B^t^Sdiff^T^N1^N9^N2^N9^N3^N0^N4^N26^N5^N26^t^Sgear1^T^N1^S195499::::::::70:263::3:6:6652:8821:8817:7979:1472:8767^N2^S195499::::::::70:263::3:6:6652:8821:8817:7979:1472:8767^N3^S200398::::::::70:263::35:6:6652:8829:8968:7977:1475:8767^N4^S193812:6583:::::::70:263::23:6:7977:6652:7937:8815:1594:8767:1:28:2155^N5^S193697::::::::70:263::16:6:8964:7977:6652:9144:1607:8767:1:28:1279^t^Sgear2^T^N5^S193743::::::::70:263::23:4:7977:6652:1594:8767:1:28:2157^t^t^t^^	RAID	ватрониум-Ревущийфьорд", -- [1197]
+			"<00:50:50> <Comm>		^1^SlootAck^T^N1^N264^N2^N385.375^N3^T^Sresponse^T^N2^B^N3^B^N4^B^t^Sdiff^T^N1^N6^N2^N6^N3^N26^N4^N26^N5^N16^t^Sgear1^T^N1^S193704::::::::70:264::33:8:8966:7977:6652:8822:8817:9144:1614:8767:1:28:1279^N2^S193704::::::::70:264::33:8:8966:7977:6652:8822:8817:9144:1614:8767:1:28:1279^N3^S193752::::::::70:264::23:5:7977:6652:8813:1594:8767:1:28:2157^N4^S193693:6576:192924::::::70:264::23:6:7977:6652:7935:8815:1594:8767:1:28:2157^N5^S191491::::::::70:264::13:4:8836:8840:8902:8802:3:28:2164:38:8:40:200^t^Sgear2^T^N5^S200563::::::::70:264::26:4:6652:1485:5864:8767:1:28:2287^t^t^t^^	RAID	серегя-Ревущийфьорд", -- [1198]
+			"<00:50:50> <Comm>		^1^SlootAck^T^N1^N71^N2^N383.0625^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^N5^B^t^Sdiff^T^N1^N26^N2^N26^N3^N3^N4^N19^N5^N26^t^Sgear1^T^N1^S193802::::::::70:71::23:5:7977:41:8813:1594:8767:1:28:2155^N2^S193802::::::::70:71::23:5:7977:41:8813:1594:8767:1:28:2155^N3^S200425::::::::70:71::3:5:7979:6652:8829:1472:8767:1:28:1040^N4^S109878:6583:::::::70:71::16:9:8962:7977:6652:7936:8822:8819:9144:3264:8767:1:28:1279^N5^S193679::::::::70:71::23:4:7977:6652:1594:8767:1:28:2155^t^Sgear2^T^N5^S193701::::::::70:71::16:6:8965:7977:6652:9144:1611:8767:1:28:1279^t^t^t^^	RAID	этовертолет-Ревущийфьорд", -- [1199]
+			"<00:50:50> <Comm>		^1^SlootAck^T^N1^N105^N2^N389.375^N3^T^Sresponse^T^N1^B^N3^B^t^Sdiff^T^N1^N16^N2^N16^N3^N16^N4^N13^N5^N26^t^Sgear1^T^N1^S201942::::::::70:105::13:5:8851:8852:8802:8850:8793:7:28:2164:29:49:30:32:38:8:40:849:45:198059:46:194566^N2^S201942::::::::70:105::13:5:8851:8852:8802:8850:8793:7:28:2164:29:49:30:32:38:8:40:849:45:198059:46:194566^N3^S201943::::::::70:105::13:5:8851:8852:8802:8850:8793:7:28:2164:29:36:30:40:38:8:40:847:45:198059:46:194566^N4^S199430:6574:::::::70:105::14:7:8943:6652:7936:8822:8819:1507:8767:1:28:2474^N5^S200563::::::::70:105::25:4:6652:1475:5864:8767:1:28:2602^t^Sgear2^T^N5^S198539::::::::70:105::36:4:6652:1430:5865:8767:1:28:2537^t^t^t^^	RAID	злюдра-Ревущийфьорд", -- [1200]
+			"<00:50:50> <Comm>		^1^SlootAck^T^N1^N577^N2^N392.8125^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N5^B^t^Sdiff^T^N1^N3^N2^N3^N3^N6^N4^N6^N5^N16^t^Sgear1^T^N1^S133620::::::::70:577::33:8:8967:7977:6652:8822:8817:9144:3274:8767:1:28:1279^N2^S133620::::::::70:577::33:8:8967:7977:6652:8822:8817:9144:3274:8767:1:28:1279^N3^S137480::::::::70:577::16:8:8966:7977:6652:8822:8817:9144:3271:8767:1:28:1279^N4^S193649:6571:::::::70:577::33:9:8966:7977:6652:7937:8822:8819:9144:1614:8767:1:28:1279^N5^S193701::::::::70:577::16:6:7977:6652:9144:8963:1604:8767:1:28:1279^t^Sgear2^T^N5^S193697::::::::70:577::16:6:8966:7977:6652:9144:1614:8767:1:28:1279^t^t^t^^	RAID	аландир-Ревущийфьорд", -- [1201]
+			"<00:50:50> <Comm>		^1^SlootAck^T^N1^N66^N2^N391.0625^N3^T^Sresponse^T^N2^B^N3^B^N4^B^t^Sdiff^T^N1^N-4^N2^N-4^N3^N3^N4^N6^N5^N6^t^Sgear1^T^N1^S195477::::::::70:66::5:6:7980:6652:8825:8817:1485:8767^N2^S195477::::::::70:66::5:6:7980:6652:8825:8817:1485:8767^N3^S200416::::::::70:66::3:5:7979:6652:8829:1472:8767:1:28:1040^N4^S109878::::::::70:66::16:9:8966:7977:6652:7937:8822:8819:9144:3277:8767:1:28:1279^N5^S194306::::::::70:66::3:4:7979:6652:1472:8767^t^Sgear2^T^N5^S133642::::::::70:66::16:6:8966:7977:6652:9144:3271:8767:1:28:1279^t^t^t^^	RAID	мурратик-Ревущийфьорд", -- [1202]
+			"<00:50:50> <Comm>		^1^SlootAck^T^N1^N259^N2^N392.5^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N5^B^t^Sdiff^T^N1^N6^N2^N6^N3^N13^N4^N22^N5^N19^t^Sgear1^T^N1^S193642::::::::70:259::33:8:8966:7977:6652:8822:8817:9144:1614:8767:1:28:1279^N2^S193642::::::::70:259::33:8:8966:7977:6652:8822:8817:9144:1614:8767:1:28:1279^N3^S193758::::::::70:259::16:8:8964:7977:6652:8822:8817:9144:1607:8767:1:28:1279^N4^S193388:6586:::::::70:259::13:6:8837:8838:4785:8800:8850:8795:7:28:2164:29:49:30:36:38:6:40:334:45:198059:46:194572^N5^S133642::::::::70:259::33:6:8966:7977:6652:9144:3271:8767:1:28:1279^t^Sgear2^T^N5^S198451::::::::70:259::37:4:6652:1433:5865:8767:1:28:2275^t^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1203]
+			"<00:50:50> <Comm>		^1^SlootAck^T^N1^N252^N2^N391.125^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^N5^B^t^Sdiff^T^N1^N26^N2^N26^N3^N3^N4^N16^N5^N6^t^Sgear1^T^N1^S193802::::::::70:252::23:5:7977:6652:8813:1594:8767:1:28:2155^N2^S193802::::::::70:252::23:5:7977:6652:8813:1594:8767:1:28:2155^N3^S200407::::::::70:252::3:5:7979:6652:8829:1472:8767:1:28:1040^N4^S189539:6571:::::::70:252::13:6:8837:8838:4785:8802:8850:8791:7:28:2164:29:36:30:40:38:8:40:166:45:198059:46:194578^N5^S110012::::::::70:252::33:6:8966:7977:6652:9144:3277:8767:1:28:1279^t^Sgear2^T^N5^S193762::::::::70:252::16:6:7977:6652:9144:8969:1624:8767:1:28:1279^t^t^t^^	RAID	менструа-Ревущийфьорд", -- [1204]
+			"<00:50:50> <Comm>		^1^SlootAck^T^N1^N256^N2^N385.8125^N3^T^Sresponse^T^N2^B^N4^B^t^Sdiff^T^N1^N6^N2^N6^N3^N26^N4^N26^N5^N13^t^Sgear1^T^N1^S136775::::::::70:256::16:8:8966:7977:6652:8822:8817:9144:3271:8767:1:28:1279^N2^S136775::::::::70:256::16:8:8966:7977:6652:8822:8817:9144:3271:8767:1:28:1279^N3^S193713::::::::70:256::23:5:7977:6652:8813:1594:8767:1:28:2157^N4^S191990:6579:::::::70:256::36:5:6652:7937:1478:5861:8767:1:28:2287^N5^S137484::::::::70:256::16:6:8964:7977:41:9144:3264:8767:1:28:1279^t^Sgear2^T^N5^S191492::::::::70:256::13:4:8836:8840:8902:8802:3:28:2164:38:8:40:201^t^t^t^^	RAID	хохохохохох-Ревущийфьорд", -- [1205]
+			"<00:50:50> <Comm>		^1^SlootAck^T^N1^N62^N2^N380.5^N3^T^Sresponse^T^N1^B^N4^B^t^Sdiff^T^N1^N148^N2^N148^N3^N26^N4^N6^N5^N9^t^Sgear1^T^N1^S193788::::::::70:62::17:4:7978:7975:6652:8813:2:9:70:28:2587^N2^S193788::::::::70:62::17:4:7978:7975:6652:8813:2:9:70:28:2587^N3^S193775::::::::70:62::23:5:7977:6652:8813:1594:8767:1:28:2157^N4^S193510:6581:::::::70:62::13:4:8836:8840:8902:8802:5:28:2164:29:32:30:36:38:8:40:451^N5^S198407::::::::70:62::74:4:9136:6652:1476:8767:1:28:2437^t^Sgear2^T^N5^S194304::::::::70:62::3:4:6652:7979:1472:8767^t^t^t^^	RAID	натазат-Ревущийфьорд", -- [1206]
+			"<00:50:50> <Comm>		^1^SlootAck^T^N1^N254^N2^N374.1875^N3^T^Sresponse^T^N1^B^N3^B^N4^B^N5^B^t^Sdiff^T^N1^N26^N2^N26^N3^N13^N4^N6^N5^N148^t^Sgear1^T^N1^S193637::::::::70:254::23:5:7977:6652:8813:1594:8767:1:28:2157^N2^S193637::::::::70:254::23:5:7977:6652:8813:1594:8767:1:28:2157^N3^S199443::::::::70:254::14:6:8943:6652:8822:8817:1507:8767:1:28:2474^N4^S193428::::::::70:254::13:5:8836:8840:8902:8802:8791:6:28:2164:29:32:30:49:38:8:40:351:47:194578^N5^S193697::::::::70:254::17:3:7978:7975:6652:2:9:70:28:2587^t^Sgear2^T^N5^S193743::::::::70:254::17:3:7978:7975:6652:2:9:70:28:2587^t^t^t^^	RAID	аскельт-Ревущийфьорд", -- [1207]
+			"<00:50:50> <Comm>		^1^SlootAck^T^N1^N269^N2^N385^N3^T^Sresponse^T^N1^B^N2^B^N3^B^t^Sdiff^T^N1^N9^N2^N9^N3^N3^N4^N22^N5^N26^t^Sgear1^T^N1^S195486::::::::70:269::3:6:6652:8821:8817:7979:1472:8767^N2^S195486::::::::70:269::3:6:6652:8821:8817:7979:1472:8767^N3^S195514::::::::70:269::3:6:6652:7979:8821:8817:1472:8767^N4^S134192:6573:::::::70:269::16:9:8961:7977:6652:7936:8822:8819:9144:3255:8767:1:28:1279^N5^S192797::::::::70:269::37:4:6652:1481:5862:8767:1:28:2521^t^Sgear2^T^N5^S193701::::::::70:269::23:4:7977:6652:1594:8767:1:28:2157^t^t^t^^	RAID	хугомонк-Ревущийфьорд", -- [1208]
+			"<00:50:50> <Comm>		^1^SlootAck^T^N1^N257^N2^N383.5^N3^T^Sresponse^T^N2^B^N4^B^t^Sdiff^T^N1^N26^N2^N26^N3^N16^N4^N13^N5^N26^t^Sgear1^T^N1^S193690::::::::70:257::23:5:7977:6652:8813:1594:8767:1:28:2157^N2^S193690::::::::70:257::23:5:7977:6652:8813:1594:8767:1:28:2157^N3^S144118::::::::70:257::33:8:8963:7977:6652:8822:8817:9144:3272:8767:1:28:1279^N4^S191990:6580:::::::70:257::43:5:6652:7937:1488:5864:8767:1:28:2533^N5^S191491::::::::70:257::13:4:8836:8840:8902:8801:3:28:2164:38:7:40:200^t^Sgear2^T^N5^S193678::::::::70:257::23:4:7977:41:1594:8767:1:28:2155^t^t^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [1209]
+			"<00:50:50> <Comm>		^1^SlootAck^T^N1^N252^N2^N386.5^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^N5^B^t^Sdiff^T^N1^N26^N2^N26^N3^N3^N4^N22^N5^N26^t^Sgear1^T^N1^S193741::::::::70:252::23:5:7977:6652:8813:1594:8767:1:28:2157^N2^S193741::::::::70:252::23:5:7977:6652:8813:1594:8767:1:28:2157^N3^S200407::::::::70:252::3:5:7979:6652:8829:1472:8767:1:28:1040^N4^S192012:6574:::::::70:252::36:5:6652:7936:1478:5865:8767:1:28:2246^N5^S194303::::::::70:252::5:4:6652:7980:1485:8767^t^Sgear2^T^N5^S193701::::::::70:252::23:4:7977:6652:1594:8767:1:28:2157^t^t^t^^	RAID	нотушка-Ревущийфьорд", -- [1210]
+			"<00:50:50> <Comm>		^1^SlootAck^T^N1^N64^N2^N384.625^N3^T^Sresponse^T^N1^B^N4^B^t^Sdiff^T^N1^N22^N2^N22^N3^N19^N4^N9^N5^N26^t^Sgear1^T^N1^S192015::::::::70:64::37:4:40:1481:5862:8767:1:28:2275^N2^S192015::::::::70:64::37:4:40:1481:5862:8767:1:28:2275^N3^S191986::::::::70:64::73:4:6652:1485:5861:8767:1:28:2437^N4^S193635:6585:::::::70:64::16:9:8965:7977:6652:7937:8822:8819:9144:1611:8767:1:28:1279^N5^S200563::::::::70:64::26:4:6652:1485:5858:8767:1:28:2516^t^Sgear2^T^N5^S193660::::::::70:64::23:4:7977:6652:1594:8767:1:28:2155^t^t^t^^	RAID	гигаовца-Ревущийфьорд", -- [1211]
+			"<00:50:50> <Comm>		^1^SlootAck^T^N1^N254^N2^N385.3125^N3^T^Sresponse^T^N1^B^N3^B^N4^B^N5^B^t^Sdiff^T^N1^N9^N2^N9^N3^N3^N4^N-4^N5^N22^t^Sgear1^T^N1^S143970::::::::70:254::33:8:8965:7977:6652:8822:8817:9144:3279:8767:1:28:1279^N2^S143970::::::::70:254::33:8:8965:7977:6652:8822:8817:9144:3279:8767:1:28:1279^N3^S200389::::::::70:254::3:5:7979:6652:8829:1472:8767:1:28:1040^N4^S134296:6573:::::::70:254::35:9:8969:7977:6652:7937:8822:8819:9144:3281:8767^N5^S200859::::::::70:254::27:4:6652:1494:5849:8767:1:28:2534^t^Sgear2^T^N5^S193701::::::::70:254::16:6:8966:7977:6652:9144:1614:8767:1:28:1279^t^t^t^^	RAID	линлот-Ревущийфьорд", -- [1212]
+			"<00:50:50> <Comm>		^1^SlootAck^T^N1^N63^N2^N388.75^N3^T^Sresponse^T^N1^B^N4^B^t^Sdiff^T^N1^N26^N2^N26^N3^N22^N4^N-7^N5^N26^t^Sgear1^T^N1^S193788:6673:::::::70:63::23:5:7977:6652:8813:1594:8767:1:28:2157^N2^S193788:6673:::::::70:63::23:5:7977:6652:8813:1594:8767:1:28:2157^N3^S201938::::::::70:63::13:5:8851:8852:8800:8850:8793:7:28:2164:29:40:30:36:38:6:40:853:44:198059:45:194566^N4^S193510:6571:::::::70:63::13:8:8836:8840:8902:8802:8845:8792:8932:8960:8:28:2164:29:32:30:36:38:8:40:451:45:197921:46:194570:47:193944^N5^S191492::::::::70:63::13:4:8836:8840:8902:8802:3:28:2164:38:8:40:201^t^Sgear2^T^N5^S193791::::::::70:63::23:4:7977:6652:1594:8767:1:28:2155^t^t^t^^	RAID	ледиланатель-Ревущийфьорд", -- [1213]
+			"<00:50:50> <Comm>		^1^SlootAck^T^N1^N250^N2^N394.75^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^N5^B^t^Sdiff^T^N1^N19^N2^N19^N3^N3^N4^N6^N5^N16^t^Sgear1^T^N1^S201952::::::::70:250::13:5:8851:8852:8801:8850:8793:7:28:2164:29:49:30:36:38:7:40:843:45:198059:46:194566^N2^S201952::::::::70:250::13:5:8851:8852:8801:8850:8793:7:28:2164:29:49:30:36:38:7:40:843:45:198059:46:194566^N3^S200407::::::::70:250::3:5:7979:6652:8829:1472:8767:1:28:1040^N4^S109878::::::::70:250::33:9:8966:7977:6652:7937:8822:8819:9144:3277:8767:1:28:1279^N5^S200563::::::::70:250::26:4:6652:1485:5864:8767:1:28:2287^t^Sgear2^T^N5^S194299::::::::70:250::5:4:7980:6652:1485:8767^t^t^t^^	RAID	ожившийлось-Ревущийфьорд", -- [1214]
+			"<00:50:50> <Comm>		^1^SlootAck^T^N1^N264^N2^N383.75^N3^T^Sresponse^T^N2^B^N3^B^N4^B^t^Sdiff^T^N1^N9^N2^N9^N3^N3^N4^N26^N5^N26^t^Sgear1^T^N1^S193704::::::::70:264::16:8:7977:6652:8822:8817:9144:8965:1611:8767:1:28:1279^N2^S193704::::::::70:264::16:8:7977:6652:8822:8817:9144:8965:1611:8767:1:28:1279^N3^S200398::::::::70:264::3:5:7979:6652:8829:1472:8767^N4^S193693::::::::70:264::23:6:7977:6652:7936:8815:1594:8767:1:28:2157^N5^S194300::::::::70:264::3:4:6652:7979:1472:8767^t^Sgear2^T^N5^S193743::::::::70:264::23:4:7977:6652:1594:8767:1:28:2157^t^t^t^^	RAID	бишарк-Ревущийфьорд", -- [1215]
+			"<00:50:50> <Comm>		^1^SlootAck^T^N1^N266^N2^N391.25^N3^T^Sresponse^T^N1^B^N2^B^N4^B^t^Sdiff^T^N1^N3^N2^N3^N3^N6^N4^N16^N5^N19^t^Sgear1^T^N1^S195493::::::::70:266::3:6:6652:7979:8821:8817:1472:8767^N2^S195493::::::::70:266::3:6:6652:7979:8821:8817:1472:8767^N3^S193713::::::::70:266::16:8:8966:7977:6652:8822:8817:9144:1614:8767:1:28:1279^N4^S191990:6583:::::::70:266::42:5:6652:7936:1485:5864:8767:1:28:2533^N5^S198407::::::::70:266::37:4:41:1433:5865:8767:1:28:2287^t^Sgear2^T^N5^S191492::::::::70:266::13:5:8836:8840:8902:8799:8845:4:28:2164:38:5:40:201:46:197921^t^t^t^^	RAID	комт-Ревущийфьорд", -- [1216]
+			"<00:50:52> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N1^t^t^^	RAID	линлот-Ревущийфьорд", -- [1217]
+			"<00:50:52> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^	RAID	ватрониум-Ревущийфьорд", -- [1218]
+			"<00:50:52> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N1^t^t^^	RAID	хохохохохох-Ревущийфьорд", -- [1219]
+			"<00:50:53> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N1^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1220]
+			"<00:50:53> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N1^t^t^^	RAID	злюдра-Ревущийфьорд", -- [1221]
+			"<00:50:54> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^	RAID	хохохохохох-Ревущийфьорд", -- [1222]
+			"<00:50:54> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N1^t^t^^	RAID	хохохохохох-Ревущийфьорд", -- [1223]
+			"<00:50:55> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	ватрониум-Ревущийфьорд", -- [1224]
+			"<00:50:55> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N1^t^t^^	RAID	комт-Ревущийфьорд", -- [1225]
+			"<00:50:55> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^	RAID	бишарк-Ревущийфьорд", -- [1226]
+			"<00:50:56> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	ювитта-Ревущийфьорд", -- [1227]
+			"<00:50:56> <DEBUG>		LootFrame:Response	1	Response:	Основной спек/Нужно", -- [1228]
+			"<00:50:56> <DEBUG>		SendResponse	group	4	1	nil	nil	nil	nil	nil	nil	nil	nil	nil	nil", -- [1229]
+			"<00:50:56> <DEBUG>		Trashing entry:	1	|cffa335ee|Hitem:195525::::::::70:269::3:7:6652:7937:7979:8821:8819:1472:8767::::::|h[Наручи преданного мастера огня]|h|r", -- [1230]
+			"<00:50:56> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N1^t^t^^	RAID	хугомонк-Ревущийфьорд", -- [1231]
+			"<00:50:57> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	ювитта-Ревущийфьорд", -- [1232]
+			"<00:50:58> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N1^t^t^^	RAID	натазат-Ревущийфьорд", -- [1233]
+			"<00:50:58> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	ювитта-Ревущийфьорд", -- [1234]
+			"<00:50:59> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^SPASS^t^t^^	RAID	ювитта-Ревущийфьорд", -- [1235]
+			"<00:51:00> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Snote^S2~`кусок^Sresponse^N1^t^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [1236]
+			"<00:51:01> <Comm>		^1^Srolls^T^N1^N2^N2^T^Sледотроль-Ревущийфьорд^N2^Sмурратик-Ревущийфьорд^N52^Sменструа-Ревущийфьорд^N39^Sбабусянатусе-Ревущийфьорд^N56^Sювитта-Ревущийфьорд^N55^Sожившийлось-Ревущийфьорд^N6^Sледиланатель-Ревущийфьорд^N77^Sватрониум-Ревущийфьорд^N73^Sбишарк-Ревущийфьорд^N57^Sнотушка-Ревущийфьорд^N83^Sлинлот-Ревущийфьорд^N53^Sсерегя-Ревущийфьорд^N10^Sэтовертолет-Ревущийфьорд^N27^Sхохохохохох-Ревущийфьорд^N50^Sаскельт-Ревущийфьорд^N97^Sкомт-Ревущийфьорд^N69^Sгигаовца-Ревущийфьорд^N31^Sдельфуего-Ревущийфьорд^N38^Sзлюдра-Ревущийфьорд^N36^Sхугомонк-Ревущийфьорд^N26^Sнатазат-Ревущийфьорд^N11^Sаландир-Ревущийфьорд^N96^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1237]
+			"<00:51:01> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N1^t^t^^	RAID	ледотроль-Ревущийфьорд", -- [1238]
+			"<00:51:01> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N1^t^t^^	RAID	аландир-Ревущийфьорд", -- [1239]
+			"<00:51:03> <Comm>		^1^Soffline_timer^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [1240]
+			"<00:51:04> <Comm>		^1^Srolls^T^N1^N1^N2^T^Sледотроль-Ревущийфьорд^N29^Sмурратик-Ревущийфьорд^N53^Sменструа-Ревущийфьорд^N17^Sбабусянатусе-Ревущийфьорд^N84^Sювитта-Ревущийфьорд^N15^Sожившийлось-Ревущийфьорд^N95^Sледиланатель-Ревущийфьорд^N42^Sватрониум-Ревущийфьорд^N100^Sбишарк-Ревущийфьорд^N47^Sнотушка-Ревущийфьорд^N62^Sлинлот-Ревущийфьорд^N97^Sсерегя-Ревущийфьорд^N63^Sэтовертолет-Ревущийфьорд^N39^Sхохохохохох-Ревущийфьорд^N70^Sаскельт-Ревущийфьорд^N26^Sкомт-Ревущийфьорд^N88^Sгигаовца-Ревущийфьорд^N72^Sдельфуего-Ревущийфьорд^N48^Sзлюдра-Ревущийфьорд^N92^Sхугомонк-Ревущийфьорд^N2^Sнатазат-Ревущийфьорд^N55^Sаландир-Ревущийфьорд^N28^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1241]
+			"<00:51:04> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Snote^Sбис~`триня^Sresponse^N1^t^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [1242]
+			"<00:51:05> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	ледиланатель-Ревущийфьорд", -- [1243]
+			"<00:51:05> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	ледиланатель-Ревущийфьорд", -- [1244]
+			"<00:51:06> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	ледиланатель-Ревущийфьорд", -- [1245]
+			"<00:51:07> <DEBUG>		LootFrame:Response	PASS	Response:	Отказаться", -- [1246]
+			"<00:51:07> <DEBUG>		SendResponse	group	5	PASS	nil	nil	nil	nil	nil	nil	nil	nil	nil	nil", -- [1247]
+			"<00:51:07> <DEBUG>		Trashing entry:	1	|cffa335ee|Hitem:194307::::::::70:269::3:4:7979:6652:1472:8767::::::|h[Обещание хранительницы стаи]|h|r", -- [1248]
+			"<00:51:07> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N1^t^t^^	RAID	злюдра-Ревущийфьорд", -- [1249]
+			"<00:51:07> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	хугомонк-Ревущийфьорд", -- [1250]
+			"<00:51:08> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	мурратик-Ревущийфьорд", -- [1251]
+			"<00:51:08> <Comm>		^1^Shistory^T^N1^Sбабусянатусе-Ревущийфьорд^N2^T^SmapID^N2522^Sdate^S21/12/22^Sclass^SPRIEST^SgroupSize^N22^Svotes^N0^Stime^S22:51:05^SitemReplaced1^S|cffa335ee|Hitem:193690::::::::70:259::23:5:7977:6652:8813:1594:8767:1:28:2157:::::|h[Наплечники~`ловца~`драконов]|h|r^Sinstance^SХранилище~`Воплощений-Обычный^Sowner^Sдельфуего-Ревущийфьорд^StypeCode^Sdefault^Sresponse^SОсновной~`спек/Нужно^Sid^S1671641465-25^SdifficultyID^N14^SlootWon^S|cffa335ee|Hitem:196604::::::::70:259::3:4:7979:8826:1472:8767::::::|h[Камень~`Кузни~`из~`почитаемого~`лазурита]|h|r^Snote^S2~`кусок^SisAwardReason^b^SresponseID^N1^Sboss^SХранительница~`стаи~`Денна^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1252]
+			"<00:51:08> <Comm>		^1^Sawarded^T^N1^N1^N2^Sбабусянатусе-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1253]
+			"<00:51:09> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^SPASS^t^t^^	RAID	злюдра-Ревущийфьорд", -- [1254]
+			"<00:51:10> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N1^t^t^^	RAID	аскельт-Ревущийфьорд", -- [1255]
+			"<00:51:11> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N1^t^t^^	RAID	гигаовца-Ревущийфьорд", -- [1256]
+			"<00:51:11> <Comm>		^1^Srolls^T^N1^N2^N2^T^Sледотроль-Ревущийфьорд^N40^Sмурратик-Ревущийфьорд^N77^Sменструа-Ревущийфьорд^N15^Sбабусянатусе-Ревущийфьорд^N52^Sювитта-Ревущийфьорд^N9^Sожившийлось-Ревущийфьорд^N6^Sледиланатель-Ревущийфьорд^N25^Sватрониум-Ревущийфьорд^N12^Sбишарк-Ревущийфьорд^N19^Sнотушка-Ревущийфьорд^N7^Sлинлот-Ревущийфьорд^N10^Sсерегя-Ревущийфьорд^N69^Sэтовертолет-Ревущийфьорд^N36^Sхохохохохох-Ревущийфьорд^N83^Sаскельт-Ревущийфьорд^N5^Sкомт-Ревущийфьорд^N14^Sгигаовца-Ревущийфьорд^N54^Sдельфуего-Ревущийфьорд^N68^Sзлюдра-Ревущийфьорд^N82^Sхугомонк-Ревущийфьорд^N22^Sнатазат-Ревущийфьорд^N17^Sаландир-Ревущийфьорд^N20^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1257]
+			"<00:51:11> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Snote^SБИС^Sresponse^N1^t^t^^	RAID	серегя-Ревущийфьорд", -- [1258]
+			"<00:51:14> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Snote^S3^Sresponse^SPASS^t^t^^	RAID	мурратик-Ревущийфьорд", -- [1259]
+			"<00:51:15> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N2^t^t^^	RAID	бишарк-Ревущийфьорд", -- [1260]
+			"<00:51:15> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N2^t^t^^	RAID	комт-Ревущийфьорд", -- [1261]
+			"<00:51:15> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N1^t^t^^	RAID	гигаовца-Ревущийфьорд", -- [1262]
+			"<00:51:16> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^	RAID	серегя-Ревущийфьорд", -- [1263]
+			"<00:51:16> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	натазат-Ревущийфьорд", -- [1264]
+			"<00:51:18> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	5	Комт	WARLOCK", -- [1265]
+			"<00:51:18> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2614	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Комт	WARLOCK", -- [1266]
+			"<00:51:18> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [1267]
+			"<00:51:21> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N2^t^t^^	RAID	натазат-Ревущийфьорд", -- [1268]
+			"<00:51:22> <Comm>		^1^Srolls^T^N1^N3^N2^T^Sледотроль-Ревущийфьорд^N72^Sмурратик-Ревущийфьорд^N59^Sменструа-Ревущийфьорд^N52^Sбабусянатусе-Ревущийфьорд^N91^Sювитта-Ревущийфьорд^N7^Sожившийлось-Ревущийфьорд^N51^Sледиланатель-Ревущийфьорд^N34^Sватрониум-Ревущийфьорд^N96^Sбишарк-Ревущийфьорд^N58^Sнотушка-Ревущийфьорд^N95^Sлинлот-Ревущийфьорд^N15^Sсерегя-Ревущийфьорд^N78^Sэтовертолет-Ревущийфьорд^N61^Sхохохохохох-Ревущийфьорд^N4^Sаскельт-Ревущийфьорд^N93^Sкомт-Ревущийфьорд^N100^Sгигаовца-Ревущийфьорд^N39^Sдельфуего-Ревущийфьорд^N68^Sзлюдра-Ревущийфьорд^N24^Sхугомонк-Ревущийфьорд^N16^Sнатазат-Ревущийфьорд^N90^Sаландир-Ревущийфьорд^N9^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1269]
+			"<00:51:22> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	гигаовца-Ревущийфьорд", -- [1270]
+			"<00:51:31> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	ювитта-Ревущийфьорд", -- [1271]
+			"<00:51:58> <Comm>		^1^Srolls^T^N1^N3^N2^T^Sледотроль-Ревущийфьорд^N28^Sмурратик-Ревущийфьорд^N53^Sменструа-Ревущийфьорд^N30^Sбабусянатусе-Ревущийфьорд^N73^Sювитта-Ревущийфьорд^N80^Sожившийлось-Ревущийфьорд^N78^Sледиланатель-Ревущийфьорд^N38^Sватрониум-Ревущийфьорд^N96^Sбишарк-Ревущийфьорд^N31^Sнотушка-Ревущийфьорд^N21^Sлинлот-Ревущийфьорд^N88^Sсерегя-Ревущийфьорд^N67^Sэтовертолет-Ревущийфьорд^N5^Sхохохохохох-Ревущийфьорд^N89^Sаскельт-Ревущийфьорд^N45^Sкомт-Ревущийфьорд^N59^Sгигаовца-Ревущийфьорд^N68^Sдельфуего-Ревущийфьорд^N20^Sзлюдра-Ревущийфьорд^N13^Sхугомонк-Ревущийфьорд^N34^Sнатазат-Ревущийфьорд^N32^Sаландир-Ревущийфьорд^N51^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1272]
+			"<00:52:02> <Comm>		^1^Srolls^T^N1^N4^N2^T^Sледотроль-Ревущийфьорд^N87^Sмурратик-Ревущийфьорд^N78^Sменструа-Ревущийфьорд^N96^Sбабусянатусе-Ревущийфьорд^N7^Sювитта-Ревущийфьорд^N28^Sожившийлось-Ревущийфьорд^N51^Sледиланатель-Ревущийфьорд^N37^Sватрониум-Ревущийфьорд^N27^Sбишарк-Ревущийфьорд^N68^Sнотушка-Ревущийфьорд^N75^Sлинлот-Ревущийфьорд^N95^Sсерегя-Ревущийфьорд^N25^Sэтовертолет-Ревущийфьорд^N9^Sхохохохохох-Ревущийфьорд^N47^Sаскельт-Ревущийфьорд^N8^Sкомт-Ревущийфьорд^N50^Sгигаовца-Ревущийфьорд^N11^Sдельфуего-Ревущийфьорд^N31^Sзлюдра-Ревущийфьорд^N53^Sхугомонк-Ревущийфьорд^N98^Sнатазат-Ревущийфьорд^N14^Sаландир-Ревущийфьорд^N4^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1273]
+			"<00:52:12> <Comm>		^1^Srolls^T^N1^N5^N2^T^Sледотроль-Ревущийфьорд^N6^Sмурратик-Ревущийфьорд^N4^Sменструа-Ревущийфьорд^N56^Sбабусянатусе-Ревущийфьорд^N92^Sювитта-Ревущийфьорд^N76^Sожившийлось-Ревущийфьорд^N79^Sледиланатель-Ревущийфьорд^N25^Sватрониум-Ревущийфьорд^N30^Sбишарк-Ревущийфьорд^N85^Sнотушка-Ревущийфьорд^N70^Sлинлот-Ревущийфьорд^N77^Sсерегя-Ревущийфьорд^N67^Sэтовертолет-Ревущийфьорд^N50^Sхохохохохох-Ревущийфьорд^N93^Sаскельт-Ревущийфьорд^N83^Sкомт-Ревущийфьорд^N95^Sгигаовца-Ревущийфьорд^N32^Sдельфуего-Ревущийфьорд^N59^Sзлюдра-Ревущийфьорд^N22^Sхугомонк-Ревущийфьорд^N33^Sнатазат-Ревущийфьорд^N66^Sаландир-Ревущийфьорд^N94^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1274]
+			"<00:52:12> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1275]
+			"<00:52:12> <INFO>		UpdatePlayersData()", -- [1276]
+			"<00:52:14> <DEBUG>		GetML()", -- [1277]
+			"<00:52:17> <Comm>		^1^Shistory^T^N1^Sбабусянатусе-Ревущийфьорд^N2^T^SmapID^N2522^Sdate^S21/12/22^Sclass^SPRIEST^SgroupSize^N11^Sboss^SХранительница~`стаи~`Денна^Stime^S22:52:14^SitemReplaced1^S|cffa335ee|Hitem:191491::::::::70:259::13:4:8836:8840:8902:8801:3:28:2164:38:7:40:200:::::|h[Поддерживающий~`алхимический~`камень~`|A:Professions-ChatIcon-Quality-Tier4:17:17::1|a]|h|r^StypeCode^Sdefault^Sinstance^SХранилище~`Воплощений-Обычный^Sowner^Sдельфуего-Ревущийфьорд^Sid^S1671641534-26^Sresponse^SОсновной~`спек/Нужно^Snote^Sбис~`триня^SdifficultyID^N14^SlootWon^S|cffa335ee|Hitem:194307::::::::70:259::3:4:7979:6652:1472:8767::::::|h[Обещание~`хранительницы~`стаи]|h|r^SisAwardReason^b^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^SresponseID^N1^SitemReplaced2^S|cffa335ee|Hitem:193678::::::::70:259::23:4:7977:41:1594:8767:1:28:2155:::::|h[Миниатюрный~`поющий~`камень]|h|r^Svotes^N0^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1278]
+			"<00:52:17> <Comm>		^1^Sawarded^T^N1^N5^N2^Sбабусянатусе-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1279]
+			"<00:52:25> <Comm>		^1^Shistory^T^N1^Sлинлот-Ревущийфьорд^N2^T^SmapID^N2522^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SHUNTER^SgroupSize^N11^Sboss^SХранительница~`стаи~`Денна^Stime^S22:52:23^SitemReplaced1^S|cffa335ee|Hitem:143970::::::::70:259::33:8:8965:7977:6652:8822:8817:9144:3279:8767:1:28:1279:::::|h[Наплечники~`малой~`дерзости]|h|r^Sinstance^SХранилище~`Воплощений-Обычный^Sowner^Sдельфуего-Ревущийфьорд^Sresponse^SОсновной~`спек/Нужно^StypeCode^Sdefault^SdifficultyID^N14^SlootWon^S|cffa335ee|Hitem:196599::::::::70:259::3:4:7979:8826:1472:8767::::::|h[Камень~`Кузни~`из~`таинственного~`лазурита]|h|r^Sid^S1671641543-27^Sdate^S21/12/22^SresponseID^N1^Svotes^N0^SisAwardReason^b^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1280]
+			"<00:52:25> <Comm>		^1^Sawarded^T^N1^N2^N2^Sлинлот-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1281]
+			"<00:52:34> <Comm>		^1^Shistory^T^N1^Sхохохохохох-Ревущийфьорд^N2^T^SmapID^N2522^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SPRIEST^SgroupSize^N11^Sboss^SХранительница~`стаи~`Денна^Stime^S22:52:31^SitemReplaced1^S|cffa335ee|Hitem:193713::::::::70:259::23:5:7977:6652:8813:1594:8767:1:28:2157:::::|h[Защитные~`перчатки~`для~`экспериментов]|h|r^Sinstance^SХранилище~`Воплощений-Обычный^Sowner^Sдельфуего-Ревущийфьорд^Sresponse^SОсновной~`спек/Нужно^StypeCode^Sdefault^SdifficultyID^N14^SlootWon^S|cffa335ee|Hitem:195523::::::::70:259::3:6:6652:7979:8821:8817:1472:8767::::::|h[Защитные~`полуперчатки~`хранителя~`яиц]|h|r^Sid^S1671641551-28^Sdate^S21/12/22^SresponseID^N1^Svotes^N0^SisAwardReason^b^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1282]
+			"<00:52:34> <Comm>		^1^Sawarded^T^N1^N3^N2^Sхохохохохох-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1283]
+			"<00:52:45> <Comm>		^1^Shistory^T^N1^Sхугомонк-Ревущийфьорд^N2^T^SmapID^N2522^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SMONK^SgroupSize^N11^Sboss^SХранительница~`стаи~`Денна^Stime^S22:52:42^SitemReplaced1^S|cffa335ee|Hitem:134192:6573:::::::70:259::16:9:8961:7977:6652:7936:8822:8819:9144:3255:8767:1:28:1279:::::|h[Наруч~`из~`медвежьей~`кожи]|h|r^Sinstance^SХранилище~`Воплощений-Обычный^Sowner^Sдельфуего-Ревущийфьорд^Sresponse^SОсновной~`спек/Нужно^StypeCode^Sdefault^SdifficultyID^N14^SlootWon^S|cffa335ee|Hitem:195525::::::::70:259::3:7:6652:7937:7979:8821:8819:1472:8767::::::|h[Наручи~`преданного~`мастера~`огня]|h|r^Sid^S1671641562-29^Sdate^S21/12/22^SresponseID^N1^Svotes^N0^SisAwardReason^b^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1284]
+			"<00:52:45> <Comm>		^1^Sawarded^T^N1^N4^N2^Sхугомонк-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1285]
+			"<00:52:46> <Comm>		^1^Ssession_end^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [1286]
+			"<00:53:01> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:195523::::::::70:259::3:6:6652:7979:8821:8817:1472:8767::::::|h[Защитные~`полуперчатки~`хранителя~`яиц]|h|r^N2^Sхохохохохох-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1287]
+			"<00:53:05> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:196604::::::::70:259::3:4:7979:8826:1472:8767::::::|h[Камень~`Кузни~`из~`почитаемого~`лазурита]|h|r^N2^Sбабусянатусе-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1288]
+			"<00:53:05> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:194307::::::::70:259::3:4:7979:6652:1472:8767::::::|h[Обещание~`хранительницы~`стаи]|h|r^N2^Sбабусянатусе-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1289]
+			"<00:53:11> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:196599::::::::70:259::3:4:7979:8826:1472:8767::::::|h[Камень~`Кузни~`из~`таинственного~`лазурита]|h|r^N2^Sлинлот-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1290]
+			"<00:53:40> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1291]
+			"<00:53:40> <INFO>		UpdatePlayersData()", -- [1292]
+			"<00:53:41> <DEBUG>		GetML()", -- [1293]
+			"<00:54:08> <Comm>		^1^Sv^T^N1^S3.6.4^t^^	GUILD	грандисон-Ревущийфьорд", -- [1294]
+			"<00:54:08> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	ледотроль-Ревущийфьорд", -- [1295]
+			"<00:54:08> <Comm>		^1^Sr^T^N1^S3.6.0^N3^T^t^t^^	GUILD	бесогонтв-Ревущийфьорд", -- [1296]
+			"<00:54:08> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [1297]
+			"<00:54:08> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	натазат-Ревущийфьорд", -- [1298]
+			"<00:54:08> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	бишарк-Ревущийфьорд", -- [1299]
+			"<00:55:04> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190313	|cff0070dd|Hitem:190313::::::::70:269::::1:38:2:::::|h[Каз'горитовая руда |A:Professions-ChatIcon-Quality-Tier2:17:23::1|a]|h|r	2	Аландир	DEMONHUNTER", -- [1300]
+			"<00:55:05> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190322	|cff0070dd|Hitem:190322::::::::70:269:::::::::|h[Пробуждающийся порядок]|h|r	4	Аландир	DEMONHUNTER", -- [1301]
+			"<00:55:16> <Comm>		^1^SStartHandleLoot^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [1302]
+			"<00:55:41> <DEBUG>		Event:	RAID_INSTANCE_WELCOME	Хранилище Воплощений (Героический)	547458	0	0", -- [1303]
+			"<00:55:41> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1304]
+			"<00:55:41> <INFO>		UpdatePlayersData()", -- [1305]
+			"<00:55:43> <DEBUG>		GetML()", -- [1306]
+			"<00:55:52> <DEBUG>		TradeUI: Traded item(s) to	дельфуего-Ревущийфьорд", -- [1307]
+			"<00:55:52> <DEBUG>		TradeUI:Hide()", -- [1308]
+			"<00:55:53> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:195525::::::::70:259::3:7:6652:7937:7979:8821:8819:1472:8767::::::|h[Наручи~`преданного~`мастера~`огня]|h|r^N2^Sхугомонк-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1309]
+			"<00:56:11> <Comm>		^1^Sv^T^N1^S3.6.4^t^^	GUILD	грэндиссон-Ревущийфьорд", -- [1310]
+			"<00:56:11> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	ледотроль-Ревущийфьорд", -- [1311]
+			"<00:56:11> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	бишарк-Ревущийфьорд", -- [1312]
+			"<00:56:11> <Comm>		^1^Sr^T^N1^S3.6.0^N3^T^t^t^^	GUILD	бесогонтв-Ревущийфьорд", -- [1313]
+			"<00:56:11> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [1314]
+			"<00:58:52> <Comm>		^1^Sv^T^N1^S3.6.1^t^^	GUILD	натазат-Ревущийфьорд", -- [1315]
+			"<00:58:52> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SОтряд~`Репка^N4^N0^N5^N380.5^N6^N62^t^^	RAID	натазат-Ревущийфьорд", -- [1316]
+			"<00:58:52> <Comm>		^1^Sxrealm^T^N1^Sдельфуего-Ревущийфьорд^N2^Sreconnect^t^^	RAID	натазат-Ревущийфьорд", -- [1317]
+			"<00:58:52> <Comm>		^1^Sr^T^N1^S3.6.0^N3^T^t^t^^	GUILD	бесогонтв-Ревущийфьорд", -- [1318]
+			"<00:58:52> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [1319]
+			"<01:10:20> <Comm>		^1^Sl^T^N1^S188673^t^^	RAID	комт-Ревущийфьорд", -- [1320]
+			"<01:10:23> <Comm>		^1^Sl^T^N1^S188673^t^^	RAID	нотушка-Ревущийфьорд", -- [1321]
+			"<01:10:23> <Comm>		^1^Sl^T^N1^S188673^t^^	RAID	нотушка-Ревущийфьорд", -- [1322]
+			"<01:10:25> <Comm>		^1^Sl^T^N1^S188673^t^^	RAID	аландир-Ревущийфьорд", -- [1323]
+			"<01:10:25> <Comm>		^1^Sl^T^N1^S188673^t^^	RAID	аландир-Ревущийфьорд", -- [1324]
+			"<01:10:26> <DEBUG>		Event:	LOOT_READY	true", -- [1325]
+			"<01:10:26> <DEBUG>		Ignoring	nil	as it's a currency", -- [1326]
+			"<01:10:26> <DEBUG>		Event:	LOOT_READY	true", -- [1327]
+			"<01:10:26> <DEBUG>		Ignoring	nil	as it's a currency", -- [1328]
+			"<01:10:27> <DEBUG>		Event:	LOOT_CLOSED", -- [1329]
+			"<01:10:27> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	198968	|cff0070dd|Hitem:198968::::::::70:269:::::::::|h[Амулет воина стихий]|h|r	1	Хугомонк	MONK", -- [1330]
+			"<01:10:33> <Comm>		^1^Sl^T^N1^S184693^t^^	RAID	гигаовца-Ревущийфьорд", -- [1331]
+			"<01:10:36> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190320	|cff0070dd|Hitem:190320::::::::70:269:::::::::|h[Пробуждающийся огонь]|h|r	2	Натазат	MAGE", -- [1332]
+			"<01:10:36> <Comm>		^1^Sl^T^N1^S184693^t^^	RAID	натазат-Ревущийфьорд", -- [1333]
+			"<01:10:36> <Comm>		^1^Sl^T^N1^S184693^t^^	RAID	натазат-Ревущийфьорд", -- [1334]
+			"<01:10:41> <Comm>		^1^Sl^T^N1^S188673^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [1335]
+			"<01:10:41> <Comm>		^1^Sl^T^N1^S188673^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [1336]
+			"<01:10:44> <Comm>		^1^Sl^T^N1^S184693^t^^	RAID	дельфуего-Ревущийфьорд", -- [1337]
+			"<01:10:44> <Comm>		^1^Sl^T^N1^S184693^t^^	RAID	дельфуего-Ревущийфьорд", -- [1338]
+			"<01:10:45> <Comm>		^1^Sl^T^N1^S188673^t^^	RAID	ледотроль-Ревущийфьорд", -- [1339]
+			"<01:10:45> <Comm>		^1^Sl^T^N1^S188673^t^^	RAID	ледотроль-Ревущийфьорд", -- [1340]
+			"<01:10:48> <DEBUG>		Event:	LOOT_READY	true", -- [1341]
+			"<01:10:48> <DEBUG>		Ignoring	nil	as it's a currency", -- [1342]
+			"<01:10:49> <DEBUG>		Event:	LOOT_READY	true", -- [1343]
+			"<01:10:49> <DEBUG>		Ignoring	nil	as it's a currency", -- [1344]
+			"<01:10:49> <DEBUG>		Event:	LOOT_CLOSED", -- [1345]
+			"<01:10:49> <DEBUG>		Event:	LOOT_CLOSED", -- [1346]
+			"<01:10:51> <Comm>		^1^Sl^T^N1^S184693^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [1347]
+			"<01:10:51> <Comm>		^1^Sl^T^N1^S184693^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [1348]
+			"<01:10:52> <Comm>		^1^Sl^T^N1^S184693^t^^	RAID	хохохохохох-Ревущийфьорд", -- [1349]
+			"<01:10:52> <Comm>		^1^Sl^T^N1^S184693^t^^	RAID	хохохохохох-Ревущийфьорд", -- [1350]
+			"<01:10:55> <Comm>		^1^Sl^T^N1^S184693^t^^	RAID	нотушка-Ревущийфьорд", -- [1351]
+			"<01:10:55> <Comm>		^1^Sl^T^N1^S188673^t^^	RAID	ватрониум-Ревущийфьорд", -- [1352]
+			"<01:10:55> <Comm>		^1^Sl^T^N1^S188673^t^^	RAID	ватрониум-Ревущийфьорд", -- [1353]
+			"<01:10:59> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190315	|cff0070dd|Hitem:190315::::::::70:269:::::::::|h[Пробуждающаяся земля]|h|r	1	Гигаовца	MAGE", -- [1354]
+			"<01:10:59> <Comm>		^1^Sl^T^N1^S188673^t^^	RAID	гигаовца-Ревущийфьорд", -- [1355]
+			"<01:11:04> <Comm>		^1^Sl^T^N1^S184693^t^^	RAID	хохохохохох-Ревущийфьорд", -- [1356]
+			"<01:11:04> <Comm>		^1^Sl^T^N1^S184693^t^^	RAID	хохохохохох-Ревущийфьорд", -- [1357]
+			"<01:11:06> <Comm>		^1^Sl^T^N1^S188673^t^^	RAID	ювитта-Ревущийфьорд", -- [1358]
+			"<01:11:06> <Comm>		^1^Sl^T^N1^S188673^t^^	RAID	ювитта-Ревущийфьорд", -- [1359]
+			"<01:11:08> <Comm>		^1^Sl^T^N1^S188673^t^^	RAID	комт-Ревущийфьорд", -- [1360]
+			"<01:11:10> <Comm>		^1^Sl^T^N1^S188673^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [1361]
+			"<01:11:10> <Comm>		^1^Sl^T^N1^S188673^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [1362]
+			"<01:11:10> <Comm>		^1^Sl^T^N1^S188673^t^^	RAID	нотушка-Ревущийфьорд", -- [1363]
+			"<01:11:14> <Comm>		^1^Sl^T^N1^S188673^t^^	RAID	ледотроль-Ревущийфьорд", -- [1364]
+			"<01:11:14> <Comm>		^1^Sl^T^N1^S188673^t^^	RAID	ледотроль-Ревущийфьорд", -- [1365]
+			"<01:11:18> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190315	|cff0070dd|Hitem:190315::::::::70:269:::::::::|h[Пробуждающаяся земля]|h|r	1	Ожившийлось	DEATHKNIGHT", -- [1366]
+			"<01:11:22> <Comm>		^1^Sv^T^N1^S3.6.4^t^^	GUILD	тиралея-Ревущийфьорд", -- [1367]
+			"<01:11:23> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	натазат-Ревущийфьорд", -- [1368]
+			"<01:11:23> <Comm>		^1^Sr^T^N1^S3.6.0^N3^T^t^t^^	GUILD	бесогонтв-Ревущийфьорд", -- [1369]
+			"<01:11:23> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [1370]
+			"<01:11:23> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	ледотроль-Ревущийфьорд", -- [1371]
+			"<01:11:23> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	бишарк-Ревущийфьорд", -- [1372]
+			"<01:12:44> <DEBUG>		Event:	ENCOUNTER_START	2587	Эраног	15	21", -- [1373]
+			"<01:12:44> <INFO>		UpdatePlayersData()", -- [1374]
+			"<01:12:44> <Comm>		^1^SStartHandleLoot^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [1375]
+			"<01:17:00> <DEBUG>		Event:	ENCOUNTER_END	2587	Эраног	15	21	1", -- [1376]
+			"<01:17:01> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:195476::::::::70:269::5:7:6652:7937:7980:8825:8820:1485:8767::::::|h[Украшенный шлем Эранога]|h|r", -- [1377]
+			"<01:17:01> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:195482::::::::70:269::5:6:6652:8825:8819:7980:1485:8767::::::|h[Угольный плащ орденоносного командира]|h|r", -- [1378]
+			"<01:17:01> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:195477::::::::70:269::5:6:7980:6652:8825:8817:1485:8767::::::|h[Наплечные щитки расплавленной мощи]|h|r", -- [1379]
+			"<01:17:01> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:195475::::::::70:269::5:4:6652:7980:1485:8767::::::|h[Щит огненного маршала]|h|r", -- [1380]
+			"<01:17:02> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Менструа	DEATHKNIGHT", -- [1381]
+			"<01:17:02> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Менструа	DEATHKNIGHT", -- [1382]
+			"<01:17:02> <DEBUG>		Event:	LOOT_READY	true", -- [1383]
+			"<01:17:02> <DEBUG>		Ignoring	nil	as it's a currency", -- [1384]
+			"<01:17:02> <Comm>		^1^Sl^T^N1^S184972^t^^	RAID	менструа-Ревущийфьорд", -- [1385]
+			"<01:17:02> <Comm>		^1^Sl^T^N1^S184972^t^^	RAID	менструа-Ревущийфьорд", -- [1386]
+			"<01:17:02> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Мурратик	PALADIN", -- [1387]
+			"<01:17:02> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Ожившийлось	DEATHKNIGHT", -- [1388]
+			"<01:17:02> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Мурратик	PALADIN", -- [1389]
+			"<01:17:02> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Дельфуего	ROGUE", -- [1390]
+			"<01:17:02> <DEBUG>		Event:	LOOT_READY	true", -- [1391]
+			"<01:17:02> <DEBUG>		Ignoring	nil	as it's a currency", -- [1392]
+			"<01:17:02> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Дельфуего	ROGUE", -- [1393]
+			"<01:17:02> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Ожившийлось	DEATHKNIGHT", -- [1394]
+			"<01:17:02> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Ювитта	EVOKER", -- [1395]
+			"<01:17:02> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Ювитта	EVOKER", -- [1396]
+			"<01:17:02> <Comm>		^1^Sl^T^N1^S184972^t^^	RAID	ожившийлось-Ревущийфьорд", -- [1397]
+			"<01:17:02> <Comm>		^1^Sl^T^N1^S184972^t^^	RAID	ожившийлось-Ревущийфьорд", -- [1398]
+			"<01:17:02> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Аландир	DEMONHUNTER", -- [1399]
+			"<01:17:02> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Хугомонк	MONK", -- [1400]
+			"<01:17:03> <DEBUG>		Event:	LOOT_CLOSED", -- [1401]
+			"<01:17:03> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Хугомонк	MONK", -- [1402]
+			"<01:17:03> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Аландир	DEMONHUNTER", -- [1403]
+			"<01:17:03> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Ледиланатель	MAGE", -- [1404]
+			"<01:17:03> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Бабусянатусе	PRIEST", -- [1405]
+			"<01:17:03> <Comm>		^1^Sl^T^N1^S184972^t^^	RAID	аландир-Ревущийфьорд", -- [1406]
+			"<01:17:03> <Comm>		^1^Sl^T^N1^S184972^t^^	RAID	аландир-Ревущийфьорд", -- [1407]
+			"<01:17:03> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Ватрониум	SHAMAN", -- [1408]
+			"<01:17:03> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Бабусянатусе	PRIEST", -- [1409]
+			"<01:17:03> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Ледиланатель	MAGE", -- [1410]
+			"<01:17:03> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Комт	WARLOCK", -- [1411]
+			"<01:17:03> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	191784	|cffa335ee|Hitem:191784::::::::70:269:::::::::|h[Драконий осколок знания]|h|r	1	Ватрониум	SHAMAN", -- [1412]
+			"<01:17:03> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Ватрониум	SHAMAN", -- [1413]
+			"<01:17:03> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Комт	WARLOCK", -- [1414]
+			"<01:17:03> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Линлот	HUNTER", -- [1415]
+			"<01:17:04> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Гигаовца	MAGE", -- [1416]
+			"<01:17:04> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Ледотроль	HUNTER", -- [1417]
+			"<01:17:04> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Линлот	HUNTER", -- [1418]
+			"<01:17:04> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	15	Хохохохохох	PRIEST", -- [1419]
+			"<01:17:04> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Ледотроль	HUNTER", -- [1420]
+			"<01:17:04> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Гигаовца	MAGE", -- [1421]
+			"<01:17:04> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Хохохохохох	PRIEST", -- [1422]
+			"<01:17:04> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Хохохохохох	PRIEST", -- [1423]
+			"<01:17:04> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Нотушка	DEATHKNIGHT", -- [1424]
+			"<01:17:04> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Нотушка	DEATHKNIGHT", -- [1425]
+			"<01:17:04> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Бишарк	SHAMAN", -- [1426]
+			"<01:17:05> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Серегя	SHAMAN", -- [1427]
+			"<01:17:05> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Бишарк	SHAMAN", -- [1428]
+			"<01:17:05> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Серегя	SHAMAN", -- [1429]
+			"<01:17:08> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Натазат	MAGE", -- [1430]
+			"<01:17:08> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Натазат	MAGE", -- [1431]
+			"<01:17:09> <Comm>		^1^SlootTable^T^N1^T^N1^T^Sstring^S195475:::::::::::5:4:6652:7980:1485:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SЭраног^t^N2^T^Sstring^S195476:::::::::::5:7:6652:7937:7980:8825:8820:1485:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SЭраног^t^N3^T^Sstring^S195477:::::::::::5:6:7980:6652:8825:8817:1485:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SЭраног^t^N4^T^Sstring^S195482:::::::::::5:6:6652:8825:8819:7980:1485:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SЭраног^t^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1432]
+			"<01:17:09> <INFO>		Autopassed on: 	|cffa335ee|Hitem:195475::::::::70:269::5:4:6652:7980:1485:8767::::::|h[Щит огненного маршала]|h|r", -- [1433]
+			"<01:17:09> <INFO>		Autopassed on: 	|cffa335ee|Hitem:195476::::::::70:269::5:7:6652:7937:7980:8825:8820:1485:8767::::::|h[Украшенный шлем Эранога]|h|r", -- [1434]
+			"<01:17:09> <INFO>		Autopassed on: 	|cffa335ee|Hitem:195477::::::::70:269::5:6:7980:6652:8825:8817:1485:8767::::::|h[Наплечные щитки расплавленной мощи]|h|r", -- [1435]
+			"<01:17:09> <INFO>		GetPlayersGear	|cffa335ee|Hitem:195475::::::::70:269::5:4:6652:7980:1485:8767::::::|h[Щит огненного маршала]|h|r	INVTYPE_SHIELD", -- [1436]
+			"<01:17:09> <INFO>		GetPlayersGear	|cffa335ee|Hitem:195475::::::::70:269::5:4:6652:7980:1485:8767::::::|h[Щит огненного маршала]|h|r	INVTYPE_SHIELD", -- [1437]
+			"<01:17:09> <INFO>		GetPlayersGear	|cffa335ee|Hitem:195476::::::::70:269::5:7:6652:7937:7980:8825:8820:1485:8767::::::|h[Украшенный шлем Эранога]|h|r	INVTYPE_HEAD", -- [1438]
+			"<01:17:09> <INFO>		GetPlayersGear	|cffa335ee|Hitem:195477::::::::70:269::5:6:7980:6652:8825:8817:1485:8767::::::|h[Наплечные щитки расплавленной мощи]|h|r	INVTYPE_SHOULDER", -- [1439]
+			"<01:17:09> <INFO>		GetPlayersGear	|cffa335ee|Hitem:195482::::::::70:269::5:6:6652:8825:8819:7980:1485:8767::::::|h[Угольный плащ орденоносного командира]|h|r	INVTYPE_CLOAK", -- [1440]
+			"<01:17:09> <INFO>		LootFrame:Start	4	nil", -- [1441]
+			"<01:17:09> <DEBUG>		Restoring entry:	default	1", -- [1442]
+			"<01:17:09> <DEBUG>		GetButtons	default", -- [1443]
+			"<01:17:09> <Comm>		^1^SlootAck^T^N1^N253^N2^N377.5^N3^T^Sresponse^T^N1^B^N3^B^t^Sdiff^T^N1^N0^N2^N30^N3^N33^N4^N10^t^Sgear1^T^N2^S193726::::::::70:253::23:6:7977:6652:7936:8816:1594:8767:1:28:2157^N3^S192002::::::::70:253::73:4:6652:1481:5855:8766:1:28:2437^N4^S137483::::::::70:253::33:8:8966:7977:6652:8822:8819:9144:3271:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	ледотроль-Ревущийфьорд", -- [1444]
+			"<01:17:09> <Comm>		^1^SlootAck^T^N1^N105^N2^N389.375^N3^T^Sresponse^T^N1^B^N2^B^N3^B^t^Sdiff^T^N1^N0^N2^N-3^N3^N20^N4^N0^t^Sgear1^T^N2^S193400::::::::70:105::13:8:8836:8840:8902:8802:8845:8932:8960:8793:8:28:2164:29:36:30:49:38:8:40:320:45:197921:46:193945:47:194566^N3^S201942::::::::70:105::13:5:8851:8852:8802:8850:8793:7:28:2164:29:49:30:32:38:8:40:849:45:198059:46:194566^N4^S195482:6592:::::::70:105::5:6:6652:8825:8819:7980:1485:8767^t^Sgear2^T^t^t^t^^	RAID	злюдра-Ревущийфьорд", -- [1445]
+			"<01:17:09> <Comm>		^1^SlootAck^T^N1^N256^N2^N387.4375^N3^T^Sresponse^T^N1^B^N2^B^N3^B^t^Sdiff^T^N1^N0^N2^N10^N3^N10^N4^N4^t^Sgear1^T^N2^S134392::::::::70:256::16:9:8966:7977:6652:7936:8822:8820:9144:3271:8767:1:28:1279^N3^S136775::::::::70:256::16:8:8966:7977:6652:8822:8817:9144:3271:8767:1:28:1279^N4^S200971:6595:::::::70:256::14::1:28:2078^t^Sgear2^T^t^t^t^^	RAID	хохохохохох-Ревущийфьорд", -- [1446]
+			"<01:17:09> <Comm>		^1^SlootAck^T^N1^N66^N2^N391.0625^N3^T^Sresponse^T^N2^B^t^Sdiff^T^N1^N0^N2^N18^N3^N0^N4^N13^t^Sgear1^T^N1^S190503::::::::70:66::13:6:8836:8840:8902:8801:8845:8793:7:28:2164:29:49:30:32:38:7:40:122:44:197921:45:194567^N2^S198326::198298::::::70:66::13:6:8836:8840:8902:8799:8950:8864:6:28:2164:29:36:38:5:40:619:49:198236:50:198259^N3^S195477::::::::70:66::5:6:7980:6652:8825:8817:1485:8767^N4^S193712::::::::70:66::33:8:8965:7977:6652:8822:8819:9144:1611:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	мурратик-Ревущийфьорд", -- [1447]
+			"<01:17:09> <Comm>		^1^SlootAck^T^N1^N263^N2^N379.5^N3^T^Sresponse^T^N3^B^t^Sdiff^T^N1^N23^N2^N23^N3^N13^N4^N30^t^Sgear1^T^N1^S193631:6638:::::::70:263::16:6:8962:7977:6652:9147:1601:8767:1:28:1279^N2^S192000::192960::::::70:263::42:5:6652:7935:1485:5861:8767:1:28:2287^N3^S195499::::::::70:263::3:6:6652:8821:8817:7979:1472:8767^N4^S193629:6602:::::::70:263::23:5:7977:6652:8815:1594:8767:1:28:2157^t^Sgear2^T^t^t^t^^	RAID	ватрониум-Ревущийфьорд", -- [1448]
+			"<01:17:09> <Comm>		^1^SlootAck^T^N1^N259^N2^N392.5^N3^T^Sresponse^T^N1^B^N2^B^N3^B^t^Sdiff^T^N1^N13^N2^N13^N3^N10^N4^N4^t^Sgear1^T^N1^S195503::::::::70:259::3:4:6652:7979:1472:8767^N2^S193751::::::::70:259::33:9:8965:7977:6652:7937:8822:8820:9144:1611:8767:1:28:1279^N3^S193642::::::::70:259::33:8:8966:7977:6652:8822:8817:9144:1614:8767:1:28:1279^N4^S200971:6604:::::::70:259::14::1:28:2078^t^Sgear2^T^t^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1449]
+			"<01:17:09> <Comm>		^1^SlootAck^T^N1^N1467^N2^N385.8125^N3^T^Sresponse^T^t^Sdiff^T^N1^N0^N2^N26^N3^N13^N4^N4^t^Sgear1^T^N2^S144017::::::::70:1467::33:9:8961:7977:6652:7936:8822:8820:9144:3266:8767:1:28:1279^N3^S143970::::::::70:1467::33:8:7977:6652:8822:8817:9144:8965:3279:8767:1:28:1279^N4^S200971:6591:::::::70:1467::14::1:28:2078^t^Sgear2^T^t^t^t^^	RAID	ювитта-Ревущийфьорд", -- [1450]
+			"<01:17:09> <Comm>		^1^SlootAck^T^N1^N62^N2^N380.5^N3^T^Sresponse^T^N1^B^N2^B^N3^B^t^Sdiff^T^N1^N0^N2^N13^N3^N152^N4^N10^t^Sgear1^T^N2^S195485::::::::70:62::3:7:6652:7936:8821:8820:7979:1472:8767^N3^S193788::::::::70:62::17:4:7978:7975:6652:8813:2:9:70:28:2587^N4^S137483:6600:::::::70:62::33:8:7977:6652:8822:8819:9144:8966:3271:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	натазат-Ревущийфьорд", -- [1451]
+			"<01:17:09> <Comm>		^1^SlootAck^T^N1^N577^N2^N392.8125^N3^T^Sresponse^T^N1^B^N2^B^N3^B^t^Sdiff^T^N1^N13^N2^N10^N3^N7^N4^N10^t^Sgear1^T^N1^S193646:6626:::::::70:577::33:6:8965:7977:6652:9147:1611:8767:1:28:1279^N2^S134196::::::::70:577::16:9:8966:7977:6652:7936:8822:8820:9144:3271:8767:1:28:1279^N3^S133620::::::::70:577::33:8:8967:7977:6652:8822:8817:9144:3274:8767:1:28:1279^N4^S137483:6589:::::::70:577::33:8:8966:7977:6652:8822:8819:9144:3271:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	аландир-Ревущийфьорд", -- [1452]
+			"<01:17:09> <Comm>		^1^SlootAck^T^N1^N64^N2^N384.625^N3^T^Sresponse^T^N1^B^N2^B^N3^B^t^Sdiff^T^N1^N0^N2^N13^N3^N26^N4^N13^t^Sgear1^T^N2^S195485::::::::70:64::3:7:6652:7936:8821:8820:7979:1472:8767^N3^S192015::::::::70:64::37:4:40:1481:5862:8767:1:28:2275^N4^S195482::::::::70:64::3:6:42:8821:8819:7979:1472:8767^t^Sgear2^T^t^t^t^^	RAID	гигаовца-Ревущийфьорд", -- [1453]
+			"<01:17:09> <Comm>		^1^SlootAck^T^N1^N252^N2^N391.125^N3^T^Sresponse^T^N1^B^N2^B^t^Sdiff^T^N1^N0^N2^N23^N3^N30^N4^N4^t^Sgear1^T^N2^S201951::::::::70:252::13:5:8851:8852:8801:8850:8791:7:28:2164:29:32:30:40:38:7:40:842:45:198059:46:194578^N3^S193802::::::::70:252::23:5:7977:6652:8813:1594:8767:1:28:2155^N4^S200971:6592:::::::70:252::14::1:28:2078^t^Sgear2^T^t^t^t^^	RAID	менструа-Ревущийфьорд", -- [1454]
+			"<01:17:09> <Comm>		^1^SlootAck^T^N1^N254^N2^N385.875^N3^T^Sresponse^T^N1^B^N3^B^t^Sdiff^T^N1^N0^N2^N17^N3^N4^N4^N36^t^Sgear1^T^N2^S199444::::::::70:254::14:7:8943:6652:7936:8822:8820:1507:8767:1:28:2474^N3^S200392::::::::70:254::3:5:7979:6652:8826:1472:8767:1:28:1040^N4^S198962:6591:::::::70:254::74:5:8978:6652:8815:1488:8766:1:28:2474^t^Sgear2^T^t^t^t^^	RAID	линлот-Ревущийфьорд", -- [1455]
+			"<01:17:09> <Comm>		^1^SlootAck^T^N1^N264^N2^N385.375^N3^T^Sresponse^T^N3^B^t^Sdiff^T^N1^N20^N2^N0^N3^N10^N4^N4^t^Sgear1^T^N1^S200439::::::::70:264::26:4:6652:1485:5864:8767:1:28:2287^N2^S195476::192925::::::70:264::5:7:42:7935:7980:8825:8820:1485:8767^N3^S193704::::::::70:264::33:8:8966:7977:6652:8822:8817:9144:1614:8767:1:28:1279^N4^S200971:6593:::::::70:264::14::1:28:2078^t^Sgear2^T^t^t^t^^	RAID	серегя-Ревущийфьорд", -- [1456]
+			"<01:17:09> <Comm>		^1^SlootAck^T^N1^N63^N2^N388.75^N3^T^Sresponse^T^N1^B^N2^B^N3^B^t^Sdiff^T^N1^N7^N2^N4^N3^N30^N4^N4^t^Sgear1^T^N1^S110035::::::::70:63::33:6:8967:7977:6652:9144:3280:8767:1:28:1279^N2^S200318::::::::70:63::3:6:7979:6652:7936:8828:1472:8767^N3^S193788:6673:::::::70:63::23:5:7977:6652:8813:1594:8767:1:28:2157^N4^S200971:6592:::::::70:63::14::1:28:2078^t^Sgear2^T^t^t^t^^	RAID	ледиланатель-Ревущийфьорд", -- [1457]
+			"<01:17:09> <Comm>		^1^SlootAck^T^N1^N269^N2^N386.375^N3^T^Sresponse^T^N1^B^N2^B^N3^B^t^Sdiff^T^N1^N0^N2^N26^N3^N13^N4^N20^t^Sgear1^T^N2^S191993::::::::70:269::36:5:6652:7937:1478:5865:8767:1:28:2246^N3^S195486::::::::70:269::3:6:6652:8821:8817:7979:1472:8767^N4^S193712:6591:::::::70:269::33:8:8963:7977:6652:8822:8819:9144:1604:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	хугомонк-Ревущийфьорд", -- [1458]
+			"<01:17:09> <Comm>		^1^SlootAck^T^N1^N257^N2^N387.8125^N3^T^Sresponse^T^N1^B^N2^B^N3^B^t^Sdiff^T^N1^N0^N2^N13^N3^N4^N4^N13^t^Sgear1^T^N2^S193641::::::::70:257::16:9:8965:7977:6652:7937:8822:8820:9144:1611:8767:1:28:1279^N3^S200329::::::::70:257::3:5:7979:6652:8826:1472:8767:1:28:1040^N4^S193763:6598:::::::70:257::33:8:7977:6652:8822:8819:9144:8965:1611:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [1459]
+			"<01:17:09> <Comm>		^1^SlootAck^T^N1^N71^N2^N383.0625^N3^T^Sresponse^T^N2^B^t^Sdiff^T^N1^N0^N2^N30^N3^N30^N4^N10^t^Sgear1^T^N2^S193819::192945::::::70:71::23:6:7977:6652:7935:8816:1594:8767:1:28:2155^N3^S193802::::::::70:71::23:5:7977:41:8813:1594:8767:1:28:2155^N4^S193511:6601:::::::70:71::13:5:8836:8840:8902:8802:8790:6:28:2164:29:36:30:40:38:8:40:446:46:192552^t^Sgear2^T^t^t^t^^	RAID	этовертолет-Ревущийфьорд", -- [1460]
+			"<01:17:09> <Comm>		^1^SlootAck^T^N1^N252^N2^N386.5^N3^T^Sresponse^T^N1^B^N2^B^t^Sdiff^T^N1^N0^N2^N13^N3^N30^N4^N10^t^Sgear1^T^N2^S195498::::::::70:252::3:7:6652:7936:8821:8820:7979:1472:8767^N3^S193741::::::::70:252::23:5:7977:6652:8813:1594:8767:1:28:2157^N4^S193712:6595:::::::70:252::16:8:7977:6652:8822:8819:9144:8966:1614:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	нотушка-Ревущийфьорд", -- [1461]
+			"<01:17:09> <Comm>		^1^SlootAck^T^N1^N250^N2^N394.75^N3^T^Sresponse^T^N1^B^N2^B^t^Sdiff^T^N1^N0^N2^N23^N3^N23^N4^N4^t^Sgear1^T^N2^S192005::192972::::::70:250::37:5:6652:7935:1481:5865:8767:1:28:2521^N3^S201952::::::::70:250::13:5:8851:8852:8801:8850:8793:7:28:2164:29:49:30:36:38:7:40:843:45:198059:46:194566^N4^S200971:6597:::::::70:250::14::1:28:2078^t^Sgear2^T^t^t^t^^	RAID	ожившийлось-Ревущийфьорд", -- [1462]
+			"<01:17:09> <Comm>		^1^SlootAck^T^N1^N264^N2^N383.75^N3^T^Sresponse^T^N3^B^t^Sdiff^T^N1^N0^N2^N20^N3^N13^N4^N20^t^Sgear1^T^N1^S195475::::::::70:264::5:4:6652:7980:1485:8767^N2^S134473::::::::70:264::16:9:8963:7977:6652:7937:8822:8820:9144:3261:8767:1:28:1279^N3^S193704::::::::70:264::16:8:7977:6652:8822:8817:9144:8965:1611:8767:1:28:1279^N4^S193712::::::::70:264::33:8:8963:7977:6652:8822:8819:9144:1604:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	бишарк-Ревущийфьорд", -- [1463]
+			"<01:17:09> <Comm>		^1^SlootAck^T^N1^N266^N2^N391.25^N3^T^Sresponse^T^N1^B^N2^B^N3^B^t^Sdiff^T^N1^N0^N2^N-9^N3^N7^N4^N7^t^Sgear1^T^N1^S193709::::::::70:266::33:6:7977:6652:9144:8969:1624:8767:1:28:1279^N2^S134216::::::::70:266::35:9:8972:7977:6652:7936:8822:8820:9144:3290:8767^N3^S195493::::::::70:266::3:6:6652:7979:8821:8817:1472:8767^N4^S193763:6601:::::::70:266::33:8:7977:6652:8822:8819:9144:8967:1617:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	комт-Ревущийфьорд", -- [1464]
+			"<01:17:11> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N1^t^t^^	RAID	менструа-Ревущийфьорд", -- [1465]
+			"<01:17:11> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	ювитта-Ревущийфьорд", -- [1466]
+			"<01:17:11> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	этовертолет-Ревущийфьорд", -- [1467]
+			"<01:17:13> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	бишарк-Ревущийфьорд", -- [1468]
+			"<01:17:13> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N1^t^t^^	RAID	комт-Ревущийфьорд", -- [1469]
+			"<01:17:13> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	ватрониум-Ревущийфьорд", -- [1470]
+			"<01:17:14> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N2^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1471]
+			"<01:17:14> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N1^t^t^^	RAID	менструа-Ревущийфьорд", -- [1472]
+			"<01:17:14> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^SPASS^t^t^^	RAID	злюдра-Ревущийфьорд", -- [1473]
+			"<01:17:14> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N3^t^t^^	RAID	аландир-Ревущийфьорд", -- [1474]
+			"<01:17:14> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N1^t^t^^	RAID	хохохохохох-Ревущийфьорд", -- [1475]
+			"<01:17:15> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Злюдра	DRUID", -- [1476]
+			"<01:17:15> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^SPASS^t^t^^	RAID	гигаовца-Ревущийфьорд", -- [1477]
+			"<01:17:15> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Злюдра	DRUID", -- [1478]
+			"<01:17:16> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N1^t^t^^	RAID	линлот-Ревущийфьорд", -- [1479]
+			"<01:17:17> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N1^t^t^^	RAID	линлот-Ревущийфьорд", -- [1480]
+			"<01:17:18> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N1^t^t^^	RAID	бишарк-Ревущийфьорд", -- [1481]
+			"<01:17:18> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N1^t^t^^	RAID	ватрониум-Ревущийфьорд", -- [1482]
+			"<01:17:18> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	мурратик-Ревущийфьорд", -- [1483]
+			"<01:17:19> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	мурратик-Ревущийфьорд", -- [1484]
+			"<01:17:19> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N1^t^t^^	RAID	ювитта-Ревущийфьорд", -- [1485]
+			"<01:17:19> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N1^t^t^^	RAID	нотушка-Ревущийфьорд", -- [1486]
+			"<01:17:20> <DEBUG>		LootFrame:Response	PASS	Response:	Отказаться", -- [1487]
+			"<01:17:20> <DEBUG>		SendResponse	group	4	PASS	nil	nil	nil	nil	nil	nil	nil	nil	nil	nil", -- [1488]
+			"<01:17:20> <DEBUG>		Trashing entry:	1	|cffa335ee|Hitem:195482::::::::70:269::5:6:6652:8825:8819:7980:1485:8767::::::|h[Угольный плащ орденоносного командира]|h|r", -- [1489]
+			"<01:17:20> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^SPASS^t^t^^	RAID	хугомонк-Ревущийфьорд", -- [1490]
+			"<01:17:21> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N1^t^t^^	RAID	мурратик-Ревущийфьорд", -- [1491]
+			"<01:17:21> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	ювитта-Ревущийфьорд", -- [1492]
+			"<01:17:21> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N1^t^t^^	RAID	ватрониум-Ревущийфьорд", -- [1493]
+			"<01:17:22> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N2^t^t^^	RAID	натазат-Ревущийфьорд", -- [1494]
+			"<01:17:22> <Comm>		^1^Soffline_timer^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [1495]
+			"<01:17:23> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N1^t^t^^	RAID	ожившийлось-Ревущийфьорд", -- [1496]
+			"<01:17:24> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N1^t^t^^	RAID	ледиланатель-Ревущийфьорд", -- [1497]
+			"<01:17:24> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^SPASS^t^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [1498]
+			"<01:17:25> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N1^t^t^^	RAID	ювитта-Ревущийфьорд", -- [1499]
+			"<01:17:25> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N1^t^t^^	RAID	бишарк-Ревущийфьорд", -- [1500]
+			"<01:17:25> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	серегя-Ревущийфьорд", -- [1501]
+			"<01:17:26> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N1^t^t^^	RAID	нотушка-Ревущийфьорд", -- [1502]
+			"<01:17:32> <Comm>		^1^Srolls^T^N1^N2^N2^T^Sледотроль-Ревущийфьорд^N41^Sмурратик-Ревущийфьорд^N28^Sменструа-Ревущийфьорд^N6^Sбабусянатусе-Ревущийфьорд^N78^Sювитта-Ревущийфьорд^N62^Sожившийлось-Ревущийфьорд^N61^Sледиланатель-Ревущийфьорд^N56^Sватрониум-Ревущийфьорд^N59^Sнотушка-Ревущийфьорд^N53^Sлинлот-Ревущийфьорд^N91^Sсерегя-Ревущийфьорд^N94^Sбишарк-Ревущийфьорд^N60^Sхохохохохох-Ревущийфьорд^N71^Sэтовертолет-Ревущийфьорд^N50^Sкомт-Ревущийфьорд^N23^Sгигаовца-Ревущийфьорд^N36^Sдельфуего-Ревущийфьорд^N98^Sзлюдра-Ревущийфьорд^N12^Sхугомонк-Ревущийфьорд^N22^Sнатазат-Ревущийфьорд^N2^Sаландир-Ревущийфьорд^N77^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1503]
+			"<01:17:34> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N2^t^t^^	RAID	ожившийлось-Ревущийфьорд", -- [1504]
+			"<01:17:37> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N2^t^t^^	RAID	серегя-Ревущийфьорд", -- [1505]
+			"<01:17:37> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N1^t^t^^	RAID	ледотроль-Ревущийфьорд", -- [1506]
+			"<01:17:38> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N2^t^t^^	RAID	этовертолет-Ревущийфьорд", -- [1507]
+			"<01:17:39> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N2^t^t^^	RAID	этовертолет-Ревущийфьорд", -- [1508]
+			"<01:17:44> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N3^t^t^^	RAID	ледотроль-Ревущийфьорд", -- [1509]
+			"<01:17:47> <Comm>		^1^Srolls^T^N1^N3^N2^T^Sледотроль-Ревущийфьорд^N47^Sмурратик-Ревущийфьорд^N64^Sменструа-Ревущийфьорд^N48^Sбабусянатусе-Ревущийфьорд^N1^Sювитта-Ревущийфьорд^N23^Sожившийлось-Ревущийфьорд^N29^Sледиланатель-Ревущийфьорд^N97^Sватрониум-Ревущийфьорд^N37^Sнотушка-Ревущийфьорд^N24^Sлинлот-Ревущийфьорд^N69^Sсерегя-Ревущийфьорд^N14^Sбишарк-Ревущийфьорд^N31^Sхохохохохох-Ревущийфьорд^N55^Sэтовертолет-Ревущийфьорд^N82^Sкомт-Ревущийфьорд^N21^Sгигаовца-Ревущийфьорд^N52^Sдельфуего-Ревущийфьорд^N79^Sзлюдра-Ревущийфьорд^N39^Sхугомонк-Ревущийфьорд^N46^Sнатазат-Ревущийфьорд^N71^Sаландир-Ревущийфьорд^N25^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1510]
+			"<01:17:47> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^	RAID	серегя-Ревущийфьорд", -- [1511]
+			"<01:18:12> <Comm>		^1^Sv^T^N1^S3.6.4^t^^	GUILD	грандисон-Ревущийфьорд", -- [1512]
+			"<01:18:12> <Comm>		^1^Sr^T^N1^S3.6.0^N3^T^t^t^^	GUILD	бесогонтв-Ревущийфьорд", -- [1513]
+			"<01:18:12> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	ледотроль-Ревущийфьорд", -- [1514]
+			"<01:18:12> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	натазат-Ревущийфьорд", -- [1515]
+			"<01:18:12> <Comm>		^1^Sr^T^N1^S3.5.1^N3^T^t^t^^	GUILD	аишвария-Ревущийфьорд", -- [1516]
+			"<01:18:12> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	бишарк-Ревущийфьорд", -- [1517]
+			"<01:18:21> <DEBUG>		Event:	LOOT_READY	true", -- [1518]
+			"<01:18:21> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192717::::::::70:269:::::::::|h[Мерцающая первобытная частица]|h|r	0	1	Creature-0-3113-2522-2156-192764-0000A369DC	1", -- [1519]
+			"<01:18:21> <Comm>		^1^Sl^T^N1^S192764^t^^	RAID	менструа-Ревущийфьорд", -- [1520]
+			"<01:18:21> <Comm>		^1^Sl^T^N1^S192764^t^^	RAID	менструа-Ревущийфьорд", -- [1521]
+			"<01:18:22> <DEBUG>		Event:	LOOT_READY	true", -- [1522]
+			"<01:18:22> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192717::::::::70:269:::::::::|h[Мерцающая первобытная частица]|h|r	0	1	Creature-0-3113-2522-2156-192764-0000A369DC	1", -- [1523]
+			"<01:18:22> <Comm>		^1^Sl^T^N1^S192764^t^^	RAID	аландир-Ревущийфьорд", -- [1524]
+			"<01:18:22> <Comm>		^1^Sl^T^N1^S192764^t^^	RAID	аландир-Ревущийфьорд", -- [1525]
+			"<01:18:22> <Comm>		^1^Sl^T^N1^S192764^t^^	RAID	ватрониум-Ревущийфьорд", -- [1526]
+			"<01:18:22> <Comm>		^1^Sl^T^N1^S192764^t^^	RAID	ватрониум-Ревущийфьорд", -- [1527]
+			"<01:18:22> <DEBUG>		OnLootSlotCleared()	1	|cff9d9d9d|Hitem:192717::::::::70:269:::::::::|h[Мерцающая первобытная частица]|h|r	0", -- [1528]
+			"<01:18:22> <DEBUG>		Event:	LOOT_CLOSED", -- [1529]
+			"<01:18:22> <DEBUG>		Event:	LOOT_CLOSED", -- [1530]
+			"<01:18:22> <Comm>		^1^Sl^T^N1^S192764^t^^	RAID	хугомонк-Ревущийфьорд", -- [1531]
+			"<01:18:22> <Comm>		^1^Sl^T^N1^S192764^t^^	RAID	хугомонк-Ревущийфьорд", -- [1532]
+			"<01:18:25> <Comm>		^1^SfakeLoot^T^N1^S|cff1eff00|Hitem:199020::::::::70:264:::3:7969:6652:1684:1:28:2159:::::|h[Сигнальное~`ружье~`драконьих~`гонок~`с~`символом~`бесподобия]|h|r^N2^S192764^t^^	RAID	серегя-Ревущийфьорд", -- [1533]
+			"<01:18:25> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190320	|cff0070dd|Hitem:190320::::::::70:269:::::::::|h[Пробуждающийся огонь]|h|r	2	Гигаовца	MAGE", -- [1534]
+			"<01:18:26> <Comm>		^1^Sl^T^N1^S192764^t^^	RAID	гигаовца-Ревущийфьорд", -- [1535]
+			"<01:18:26> <Comm>		^1^Sl^T^N1^S192764^t^^	RAID	гигаовца-Ревущийфьорд", -- [1536]
+			"<01:18:29> <Comm>		^1^SfakeLoot^T^N1^S|cff9d9d9d|Hitem:192635::::::::70:264:::::::::|h[Скрученный~`металл]|h|r^N2^S192764^t^^	RAID	бишарк-Ревущийфьорд", -- [1537]
+			"<01:18:29> <Comm>		^1^Srolls^T^N1^N4^N2^T^Sледотроль-Ревущийфьорд^N96^Sмурратик-Ревущийфьорд^N44^Sменструа-Ревущийфьорд^N65^Sбабусянатусе-Ревущийфьорд^N98^Sювитта-Ревущийфьорд^N85^Sожившийлось-Ревущийфьорд^N80^Sледиланатель-Ревущийфьорд^N52^Sватрониум-Ревущийфьорд^N18^Sнотушка-Ревущийфьорд^N62^Sлинлот-Ревущийфьорд^N54^Sсерегя-Ревущийфьорд^N51^Sбишарк-Ревущийфьорд^N75^Sхохохохохох-Ревущийфьорд^N36^Sэтовертолет-Ревущийфьорд^N91^Sкомт-Ревущийфьорд^N5^Sгигаовца-Ревущийфьорд^N14^Sдельфуего-Ревущийфьорд^N81^Sзлюдра-Ревущийфьорд^N48^Sхугомонк-Ревущийфьорд^N15^Sнатазат-Ревущийфьорд^N79^Sаландир-Ревущийфьорд^N31^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1538]
+			"<01:18:30> <Comm>		^1^Sl^T^N1^S192764^t^^	RAID	ледиланатель-Ревущийфьорд", -- [1539]
+			"<01:18:36> <Comm>		^1^Sl^T^N1^S192764^t^^	RAID	ювитта-Ревущийфьорд", -- [1540]
+			"<01:18:36> <Comm>		^1^Sl^T^N1^S192764^t^^	RAID	ювитта-Ревущийфьорд", -- [1541]
+			"<01:18:37> <Comm>		^1^Srolls^T^N1^N4^N2^T^Sледотроль-Ревущийфьорд^N90^Sмурратик-Ревущийфьорд^N42^Sменструа-Ревущийфьорд^N92^Sбабусянатусе-Ревущийфьорд^N58^Sювитта-Ревущийфьорд^N60^Sожившийлось-Ревущийфьорд^N59^Sледиланатель-Ревущийфьорд^N52^Sватрониум-Ревущийфьорд^N68^Sнотушка-Ревущийфьорд^N28^Sлинлот-Ревущийфьорд^N51^Sсерегя-Ревущийфьорд^N49^Sбишарк-Ревущийфьорд^N27^Sхохохохохох-Ревущийфьорд^N97^Sэтовертолет-Ревущийфьорд^N88^Sкомт-Ревущийфьорд^N75^Sгигаовца-Ревущийфьорд^N63^Sдельфуего-Ревущийфьорд^N91^Sзлюдра-Ревущийфьорд^N45^Sхугомонк-Ревущийфьорд^N30^Sнатазат-Ревущийфьорд^N25^Sаландир-Ревущийфьорд^N67^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1542]
+			"<01:18:43> <Comm>		^1^Shistory^T^N1^Sювитта-Ревущийфьорд^N2^T^SmapID^N2522^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SEVOKER^SgroupSize^N21^Sboss^SЭраног^Stime^S23:18:40^SitemReplaced1^S|cffa335ee|Hitem:200971:6591:::::::70:259::14::1:28:2078:::::|h[Обсидиановая~`накидка]|h|r^Sinstance^SХранилище~`Воплощений-Героический^Sowner^Sдельфуего-Ревущийфьорд^Sresponse^SОсновной~`спек/Нужно^StypeCode^Sdefault^SdifficultyID^N15^SlootWon^S|cffa335ee|Hitem:195482::::::::70:259::5:6:6652:8825:8819:7980:1485:8767::::::|h[Угольный~`плащ~`орденоносного~`командира]|h|r^Sid^S1671643120-30^Sdate^S21/12/22^SresponseID^N1^Svotes^N0^SisAwardReason^b^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1543]
+			"<01:18:43> <Comm>		^1^Sawarded^T^N1^N4^N2^Sювитта-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1544]
+			"<01:19:40> <Comm>		^1^Shistory^T^N1^Sбишарк-Ревущийфьорд^N2^T^SmapID^N2522^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SSHAMAN^SgroupSize^N21^Sboss^SЭраног^Stime^S23:19:37^SitemReplaced1^S|cffa335ee|Hitem:134473::::::::70:259::16:9:8963:7977:6652:7937:8822:8820:9144:3261:8767:1:28:1279:::::|h[Воротник~`преданности~`огню]|h|r^Sinstance^SХранилище~`Воплощений-Героический^Sowner^Sдельфуего-Ревущийфьорд^Sresponse^SОсновной~`спек/Нужно^StypeCode^Sdefault^SdifficultyID^N15^SlootWon^S|cffa335ee|Hitem:195476::::::::70:259::5:7:6652:7937:7980:8825:8820:1485:8767::::::|h[Украшенный~`шлем~`Эранога]|h|r^Sid^S1671643177-31^Sdate^S21/12/22^SresponseID^N1^Svotes^N0^SisAwardReason^b^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1545]
+			"<01:19:40> <Comm>		^1^Sawarded^T^N1^N2^N2^Sбишарк-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1546]
+			"<01:19:41> <DEBUG>		Event:	LOOT_READY	true", -- [1547]
+			"<01:19:41> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192623::::::::70:269:::::::::|h[Огромный коготь протодракона]|h|r	0	1	Creature-0-3113-2522-2156-192761-0000236493	1", -- [1548]
+			"<01:19:41> <DEBUG>		Event:	LOOT_READY	true", -- [1549]
+			"<01:19:41> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192623::::::::70:269:::::::::|h[Огромный коготь протодракона]|h|r	0	1	Creature-0-3113-2522-2156-192761-0000236493	1", -- [1550]
+			"<01:19:41> <Comm>		^1^Sl^T^N1^S192761^t^^	RAID	этовертолет-Ревущийфьорд", -- [1551]
+			"<01:19:41> <Comm>		^1^Sl^T^N1^S192761^t^^	RAID	этовертолет-Ревущийфьорд", -- [1552]
+			"<01:19:41> <DEBUG>		OnLootSlotCleared()	1	|cff9d9d9d|Hitem:192623::::::::70:269:::::::::|h[Огромный коготь протодракона]|h|r	0", -- [1553]
+			"<01:19:41> <DEBUG>		Event:	LOOT_CLOSED", -- [1554]
+			"<01:19:41> <DEBUG>		Event:	LOOT_CLOSED", -- [1555]
+			"<01:19:41> <Comm>		^1^Sl^T^N1^S192761^t^^	RAID	хугомонк-Ревущийфьорд", -- [1556]
+			"<01:19:41> <Comm>		^1^Sl^T^N1^S192761^t^^	RAID	хугомонк-Ревущийфьорд", -- [1557]
+			"<01:19:42> <Comm>		^1^Sl^T^N1^S192761^t^^	RAID	линлот-Ревущийфьорд", -- [1558]
+			"<01:19:42> <Comm>		^1^Sl^T^N1^S192761^t^^	RAID	злюдра-Ревущийфьорд", -- [1559]
+			"<01:19:42> <Comm>		^1^Sl^T^N1^S192761^t^^	RAID	злюдра-Ревущийфьорд", -- [1560]
+			"<01:19:43> <Comm>		^1^Sl^T^N1^S192761^t^^	RAID	ювитта-Ревущийфьорд", -- [1561]
+			"<01:19:43> <Comm>		^1^Sl^T^N1^S192761^t^^	RAID	ювитта-Ревущийфьорд", -- [1562]
+			"<01:19:44> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	193223	|cff0070dd|Hitem:193223::::::::70:269::::1:38:2:::::|h[Глянцевая чешуйчатая шкура |A:Professions-ChatIcon-Quality-Tier2:17:23::1|a]|h|r	1	Ледотроль	HUNTER", -- [1563]
+			"<01:19:45> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Хохохохохох	PRIEST", -- [1564]
+			"<01:19:45> <Comm>		^1^Sl^T^N1^S192761^t^^	RAID	хохохохохох-Ревущийфьорд", -- [1565]
+			"<01:19:45> <Comm>		^1^Sl^T^N1^S192761^t^^	RAID	ледиланатель-Ревущийфьорд", -- [1566]
+			"<01:19:45> <Comm>		^1^SfakeLoot^T^N1^S|cff9d9d9d|Hitem:192623::::::::70:264:::::::::|h[Огромный~`коготь~`протодракона]|h|r^N2^S192761^t^^	RAID	бишарк-Ревущийфьорд", -- [1567]
+			"<01:19:49> <Comm>		^1^Shistory^T^N1^Sсерегя-Ревущийфьорд^N2^T^SmapID^N2522^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SSHAMAN^SgroupSize^N21^Sboss^SЭраног^Stime^S23:19:47^SitemReplaced1^S|cffa335ee|Hitem:200439::::::::70:259::26:4:6652:1485:5864:8767:1:28:2287:::::|h[Скипетр~`договора~`земли]|h|r^Sinstance^SХранилище~`Воплощений-Героический^Sowner^Sдельфуего-Ревущийфьорд^Sresponse^SОсновной~`спек/Нужно^StypeCode^Sdefault^SdifficultyID^N15^SlootWon^S|cffa335ee|Hitem:195475::::::::70:259::5:4:6652:7980:1485:8767::::::|h[Щит~`огненного~`маршала]|h|r^Sid^S1671643187-32^Sdate^S21/12/22^SresponseID^N1^Svotes^N0^SisAwardReason^b^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1568]
+			"<01:19:49> <Comm>		^1^Sawarded^T^N1^N1^N2^Sсерегя-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1569]
+			"<01:20:09> <Comm>		^1^Shistory^T^N1^Sнотушка-Ревущийфьорд^N2^T^SmapID^N2522^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SDEATHKNIGHT^SgroupSize^N21^Sboss^SЭраног^Stime^S23:20:06^SitemReplaced1^S|cffa335ee|Hitem:193741::::::::70:259::23:5:7977:6652:8813:1594:8767:1:28:2157:::::|h[Оплечье~`сокрушительных~`волн]|h|r^Sinstance^SХранилище~`Воплощений-Героический^Sowner^Sдельфуего-Ревущийфьорд^Sresponse^SОсновной~`спек/Нужно^StypeCode^Sdefault^SdifficultyID^N15^SlootWon^S|cffa335ee|Hitem:195477::::::::70:259::5:6:7980:6652:8825:8817:1485:8767::::::|h[Наплечные~`щитки~`расплавленной~`мощи]|h|r^Sid^S1671643206-33^Sdate^S21/12/22^SresponseID^N1^Svotes^N0^SisAwardReason^b^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1570]
+			"<01:20:09> <Comm>		^1^Sawarded^T^N1^N3^N2^Sнотушка-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1571]
+			"<01:20:10> <Comm>		^1^Ssession_end^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [1572]
+			"<01:20:14> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:195475::::::::70:259::5:4:6652:7980:1485:8767::::::|h[Щит~`огненного~`маршала]|h|r^N2^Sсерегя-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1573]
+			"<01:20:18> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:195476::::::::70:259::5:7:6652:7937:7980:8825:8820:1485:8767::::::|h[Украшенный~`шлем~`Эранога]|h|r^N2^Sбишарк-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1574]
+			"<01:20:23> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:195477::::::::70:259::5:6:7980:6652:8825:8817:1485:8767::::::|h[Наплечные~`щитки~`расплавленной~`мощи]|h|r^N2^Sнотушка-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1575]
+			"<01:20:33> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:195482::::::::70:259::5:6:6652:8825:8819:7980:1485:8767::::::|h[Угольный~`плащ~`орденоносного~`командира]|h|r^N2^Sювитта-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1576]
+			"<01:20:38> <Comm>		^1^Sl^T^N1^S197799^t^^	RAID	аландир-Ревущийфьорд", -- [1577]
+			"<01:20:39> <DEBUG>		Event:	LOOT_READY	true", -- [1578]
+			"<01:20:39> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192625::::::::70:269:::::::::|h[Неподвижный камень]|h|r	0	1	Creature-0-3113-2522-2156-197801-0001236493	1", -- [1579]
+			"<01:20:39> <DEBUG>		Event:	LOOT_READY	true", -- [1580]
+			"<01:20:39> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192625::::::::70:269:::::::::|h[Неподвижный камень]|h|r	0	1	Creature-0-3113-2522-2156-197801-0001236493	1", -- [1581]
+			"<01:20:39> <DEBUG>		OnLootSlotCleared()	1	|cff9d9d9d|Hitem:192625::::::::70:269:::::::::|h[Неподвижный камень]|h|r	0", -- [1582]
+			"<01:20:39> <DEBUG>		Event:	LOOT_CLOSED", -- [1583]
+			"<01:20:39> <DEBUG>		Event:	LOOT_CLOSED", -- [1584]
+			"<01:20:39> <Comm>		^1^Sl^T^N1^S197801^t^^	RAID	хугомонк-Ревущийфьорд", -- [1585]
+			"<01:20:39> <Comm>		^1^Sl^T^N1^S197801^t^^	RAID	хугомонк-Ревущийфьорд", -- [1586]
+			"<01:20:40> <Comm>		^1^Sl^T^N1^S197799^t^^	RAID	злюдра-Ревущийфьорд", -- [1587]
+			"<01:20:40> <Comm>		^1^Sl^T^N1^S197799^t^^	RAID	злюдра-Ревущийфьорд", -- [1588]
+			"<01:20:40> <Comm>		^1^Sl^T^N1^S197799^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [1589]
+			"<01:20:40> <Comm>		^1^Sl^T^N1^S197799^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [1590]
+			"<01:21:19> <DEBUG>		Event:	LOOT_READY	true", -- [1591]
+			"<01:21:19> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192625::::::::70:269:::::::::|h[Неподвижный камень]|h|r	0	1	Creature-0-3113-2522-2156-197801-0000236494	1", -- [1592]
+			"<01:21:19> <DEBUG>		Ignoring	nil	as it's a currency", -- [1593]
+			"<01:21:19> <DEBUG>		Event:	LOOT_READY	true", -- [1594]
+			"<01:21:19> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192625::::::::70:269:::::::::|h[Неподвижный камень]|h|r	0	1	Creature-0-3113-2522-2156-197801-0000236494	1", -- [1595]
+			"<01:21:19> <DEBUG>		Ignoring	nil	as it's a currency", -- [1596]
+			"<01:21:20> <DEBUG>		Event:	LOOT_READY	true", -- [1597]
+			"<01:21:20> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192625::::::::70:269:::::::::|h[Неподвижный камень]|h|r	0	1	Creature-0-3113-2522-2156-197801-0000236494	1", -- [1598]
+			"<01:21:20> <DEBUG>		Ignoring	nil	as it's a currency", -- [1599]
+			"<01:21:20> <DEBUG>		Event:	LOOT_CLOSED", -- [1600]
+			"<01:21:20> <DEBUG>		OnLootSlotCleared()	1	|cff9d9d9d|Hitem:192625::::::::70:269:::::::::|h[Неподвижный камень]|h|r	0", -- [1601]
+			"<01:21:20> <DEBUG>		Event:	LOOT_CLOSED", -- [1602]
+			"<01:21:20> <Comm>		^1^Sl^T^N1^S197801^t^^	RAID	хугомонк-Ревущийфьорд", -- [1603]
+			"<01:21:20> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	200942	|cff0070dd|Hitem:200942::::::::70:269:::::::::|h[Яркая эмульсия]|h|r	1	Хугомонк	MONK", -- [1604]
+			"<01:21:20> <Comm>		^1^Sl^T^N1^S197801^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [1605]
+			"<01:21:20> <Comm>		^1^Sl^T^N1^S197801^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [1606]
+			"<01:21:24> <Comm>		^1^Sl^T^N1^S197801^t^^	RAID	этовертолет-Ревущийфьорд", -- [1607]
+			"<01:21:24> <Comm>		^1^Sl^T^N1^S197801^t^^	RAID	этовертолет-Ревущийфьорд", -- [1608]
+			"<01:21:26> <Comm>		^1^Sl^T^N1^S197799^t^^	RAID	натазат-Ревущийфьорд", -- [1609]
+			"<01:21:26> <Comm>		^1^Sl^T^N1^S197799^t^^	RAID	натазат-Ревущийфьорд", -- [1610]
+			"<01:21:26> <Comm>		^1^Sl^T^N1^S197799^t^^	RAID	злюдра-Ревущийфьорд", -- [1611]
+			"<01:21:26> <Comm>		^1^Sl^T^N1^S197799^t^^	RAID	ледотроль-Ревущийфьорд", -- [1612]
+			"<01:21:26> <Comm>		^1^Sl^T^N1^S197799^t^^	RAID	ледотроль-Ревущийфьорд", -- [1613]
+			"<01:21:28> <Comm>		^1^Sl^T^N1^S197831^t^^	RAID	гигаовца-Ревущийфьорд", -- [1614]
+			"<01:21:28> <Comm>		^1^Sl^T^N1^S197801^t^^	RAID	ожившийлось-Ревущийфьорд", -- [1615]
+			"<01:22:13> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Хохохохохох	PRIEST", -- [1616]
+			"<01:22:14> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190315	|cff0070dd|Hitem:190315::::::::70:269:::::::::|h[Пробуждающаяся земля]|h|r	2	Ледотроль	HUNTER", -- [1617]
+			"<01:22:14> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	198975	|cff0070dd|Hitem:198975::::::::70:269:::::::::|h[Окостеневшая шкура]|h|r	1	Ледотроль	HUNTER", -- [1618]
+			"<01:22:15> <Comm>		^1^Sl^T^N1^S197835^t^^	RAID	ювитта-Ревущийфьорд", -- [1619]
+			"<01:22:15> <Comm>		^1^Sl^T^N1^S197835^t^^	RAID	ювитта-Ревущийфьорд", -- [1620]
+			"<01:22:27> <Comm>		^1^Sl^T^N1^S197835^t^^	RAID	дельфуего-Ревущийфьорд", -- [1621]
+			"<01:22:27> <Comm>		^1^Sl^T^N1^S197835^t^^	RAID	дельфуего-Ревущийфьорд", -- [1622]
+			"<01:23:01> <DEBUG>		Event:	LOOT_READY	true", -- [1623]
+			"<01:23:01> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192647::::::::70:269:::::::::|h[Земляная частица]|h|r	0	1	Creature-0-3113-2522-2156-197793-0000236494	1", -- [1624]
+			"<01:23:01> <DEBUG>		Event:	LOOT_READY	true", -- [1625]
+			"<01:23:01> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192647::::::::70:269:::::::::|h[Земляная частица]|h|r	0	1	Creature-0-3113-2522-2156-197793-0000236494	1", -- [1626]
+			"<01:23:01> <DEBUG>		Event:	LOOT_CLOSED", -- [1627]
+			"<01:23:01> <DEBUG>		OnLootSlotCleared()	1	|cff9d9d9d|Hitem:192647::::::::70:269:::::::::|h[Земляная частица]|h|r	0", -- [1628]
+			"<01:23:01> <DEBUG>		Event:	LOOT_CLOSED", -- [1629]
+			"<01:23:01> <Comm>		^1^Sl^T^N1^S197793^t^^	RAID	хугомонк-Ревущийфьорд", -- [1630]
+			"<01:23:04> <Comm>		^1^Sl^T^N1^S197799^t^^	RAID	злюдра-Ревущийфьорд", -- [1631]
+			"<01:23:13> <Comm>		^1^Sl^T^N1^S197793^t^^	RAID	ювитта-Ревущийфьорд", -- [1632]
+			"<01:23:13> <Comm>		^1^Sl^T^N1^S197793^t^^	RAID	ювитта-Ревущийфьорд", -- [1633]
+			"<01:23:34> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190315	|cff0070dd|Hitem:190315::::::::70:269:::::::::|h[Пробуждающаяся земля]|h|r	2	Ватрониум	SHAMAN", -- [1634]
+			"<01:23:34> <Comm>		^1^Sl^T^N1^S197831^t^^	RAID	ватрониум-Ревущийфьорд", -- [1635]
+			"<01:23:34> <Comm>		^1^Sl^T^N1^S197831^t^^	RAID	ватрониум-Ревущийфьорд", -- [1636]
+			"<01:23:34> <Comm>		^1^Sl^T^N1^S197801^t^^	RAID	ювитта-Ревущийфьорд", -- [1637]
+			"<01:23:34> <Comm>		^1^Sl^T^N1^S197801^t^^	RAID	ювитта-Ревущийфьорд", -- [1638]
+			"<01:23:35> <Comm>		^1^Sl^T^N1^S197831^t^^	RAID	хохохохохох-Ревущийфьорд", -- [1639]
+			"<01:23:35> <Comm>		^1^Sl^T^N1^S197831^t^^	RAID	хохохохохох-Ревущийфьорд", -- [1640]
+			"<01:23:36> <DEBUG>		Event:	LOOT_READY	true", -- [1641]
+			"<01:23:36> <DEBUG>		Adding to self.lootSlotInfo	1	|cff1eff00|Hitem:198992::::::::70:269:::3:7968:41:1717:1:28:2159:::::|h[Ботфорты зверолова с островов с меткой безмятежности]|h|r	2	1	Creature-0-3113-2522-2156-197799-0000A36493	1", -- [1642]
+			"<01:23:36> <DEBUG>		Event:	LOOT_READY	true", -- [1643]
+			"<01:23:36> <DEBUG>		Adding to self.lootSlotInfo	1	|cff1eff00|Hitem:198992::::::::70:269:::3:7968:41:1717:1:28:2159:::::|h[Ботфорты зверолова с островов с меткой безмятежности]|h|r	2	1	Creature-0-3113-2522-2156-197799-0000A36493	1", -- [1644]
+			"<01:23:36> <Comm>		^1^Sl^T^N1^S197801^t^^	RAID	этовертолет-Ревущийфьорд", -- [1645]
+			"<01:23:36> <Comm>		^1^Sl^T^N1^S197801^t^^	RAID	этовертолет-Ревущийфьорд", -- [1646]
+			"<01:23:36> <DEBUG>		OnLootSlotCleared()	1	|cff1eff00|Hitem:198992::::::::70:269:::3:7968:41:1717:1:28:2159:::::|h[Ботфорты зверолова с островов с меткой безмятежности]|h|r	2", -- [1647]
+			"<01:23:36> <DEBUG>		Event:	LOOT_CLOSED", -- [1648]
+			"<01:23:36> <DEBUG>		Event:	LOOT_CLOSED", -- [1649]
+			"<01:23:37> <Comm>		^1^Sl^T^N1^S197799^t^^	RAID	хугомонк-Ревущийфьорд", -- [1650]
+			"<01:23:37> <Comm>		^1^Sl^T^N1^S197799^t^^	RAID	хугомонк-Ревущийфьорд", -- [1651]
+			"<01:23:37> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190315	|cff0070dd|Hitem:190315::::::::70:269:::::::::|h[Пробуждающаяся земля]|h|r	3	Натазат	MAGE", -- [1652]
+			"<01:23:38> <DEBUG>		Storage:New	|cff1eff00|Hitem:198992::::::::70:269:::3:7968:41:1717:1:28:2159:::::|h[Ботфорты зверолова с островов с меткой безмятежности]|h|r	temp", -- [1653]
+			"<01:23:38> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:198992::::::::70:269:::3:7968:41:1717:1:28:2159:::::||h[Ботфорты зверолова с островов с меткой безмятежности]||h||r	5", -- [1654]
+			"<01:23:38> <DEBUG>		Found:	nil	nil	nil", -- [1655]
+			"<01:23:39> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:198992::::::::70:269:::3:7968:41:1717:1:28:2159:::::||h[Ботфорты зверолова с островов с меткой безмятежности]||h||r	5", -- [1656]
+			"<01:23:39> <DEBUG>		Found:	nil	nil	nil", -- [1657]
+			"<01:23:40> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:198992::::::::70:269:::3:7968:41:1717:1:28:2159:::::||h[Ботфорты зверолова с островов с меткой безмятежности]||h||r	5", -- [1658]
+			"<01:23:40> <DEBUG>		Found:	nil	nil	nil", -- [1659]
+			"<01:23:41> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:198992::::::::70:269:::3:7968:41:1717:1:28:2159:::::||h[Ботфорты зверолова с островов с меткой безмятежности]||h||r	5", -- [1660]
+			"<01:23:41> <DEBUG>		Found:	nil	nil	nil", -- [1661]
+			"<01:23:41> <ERROR>		UpdateAndSendRecentTradableItem: |cff1eff00|Hitem:198992::::::::70:269:::3:7968:41:1717:1:28:2159:::::|h[Ботфорты зверолова с островов с меткой безмятежности]|h|r not found in bags", -- [1662]
+			"<01:23:42> <Comm>		^1^SfakeLoot^T^N1^S|cff9d9d9d|Hitem:192625::::::::70:264:::::::::|h[Неподвижный~`камень]|h|r^N2^S197793^t^^	RAID	серегя-Ревущийфьорд", -- [1663]
+			"<01:23:48> <Comm>		^1^SfakeLoot^T^N1^S|cff9d9d9d|Hitem:192625::::::::70:264:::::::::|h[Неподвижный~`камень]|h|r^N2^S197793^t^^	RAID	серегя-Ревущийфьорд", -- [1664]
+			"<01:23:54> <DEBUG>		Event:	ENCOUNTER_START	2639	Террос	15	21", -- [1665]
+			"<01:23:54> <INFO>		UpdatePlayersData()", -- [1666]
+			"<01:23:54> <DEBUG>		Event:	ENCOUNTER_END	2639	Террос	15	21	0", -- [1667]
+			"<01:23:55> <Comm>		^1^SStartHandleLoot^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [1668]
+			"<01:25:41> <Comm>		^1^Sv^T^N1^S3.6.4^t^^	GUILD	менструа-Ревущийфьорд", -- [1669]
+			"<01:25:41> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SОтряд~`Репка^N4^N0^N5^N391.125^N6^N252^t^^	RAID	менструа-Ревущийфьорд", -- [1670]
+			"<01:25:41> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	ледотроль-Ревущийфьорд", -- [1671]
+			"<01:25:41> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	натазат-Ревущийфьорд", -- [1672]
+			"<01:25:41> <Comm>		^1^Sr^T^N1^S3.6.0^N3^T^t^t^^	GUILD	бесогонтв-Ревущийфьорд", -- [1673]
+			"<01:25:41> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	бишарк-Ревущийфьорд", -- [1674]
+			"<01:27:58> <DEBUG>		Event:	ENCOUNTER_START	2639	Террос	15	21", -- [1675]
+			"<01:27:58> <INFO>		UpdatePlayersData()", -- [1676]
+			"<01:27:58> <Comm>		^1^SStartHandleLoot^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [1677]
+			"<01:33:28> <DEBUG>		Event:	ENCOUNTER_END	2639	Террос	15	21	1", -- [1678]
+			"<01:33:29> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:195502::::::::70:269::5:6:6652:7937:8783:7980:1485:8767::::::|h[Плененный сердечник Терроса]|h|r", -- [1679]
+			"<01:33:29> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:195500::::::::70:269::5:6:6652:8825:8820:7980:1485:8767::::::|h[Уплотненная ряса сектанта]|h|r", -- [1680]
+			"<01:33:29> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:195501::::::::70:269::5:7:6652:7937:8825:8818:7980:1485:8767::::::|h[Боевой пояс из сросшегося сланца]|h|r", -- [1681]
+			"<01:33:29> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:195501::::::::70:269::5:7:6652:7937:8825:8818:7980:1485:8767::::::|h[Боевой пояс из сросшегося сланца]|h|r", -- [1682]
+			"<01:33:29> <DEBUG>[GroupLoot]		Passing on loot	|cffa335ee|Hitem:195498::::::::70:269::5:7:6652:7936:8825:8820:7980:1485:8767::::::|h[Взгляд живой добычи]|h|r", -- [1683]
+			"<01:33:29> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Бабусянатусе	PRIEST", -- [1684]
+			"<01:33:29> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Бабусянатусе	PRIEST", -- [1685]
+			"<01:33:29> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Мурратик	PALADIN", -- [1686]
+			"<01:33:29> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Мурратик	PALADIN", -- [1687]
+			"<01:33:29> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Ожившийлось	DEATHKNIGHT", -- [1688]
+			"<01:33:30> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Ожившийлось	DEATHKNIGHT", -- [1689]
+			"<01:33:30> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Дельфуего	ROGUE", -- [1690]
+			"<01:33:30> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Дельфуего	ROGUE", -- [1691]
+			"<01:33:30> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Менструа	DEATHKNIGHT", -- [1692]
+			"<01:33:30> <Comm>		^1^Sl^T^N1^S190496^t^^	RAID	ожившийлось-Ревущийфьорд", -- [1693]
+			"<01:33:30> <Comm>		^1^Sl^T^N1^S190496^t^^	RAID	ожившийлось-Ревущийфьорд", -- [1694]
+			"<01:33:30> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Менструа	DEATHKNIGHT", -- [1695]
+			"<01:33:30> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Аландир	DEMONHUNTER", -- [1696]
+			"<01:33:30> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Аландир	DEMONHUNTER", -- [1697]
+			"<01:33:31> <Comm>		^1^Sl^T^N1^S190496^t^^	RAID	аландир-Ревущийфьорд", -- [1698]
+			"<01:33:31> <Comm>		^1^Sl^T^N1^S190496^t^^	RAID	аландир-Ревущийфьорд", -- [1699]
+			"<01:33:31> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	15	Хохохохохох	PRIEST", -- [1700]
+			"<01:33:31> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Этовертолет	WARRIOR", -- [1701]
+			"<01:33:31> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Нотушка	DEATHKNIGHT", -- [1702]
+			"<01:33:31> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	201411	|cff0070dd|Hitem:201411::::::::70:269:::::::::|h[Древний артефакт хранилища]|h|r	1	Хохохохохох	PRIEST", -- [1703]
+			"<01:33:31> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Этовертолет	WARRIOR", -- [1704]
+			"<01:33:31> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Нотушка	DEATHKNIGHT", -- [1705]
+			"<01:33:31> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Хохохохохох	PRIEST", -- [1706]
+			"<01:33:31> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Линлот	HUNTER", -- [1707]
+			"<01:33:32> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Линлот	HUNTER", -- [1708]
+			"<01:33:32> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Злюдра	DRUID", -- [1709]
+			"<01:33:32> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Злюдра	DRUID", -- [1710]
+			"<01:33:33> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Комт	WARLOCK", -- [1711]
+			"<01:33:33> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Ватрониум	SHAMAN", -- [1712]
+			"<01:33:33> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Комт	WARLOCK", -- [1713]
+			"<01:33:33> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Ватрониум	SHAMAN", -- [1714]
+			"<01:33:34> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Гигаовца	MAGE", -- [1715]
+			"<01:33:34> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	191784	|cffa335ee|Hitem:191784::::::::70:269:::::::::|h[Драконий осколок знания]|h|r	1	Гигаовца	MAGE", -- [1716]
+			"<01:33:34> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Гигаовца	MAGE", -- [1717]
+			"<01:33:34> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Серегя	SHAMAN", -- [1718]
+			"<01:33:34> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Серегя	SHAMAN", -- [1719]
+			"<01:33:35> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Ювитта	EVOKER", -- [1720]
+			"<01:33:35> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Ювитта	EVOKER", -- [1721]
+			"<01:33:35> <DEBUG>		Event:	LOOT_READY	true", -- [1722]
+			"<01:33:35> <DEBUG>		Ignoring	nil	as it's a currency", -- [1723]
+			"<01:33:35> <DEBUG>		Event:	LOOT_READY	true", -- [1724]
+			"<01:33:35> <DEBUG>		Ignoring	nil	as it's a currency", -- [1725]
+			"<01:33:36> <Comm>		^1^SlootTable^T^N1^T^N1^T^Sstring^S195498:::::::::::5:7:6652:7936:8825:8820:7980:1485:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SТеррос^t^N2^T^Sstring^S195500:::::::::::5:6:6652:8825:8820:7980:1485:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SТеррос^t^N3^T^Sstring^S195501:::::::::::5:7:6652:7937:8825:8818:7980:1485:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SТеррос^t^N4^T^Sstring^S195501:::::::::::5:7:6652:7937:8825:8818:7980:1485:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SТеррос^t^N5^T^Sstring^S195502:::::::::::5:6:6652:7937:8783:7980:1485:8767^StypeCode^Sdefault^Sowner^Sдельфуего-Ревущийфьорд^Sboss^SТеррос^t^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1726]
+			"<01:33:36> <INFO>		Autopassed on: 	|cffa335ee|Hitem:195498::::::::70:269::5:7:6652:7936:8825:8820:7980:1485:8767::::::|h[Взгляд живой добычи]|h|r", -- [1727]
+			"<01:33:36> <INFO>		Autopassed on: 	|cffa335ee|Hitem:195500::::::::70:269::5:6:6652:8825:8820:7980:1485:8767::::::|h[Уплотненная ряса сектанта]|h|r", -- [1728]
+			"<01:33:36> <INFO>		GetPlayersGear	|cffa335ee|Hitem:195498::::::::70:269::5:7:6652:7936:8825:8820:7980:1485:8767::::::|h[Взгляд живой добычи]|h|r	INVTYPE_HEAD", -- [1729]
+			"<01:33:36> <INFO>		GetPlayersGear	|cffa335ee|Hitem:195500::::::::70:269::5:6:6652:8825:8820:7980:1485:8767::::::|h[Уплотненная ряса сектанта]|h|r	INVTYPE_CHEST", -- [1730]
+			"<01:33:36> <INFO>		GetPlayersGear	|cffa335ee|Hitem:195501::::::::70:269::5:7:6652:7937:8825:8818:7980:1485:8767::::::|h[Боевой пояс из сросшегося сланца]|h|r	INVTYPE_WAIST", -- [1731]
+			"<01:33:36> <INFO>		GetPlayersGear	|cffa335ee|Hitem:195501::::::::70:269::5:7:6652:7937:8825:8818:7980:1485:8767::::::|h[Боевой пояс из сросшегося сланца]|h|r	INVTYPE_WAIST", -- [1732]
+			"<01:33:36> <INFO>		GetPlayersGear	|cffa335ee|Hitem:195502::::::::70:269::5:6:6652:7937:8783:7980:1485:8767::::::|h[Плененный сердечник Терроса]|h|r	INVTYPE_NECK", -- [1733]
+			"<01:33:36> <INFO>		LootFrame:Start	5	nil", -- [1734]
+			"<01:33:36> <DEBUG>		LootFrame:	|cffa335ee|Hitem:195501::::::::70:269::5:7:6652:7937:8825:8818:7980:1485:8767::::::|h[Боевой пояс из сросшегося сланца]|h|r	is a dublicate of	|cffa335ee|Hitem:195501::::::::70:269::5:7:6652:7937:8825:8818:7980:1485:8767::::::|h[Боевой пояс из сросшегося сланца]|h|r", -- [1735]
+			"<01:33:36> <DEBUG>		Restoring entry:	default	1", -- [1736]
+			"<01:33:36> <DEBUG>		GetButtons	default", -- [1737]
+			"<01:33:36> <DEBUG>		Restoring entry:	default	1", -- [1738]
+			"<01:33:36> <DEBUG>		GetButtons	default", -- [1739]
+			"<01:33:36> <Comm>		^1^SlootAck^T^N1^N62^N2^N380.5^N3^T^Sresponse^T^N1^B^N3^B^N4^B^t^Sdiff^T^N1^N13^N2^N7^N3^N30^N4^N30^N5^N20^t^Sgear1^T^N1^S195485::::::::70:62::3:7:6652:7936:8821:8820:7979:1472:8767^N2^S134219:6624:::::::70:62::35:8:8967:7977:6652:8822:8820:9144:3274:8767^N3^S193691::192912::::::70:62::23:6:7977:6652:7935:8814:1594:8767:1:28:2157^N4^S193691::192912::::::70:62::23:6:7977:6652:7935:8814:1594:8767:1:28:2157^N5^S134529::::::::70:62::16:8:8963:7977:6652:7936:8784:9144:3261:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	натазат-Ревущийфьорд", -- [1740]
+			"<01:33:36> <Comm>		^1^SlootAck^T^N1^N105^N2^N389.375^N3^T^Sresponse^T^N1^B^N2^B^t^Sdiff^T^N1^N-3^N2^N-3^N3^N20^N4^N20^N5^N7^t^Sgear1^T^N1^S193400::::::::70:105::13:8:8836:8840:8902:8802:8845:8932:8960:8793:8:28:2164:29:36:30:49:38:8:40:320:45:197921:46:193945:47:194566^N2^S193399:6625:::::::70:105::13:8:8836:8840:8902:8802:8845:8932:8960:8793:8:28:2164:29:32:30:49:38:8:40:294:45:197921:46:193945:47:194566^N3^S191995::::::::70:105::42:5:6652:7936:1485:5864:8767:1:28:2287^N4^S191995::::::::70:105::42:5:6652:7936:1485:5864:8767:1:28:2287^N5^S200762::192973:192973:::::70:105::81:5:6652:1478:8767:8784:8781:1:28:2471^t^Sgear2^T^t^t^t^^	RAID	злюдра-Ревущийфьорд", -- [1741]
+			"<01:33:36> <Comm>		^1^SlootAck^T^N1^N66^N2^N391.0625^N3^T^Sresponse^T^N2^B^N3^B^N4^B^t^Sdiff^T^N1^N18^N2^N7^N3^N10^N4^N10^N5^N13^t^Sgear1^T^N1^S198326::198298::::::70:66::13:6:8836:8840:8902:8799:8950:8864:6:28:2164:29:36:38:5:40:619:49:198236:50:198259^N2^S200414:6624:::::::70:66::3:5:7979:6652:8830:1469:8767:1:28:1040^N3^S137499::::::::70:66::16:9:8966:7977:6652:7937:8822:8818:9144:3271:8767:1:28:1279^N4^S137499::::::::70:66::16:9:8966:7977:6652:7937:8822:8818:9144:3271:8767:1:28:1279^N5^S193647::192959:192959:::::70:66::33:8:8965:7977:6652:9144:1611:8767:8784:8781:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	мурратик-Ревущийфьорд", -- [1742]
+			"<01:33:36> <Comm>		^1^SlootAck^T^N1^N253^N2^N377.5^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^t^Sdiff^T^N1^N30^N2^N23^N3^N30^N4^N30^N5^N88^t^Sgear1^T^N1^S193726::::::::70:253::23:6:7977:6652:7936:8816:1594:8767:1:28:2157^N2^S191997:6625:::::::70:253::73:4:6652:1485:5861:8767:1:28:2437^N3^S193794::::::::70:253::23:6:7977:6652:7936:8814:1594:8767:1:28:2157^N4^S193794::::::::70:253::23:6:7977:6652:7936:8814:1594:8767:1:28:2157^N5^S195210::::::::70:253::11:2:8776:8984:2:9:70:28:2154^t^Sgear2^T^t^t^t^^	RAID	ледотроль-Ревущийфьорд", -- [1743]
+			"<01:33:36> <Comm>		^1^SlootAck^T^N1^N256^N2^N387.4375^N3^T^Sresponse^T^N1^B^N3^B^N4^B^t^Sdiff^T^N1^N10^N2^N20^N3^N30^N4^N30^N5^N13^t^Sgear1^T^N1^S134392::::::::70:256::16:9:8966:7977:6652:7936:8822:8820:9144:3271:8767:1:28:1279^N2^S193515:6625:::::::70:256::13:6:8837:8838:4785:8802:8850:8790:7:28:2164:29:49:30:36:38:8:40:426:44:198059:45:192552^N3^S193691::192901::::::70:256::23:6:7977:6652:7935:8814:1594:8767:1:28:2157^N4^S193691::192901::::::70:256::23:6:7977:6652:7935:8814:1594:8767:1:28:2157^N5^S200970::192972:192972:::::70:256::14:2:8783:8781:1:28:2078^t^Sgear2^T^t^t^t^^	RAID	хохохохохох-Ревущийфьорд", -- [1744]
+			"<01:33:36> <Comm>		^1^SlootAck^T^N1^N577^N2^N392.8125^N3^T^Sresponse^T^N1^B^N2^B^t^Sdiff^T^N1^N10^N2^N-9^N3^N10^N4^N10^N5^N20^t^Sgear1^T^N1^S134196::::::::70:577::16:9:8966:7977:6652:7936:8822:8820:9144:3271:8767:1:28:1279^N2^S133615:6625:::::::70:577::35:8:8972:7977:6652:8822:8820:9144:3290:8767^N3^S109829::::::::70:577::33:9:8966:7977:6652:7937:8822:8818:9144:3277:8767:1:28:1279^N4^S109829::::::::70:577::33:9:8966:7977:6652:7937:8822:8818:9144:3277:8767:1:28:1279^N5^S137487::192926:192926:::::70:577::33:8:8963:7977:6652:9144:3261:8767:8783:8781:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	аландир-Ревущийфьорд", -- [1745]
+			"<01:33:36> <Comm>		^1^SlootAck^T^N1^N1467^N2^N386.0625^N3^T^Sresponse^T^t^Sdiff^T^N1^N26^N2^N13^N3^N26^N4^N26^N5^N13^t^Sgear1^T^N1^S144017::::::::70:1467::33:9:8961:7977:6652:7936:8822:8820:9144:3266:8767:1:28:1279^N2^S195487:6625:::::::70:1467::3:6:6652:8821:8820:7979:1472:8767^N3^S192037::::::::70:1467::36:5:6652:7937:1478:5865:8767:1:28:2275^N4^S192037::::::::70:1467::36:5:6652:7937:1478:5865:8767:1:28:2275^N5^S200970::::::::70:1467::14:2:7936:8783:1:28:2151^t^Sgear2^T^t^t^t^^	RAID	ювитта-Ревущийфьорд", -- [1746]
+			"<01:33:36> <Comm>		^1^SlootAck^T^N1^N264^N2^N386.625^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^t^Sdiff^T^N1^N0^N2^N23^N3^N30^N4^N30^N5^N13^t^Sgear1^T^N1^S195476::192925::::::70:264::5:7:42:7935:7980:8825:8820:1485:8767^N2^S191997:6618:::::::70:264::37:4:6652:1481:5865:8767:1:28:2385^N3^S193794::::::::70:264::23:6:7977:40:7937:8814:1594:8767:1:28:2157^N4^S193794::::::::70:264::23:6:7977:40:7937:8814:1594:8767:1:28:2157^N5^S200970::192924:192924:::::70:264::14:2:8783:8781:1:28:2078^t^Sgear2^T^t^t^t^^	RAID	серегя-Ревущийфьорд", -- [1747]
+			"<01:33:36> <Comm>		^1^SlootAck^T^N1^N263^N2^N379.5^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^t^Sdiff^T^N1^N23^N2^N43^N3^N23^N4^N23^N5^N7^t^Sgear1^T^N1^S192000::192960::::::70:263::42:5:6652:7935:1485:5861:8767:1:28:2287^N2^S193782::::::::70:263::2:5:7976:6652:8816:1581:8766:1:28:2156^N3^S192003::::::::70:263::37:5:6652:7937:1481:5865:8767:1:28:2275^N4^S192003::::::::70:263::37:5:6652:7937:1481:5865:8767:1:28:2275^N5^S195496::::::::70:263::3:6:6652:7937:8784:7979:1472:8767^t^Sgear2^T^t^t^t^^	RAID	ватрониум-Ревущийфьорд", -- [1748]
+			"<01:33:36> <Comm>		^1^SlootAck^T^N1^N71^N2^N383.0625^N3^T^Sresponse^T^N2^B^N3^B^N4^B^t^Sdiff^T^N1^N30^N2^N10^N3^N20^N4^N20^N5^N7^t^Sgear1^T^N1^S193819::192945::::::70:71::23:6:7977:6652:7935:8816:1594:8767:1:28:2155^N2^S190495:6625:::::::70:71::13:5:8836:8840:8902:8802:8790:6:28:2164:29:49:30:36:38:8:40:167:45:192552^N3^S192011::::::::70:71::73:5:6652:7937:1485:5864:8767:1:28:2437^N4^S192011::::::::70:71::73:5:6652:7937:1485:5864:8767:1:28:2437^N5^S195496::192918:192918:::::70:71::3:6:6652:7979:1472:8767:8784:8781^t^Sgear2^T^t^t^t^^	RAID	этовертолет-Ревущийфьорд", -- [1749]
+			"<01:33:36> <Comm>		^1^SlootAck^T^N1^N259^N2^N393.8125^N3^T^Sresponse^T^N1^B^N2^B^t^Sdiff^T^N1^N13^N2^N7^N3^N7^N4^N7^N5^N-3^t^Sgear1^T^N1^S193751::::::::70:259::33:9:8965:7977:6652:7937:8822:8820:9144:1611:8767:1:28:1279^N2^S193680::::::::70:259::16:8:8967:7977:6652:8822:8820:9144:1617:8767:1:28:1279^N3^S109829::::::::70:259::33:9:8967:7977:6652:7936:8822:8818:9144:3280:8767:1:28:1279^N4^S109829::::::::70:259::33:9:8967:7977:6652:7936:8822:8818:9144:3280:8767:1:28:1279^N5^S193001::192990:192925:192925::::70:259::13:9:8836:8840:8902:8960:8784:8782:8802:8795:8845:7:28:2164:29:49:30:40:38:8:40:260:48:194572:49:197921^t^Sgear2^T^t^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1750]
+			"<01:33:36> <Comm>		^1^SlootAck^T^N1^N254^N2^N385.875^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^t^Sdiff^T^N1^N17^N2^N7^N3^N10^N4^N10^N5^N36^t^Sgear1^T^N1^S199444::::::::70:254::14:7:8943:6652:7936:8822:8820:1507:8767:1:28:2474^N2^S137498:6625:::::::70:254::16:8:8967:7977:6652:8822:8820:9144:3274:8767:1:28:1279^N3^S193722::::::::70:254::33:9:8966:7977:6652:7937:8822:8818:9144:1614:8767:1:28:1279^N4^S193722::::::::70:254::33:9:8966:7977:6652:7937:8822:8818:9144:1614:8767:1:28:1279^N5^S200445::::::::70:254::25:6:6652:7936:8783:1478:5855:8766:1:28:2602^t^Sgear2^T^t^t^t^^	RAID	линлот-Ревущийфьорд", -- [1751]
+			"<01:33:36> <Comm>		^1^SlootAck^T^N1^N252^N2^N391.125^N3^T^Sresponse^T^N2^B^N3^B^N4^B^t^Sdiff^T^N1^N23^N2^N7^N3^N10^N4^N10^N5^N-3^t^Sgear1^T^N1^S201951::::::::70:252::13:5:8851:8852:8801:8850:8791:7:28:2164:29:32:30:40:38:7:40:842:45:198059:46:194578^N2^S200405:6625:::::::70:252::3:5:7979:6652:8830:1472:8767:1:28:1040^N3^S193650::192981::::::70:252::16:9:8966:7977:6652:7935:8822:8818:9144:1614:8767:1:28:1279^N4^S193650::192981::::::70:252::16:9:8966:7977:6652:7935:8822:8818:9144:1614:8767:1:28:1279^N5^S193001::192958:192958:192958::::70:252::13:9:8836:8840:8902:8960:8783:8782:8802:8791:8845:7:28:2164:29:49:30:32:38:8:40:260:48:194578:49:197921^t^Sgear2^T^t^t^t^^	RAID	менструа-Ревущийфьорд", -- [1752]
+			"<01:33:36> <Comm>		^1^SlootAck^T^N1^N64^N2^N384.625^N3^T^Sresponse^T^N1^B^N3^B^N4^B^t^Sdiff^T^N1^N13^N2^N7^N3^N7^N4^N7^N5^N13^t^Sgear1^T^N1^S195485::::::::70:64::3:7:6652:7936:8821:8820:7979:1472:8767^N2^S200315:6624:::::::70:64::3:5:7979:6652:8830:1472:8767^N3^S195515::::::::70:64::3:7:6652:7937:7979:8821:8818:1472:8767^N4^S195515::::::::70:64::3:7:6652:7937:7979:8821:8818:1472:8767^N5^S201759::192981::::::70:64::13:9:8836:8840:8902:8784:8780:8801:8791:8932:8960:7:28:2164:29:49:30:40:38:7:40:834:47:194578:50:193945^t^Sgear2^T^t^t^t^^	RAID	гигаовца-Ревущийфьорд", -- [1753]
+			"<01:33:36> <Comm>		^1^SlootAck^T^N1^N269^N2^N386.375^N3^T^Sresponse^T^N1^B^N2^B^t^Sdiff^T^N1^N26^N2^N13^N3^N20^N4^N20^N5^N20^t^Sgear1^T^N1^S191993::::::::70:269::36:5:6652:7937:1478:5865:8767:1:28:2246^N2^S143959:6624:::::::70:269::16:8:7977:6652:8822:8820:9144:8965:3279:8767:1:28:1279^N3^S191995::::::::70:269::73:5:6652:7937:1485:5864:8767:1:28:2437^N4^S191995::::::::70:269::73:5:6652:7937:1485:5864:8767:1:28:2437^N5^S193647::::::::70:269::16:8:8963:7977:6652:7937:8783:9144:1604:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	хугомонк-Ревущийфьорд", -- [1754]
+			"<01:33:36> <Comm>		^1^SlootAck^T^N1^N257^N2^N387.8125^N3^T^Sresponse^T^N1^B^N3^B^N4^B^t^Sdiff^T^N1^N13^N2^N7^N3^N30^N4^N30^N5^N13^t^Sgear1^T^N1^S193641::::::::70:257::16:9:8965:7977:6652:7937:8822:8820:9144:1611:8767:1:28:1279^N2^S200324:6625:::::::70:257::35:6:6652:8830:8967:7977:1472:8767^N3^S193691::::::::70:257::23:6:7977:6652:7937:8814:1594:8767:1:28:2157^N4^S193691::::::::70:257::23:6:7977:6652:7937:8814:1594:8767:1:28:2157^N5^S195502::192957:192957:192957::::70:257::3:6:6652:7979:1472:8767:8783:8782^t^Sgear2^T^t^t^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [1755]
+			"<01:33:36> <Comm>		^1^SlootAck^T^N1^N252^N2^N388.375^N3^T^Sresponse^T^N2^B^N3^B^N4^B^t^Sdiff^T^N1^N13^N2^N7^N3^N13^N4^N13^N5^N30^t^Sgear1^T^N1^S195498::::::::70:252::3:7:6652:7936:8821:8820:7979:1472:8767^N2^S200405:6625:::::::70:252::3:5:7979:43:8830:1472:8767:1:28:1040^N3^S136773::::::::70:252::33:9:8965:7977:6652:7937:8822:8818:9144:3268:8767:1:28:1279^N4^S136773::::::::70:252::33:9:8965:7977:6652:7937:8822:8818:9144:3268:8767:1:28:1279^N5^S193676::::::::70:252::23:5:7977:7936:8783:1594:8767:1:28:2155^t^Sgear2^T^t^t^t^^	RAID	нотушка-Ревущийфьорд", -- [1756]
+			"<01:33:36> <Comm>		^1^SlootAck^T^N1^N63^N2^N388.75^N3^T^Sresponse^T^N1^B^N3^B^N4^B^t^Sdiff^T^N1^N4^N2^N10^N3^N10^N4^N10^N5^N10^t^Sgear1^T^N1^S200318::::::::70:63::3:6:7979:6652:7936:8828:1472:8767^N2^S193683:6625:::::::70:63::16:8:8966:7977:43:8822:8820:9144:1614:8767:1:28:1279^N3^S193691::192948::::::70:63::33:9:8966:7977:6652:7935:8822:8818:9144:1614:8767:1:28:1279^N4^S193691::192948::::::70:63::33:9:8966:7977:6652:7935:8822:8818:9144:1614:8767:1:28:1279^N5^S193676::::::::70:63::33:8:8966:7977:6652:7937:8784:9144:1614:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	ледиланатель-Ревущийфьорд", -- [1757]
+			"<01:33:36> <Comm>		^1^SlootAck^T^N1^N264^N2^N385^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^t^Sdiff^T^N1^N0^N2^N30^N3^N30^N4^N30^N5^N7^t^Sgear1^T^N1^S195476::::::::70:264::5:7:6652:7937:7980:8825:8820:1485:8767^N2^S193782:6619:::::::70:264::23:5:7977:6652:8816:1594:8767:1:28:2157^N3^S193656::::::::70:264::23:6:7977:6652:7937:8814:1594:8767:1:28:2157^N4^S193656::::::::70:264::23:6:7977:6652:7937:8814:1594:8767:1:28:2157^N5^S137487::::::::70:264::33:8:7977:6652:7937:8784:9144:8967:3274:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	бишарк-Ревущийфьорд", -- [1758]
+			"<01:33:36> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Хугомонк	MONK", -- [1759]
+			"<01:33:36> <Comm>		^1^SlootAck^T^N1^N250^N2^N394.75^N3^T^Sresponse^T^N2^B^N3^B^N4^B^t^Sdiff^T^N1^N23^N2^N7^N3^N7^N4^N7^N5^N-3^t^Sgear1^T^N1^S192005::192972::::::70:250::37:5:6652:7935:1481:5865:8767:1:28:2521^N2^S195494:6625:::::::70:250::3:6:7979:8821:8820:6652:1472:8767^N3^S144116::192948::::::70:250::33:9:8967:7977:6652:7935:8822:8818:9144:3285:8767:1:28:1279^N4^S144116::192948::::::70:250::33:9:8967:7977:6652:7935:8822:8818:9144:3285:8767:1:28:1279^N5^S193001::192985:192948:192948::::70:250::13:9:8836:8840:8902:8960:8783:8782:8802:8793:8845:7:28:2164:29:32:30:36:38:8:40:260:48:194566:49:197921^t^Sgear2^T^t^t^t^^	RAID	ожившийлось-Ревущийфьорд", -- [1760]
+			"<01:33:36> <Comm>		^1^SlootAck^T^N1^N266^N2^N391.25^N3^T^Sresponse^T^N1^B^N3^B^N4^B^t^Sdiff^T^N1^N-9^N2^N7^N3^N10^N4^N10^N5^N13^t^Sgear1^T^N1^S134216::::::::70:266::35:9:8972:7977:6652:7936:8822:8820:9144:3290:8767^N2^S200333:6625:::::::70:266::3:5:7979:6652:8830:1472:8767:1:28:1040^N3^S144081::::::::70:266::33:9:8966:7977:6652:7936:8822:8818:9144:3282:8767:1:28:1279^N4^S144081::::::::70:266::33:9:8966:7977:6652:7936:8822:8818:9144:3282:8767:1:28:1279^N5^S193676::::::::70:266::33:8:8965:7977:6652:7937:8783:9144:1611:8767:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	комт-Ревущийфьорд", -- [1761]
+			"<01:33:36> <DEBUG>		Event:	LOOT_CLOSED", -- [1762]
+			"<01:33:36> <DEBUG>		Event:	LOOT_CLOSED", -- [1763]
+			"<01:33:36> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Хугомонк	MONK", -- [1764]
+			"<01:33:37> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Натазат	MAGE", -- [1765]
+			"<01:33:38> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Натазат	MAGE", -- [1766]
+			"<01:33:38> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^	RAID	менструа-Ревущийфьорд", -- [1767]
+			"<01:33:38> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N1^t^t^^	RAID	хохохохохох-Ревущийфьорд", -- [1768]
+			"<01:33:38> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Ледиланатель	MAGE", -- [1769]
+			"<01:33:39> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Ледиланатель	MAGE", -- [1770]
+			"<01:33:39> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	ювитта-Ревущийфьорд", -- [1771]
+			"<01:33:39> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	менструа-Ревущийфьорд", -- [1772]
+			"<01:33:40> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N1^t^t^^	RAID	хохохохохох-Ревущийфьорд", -- [1773]
+			"<01:33:40> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	ювитта-Ревущийфьорд", -- [1774]
+			"<01:33:40> <DEBUG>		LootFrame:Response	1	Response:	Основной спек/Нужно", -- [1775]
+			"<01:33:40> <DEBUG>		SendResponse	group	3	1	nil	nil	nil	nil	nil	nil	nil	nil	nil	nil", -- [1776]
+			"<01:33:40> <DEBUG>		SendResponse	group	4	1	nil	nil	nil	nil	nil	nil	nil	nil	nil	nil", -- [1777]
+			"<01:33:40> <DEBUG>		Trashing entry:	1	|cffa335ee|Hitem:195501::::::::70:269::5:7:6652:7937:8825:8818:7980:1485:8767::::::|h[Боевой пояс из сросшегося сланца]|h|r", -- [1778]
+			"<01:33:41> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N1^t^t^^	RAID	хугомонк-Ревущийфьорд", -- [1779]
+			"<01:33:41> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N1^t^t^^	RAID	хугомонк-Ревущийфьорд", -- [1780]
+			"<01:33:41> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	ювитта-Ревущийфьорд", -- [1781]
+			"<01:33:41> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^SPASS^t^t^^	RAID	ювитта-Ревущийфьорд", -- [1782]
+			"<01:33:41> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	линлот-Ревущийфьорд", -- [1783]
+			"<01:33:41> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	гигаовца-Ревущийфьорд", -- [1784]
+			"<01:33:42> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N2^t^t^^	RAID	аландир-Ревущийфьорд", -- [1785]
+			"<01:33:42> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N2^t^t^^	RAID	аландир-Ревущийфьорд", -- [1786]
+			"<01:33:43> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N1^t^t^^	RAID	бишарк-Ревущийфьорд", -- [1787]
+			"<01:33:43> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N1^t^t^^	RAID	злюдра-Ревущийфьорд", -- [1788]
+			"<01:33:43> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N1^t^t^^	RAID	злюдра-Ревущийфьорд", -- [1789]
+			"<01:33:44> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N1^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1790]
+			"<01:33:44> <Comm>		^1^Sresponse^T^N1^N4^N2^T^Sresponse^N1^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1791]
+			"<01:33:45> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N1^t^t^^	RAID	злюдра-Ревущийфьорд", -- [1792]
+			"<01:33:45> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Snote^Sбис^Sresponse^N1^t^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [1793]
+			"<01:33:45> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	гигаовца-Ревущийфьорд", -- [1794]
+			"<01:33:46> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	ватрониум-Ревущийфьорд", -- [1795]
+			"<01:33:46> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	ожившийлось-Ревущийфьорд", -- [1796]
+			"<01:33:47> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1797]
+			"<01:33:48> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [1798]
+			"<01:33:49> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N1^t^t^^	RAID	нотушка-Ревущийфьорд", -- [1799]
+			"<01:33:49> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N3^t^t^^	RAID	аландир-Ревущийфьорд", -- [1800]
+			"<01:33:49> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N1^t^t^^	RAID	ледотроль-Ревущийфьорд", -- [1801]
+			"<01:33:49> <Comm>		^1^Soffline_timer^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [1802]
+			"<01:33:50> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^	RAID	ожившийлось-Ревущийфьорд", -- [1803]
+			"<01:33:50> <DEBUG>		LootFrame:Response	3	Response:	Незначительное улучшение", -- [1804]
+			"<01:33:50> <DEBUG>		SendResponse	group	5	3	nil	nil	nil	nil	nil	nil	nil	nil	nil	nil", -- [1805]
+			"<01:33:50> <DEBUG>		Trashing entry:	1	|cffa335ee|Hitem:195502::::::::70:269::5:6:6652:7937:8783:7980:1485:8767::::::|h[Плененный сердечник Терроса]|h|r", -- [1806]
+			"<01:33:51> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N3^t^t^^	RAID	хугомонк-Ревущийфьорд", -- [1807]
+			"<01:33:51> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N1^t^t^^	RAID	мурратик-Ревущийфьорд", -- [1808]
+			"<01:33:51> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	натазат-Ревущийфьорд", -- [1809]
+			"<01:33:53> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^	RAID	этовертолет-Ревущийфьорд", -- [1810]
+			"<01:33:54> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	комт-Ревущийфьорд", -- [1811]
+			"<01:33:54> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	комт-Ревущийфьорд", -- [1812]
+			"<01:33:54> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N2^t^t^^	RAID	ледиланатель-Ревущийфьорд", -- [1813]
+			"<01:33:55> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^	RAID	нотушка-Ревущийфьорд", -- [1814]
+			"<01:33:55> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	ледиланатель-Ревущийфьорд", -- [1815]
+			"<01:33:55> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	мурратик-Ревущийфьорд", -- [1816]
+			"<01:33:57> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N1^t^t^^	RAID	ювитта-Ревущийфьорд", -- [1817]
+			"<01:34:06> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Ледотроль	HUNTER", -- [1818]
+			"<01:34:07> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Ледотроль	HUNTER", -- [1819]
+			"<01:34:10> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Бишарк	SHAMAN", -- [1820]
+			"<01:34:10> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2639	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Бишарк	SHAMAN", -- [1821]
+			"<01:34:11> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N2^t^t^^	RAID	этовертолет-Ревущийфьорд", -- [1822]
+			"<01:34:16> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N2^t^t^^	RAID	натазат-Ревущийфьорд", -- [1823]
+			"<01:34:23> <Comm>		^1^Srolls^T^N1^N1^N2^T^Sледотроль-Ревущийфьорд^N64^Sмурратик-Ревущийфьорд^N8^Sменструа-Ревущийфьорд^N89^Sбабусянатусе-Ревущийфьорд^N87^Sювитта-Ревущийфьорд^N33^Sожившийлось-Ревущийфьорд^N40^Sледиланатель-Ревущийфьорд^N55^Sватрониум-Ревущийфьорд^N63^Sнотушка-Ревущийфьорд^N54^Sлинлот-Ревущийфьорд^N1^Sсерегя-Ревущийфьорд^N56^Sбишарк-Ревущийфьорд^N38^Sхохохохохох-Ревущийфьорд^N67^Sэтовертолет-Ревущийфьорд^N76^Sкомт-Ревущийфьорд^N71^Sгигаовца-Ревущийфьорд^N14^Sдельфуего-Ревущийфьорд^N75^Sзлюдра-Ревущийфьорд^N95^Sхугомонк-Ревущийфьорд^N66^Sнатазат-Ревущийфьорд^N91^Sаландир-Ревущийфьорд^N45^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1824]
+			"<01:34:33> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^N1^t^t^^	RAID	серегя-Ревущийфьорд", -- [1825]
+			"<01:34:47> <Comm>		^1^Shistory^T^N1^Sменструа-Ревущийфьорд^N2^T^SmapID^N2522^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SDEATHKNIGHT^SgroupSize^N21^Sboss^SТеррос^Stime^S23:34:44^SitemReplaced1^S|cffa335ee|Hitem:201951::::::::70:259::13:5:8851:8852:8801:8850:8791:7:28:2164:29:32:30:40:38:7:40:842:45:198059:46:194578:::::|h[Шлем~`опытного~`исследователя~`|A:Professions-ChatIcon-Quality-Tier4:17:17::1|a]|h|r^Sinstance^SХранилище~`Воплощений-Героический^Sowner^Sдельфуего-Ревущийфьорд^Sresponse^SОсновной~`спек/Нужно^StypeCode^Sdefault^SdifficultyID^N15^SlootWon^S|cffa335ee|Hitem:195498::::::::70:259::5:7:6652:7936:8825:8820:7980:1485:8767::::::|h[Взгляд~`живой~`добычи]|h|r^Sid^S1671644084-34^Sdate^S21/12/22^SresponseID^N1^Svotes^N0^SisAwardReason^b^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1826]
+			"<01:34:47> <Comm>		^1^Sawarded^T^N1^N1^N2^Sменструа-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1827]
+			"<01:34:52> <Comm>		^1^Srolls^T^N1^N2^N2^T^Sледотроль-Ревущийфьорд^N77^Sмурратик-Ревущийфьорд^N56^Sменструа-Ревущийфьорд^N58^Sбабусянатусе-Ревущийфьорд^N97^Sювитта-Ревущийфьорд^N36^Sожившийлось-Ревущийфьорд^N63^Sледиланатель-Ревущийфьорд^N24^Sватрониум-Ревущийфьорд^N17^Sнотушка-Ревущийфьорд^N57^Sлинлот-Ревущийфьорд^N50^Sсерегя-Ревущийфьорд^N66^Sбишарк-Ревущийфьорд^N78^Sхохохохохох-Ревущийфьорд^N53^Sэтовертолет-Ревущийфьорд^N52^Sкомт-Ревущийфьорд^N60^Sгигаовца-Ревущийфьорд^N70^Sдельфуего-Ревущийфьорд^N80^Sзлюдра-Ревущийфьорд^N73^Sхугомонк-Ревущийфьорд^N79^Sнатазат-Ревущийфьорд^N3^Sаландир-Ревущийфьорд^N71^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1828]
+			"<01:35:18> <Comm>		^1^Srolls^T^N1^N5^N2^T^Sледотроль-Ревущийфьорд^N14^Sмурратик-Ревущийфьорд^N78^Sменструа-Ревущийфьорд^N66^Sбабусянатусе-Ревущийфьорд^N7^Sювитта-Ревущийфьорд^N8^Sожившийлось-Ревущийфьорд^N96^Sледиланатель-Ревущийфьорд^N31^Sватрониум-Ревущийфьорд^N10^Sнотушка-Ревущийфьорд^N49^Sлинлот-Ревущийфьорд^N29^Sсерегя-Ревущийфьорд^N73^Sбишарк-Ревущийфьорд^N35^Sхохохохохох-Ревущийфьорд^N11^Sэтовертолет-Ревущийфьорд^N4^Sкомт-Ревущийфьорд^N19^Sгигаовца-Ревущийфьорд^N60^Sдельфуего-Ревущийфьорд^N9^Sзлюдра-Ревущийфьорд^N65^Sхугомонк-Ревущийфьорд^N71^Sнатазат-Ревущийфьорд^N51^Sаландир-Ревущийфьорд^N100^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1829]
+			"<01:35:50> <DEBUG>		Event:	LOOT_READY	true", -- [1830]
+			"<01:35:50> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192618::::::::70:269:::::::::|h[Кусочки льда]|h|r	0	1	Creature-0-3113-2522-2156-192767-0000236494	1", -- [1831]
+			"<01:35:51> <DEBUG>		Event:	LOOT_READY	true", -- [1832]
+			"<01:35:51> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192618::::::::70:269:::::::::|h[Кусочки льда]|h|r	0	1	Creature-0-3113-2522-2156-192767-0000236494	1", -- [1833]
+			"<01:35:51> <DEBUG>		OnLootSlotCleared()	1	|cff9d9d9d|Hitem:192618::::::::70:269:::::::::|h[Кусочки льда]|h|r	0", -- [1834]
+			"<01:35:51> <DEBUG>		Event:	LOOT_CLOSED", -- [1835]
+			"<01:35:51> <DEBUG>		Event:	LOOT_CLOSED", -- [1836]
+			"<01:35:51> <Comm>		^1^Sl^T^N1^S192767^t^^	RAID	хугомонк-Ревущийфьорд", -- [1837]
+			"<01:35:51> <Comm>		^1^Sl^T^N1^S192767^t^^	RAID	хугомонк-Ревущийфьорд", -- [1838]
+			"<01:35:52> <Comm>		^1^Sl^T^N1^S192767^t^^	RAID	ледиланатель-Ревущийфьорд", -- [1839]
+			"<01:35:52> <Comm>		^1^Sl^T^N1^S192767^t^^	RAID	ледиланатель-Ревущийфьорд", -- [1840]
+			"<01:35:52> <Comm>		^1^Sl^T^N1^S198424^t^^	RAID	мурратик-Ревущийфьорд", -- [1841]
+			"<01:35:52> <Comm>		^1^Sl^T^N1^S198424^t^^	RAID	мурратик-Ревущийфьорд", -- [1842]
+			"<01:35:52> <Comm>		^1^Sl^T^N1^S199124^t^^	RAID	натазат-Ревущийфьорд", -- [1843]
+			"<01:35:52> <Comm>		^1^Sl^T^N1^S199124^t^^	RAID	натазат-Ревущийфьорд", -- [1844]
+			"<01:35:53> <Comm>		^1^Sl^T^N1^S198424^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [1845]
+			"<01:35:53> <Comm>		^1^Sl^T^N1^S198424^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [1846]
+			"<01:35:55> <Comm>		^1^Sl^T^N1^S199124^t^^	RAID	хохохохохох-Ревущийфьорд", -- [1847]
+			"<01:35:55> <Comm>		^1^Sl^T^N1^S199124^t^^	RAID	хохохохохох-Ревущийфьорд", -- [1848]
+			"<01:35:57> <Comm>		^1^SfakeLoot^T^N1^S|cff9d9d9d|Hitem:192618::::::::70:264:::::::::|h[Кусочки~`льда]|h|r^N2^S192767^t^^	RAID	серегя-Ревущийфьорд", -- [1849]
+			"<01:36:00> <Comm>		^1^Sl^T^N1^S192767^t^^	RAID	злюдра-Ревущийфьорд", -- [1850]
+			"<01:36:00> <Comm>		^1^Sl^T^N1^S192767^t^^	RAID	злюдра-Ревущийфьорд", -- [1851]
+			"<01:36:05> <Comm>		^1^Srolls^T^N1^N3^N2^T^Sледотроль-Ревущийфьорд^N4^Sмурратик-Ревущийфьорд^N56^Sменструа-Ревущийфьорд^N50^Sбабусянатусе-Ревущийфьорд^N91^Sювитта-Ревущийфьорд^N34^Sожившийлось-Ревущийфьорд^N75^Sледиланатель-Ревущийфьорд^N32^Sватрониум-Ревущийфьорд^N99^Sнотушка-Ревущийфьорд^N26^Sлинлот-Ревущийфьорд^N21^Sсерегя-Ревущийфьорд^N77^Sбишарк-Ревущийфьорд^N30^Sхохохохохох-Ревущийфьорд^N16^Sэтовертолет-Ревущийфьорд^N68^Sкомт-Ревущийфьорд^N36^Sгигаовца-Ревущийфьорд^N96^Sдельфуего-Ревущийфьорд^N80^Sзлюдра-Ревущийфьорд^N20^Sхугомонк-Ревущийфьорд^N87^Sнатазат-Ревущийфьорд^N52^Sаландир-Ревущийфьорд^N29^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1852]
+			"<01:36:05> <Comm>		^1^Srolls^T^N1^N4^N2^T^Sледотроль-Ревущийфьорд^N4^Sмурратик-Ревущийфьорд^N56^Sменструа-Ревущийфьорд^N50^Sбабусянатусе-Ревущийфьорд^N91^Sювитта-Ревущийфьорд^N34^Sожившийлось-Ревущийфьорд^N75^Sледиланатель-Ревущийфьорд^N32^Sватрониум-Ревущийфьорд^N99^Sнотушка-Ревущийфьорд^N26^Sлинлот-Ревущийфьорд^N21^Sсерегя-Ревущийфьорд^N77^Sбишарк-Ревущийфьорд^N30^Sхохохохохох-Ревущийфьорд^N16^Sэтовертолет-Ревущийфьорд^N68^Sкомт-Ревущийфьорд^N36^Sгигаовца-Ревущийфьорд^N96^Sдельфуего-Ревущийфьорд^N80^Sзлюдра-Ревущийфьорд^N20^Sхугомонк-Ревущийфьорд^N87^Sнатазат-Ревущийфьорд^N52^Sаландир-Ревущийфьорд^N29^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1853]
+			"<01:36:10> <Comm>		^1^Sl^T^N1^S199124^t^^	RAID	линлот-Ревущийфьорд", -- [1854]
+			"<01:36:10> <Comm>		^1^Sl^T^N1^S199124^t^^	RAID	линлот-Ревущийфьорд", -- [1855]
+			"<01:37:11> <Comm>		^1^Srolls^T^N1^N2^N2^T^Sледотроль-Ревущийфьорд^N91^Sмурратик-Ревущийфьорд^N58^Sменструа-Ревущийфьорд^N83^Sбабусянатусе-Ревущийфьорд^N15^Sювитта-Ревущийфьорд^N66^Sожившийлось-Ревущийфьорд^N96^Sледиланатель-Ревущийфьорд^N84^Sватрониум-Ревущийфьорд^N81^Sнотушка-Ревущийфьорд^N12^Sлинлот-Ревущийфьорд^N55^Sсерегя-Ревущийфьорд^N75^Sбишарк-Ревущийфьорд^N51^Sхохохохохох-Ревущийфьорд^N37^Sэтовертолет-Ревущийфьорд^N28^Sкомт-Ревущийфьорд^N47^Sгигаовца-Ревущийфьорд^N90^Sдельфуего-Ревущийфьорд^N77^Sзлюдра-Ревущийфьорд^N45^Sхугомонк-Ревущийфьорд^N72^Sнатазат-Ревущийфьорд^N89^Sаландир-Ревущийфьорд^N23^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1856]
+			"<01:37:14> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	190454	|cffa335ee|Hitem:190454::::::::70:269:::::::::|h[Изначальный хаос]|h|r	10	Этовертолет	WARRIOR", -- [1857]
+			"<01:37:14> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2587	200686	|cffa335ee|Hitem:200686::::::::70:269:::::::::|h[Изначальное средоточие]|h|r	1	Этовертолет	WARRIOR", -- [1858]
+			"<01:37:16> <Comm>		^1^Shistory^T^N1^Sхохохохохох-Ревущийфьорд^N2^T^SmapID^N2522^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SPRIEST^SgroupSize^N20^Sboss^SТеррос^Stime^S23:37:13^SitemReplaced1^S|cffa335ee|Hitem:193515:6625:::::::70:259::13:6:8837:8838:4785:8802:8850:8790:7:28:2164:29:49:30:36:38:8:40:426:44:198059:45:192552:::::|h[Тканевое~`одеяние~`геодезиста~`|A:Professions-ChatIcon-Quality-Tier5:17:17::1|a]|h|r^Sinstance^SХранилище~`Воплощений-Героический^Sowner^Sдельфуего-Ревущийфьорд^Sresponse^SОсновной~`спек/Нужно^StypeCode^Sdefault^SdifficultyID^N15^SlootWon^S|cffa335ee|Hitem:195500::::::::70:259::5:6:6652:8825:8820:7980:1485:8767::::::|h[Уплотненная~`ряса~`сектанта]|h|r^Sid^S1671644233-35^Sdate^S21/12/22^SresponseID^N1^Svotes^N0^SisAwardReason^b^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1859]
+			"<01:37:16> <Comm>		^1^Sawarded^T^N1^N2^N2^Sхохохохохох-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1860]
+			"<01:38:20> <Comm>		^1^Sv^T^N1^S3.6.4^t^^	GUILD	линлот-Ревущийфьорд", -- [1861]
+			"<01:38:20> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SМастер~`Огня^N4^N0^N5^N385.875^N6^N254^t^^	RAID	линлот-Ревущийфьорд", -- [1862]
+			"<01:38:20> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	ледотроль-Ревущийфьорд", -- [1863]
+			"<01:38:20> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	натазат-Ревущийфьорд", -- [1864]
+			"<01:38:20> <Comm>		^1^Sr^T^N1^S3.6.0^N3^T^t^t^^	GUILD	бесогонтв-Ревущийфьорд", -- [1865]
+			"<01:38:20> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	бишарк-Ревущийфьорд", -- [1866]
+			"<01:38:25> <Comm>		^1^SlootAck^T^N1^N254^N2^N385.875^N3^T^Sresponse^T^N1^B^N2^B^N3^B^N4^B^t^Sdiff^T^N1^N17^N2^N7^N3^N10^N4^N10^N5^N36^t^Sgear1^T^N1^S199444::::::::70:254::14:7:8943:6652:7936:8822:8820:1507:8767:1:28:2474^N2^S137498:6625:::::::70:254::16:8:8967:7977:6652:8822:8820:9144:3274:8767:1:28:1279^N3^S193722::::::::70:254::33:9:8966:7977:6652:7937:8822:8818:9144:1614:8767:1:28:1279^N4^S193722::::::::70:254::33:9:8966:7977:6652:7937:8822:8818:9144:1614:8767:1:28:1279^N5^S200445::::::::70:254::25:6:6652:7936:8783:1478:5855:8766:1:28:2602^t^Sgear2^T^t^t^t^^	RAID	линлот-Ревущийфьорд", -- [1867]
+			"<01:38:35> <Comm>		^1^Sresponse^T^N1^N5^N2^T^Sresponse^SPASS^t^t^^	RAID	линлот-Ревущийфьорд", -- [1868]
+			"<01:38:49> <Comm>		^1^Srolls^T^N1^N5^N2^T^Sледотроль-Ревущийфьорд^N85^Sмурратик-Ревущийфьорд^N10^Sменструа-Ревущийфьорд^N15^Sбабусянатусе-Ревущийфьорд^N49^Sювитта-Ревущийфьорд^N75^Sожившийлось-Ревущийфьорд^N6^Sледиланатель-Ревущийфьорд^N89^Sватрониум-Ревущийфьорд^N68^Sнотушка-Ревущийфьорд^N80^Sлинлот-Ревущийфьорд^N91^Sсерегя-Ревущийфьорд^N35^Sбишарк-Ревущийфьорд^N62^Sхохохохохох-Ревущийфьорд^N58^Sэтовертолет-Ревущийфьорд^N27^Sкомт-Ревущийфьорд^N23^Sгигаовца-Ревущийфьорд^N77^Sдельфуего-Ревущийфьорд^N47^Sзлюдра-Ревущийфьорд^N60^Sхугомонк-Ревущийфьорд^N37^Sнатазат-Ревущийфьорд^N48^Sаландир-Ревущийфьорд^N33^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1869]
+			"<01:39:18> <Comm>		^1^Shistory^T^N1^Sледотроль-Ревущийфьорд^N2^T^SmapID^N2522^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SHUNTER^SgroupSize^N21^Sboss^SТеррос^Stime^S23:39:15^SitemReplaced1^S|cffa335ee|Hitem:195210::::::::70:259::11:2:8776:8984:2:9:70:28:2154:::::|h[Сердце~`Азмерлот]|h|r^Sinstance^SХранилище~`Воплощений-Героический^Sowner^Sдельфуего-Ревущийфьорд^Sresponse^SОсновной~`спек/Нужно^StypeCode^Sdefault^SdifficultyID^N15^SlootWon^S|cffa335ee|Hitem:195502::::::::70:259::5:6:6652:7937:8783:7980:1485:8767::::::|h[Плененный~`сердечник~`Терроса]|h|r^Sid^S1671644355-36^Sdate^S21/12/22^SresponseID^N1^Svotes^N0^SisAwardReason^b^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1870]
+			"<01:39:18> <Comm>		^1^Sawarded^T^N1^N5^N2^Sледотроль-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1871]
+			"<01:39:27> <Comm>		^1^Shistory^T^N1^Sхугомонк-Ревущийфьорд^N2^T^SmapID^N2522^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SMONK^SgroupSize^N21^Sboss^SТеррос^Stime^S23:39:24^SitemReplaced1^S|cffa335ee|Hitem:191995::::::::70:259::73:5:6652:7937:1485:5864:8767:1:28:2437:::::|h[Кушак~`из~`шкуры~`выдрека]|h|r^Sinstance^SХранилище~`Воплощений-Героический^Sowner^Sдельфуего-Ревущийфьорд^Sresponse^SОсновной~`спек/Нужно^StypeCode^Sdefault^SdifficultyID^N15^SlootWon^S|cffa335ee|Hitem:195501::::::::70:259::5:7:6652:7937:8825:8818:7980:1485:8767::::::|h[Боевой~`пояс~`из~`сросшегося~`сланца]|h|r^Sid^S1671644364-37^Sdate^S21/12/22^SresponseID^N1^Svotes^N0^SisAwardReason^b^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1872]
+			"<01:39:27> <Comm>		^1^Sawarded^T^N1^N3^N2^Sхугомонк-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1873]
+			"<01:39:35> <Comm>		^1^Shistory^T^N1^Sзлюдра-Ревущийфьорд^N2^T^SmapID^N2522^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SDRUID^SgroupSize^N21^Sboss^SТеррос^Stime^S23:39:32^SitemReplaced1^S|cffa335ee|Hitem:191995::::::::70:259::42:5:6652:7936:1485:5864:8767:1:28:2287:::::|h[Кушак~`из~`шкуры~`выдрека]|h|r^Sinstance^SХранилище~`Воплощений-Героический^Sowner^Sдельфуего-Ревущийфьорд^Sresponse^SОсновной~`спек/Нужно^StypeCode^Sdefault^SdifficultyID^N15^SlootWon^S|cffa335ee|Hitem:195501::::::::70:259::5:7:6652:7937:8825:8818:7980:1485:8767::::::|h[Боевой~`пояс~`из~`сросшегося~`сланца]|h|r^Sid^S1671644372-38^Sdate^S21/12/22^SresponseID^N1^Svotes^N0^SisAwardReason^b^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1874]
+			"<01:39:35> <Comm>		^1^Sawarded^T^N1^N4^N2^Sзлюдра-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1875]
+			"<01:39:36> <Comm>		^1^Ssession_end^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [1876]
+			"<01:40:00> <Comm>		^1^Sv^T^N1^S3.6.4^t^^	GUILD	дельфуего-Ревущийфьорд", -- [1877]
+			"<01:40:00> <Comm>		^1^SplayerInfoRequest^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [1878]
+			"<01:40:00> <DEBUG>		I'm an enchanter", -- [1879]
+			"<01:40:00> <Comm>		^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|2^B^S|5^N3^S|17^B^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1880]
+			"<01:40:00> <INFO>		OnMLDBReceived", -- [1881]
+			"<01:40:00> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	ледотроль-Ревущийфьорд", -- [1882]
+			"<01:40:00> <Comm>		^1^Sxrealm^T^N1^Sдельфуего-Ревущийфьорд^N2^SpI^N3^SDAMAGER^N4^SОтряд~`Репка^N6^N0^N7^N377.5^N8^N253^t^^	RAID	ледотроль-Ревущийфьорд", -- [1883]
+			"<01:40:00> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	натазат-Ревущийфьорд", -- [1884]
+			"<01:40:00> <Comm>		^1^Sr^T^N1^S3.6.0^N3^T^t^t^^	GUILD	бесогонтв-Ревущийфьорд", -- [1885]
+			"<01:40:00> <Comm>		^1^Sxrealm^T^N1^Sдельфуего-Ревущийфьорд^N2^SpI^N3^SDAMAGER^N4^SОтряд~`Репка^N6^N0^N7^N380.5^N8^N62^t^^	RAID	натазат-Ревущийфьорд", -- [1886]
+			"<01:40:00> <Comm>		^1^Sr^T^N1^S3.6.1^N3^T^t^t^^	GUILD	бишарк-Ревущийфьорд", -- [1887]
+			"<01:40:00> <Comm>		^1^Sxrealm^T^N1^Sдельфуего-Ревущийфьорд^N2^SpI^N3^SHEALER^N4^SОтряд~`Репка^N6^N0^N7^N385^N8^N264^t^^	RAID	бишарк-Ревущийфьорд", -- [1888]
+			"<01:40:01> <Comm>		^1^Scouncil^T^N1^T^S1615-0A722347^B^t^t^^	RAID	дельфуего-Ревущийфьорд", -- [1889]
+			"<01:40:01> <DEBUG>		isCouncil	false", -- [1890]
+			"<01:40:09> <Comm>		^1^Sl^T^N1^S198501^t^^	RAID	комт-Ревущийфьорд", -- [1891]
+			"<01:41:02> <Comm>		^1^SfakeLoot^T^N1^S|cff1eff00|Hitem:199012::::::::70:264:::4:7968:6652:7937:1691:1:28:2159:::::|h[Опояска~`могучей~`волны~`с~`символом~`огненной~`вспышки]|h|r^N2^S198502^t^^	RAID	серегя-Ревущийфьорд", -- [1892]
+			"<01:41:05> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	нотушка-Ревущийфьорд", -- [1893]
+			"<01:41:06> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	хохохохохох-Ревущийфьорд", -- [1894]
+			"<01:41:06> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	хохохохохох-Ревущийфьорд", -- [1895]
+			"<01:41:07> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190326	|cff0070dd|Hitem:190326::::::::70:269:::::::::|h[Пробуждающийся воздух]|h|r	1	Ледиланатель	MAGE", -- [1896]
+			"<01:41:15> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	хохохохохох-Ревущийфьорд", -- [1897]
+			"<01:41:15> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	хохохохохох-Ревущийфьорд", -- [1898]
+			"<01:41:20> <DEBUG>		TradeUI: Traded item(s) to	дельфуего-Ревущийфьорд", -- [1899]
+			"<01:41:20> <DEBUG>		TradeUI:Hide()", -- [1900]
+			"<01:41:20> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:195501::::::::70:259::5:7:6652:7937:8825:8818:7980:1485:8767::::::|h[Боевой~`пояс~`из~`сросшегося~`сланца]|h|r^N2^Sхугомонк-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1901]
+			"<01:41:21> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	ледотроль-Ревущийфьорд", -- [1902]
+			"<01:41:23> <Comm>		^1^SfakeLoot^T^N1^S|cff9d9d9d|Hitem:192644::::::::70:264:::::::::|h[Воздушная~`частица]|h|r^N2^S196856^t^^	RAID	серегя-Ревущийфьорд", -- [1903]
+			"<01:41:25> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	линлот-Ревущийфьорд", -- [1904]
+			"<01:41:25> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	линлот-Ревущийфьорд", -- [1905]
+			"<01:41:31> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:195498::::::::70:259::5:7:6652:7936:8825:8820:7980:1485:8767::::::|h[Взгляд~`живой~`добычи]|h|r^N2^Sменструа-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1906]
+			"<01:41:47> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:195501::::::::70:259::5:7:6652:7937:8825:8818:7980:1485:8767::::::|h[Боевой~`пояс~`из~`сросшегося~`сланца]|h|r^N2^Sзлюдра-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1907]
+			"<01:42:18> <Comm>		^1^Sl^T^N1^S196855^t^^	RAID	мурратик-Ревущийфьорд", -- [1908]
+			"<01:42:18> <Comm>		^1^Sl^T^N1^S196855^t^^	RAID	мурратик-Ревущийфьорд", -- [1909]
+			"<01:42:19> <Comm>		^1^Sl^T^N1^S196855^t^^	RAID	ожившийлось-Ревущийфьорд", -- [1910]
+			"<01:42:19> <Comm>		^1^Sl^T^N1^S196855^t^^	RAID	ожившийлось-Ревущийфьорд", -- [1911]
+			"<01:42:44> <Comm>		^1^Strade_complete^T^N1^S|cffa335ee|Hitem:195500::::::::70:259::5:6:6652:8825:8820:7980:1485:8767::::::|h[Уплотненная~`ряса~`сектанта]|h|r^N2^Sхохохохохох-Ревущийфьорд^N3^Sдельфуего-Ревущийфьорд^t^^	RAID	дельфуего-Ревущийфьорд", -- [1912]
+			"<01:43:19> <Comm>		^1^Sl^T^N1^S196856^t^^	RAID	хохохохохох-Ревущийфьорд", -- [1913]
+			"<01:43:20> <Comm>		^1^Sl^T^N1^S197146^t^^	RAID	хохохохохох-Ревущийфьорд", -- [1914]
+			"<01:43:20> <Comm>		^1^Sl^T^N1^S197146^t^^	RAID	хохохохохох-Ревущийфьорд", -- [1915]
+			"<01:43:20> <DEBUG>		Event:	LOOT_READY	true", -- [1916]
+			"<01:43:20> <DEBUG>		Ignoring	nil	as it's a currency", -- [1917]
+			"<01:43:20> <DEBUG>		Event:	LOOT_READY	true", -- [1918]
+			"<01:43:20> <DEBUG>		Ignoring	nil	as it's a currency", -- [1919]
+			"<01:43:21> <DEBUG>		Event:	LOOT_CLOSED", -- [1920]
+			"<01:43:21> <DEBUG>		Event:	LOOT_CLOSED", -- [1921]
+			"<01:43:41> <Comm>		^1^Sl^T^N1^S197147^t^^	RAID	нотушка-Ревущийфьорд", -- [1922]
+			"<01:43:41> <Comm>		^1^Sl^T^N1^S197147^t^^	RAID	нотушка-Ревущийфьорд", -- [1923]
+			"<01:44:22> <Comm>		^1^Sl^T^N1^S199027^t^^	RAID	этовертолет-Ревущийфьорд", -- [1924]
+			"<01:44:22> <Comm>		^1^Sl^T^N1^S199027^t^^	RAID	этовертолет-Ревущийфьорд", -- [1925]
+			"<01:44:23> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190320	|cff0070dd|Hitem:190320::::::::70:269:::::::::|h[Пробуждающийся огонь]|h|r	1	Ледотроль	HUNTER", -- [1926]
+			"<01:44:24> <Comm>		^1^Sl^T^N1^S199027^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [1927]
+			"<01:44:24> <Comm>		^1^Sl^T^N1^S199027^t^^	RAID	бабусянатусе-Ревущийфьорд", -- [1928]
+			"<01:44:24> <Comm>		^1^Sl^T^N1^S199027^t^^	RAID	ледотроль-Ревущийфьорд", -- [1929]
+			"<01:45:06> <DEBUG>		Event:	LOOT_READY	true", -- [1930]
+			"<01:45:06> <DEBUG>		Adding to self.lootSlotInfo	1	|cff1eff00|Hitem:198991::::::::70:269:::4:7968:6652:7937:1702:1:28:2159:::::|h[Напульсники наблюдателя за драконами с символом лихорадочного света]|h|r	2	1	Creature-0-3113-2522-2156-199028-000023702A	1", -- [1931]
+			"<01:45:06> <DEBUG>		Event:	LOOT_READY	true", -- [1932]
+			"<01:45:06> <DEBUG>		Adding to self.lootSlotInfo	1	|cff1eff00|Hitem:198991::::::::70:269:::4:7968:6652:7937:1702:1:28:2159:::::|h[Напульсники наблюдателя за драконами с символом лихорадочного света]|h|r	2	1	Creature-0-3113-2522-2156-199028-000023702A	1", -- [1933]
+			"<01:45:06> <Comm>		^1^Sl^T^N1^S199028^t^^	RAID	аландир-Ревущийфьорд", -- [1934]
+			"<01:45:06> <Comm>		^1^Sl^T^N1^S199028^t^^	RAID	аландир-Ревущийфьорд", -- [1935]
+			"<01:45:06> <DEBUG>		OnLootSlotCleared()	1	|cff1eff00|Hitem:198991::::::::70:269:::4:7968:6652:7937:1702:1:28:2159:::::|h[Напульсники наблюдателя за драконами с символом лихорадочного света]|h|r	2", -- [1936]
+			"<01:45:06> <DEBUG>		Event:	LOOT_CLOSED", -- [1937]
+			"<01:45:06> <DEBUG>		Event:	LOOT_CLOSED", -- [1938]
+			"<01:45:07> <Comm>		^1^Sl^T^N1^S199028^t^^	RAID	хугомонк-Ревущийфьорд", -- [1939]
+			"<01:45:07> <Comm>		^1^Sl^T^N1^S199028^t^^	RAID	хугомонк-Ревущийфьорд", -- [1940]
+			"<01:45:08> <DEBUG>		Storage:New	|cff1eff00|Hitem:198991::::::::70:269:::4:7968:6652:7937:1702:1:28:2159:::::|h[Напульсники наблюдателя за драконами с символом лихорадочного света]|h|r	temp", -- [1941]
+			"<01:45:08> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:198991::::::::70:269:::4:7968:6652:7937:1702:1:28:2159:::::||h[Напульсники наблюдателя за драконами с символом лихорадочного света]||h||r	5", -- [1942]
+			"<01:45:08> <DEBUG>		Found:	nil	nil	nil", -- [1943]
+			"<01:45:09> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	190328	|cff0070dd|Hitem:190328::::::::70:269:::::::::|h[Пробуждающийся лед]|h|r	2	Бабусянатусе	PRIEST", -- [1944]
+			"<01:45:09> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:198991::::::::70:269:::4:7968:6652:7937:1702:1:28:2159:::::||h[Напульсники наблюдателя за драконами с символом лихорадочного света]||h||r	5", -- [1945]
+			"<01:45:09> <DEBUG>		Found:	nil	nil	nil", -- [1946]
+			"<01:45:10> <Comm>		^1^Sl^T^N1^S199028^t^^	RAID	натазат-Ревущийфьорд", -- [1947]
+			"<01:45:10> <Comm>		^1^Sl^T^N1^S199028^t^^	RAID	натазат-Ревущийфьорд", -- [1948]
+			"<01:45:10> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:198991::::::::70:269:::4:7968:6652:7937:1702:1:28:2159:::::||h[Напульсники наблюдателя за драконами с символом лихорадочного света]||h||r	5", -- [1949]
+			"<01:45:10> <DEBUG>		Found:	nil	nil	nil", -- [1950]
+			"<01:45:11> <Comm>		^1^Sl^T^N1^S199027^t^^	RAID	ледотроль-Ревущийфьорд", -- [1951]
+			"<01:45:11> <DEBUG>		Storage: searching for item:	||cff1eff00||Hitem:198991::::::::70:269:::4:7968:6652:7937:1702:1:28:2159:::::||h[Напульсники наблюдателя за драконами с символом лихорадочного света]||h||r	5", -- [1952]
+			"<01:45:11> <DEBUG>		Found:	nil	nil	nil", -- [1953]
+			"<01:45:11> <ERROR>		UpdateAndSendRecentTradableItem: |cff1eff00|Hitem:198991::::::::70:269:::4:7968:6652:7937:1702:1:28:2159:::::|h[Напульсники наблюдателя за драконами с символом лихорадочного света]|h|r not found in bags", -- [1954]
+			"<01:45:12> <Comm>		^1^Sl^T^N1^S199028^t^^	RAID	комт-Ревущийфьорд", -- [1955]
+			"<01:45:51> <Comm>		^1^Sl^T^N1^S199030^t^^	RAID	этовертолет-Ревущийфьорд", -- [1956]
+			"<01:45:51> <Comm>		^1^Sl^T^N1^S199030^t^^	RAID	этовертолет-Ревущийфьорд", -- [1957]
+			"<01:45:54> <Comm>		^1^Sl^T^N1^S199027^t^^	RAID	ледотроль-Ревущийфьорд", -- [1958]
+			"<01:46:32> <DEBUG>		Event:	LOOT_READY	true", -- [1959]
+			"<01:46:32> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192626::::::::70:269:::::::::|h[Куча пыли]|h|r	0	1	Creature-0-3113-2522-2156-199029-0000237084	1", -- [1960]
+			"<01:46:32> <DEBUG>		Event:	LOOT_READY	true", -- [1961]
+			"<01:46:32> <DEBUG>		Adding to self.lootSlotInfo	1	|cff9d9d9d|Hitem:192626::::::::70:269:::::::::|h[Куча пыли]|h|r	0	1	Creature-0-3113-2522-2156-199029-0000237084	1", -- [1962]
+			"<01:46:33> <DEBUG>		OnLootSlotCleared()	1	|cff9d9d9d|Hitem:192626::::::::70:269:::::::::|h[Куча пыли]|h|r	0", -- [1963]
+			"<01:46:33> <DEBUG>		Event:	LOOT_CLOSED", -- [1964]
+			"<01:46:33> <DEBUG>		Event:	LOOT_CLOSED", -- [1965]
+			"<01:46:33> <Comm>		^1^Sl^T^N1^S199029^t^^	RAID	хугомонк-Ревущийфьорд", -- [1966]
+			"<01:46:33> <Comm>		^1^Sl^T^N1^S199029^t^^	RAID	хугомонк-Ревущийфьорд", -- [1967]
+			"<01:46:43> <DEBUG>		Event:	ENCOUNTER_START	2590	Совет стихий	15	21", -- [1968]
+			"<01:46:43> <INFO>		UpdatePlayersData()", -- [1969]
+			"<01:46:43> <Comm>		^1^SStartHandleLoot^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [1970]
+			"<01:46:47> <DEBUG>		Event:	ENCOUNTER_END	2590	Совет стихий	15	21	0", -- [1971]
+			"<01:49:05> <DEBUG>		Event:	ENCOUNTER_START	2590	Совет стихий	15	21", -- [1972]
+			"<01:49:05> <INFO>		UpdatePlayersData()", -- [1973]
+			"<01:49:05> <Comm>		^1^SStartHandleLoot^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [1974]
+			"<01:52:19> <DEBUG>		Event:	ENCOUNTER_END	2590	Совет стихий	15	21	0", -- [1975]
+			"<01:55:06> <DEBUG>		Event:	ENCOUNTER_START	2590	Совет стихий	15	21", -- [1976]
+			"<01:55:06> <INFO>		UpdatePlayersData()", -- [1977]
+			"<01:55:06> <Comm>		^1^SStartHandleLoot^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [1978]
+			"<01:59:49> <DEBUG>		Event:	ENCOUNTER_END	2590	Совет стихий	15	21	0", -- [1979]
+			"<02:01:45> <DEBUG>		Event:	ENCOUNTER_START	2590	Совет стихий	15	21", -- [1980]
+			"<02:01:45> <INFO>		UpdatePlayersData()", -- [1981]
+			"<02:01:45> <Comm>		^1^SStartHandleLoot^T^t^^	RAID	дельфуего-Ревущийфьорд", -- [1982]
+			"<02:05:58> <DEBUG>		Event:	ENCOUNTER_END	2590	Совет стихий	15	21	0", -- [1983]
+			"<02:06:31> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1984]
+			"<02:06:31> <INFO>		UpdatePlayersData()", -- [1985]
+			"<02:06:33> <DEBUG>		GetML()", -- [1986]
+			"<02:07:26> <DEBUG>		Event:	PARTY_LEADER_CHANGED", -- [1987]
+			"<02:07:28> <DEBUG>		GetML()", -- [1988]
+			"<02:07:28> <DEBUG>		Resetting council as we have a new ML!", -- [1989]
+			"<02:07:28> <INFO>		MasterLooter = 	менструа-Ревущийфьорд", -- [1990]
+			"<02:07:28> <Comm>		^1^SplayerInfoRequest^T^t^^	RAID	менструа-Ревущийфьорд", -- [1991]
+			"<02:07:28> <DEBUG>		I'm an enchanter", -- [1992]
+			"<02:07:28> <Comm>		^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|2^B^S|5^N3^S|17^B^t^t^^	RAID	менструа-Ревущийфьорд", -- [1993]
+			"<02:07:28> <INFO>		OnMLDBReceived", -- [1994]
+			"<02:07:28> <Comm>		^1^Sxrealm^T^N1^Sменструа-Ревущийфьорд^N2^SpI^N3^SDAMAGER^N4^SОтряд~`Репка^N6^N0^N7^N385^N8^N264^t^^	RAID	бишарк-Ревущийфьорд", -- [1995]
+			"<02:07:30> <Comm>		^1^Scouncil^T^N1^T^S1615-0A9A671E^B^t^t^^	RAID	менструа-Ревущийфьорд", -- [1996]
+			"<02:07:30> <DEBUG>		isCouncil	false", -- [1997]
+			"<02:07:33> <DEBUG>		Event:	GROUP_LEFT	1	Party-1615-1-00003644EFD0", -- [1998]
+			"<02:07:33> <DEBUG>		GetML()", -- [1999]
+			"<02:07:43> <DEBUG>		Timer MLdb_check passed", -- [2000]
 		},
 		["cache"] = {
 			["player"] = {
+				["Player-1615-0AEB1962"] = {
+					["ilvl"] = 385.875,
+					["guid"] = "Player-1615-0AEB1962",
+					["class"] = "HUNTER",
+					["role"] = "DAMAGER",
+					["name"] = "линлот-Ревущийфьорд",
+					["rank"] = "Мастер Огня",
+					["cache_time"] = 1671655097,
+					["specID"] = 254,
+					["enchantingLvl"] = 0,
+					["realm"] = "Ревущийфьорд",
+				},
+				["Player-1604-0AC9C9BC"] = {
+					["name"] = "танимура-СвежевательДуш",
+					["guid"] = "Player-1604-0AC9C9BC",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1670866676,
+					["realm"] = "СвежевательДуш",
+				},
+				["Player-1615-0B081BFE"] = {
+					["ilvl"] = 382.125,
+					["guid"] = "Player-1615-0B081BFE",
+					["class"] = "WARRIOR",
+					["role"] = "DAMAGER",
+					["cache_time"] = 1671132008,
+					["rank"] = "Отряд Репка",
+					["name"] = "флдан-Ревущийфьорд",
+					["specID"] = 72,
+					["enchantingLvl"] = 0,
+					["realm"] = "Ревущий фьорд",
+				},
+				["Player-1615-0B024F7D"] = {
+					["ilvl"] = 378.375,
+					["guid"] = "Player-1615-0B024F7D",
+					["class"] = "MONK",
+					["role"] = "HEALER",
+					["cache_time"] = 1671133108,
+					["rank"] = "Альт офицера",
+					["name"] = "лаурэлин-Ревущийфьорд",
+					["specID"] = 270,
+					["enchantingLvl"] = 0,
+					["realm"] = "Ревущий фьорд",
+				},
+				["Player-3713-098CDEE8"] = {
+					["name"] = "Trìckster-BurningLegion",
+					["guid"] = "Player-3713-098CDEE8",
+					["class"] = "DRUID",
+					["cache_time"] = 1671201844,
+					["realm"] = "BurningLegion",
+				},
+				["Player-512-063CACE5"] = {
+					["name"] = "Moprale-Arakarahm",
+					["guid"] = "Player-512-063CACE5",
+					["class"] = "DRUID",
+					["cache_time"] = 1671200711,
+					["realm"] = "Arakarahm",
+				},
+				["Player-1615-0B0B1965"] = {
+					["name"] = "нерассвело-Ревущийфьорд",
+					["guid"] = "Player-1615-0B0B1965",
+					["class"] = "DRUID",
+					["cache_time"] = 1670780218,
+					["realm"] = "Ревущий фьорд",
+				},
+				["Player-1615-0AF74D53"] = {
+					["ilvl"] = 379.5625,
+					["guid"] = "Player-1615-0AF74D53",
+					["class"] = "PALADIN",
+					["role"] = "TANK",
+					["name"] = "мурратик-Ревущийфьорд",
+					["cache_time"] = 1671400934,
+					["specID"] = 66,
+					["enchantingLvl"] = 0,
+					["rank"] = "Темный совет",
+				},
+				["Player-1615-0AF1B79B"] = {
+					["ilvl"] = 382.6875,
+					["guid"] = "Player-1615-0AF1B79B",
+					["class"] = "HUNTER",
+					["role"] = "DAMAGER",
+					["cache_time"] = 1671041682,
+					["rank"] = "Отряд Репка",
+					["name"] = "томмишелби-Ревущийфьорд",
+					["specID"] = 253,
+					["enchantingLvl"] = 0,
+					["realm"] = "Ревущий фьорд",
+				},
+				["Player-1923-07068744"] = {
+					["name"] = "энхонатор-Ясеневыйлес",
+					["guid"] = "Player-1923-07068744",
+					["class"] = "SHAMAN",
+					["cache_time"] = 1671203234,
+					["realm"] = "Ясеневыйлес",
+				},
+				["Player-3674-0AACA3BD"] = {
+					["name"] = "Rhondius-TwistingNether",
+					["guid"] = "Player-3674-0AACA3BD",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1670007467,
+					["realm"] = "TwistingNether",
+				},
+				["Player-1615-0B088FBD"] = {
+					["ilvl"] = 374.5,
+					["guid"] = "Player-1615-0B088FBD",
+					["class"] = "HUNTER",
+					["role"] = "DAMAGER",
+					["cache_time"] = 1671040442,
+					["rank"] = "Отряд Репка",
+					["name"] = "драчелло-Ревущийфьорд",
+					["specID"] = 253,
+					["enchantingLvl"] = 0,
+					["realm"] = "Ревущий фьорд",
+				},
+				["Player-1615-09EF9724"] = {
+					["ilvl"] = 392.8125,
+					["guid"] = "Player-1615-09EF9724",
+					["class"] = "DEMONHUNTER",
+					["role"] = "DAMAGER",
+					["name"] = "аландир-Ревущийфьорд",
+					["cache_time"] = 1671645057,
+					["realm"] = "Ревущийфьорд",
+					["specID"] = 577,
+					["enchantingLvl"] = 0,
+					["rank"] = "Новичок",
+				},
+				["Player-1615-0AD1AA33"] = {
+					["ilvl"] = 385.8125,
+					["guid"] = "Player-1615-0AD1AA33",
+					["class"] = "PRIEST",
+					["role"] = "HEALER",
+					["name"] = "хохохохохох-Ревущийфьорд",
+					["realm"] = "Ревущийфьорд",
+					["cache_time"] = 1671649142,
+					["specID"] = 256,
+					["enchantingLvl"] = 0,
+					["rank"] = "Отряд Репка",
+				},
+				["Player-1615-0AAF2B61"] = {
+					["name"] = "пофигисстка-Ревущийфьорд",
+					["guid"] = "Player-1615-0AAF2B61",
+					["class"] = "PALADIN",
+					["cache_time"] = 1670999247,
+					["realm"] = "Ревущий фьорд",
+				},
+				["Player-1379-0A7CC488"] = {
+					["name"] = "Guarnisiones-Sanguino",
+					["guid"] = "Player-1379-0A7CC488",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1670999304,
+					["realm"] = "Sanguino",
+				},
+				["Player-1615-0AEE985A"] = {
+					["name"] = "милкм-Ревущийфьорд",
+					["guid"] = "Player-1615-0AEE985A",
+					["class"] = "ROGUE",
+					["cache_time"] = 1670778917,
+					["realm"] = "Ревущий фьорд",
+				},
+				["Player-1084-0A85DFB6"] = {
+					["name"] = "Ultramagic-TarrenMill",
+					["guid"] = "Player-1084-0A85DFB6",
+					["class"] = "MAGE",
+					["cache_time"] = 1671092436,
+					["realm"] = "TarrenMill",
+				},
+				["Player-3686-06F4687C"] = {
+					["name"] = "Glep-Antonidas",
+					["guid"] = "Player-3686-06F4687C",
+					["class"] = "HUNTER",
+					["cache_time"] = 1671204247,
+					["realm"] = "Antonidas",
+				},
+				["Player-1615-0B03A24D"] = {
+					["ilvl"] = 380.25,
+					["guid"] = "Player-1615-0B03A24D",
+					["class"] = "MAGE",
+					["role"] = "DAMAGER",
+					["cache_time"] = 1671390517,
+					["name"] = "арканбурст-Ревущийфьорд",
+					["enchanter"] = true,
+					["specID"] = 62,
+					["enchantingLvl"] = 72,
+					["rank"] = "Отряд Репка",
+				},
+				["Player-1615-0A722347"] = {
+					["name"] = "дельфуего-Ревущийфьорд",
+					["guid"] = "Player-1615-0A722347",
+					["class"] = "ROGUE",
+					["cache_time"] = 1671656790,
+					["realm"] = "Ревущийфьорд",
+				},
+				["Player-3674-076D1816"] = {
+					["name"] = "Voicesmyhead-TwistingNether",
+					["guid"] = "Player-3674-076D1816",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1671217143,
+					["realm"] = "TwistingNether",
+				},
+				["Player-3674-0AA6F780"] = {
+					["name"] = "Roséy-TwistingNether",
+					["guid"] = "Player-3674-0AA6F780",
+					["class"] = "DRUID",
+					["cache_time"] = 1670871587,
+					["realm"] = "TwistingNether",
+				},
+				["Player-1615-0AEC9129"] = {
+					["ilvl"] = 386.0625,
+					["guid"] = "Player-1615-0AEC9129",
+					["class"] = "DEATHKNIGHT",
+					["role"] = "TANK",
+					["name"] = "ожившийлось-Ревущийфьорд",
+					["rank"] = "Отряд Репка",
+					["cache_time"] = 1671130752,
+					["specID"] = 250,
+					["enchantingLvl"] = 0,
+					["realm"] = "Ревущий фьорд",
+				},
+				["Player-512-0A47051C"] = {
+					["name"] = "Carotte-Rashgarroth",
+					["guid"] = "Player-512-0A47051C",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1671200552,
+					["realm"] = "Rashgarroth",
+				},
+				["Player-1615-08946304"] = {
+					["ilvl"] = 370.375,
+					["guid"] = "Player-1615-08946304",
+					["class"] = "SHAMAN",
+					["role"] = "DAMAGER",
+					["cache_time"] = 1671039794,
+					["rank"] = "Новичок",
+					["name"] = "ватрониум-Ревущийфьорд",
+					["specID"] = 263,
+					["enchantingLvl"] = 0,
+					["realm"] = "Ревущий фьорд",
+				},
 				["Player-1301-0C4D88BD"] = {
 					["name"] = "Amveraid-Outland",
 					["guid"] = "Player-1301-0C4D88BD",
@@ -2020,11 +2258,43 @@ RCLootCouncilDB = {
 					["cache_time"] = 1670011845,
 					["realm"] = "Outland",
 				},
-				["Player-1615-08C89FCF"] = {
-					["name"] = "воледар-Ревущийфьорд",
-					["guid"] = "Player-1615-08C89FCF",
-					["class"] = "DRUID",
-					["cache_time"] = 1670014274,
+				["Player-1615-0A8E7F97"] = {
+					["ilvl"] = 371.1875,
+					["guid"] = "Player-1615-0A8E7F97",
+					["class"] = "DEATHKNIGHT",
+					["role"] = "DAMAGER",
+					["cache_time"] = 1671038654,
+					["realm"] = "Ревущий фьорд",
+					["name"] = "нотушка-Ревущийфьорд",
+					["specID"] = 252,
+					["enchantingLvl"] = 0,
+					["rank"] = "Отряд Репка",
+				},
+				["Player-1615-0B07C4E5"] = {
+					["ilvl"] = 378.9375,
+					["guid"] = "Player-1615-0B07C4E5",
+					["class"] = "MONK",
+					["realm"] = "Ревущийфьорд",
+					["role"] = "DAMAGER",
+					["cache_time"] = 1671606066,
+					["name"] = "хугомонк-Ревущийфьорд",
+					["enchanter"] = true,
+					["specID"] = 269,
+					["enchantingLvl"] = 26,
+					["rank"] = "Отряд Репка",
+				},
+				["Player-1403-07D0B7B1"] = {
+					["name"] = "Krazypal-Draenor",
+					["guid"] = "Player-1403-07D0B7B1",
+					["class"] = "PALADIN",
+					["cache_time"] = 1671563262,
+					["realm"] = "Draenor",
+				},
+				["Player-1615-0ADE2910"] = {
+					["name"] = "малгастус-Ревущийфьорд",
+					["guid"] = "Player-1615-0ADE2910",
+					["class"] = "HUNTER",
+					["cache_time"] = 1670999274,
 					["realm"] = "Ревущий фьорд",
 				},
 				["Player-3674-0AACA720"] = {
@@ -2034,12 +2304,12 @@ RCLootCouncilDB = {
 					["cache_time"] = 1670009339,
 					["realm"] = "TwistingNether",
 				},
-				["Player-1615-09E509D4"] = {
-					["name"] = "енб-Ревущийфьорд",
-					["guid"] = "Player-1615-09E509D4",
-					["class"] = "MAGE",
-					["cache_time"] = 1670005294,
-					["realm"] = "Ревущий фьорд",
+				["Player-1604-0B463FD3"] = {
+					["name"] = "малганиан-СвежевательДуш",
+					["guid"] = "Player-1604-0B463FD3",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1671204638,
+					["realm"] = "СвежевательДуш",
 				},
 				["Player-1615-04993223"] = {
 					["name"] = "зуланария-Ревущийфьорд",
@@ -2048,40 +2318,110 @@ RCLootCouncilDB = {
 					["cache_time"] = 1669891610,
 					["realm"] = "Ревущий фьорд",
 				},
-				["Player-1615-0AEE985A"] = {
-					["name"] = "милкм-Ревущийфьорд",
-					["guid"] = "Player-1615-0AEE985A",
-					["class"] = "ROGUE",
-					["cache_time"] = 1670778917,
-					["realm"] = "Ревущий фьорд",
-				},
-				["Player-1615-07A0B983"] = {
-					["name"] = "зевуудду-Ревущийфьорд",
-					["guid"] = "Player-1615-07A0B983",
-					["class"] = "PRIEST",
-					["cache_time"] = 1670014574,
-					["realm"] = "Ревущий фьорд",
-				},
-				["Player-1615-0B0B1965"] = {
-					["name"] = "нерассвело-Ревущийфьорд",
-					["guid"] = "Player-1615-0B0B1965",
-					["class"] = "DRUID",
-					["cache_time"] = 1670780218,
-					["realm"] = "Ревущий фьорд",
-				},
-				["Player-3691-09BFF0B7"] = {
-					["name"] = "Noghle-Blackhand",
-					["guid"] = "Player-3691-09BFF0B7",
-					["class"] = "HUNTER",
-					["cache_time"] = 1670869322,
-					["realm"] = "Blackhand",
-				},
 				["Player-1301-08BB22C8"] = {
 					["name"] = "Gluktus-Outland",
 					["guid"] = "Player-1301-08BB22C8",
 					["class"] = "SHAMAN",
 					["cache_time"] = 1670010078,
 					["realm"] = "Outland",
+				},
+				["Player-1615-0B10CD8A"] = {
+					["ilvl"] = 383.75,
+					["guid"] = "Player-1615-0B10CD8A",
+					["class"] = "SHAMAN",
+					["role"] = "HEALER",
+					["cache_time"] = 1671645899,
+					["rank"] = "Отряд Репка",
+					["name"] = "бишарк-Ревущийфьорд",
+					["specID"] = 264,
+					["enchantingLvl"] = 0,
+					["realm"] = "Ревущийфьорд",
+				},
+				["Player-1615-07400DB2"] = {
+					["ilvl"] = 382.375,
+					["guid"] = "Player-1615-07400DB2",
+					["class"] = "PALADIN",
+					["role"] = "DAMAGER",
+					["name"] = "неорпал-Ревущийфьорд",
+					["cache_time"] = 1671398873,
+					["specID"] = 70,
+					["enchantingLvl"] = 0,
+					["rank"] = "Отряд Репка",
+				},
+				["Player-1615-0AE5B2D0"] = {
+					["ilvl"] = 388.75,
+					["guid"] = "Player-1615-0AE5B2D0",
+					["class"] = "MAGE",
+					["role"] = "DAMAGER",
+					["cache_time"] = 1671645287,
+					["rank"] = "Отряд Репка",
+					["name"] = "ледиланатель-Ревущийфьорд",
+					["specID"] = 63,
+					["enchantingLvl"] = 0,
+					["realm"] = "Ревущийфьорд",
+				},
+				["Player-1615-0A0BCC2B"] = {
+					["ilvl"] = 376.25,
+					["guid"] = "Player-1615-0A0BCC2B",
+					["class"] = "PALADIN",
+					["role"] = "HEALER",
+					["name"] = "дереликт-Ревущийфьорд",
+					["realm"] = "Ревущий фьорд",
+					["cache_time"] = 1671132506,
+					["specID"] = 65,
+					["enchantingLvl"] = 0,
+					["rank"] = "Отряд Репка",
+				},
+				["Player-1401-0A493011"] = {
+					["name"] = "Losienne-Nozdormu",
+					["guid"] = "Player-1401-0A493011",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1671607065,
+					["realm"] = "Nozdormu",
+				},
+				["Player-1615-0AC000DE"] = {
+					["ilvl"] = 391.8125,
+					["guid"] = "Player-1615-0AC000DE",
+					["class"] = "WARLOCK",
+					["role"] = "DAMAGER",
+					["cache_time"] = 1671646950,
+					["realm"] = "Ревущийфьорд",
+					["name"] = "комт-Ревущийфьорд",
+					["specID"] = 266,
+					["enchantingLvl"] = 0,
+					["rank"] = "Отряд Репка",
+				},
+				["Player-1615-08D81B1E"] = {
+					["ilvl"] = 372.875,
+					["guid"] = "Player-1615-08D81B1E",
+					["class"] = "HUNTER",
+					["role"] = "DAMAGER",
+					["cache_time"] = 1671133472,
+					["rank"] = "Отряд Репка",
+					["name"] = "ледотроль-Ревущийфьорд",
+					["specID"] = 253,
+					["enchantingLvl"] = 0,
+					["realm"] = "Ревущий фьорд",
+				},
+				["Player-1615-08C89FCF"] = {
+					["name"] = "воледар-Ревущийфьорд",
+					["guid"] = "Player-1615-08C89FCF",
+					["class"] = "DRUID",
+					["cache_time"] = 1670014274,
+					["realm"] = "Ревущий фьорд",
+				},
+				["Player-1615-089527CE"] = {
+					["name"] = "гронтарг-Ревущийфьорд",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1671566599,
+					["guid"] = "Player-1615-089527CE",
+				},
+				["Player-1615-0B0576A8"] = {
+					["name"] = "хуговар-Ревущийфьорд",
+					["guid"] = "Player-1615-0B0576A8",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1670942078,
+					["realm"] = "Ревущий фьорд",
 				},
 				["Player-1604-0F4B93D6"] = {
 					["name"] = "бабичрион-СвежевательДуш",
@@ -2090,11 +2430,77 @@ RCLootCouncilDB = {
 					["cache_time"] = 1670781543,
 					["realm"] = "СвежевательДуш",
 				},
-				["Player-3674-0AA6F780"] = {
-					["name"] = "Roséy-TwistingNether",
-					["guid"] = "Player-3674-0AA6F780",
-					["class"] = "DRUID",
-					["cache_time"] = 1670871587,
+				["Player-1604-0E6839B9"] = {
+					["name"] = "флук-СвежевательДуш",
+					["guid"] = "Player-1604-0E6839B9",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1671561083,
+					["realm"] = "СвежевательДуш",
+				},
+				["Player-2073-09E8FB01"] = {
+					["name"] = "Leóo-Stormscale",
+					["guid"] = "Player-2073-09E8FB01",
+					["class"] = "EVOKER",
+					["cache_time"] = 1670006951,
+					["realm"] = "Stormscale",
+				},
+				["Player-1615-0B09BE14"] = {
+					["name"] = "хугакон-Ревущийфьорд",
+					["guid"] = "Player-1615-0B09BE14",
+					["class"] = "EVOKER",
+					["cache_time"] = 1670947998,
+					["realm"] = "Ревущий фьорд",
+				},
+				["Player-1615-097038E5"] = {
+					["name"] = "бэдасс-Ревущийфьорд",
+					["guid"] = "Player-1615-097038E5",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1670868352,
+					["realm"] = "Ревущий фьорд",
+				},
+				["Player-1615-0A9A671E"] = {
+					["ilvl"] = 391.125,
+					["guid"] = "Player-1615-0A9A671E",
+					["class"] = "DEATHKNIGHT",
+					["role"] = "DAMAGER",
+					["name"] = "менструа-Ревущийфьорд",
+					["rank"] = "Отряд Репка",
+					["cache_time"] = 1671656847,
+					["specID"] = 252,
+					["enchantingLvl"] = 0,
+					["realm"] = "Ревущийфьорд",
+				},
+				["Player-1615-09E509D4"] = {
+					["name"] = "енб-Ревущийфьорд",
+					["guid"] = "Player-1615-09E509D4",
+					["class"] = "MAGE",
+					["cache_time"] = 1670005294,
+					["realm"] = "Ревущий фьорд",
+				},
+				["Player-1602-0F482A6F"] = {
+					["name"] = "тевилара-Гордунни",
+					["guid"] = "Player-1602-0F482A6F",
+					["class"] = "MAGE",
+					["cache_time"] = 1671000713,
+					["realm"] = "Гордунни",
+				},
+				["Player-1615-0B09B583"] = {
+					["ilvl"] = 383.375,
+					["guid"] = "Player-1615-0B09B583",
+					["class"] = "EVOKER",
+					["role"] = "DAMAGER",
+					["name"] = "ювитта-Ревущийфьорд",
+					["rank"] = "Отряд Репка",
+					["cache_time"] = 1671644893,
+					["specID"] = 1467,
+					["enchantingLvl"] = 0,
+					["realm"] = "Ревущийфьорд",
+				},
+				["Player-3674-0AEE2318"] = {
+					["name"] = "Kattpiss-TwistingNether",
+					["guid"] = "Player-3674-0AEE2318",
+					["class"] = "DEATHKNIGHT",
+					["cache_time"] = 1671206492,
 					["realm"] = "TwistingNether",
 				},
 				["Player-3686-0939E2B8"] = {
@@ -2104,54 +2510,31 @@ RCLootCouncilDB = {
 					["cache_time"] = 1670012784,
 					["realm"] = "Antonidas",
 				},
-				["Player-3674-0AACA3BD"] = {
-					["name"] = "Rhondius-TwistingNether",
-					["guid"] = "Player-3674-0AACA3BD",
-					["class"] = "DEMONHUNTER",
-					["cache_time"] = 1670007467,
-					["realm"] = "TwistingNether",
+				["Player-1615-0B080B42"] = {
+					["ilvl"] = 389.375,
+					["guid"] = "Player-1615-0B080B42",
+					["class"] = "DRUID",
+					["role"] = "HEALER",
+					["cache_time"] = 1671644207,
+					["rank"] = "Отряд Репка",
+					["name"] = "злюдра-Ревущийфьорд",
+					["specID"] = 105,
+					["enchantingLvl"] = 0,
+					["realm"] = "Ревущийфьорд",
 				},
-				["Player-1615-0B07C4E5"] = {
-					["name"] = "хугомонк-Ревущийфьорд",
-					["guid"] = "Player-1615-0B07C4E5",
-					["class"] = "MONK",
-					["cache_time"] = 1670917617,
-					["realm"] = "Ревущий фьорд",
+				["Player-1403-09D86091"] = {
+					["name"] = "Aeternatus-Draenor",
+					["guid"] = "Player-1403-09D86091",
+					["class"] = "DRUID",
+					["cache_time"] = 1670999563,
+					["realm"] = "Draenor",
 				},
-				["Player-2073-09E8FB01"] = {
-					["name"] = "Leóo-Stormscale",
-					["guid"] = "Player-2073-09E8FB01",
-					["class"] = "EVOKER",
-					["cache_time"] = 1670006951,
-					["realm"] = "Stormscale",
-				},
-				["Player-1615-079A5AA5"] = {
-					["name"] = "стивэнсон-Ревущийфьорд",
-					["guid"] = "Player-1615-079A5AA5",
-					["class"] = "WARRIOR",
-					["cache_time"] = 1669838321,
-					["realm"] = "Ревущий фьорд",
-				},
-				["Player-1604-0AC9C9BC"] = {
-					["name"] = "танимура-СвежевательДуш",
-					["guid"] = "Player-1604-0AC9C9BC",
-					["class"] = "DEMONHUNTER",
-					["cache_time"] = 1670866676,
-					["realm"] = "СвежевательДуш",
-				},
-				["Player-1615-097038E5"] = {
-					["name"] = "бэдасс-Ревущийфьорд",
-					["guid"] = "Player-1615-097038E5",
-					["class"] = "WARRIOR",
-					["cache_time"] = 1670868352,
-					["realm"] = "Ревущий фьорд",
-				},
-				["Player-1615-0B05F7E2"] = {
-					["name"] = "вламлю-Ревущийфьорд",
-					["guid"] = "Player-1615-0B05F7E2",
-					["class"] = "DEMONHUNTER",
-					["cache_time"] = 1670091692,
-					["realm"] = "Ревущий фьорд",
+				["Player-3691-09BFF0B7"] = {
+					["name"] = "Noghle-Blackhand",
+					["guid"] = "Player-3691-09BFF0B7",
+					["class"] = "HUNTER",
+					["cache_time"] = 1670869322,
+					["realm"] = "Blackhand",
 				},
 				["Player-3674-0AC34315"] = {
 					["name"] = "Texi-TwistingNether",
@@ -2160,144 +2543,341 @@ RCLootCouncilDB = {
 					["cache_time"] = 1670869819,
 					["realm"] = "TwistingNether",
 				},
+				["Player-1379-0ACDC3B1"] = {
+					["name"] = "Jasnahkholin-Zul'jin",
+					["guid"] = "Player-1379-0ACDC3B1",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1671000470,
+					["realm"] = "Zul'jin",
+				},
+				["Player-1615-0B10D1BE"] = {
+					["ilvl"] = 380.5,
+					["guid"] = "Player-1615-0B10D1BE",
+					["class"] = "MAGE",
+					["role"] = "DAMAGER",
+					["name"] = "натазат-Ревущийфьорд",
+					["rank"] = "Отряд Репка",
+					["cache_time"] = 1671652729,
+					["specID"] = 62,
+					["enchantingLvl"] = 0,
+					["realm"] = "Ревущийфьорд",
+				},
+				["Player-1615-07F2BDDA"] = {
+					["name"] = "сленс-Ревущийфьорд",
+					["guid"] = "Player-1615-07F2BDDA",
+					["class"] = "PALADIN",
+					["cache_time"] = 1670999283,
+					["realm"] = "Ревущий фьорд",
+				},
+				["Player-1615-08C5A483"] = {
+					["ilvl"] = 382.5,
+					["guid"] = "Player-1615-08C5A483",
+					["class"] = "WARLOCK",
+					["role"] = "DAMAGER",
+					["name"] = "гернина-Ревущийфьорд",
+					["rank"] = "Отряд Репка",
+					["cache_time"] = 1671130233,
+					["specID"] = 266,
+					["enchantingLvl"] = 0,
+					["realm"] = "Ревущий фьорд",
+				},
+				["Player-1615-07A0B983"] = {
+					["name"] = "зевуудду-Ревущийфьорд",
+					["guid"] = "Player-1615-07A0B983",
+					["class"] = "PRIEST",
+					["cache_time"] = 1670014574,
+					["realm"] = "Ревущий фьорд",
+				},
+				["Player-1922-02865D7A"] = {
+					["name"] = "шпонь-Азурегос",
+					["guid"] = "Player-1922-02865D7A",
+					["class"] = "HUNTER",
+					["cache_time"] = 1670999113,
+					["realm"] = "Азурегос",
+				},
+				["Player-3391-0C4C3008"] = {
+					["name"] = "Tamatie-Silvermoon",
+					["guid"] = "Player-3391-0C4C3008",
+					["class"] = "DRUID",
+					["cache_time"] = 1671215390,
+					["realm"] = "Silvermoon",
+				},
+				["Player-1615-0B033E78"] = {
+					["ilvl"] = 382.3125,
+					["guid"] = "Player-1615-0B033E78",
+					["class"] = "PRIEST",
+					["role"] = "HEALER",
+					["cache_time"] = 1671393860,
+					["name"] = "бабусянатусе-Ревущийфьорд",
+					["specID"] = 257,
+					["enchantingLvl"] = 0,
+					["rank"] = "Отряд Репка",
+				},
+				["Player-1615-079A5AA5"] = {
+					["name"] = "стивэнсон-Ревущийфьорд",
+					["guid"] = "Player-1615-079A5AA5",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1669838321,
+					["realm"] = "Ревущий фьорд",
+				},
+				["Player-1615-0AAD6B8C"] = {
+					["ilvl"] = 385.375,
+					["guid"] = "Player-1615-0AAD6B8C",
+					["class"] = "SHAMAN",
+					["role"] = "HEALER",
+					["name"] = "серегя-Ревущийфьорд",
+					["rank"] = "Отряд Репка",
+					["cache_time"] = 1671646996,
+					["specID"] = 264,
+					["enchantingLvl"] = 0,
+					["realm"] = "Ревущийфьорд",
+				},
+				["Player-1615-0B057C44"] = {
+					["name"] = "денрайву-Ревущийфьорд",
+					["class"] = "DRUID",
+					["cache_time"] = 1671565460,
+					["guid"] = "Player-1615-0B057C44",
+				},
+				["Player-1615-0B05F7E2"] = {
+					["name"] = "вламлю-Ревущийфьорд",
+					["guid"] = "Player-1615-0B05F7E2",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1670091692,
+					["realm"] = "Ревущий фьорд",
+				},
+				["Player-581-078E3A48"] = {
+					["name"] = "Venroxs-Blackrock",
+					["guid"] = "Player-581-078E3A48",
+					["class"] = "DRUID",
+					["cache_time"] = 1671607289,
+					["realm"] = "Blackrock",
+				},
 			},
 		},
 		["locale"] = "ruRU",
 		["verTestCandidates"] = {
-			["варказан-Ревущийфьорд"] = {
-				"3.6.0", -- [1]
+			["грандисон-Ревущийфьорд"] = {
+				"3.6.4", -- [1]
 				nil, -- [2]
-				1670770380, -- [3]
+				1671653892, -- [3]
 			},
-			["деструа-Ревущийфьорд"] = {
-				"3.6.0", -- [1]
+			["аммигдала-Ревущийфьорд"] = {
+				"3.6.4", -- [1]
 				nil, -- [2]
-				1670503386, -- [3]
+				1671566173, -- [3]
 			},
 			["мурратик-Ревущийфьорд"] = {
-				"3.6.0", -- [1]
+				"3.6.4", -- [1]
 				nil, -- [2]
-				1670867943, -- [3]
-			},
-			["менструа-Ревущийфьорд"] = {
-				"3.6.0", -- [1]
-				nil, -- [2]
-				1670919400, -- [3]
-			},
-			["бабусянатусе-Ревущийфьорд"] = {
-				"3.6.0", -- [1]
-				nil, -- [2]
-				1670875006, -- [3]
-			},
-			["тотемгнева-Ревущийфьорд"] = {
-				"3.6.0", -- [1]
-				nil, -- [2]
-				1670523329, -- [3]
+				1671645559, -- [3]
 			},
 			["бухомэн-Ревущийфьорд"] = {
-				"3.6.0", -- [1]
+				"3.6.4", -- [1]
 				nil, -- [2]
-				1670769167, -- [3]
+				1671606283, -- [3]
 			},
-			["ожившийлось-Ревущийфьорд"] = {
-				"3.6.0", -- [1]
+			["ледиланатель-Ревущийфьорд"] = {
+				"3.6.4", -- [1]
 				nil, -- [2]
-				1670920659, -- [3]
+				1671645290, -- [3]
 			},
 			["лаурэлин-Ревущийфьорд"] = {
-				"3.6.0", -- [1]
+				"3.6.4", -- [1]
 				nil, -- [2]
-				1670525230, -- [3]
+				1671646832, -- [3]
 			},
-			["айдаго-Ревущийфьорд"] = {
-				"3.6.0", -- [1]
+			["багетлюбви-Ревущийфьорд"] = {
+				"3.6.2", -- [1]
 				nil, -- [2]
-				1670491398, -- [3]
-			},
-			["нотушка-Ревущийфьорд"] = {
-				"3.6.0", -- [1]
-				nil, -- [2]
-				1670921243, -- [3]
-			},
-			["сварщег-Ревущийфьорд"] = {
-				"3.6.0", -- [1]
-				nil, -- [2]
-				1670769042, -- [3]
+				1671647056, -- [3]
 			},
 			["дельфуего-Ревущийфьорд"] = {
-				"3.6.0", -- [1]
+				"3.6.4", -- [1]
 				nil, -- [2]
-				1670875258, -- [3]
+				1671655200, -- [3]
 			},
 			["аэрель-Ревущийфьорд"] = {
-				"3.6.0", -- [1]
+				"3.6.1", -- [1]
 				nil, -- [2]
-				1670873583, -- [3]
+				1671217899, -- [3]
 			},
-			["хохохохохох-Ревущийфьорд"] = {
-				"3.6.0", -- [1]
+			["нейровульф-Ревущийфьорд"] = {
+				"3.6.2", -- [1]
 				nil, -- [2]
-				1670876410, -- [3]
-			},
-			["бишарк-Ревущийфьорд"] = {
-				"3.6.0", -- [1]
-				nil, -- [2]
-				1670866497, -- [3]
-			},
-			["аишвария-Ревущийфьорд"] = {
-				"3.5.1", -- [1]
-				nil, -- [2]
-				1670917621, -- [3]
-			},
-			["гигаовца-Ревущийфьорд"] = {
-				"3.6.0", -- [1]
-				nil, -- [2]
-				1670918011, -- [3]
-			},
-			["комт-Ревущийфьорд"] = {
-				"3.6.0", -- [1]
-				nil, -- [2]
-				1670875227, -- [3]
-			},
-			["каровчик-Ревущийфьорд"] = {
-				"3.6.0", -- [1]
-				nil, -- [2]
-				1670771386, -- [3]
-			},
-			["алестразар-Ревущийфьорд"] = {
-				"3.6.0", -- [1]
-				nil, -- [2]
-				1670876242, -- [3]
+				1671564923, -- [3]
 			},
 			["мирикк-Ревущийфьорд"] = {
 				"3.6.0", -- [1]
 				nil, -- [2]
-				1670779669, -- [3]
+				1671217899, -- [3]
 			},
-			["гернина-Ревущийфьорд"] = {
+			["сварщег-Ревущийфьорд"] = {
+				"3.6.4", -- [1]
+				nil, -- [2]
+				1671646776, -- [3]
+			},
+			["злюднюшка-Ревущийфьорд"] = {
 				"3.6.0", -- [1]
 				nil, -- [2]
-				1670846677, -- [3]
+				1671202713, -- [3]
+			},
+			["тиралея-Ревущийфьорд"] = {
+				"3.6.4", -- [1]
+				nil, -- [2]
+				1671653482, -- [3]
+			},
+			["аландир-Ревущийфьорд"] = {
+				"3.6.4", -- [1]
+				nil, -- [2]
+				1671645060, -- [3]
+			},
+			["аишвария-Ревущийфьорд"] = {
+				"3.5.1", -- [1]
+				nil, -- [2]
+				1671653892, -- [3]
+			},
+			["гигаовца-Ревущийфьорд"] = {
+				"3.6.4", -- [1]
+				nil, -- [2]
+				1671433982, -- [3]
+			},
+			["неорпал-Ревущийфьорд"] = {
+				"3.6.2", -- [1]
+				nil, -- [2]
+				1671398874, -- [3]
+			},
+			["комт-Ревущийфьорд"] = {
+				"3.6.4", -- [1]
+				nil, -- [2]
+				1671646953, -- [3]
+			},
+			["флдан-Ревущийфьорд"] = {
+				"3.6.0", -- [1]
+				nil, -- [2]
+				1671396747, -- [3]
+			},
+			["ледотроль-Ревущийфьорд"] = {
+				"3.6.1", -- [1]
+				nil, -- [2]
+				1671655200, -- [3]
+			},
+			["томмишелби-Ревущийфьорд"] = {
+				"3.6.4", -- [1]
+				nil, -- [2]
+				1671651534, -- [3]
+			},
+			["драчелло-Ревущийфьорд"] = {
+				"3.6.1", -- [1]
+				nil, -- [2]
+				1671206498, -- [3]
+			},
+			["ювитта-Ревущийфьорд"] = {
+				"3.6.4", -- [1]
+				nil, -- [2]
+				1671644896, -- [3]
+			},
+			["бишарк-Ревущийфьорд"] = {
+				"3.6.1", -- [1]
+				nil, -- [2]
+				1671655200, -- [3]
+			},
+			["бабусянатусе-Ревущийфьорд"] = {
+				"3.6.2", -- [1]
+				nil, -- [2]
+				1671394595, -- [3]
+			},
+			["злюдра-Ревущийфьорд"] = {
+				"3.6.4", -- [1]
+				nil, -- [2]
+				1671644209, -- [3]
+			},
+			["бесогонтв-Ревущийфьорд"] = {
+				"3.6.0", -- [1]
+				nil, -- [2]
+				1671655200, -- [3]
+			},
+			["ватрониум-Ревущийфьорд"] = {
+				"3.6.4", -- [1]
+				nil, -- [2]
+				1671560994, -- [3]
+			},
+			["айдаго-Ревущийфьорд"] = {
+				"3.6.2", -- [1]
+				nil, -- [2]
+				1671394596, -- [3]
+			},
+			["нотушка-Ревущийфьорд"] = {
+				"3.6.0", -- [1]
+				nil, -- [2]
+				1671397925, -- [3]
+			},
+			["линлот-Ревущийфьорд"] = {
+				"3.6.4", -- [1]
+				nil, -- [2]
+				1671655100, -- [3]
+			},
+			["менструа-Ревущийфьорд"] = {
+				"3.6.4", -- [1]
+				nil, -- [2]
+				1671654341, -- [3]
+			},
+			["дереликт-Ревущийфьорд"] = {
+				"3.6.0", -- [1]
+				nil, -- [2]
+				1671217899, -- [3]
+			},
+			["хохохохохох-Ревущийфьорд"] = {
+				"3.6.4", -- [1]
+				nil, -- [2]
+				1671649145, -- [3]
+			},
+			["арканбурст-Ревущийфьорд"] = {
+				"3.6.2", -- [1]
+				nil, -- [2]
+				1671607183, -- [3]
+			},
+			["серегя-Ревущийфьорд"] = {
+				"3.6.4", -- [1]
+				nil, -- [2]
+				1671646999, -- [3]
+			},
+			["ожившийлось-Ревущийфьорд"] = {
+				"3.6.2", -- [1]
+				nil, -- [2]
+				1671394596, -- [3]
+			},
+			["неордк-Ревущийфьорд"] = {
+				"3.6.4", -- [1]
+				nil, -- [2]
+				1671607182, -- [3]
+			},
+			["каровчик-Ревущийфьорд"] = {
+				"3.6.4", -- [1]
+				nil, -- [2]
+				1671646556, -- [3]
+			},
+			["гернина-Ревущийфьорд"] = {
+				"3.6.1", -- [1]
+				nil, -- [2]
+				1671217899, -- [3]
+			},
+			["натазат-Ревущийфьорд"] = {
+				"3.6.1", -- [1]
+				nil, -- [2]
+				1671655200, -- [3]
+			},
+			["грэндиссон-Ревущийфьорд"] = {
+				"3.6.4", -- [1]
+				nil, -- [2]
+				1671652571, -- [3]
 			},
 		},
-		["version"] = "3.6.0",
-		["oldVersion"] = "3.5.1",
+		["version"] = "3.6.4",
+		["oldVersion"] = "3.6.2",
 		["regionID"] = 3,
 	},
 	["profiles"] = {
 		["Default"] = {
-			["itemStorage"] = {
-				{
-					["inBags"] = 7,
-					["type"] = "temp",
-					["link"] = "|cff0070dd|Hitem:191578::::::::70:269::23::1:28:2157:::::|h[Рецепт: трансмутация - пробужденный огонь]|h|r",
-					["time_remaining"] = 86400,
-					["time_updated"] = 1670924285,
-					["time_added"] = 1670924285,
-					["args"] = {
-					},
-				}, -- [1]
-			},
 			["UI"] = {
 				["tradeui"] = {
 					["bgColor"] = {
@@ -2350,11 +2930,1886 @@ RCLootCouncilDB = {
 }
 RCLootCouncilLootDB = {
 	["profileKeys"] = {
+		["Хуговар - Ревущий фьорд"] = "Хуговар - Ревущий фьорд",
 		["Хугокан - Ревущий фьорд"] = "Хугокан - Ревущий фьорд",
-		["Хугакон - Ревущий фьорд"] = "Хугакон - Ревущий фьорд",
+		["Hugotest - Draenor"] = "Hugotest - Draenor",
 		["Хугомонк - Ревущий фьорд"] = "Хугомонк - Ревущий фьорд",
+		["Хугобум - Ревущий фьорд"] = "Хугобум - Ревущий фьорд",
 		["Хугопал - Ревущий фьорд"] = "Хугопал - Ревущий фьорд",
 		["Hugork - Draenor"] = "Hugork - Draenor",
-		["Hugotest - Draenor"] = "Hugotest - Draenor",
+		["Хугакон - Ревущий фьорд"] = "Хугакон - Ревущий фьорд",
+	},
+	["factionrealm"] = {
+		["Horde - Ревущий фьорд"] = {
+			["ледотроль-Ревущийфьорд"] = {
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "HUNTER",
+					["iSubClass"] = 18,
+					["groupSize"] = 27,
+					["boss"] = "Эраног",
+					["time"] = "21:23:04",
+					["iClass"] = 2,
+					["itemReplaced1"] = "|cffa335ee|Hitem:200252:6527:::::::70:259::25:4:6652:1478:5861:8767:1:28:2602:::::|h[Пламенная зенитная пушка]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["typeCode"] = "default",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:195490::::::::70:259::3:4:6652:7979:1472:8767::::::|h[Жгучий заклинатель пламени]|h|r",
+					["id"] = "1671031384-0",
+					["date"] = "14/12/22",
+					["responseID"] = 1,
+					["votes"] = 0,
+					["isAwardReason"] = false,
+				}, -- [1]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "HUNTER",
+					["iSubClass"] = 0,
+					["groupSize"] = 21,
+					["boss"] = "Террос",
+					["time"] = "23:39:15",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:195210::::::::70:259::11:2:8776:8984:2:9:70:28:2154:::::|h[Сердце Азмерлот]|h|r",
+					["instance"] = "Хранилище Воплощений-Героический",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:195502::::::::70:259::5:6:6652:7937:8783:7980:1485:8767::::::|h[Плененный сердечник Терроса]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 1,
+					["id"] = "1671644355-36",
+					["typeCode"] = "default",
+				}, -- [2]
+			},
+			["мурратик-Ревущийфьорд"] = {
+				{
+					["mapID"] = 2522,
+					["date"] = "14/12/22",
+					["class"] = "PALADIN",
+					["iSubClass"] = 4,
+					["groupSize"] = 27,
+					["votes"] = 0,
+					["time"] = "22:13:33",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:193802::::::::70:259::23:5:7977:6652:8813:1594:8767:1:28:2155:::::|h[Наплечье неизменной истины]|h|r",
+					["instance"] = "Хранилище Воплощений-Героический",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["typeCode"] = "default",
+					["response"] = "Основной спек/Нужно",
+					["id"] = "1671034413-13",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:195477::::::::70:259::5:6:7980:6652:8825:8817:1485:8767::::::|h[Наплечные щитки расплавленной мощи]|h|r",
+					["note"] = "BIS",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["boss"] = "Эраног",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [1]
+				{
+					["mapID"] = 2522,
+					["date"] = "18/12/22",
+					["class"] = "PALADIN",
+					["iSubClass"] = 0,
+					["groupSize"] = 23,
+					["votes"] = 0,
+					["time"] = "22:29:56",
+					["iClass"] = 15,
+					["itemReplaced1"] = "|cffa335ee|Hitem:134503:6624:::::::70:260::16:8:8966:7977:6652:8822:8820:9144:3271:8767:1:28:1279:::::|h[Инфернальная кираса]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["response"] = "Основной спек/Нужно",
+					["boss"] = "Курог Зловещий Тотем",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:196601::::::::70:260::3:4:7979:8830:1472:8767::::::|h[Камень Кузни из почитаемого аметиста]|h|r",
+					["note"] = "2part",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["id"] = "1671380996-7",
+					["typeCode"] = "default",
+				}, -- [2]
+			},
+			["Ceryne-TwistingNether"] = {
+				{
+					["mapID"] = 2516,
+					["date"] = "16/12/22",
+					["class"] = "MAGE",
+					["iSubClass"] = 10,
+					["groupSize"] = 5,
+					["isAwardReason"] = false,
+					["time"] = "17:23:33",
+					["iClass"] = 2,
+					["id"] = "1671204213-0",
+					["owner"] = "Ceryne-TwistingNether",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 8,
+					["lootWon"] = "|cffa335ee|Hitem:193699::::::::70:62::33:6:8962:7977:6652:9147:1601:8767:1:28:1279:::::|h[Staff of Violent Storms]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "The Nokhud Offensive-Mythic Keystone",
+					["boss"] = "Balakar Khan",
+				}, -- [1]
+			},
+			["менструа-Ревущийфьорд"] = {
+				{
+					["mapID"] = 2522,
+					["date"] = "14/12/22",
+					["class"] = "DEATHKNIGHT",
+					["iSubClass"] = 0,
+					["groupSize"] = 27,
+					["boss"] = "Террос",
+					["time"] = "21:51:54",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:193477::::::::70:259::37:4:6652:1481:5865:8767:1:28:2385:::::|h[Чешуйка со следами ран]|h|r",
+					["typeCode"] = "default",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["response"] = "Основной спек/Нужно",
+					["id"] = "1671033114-5",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:194303::::::::70:259::3:4:6652:7979:1472:8767::::::|h[Рокочущий рубин]|h|r",
+					["isAwardReason"] = false,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:200859::::::::70:259::26:4:6652:1485:5858:8767:1:28:2516:::::|h[Трофей опытного охотника]|h|r",
+					["votes"] = 0,
+				}, -- [1]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DEATHKNIGHT",
+					["iSubClass"] = 4,
+					["groupSize"] = 27,
+					["boss"] = "Террос",
+					["time"] = "21:57:55",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:193735::::::::70:259::23:6:7977:6652:7937:8816:1594:8767:1:28:2157:::::|h[Стальной шлем землекрушителя с забралом]|h|r",
+					["instance"] = "Хранилище Воплощений-Героический",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["typeCode"] = "default",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:195498::::::::70:259::3:7:6652:7936:8821:8820:7979:1472:8767::::::|h[Взгляд живой добычи]|h|r",
+					["id"] = "1671033475-8",
+					["date"] = "14/12/22",
+					["responseID"] = 1,
+					["votes"] = 0,
+					["isAwardReason"] = false,
+				}, -- [2]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DEATHKNIGHT",
+					["iSubClass"] = 0,
+					["groupSize"] = 23,
+					["boss"] = "Курог Зловещий Тотем",
+					["time"] = "22:29:49",
+					["iClass"] = 15,
+					["itemReplaced1"] = "|cffa335ee|Hitem:193753:6624:::::::70:260::33:8:8965:7977:6652:8822:8820:9144:1611:8767:1:28:1279:::::|h[Кираса взлетающего ужаса]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:196586::::::::70:260::3:4:7979:8830:1472:8767::::::|h[Камень Кузни из жуткого аметиста]|h|r",
+					["votes"] = 0,
+					["date"] = "18/12/22",
+					["responseID"] = 1,
+					["id"] = "1671380989-6",
+					["typeCode"] = "default",
+				}, -- [3]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DEATHKNIGHT",
+					["iSubClass"] = 5,
+					["groupSize"] = 22,
+					["boss"] = "Совет стихий",
+					["time"] = "22:00:19",
+					["iClass"] = 2,
+					["itemReplaced1"] = "|cffa335ee|Hitem:197922:3368:::::::70:260::42:4:6652:1485:5864:8767:1:28:2287:::::|h[Копье атакующей кавалерии]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:195518::::::::70:260::3:4:6652:7979:1472:8767::::::|h[Усиленный крушитель куалаши]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 1,
+					["id"] = "1671638419-18",
+					["typeCode"] = "default",
+				}, -- [4]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DEATHKNIGHT",
+					["iSubClass"] = 4,
+					["groupSize"] = 21,
+					["boss"] = "Террос",
+					["time"] = "23:34:44",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:201951::::::::70:259::13:5:8851:8852:8801:8850:8791:7:28:2164:29:32:30:40:38:7:40:842:45:198059:46:194578:::::|h[Шлем опытного исследователя |A:Professions-ChatIcon-Quality-Tier4:17:17::1|a]|h|r",
+					["instance"] = "Хранилище Воплощений-Героический",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:195498::::::::70:259::5:7:6652:7936:8825:8820:7980:1485:8767::::::|h[Взгляд живой добычи]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 1,
+					["id"] = "1671644084-34",
+					["typeCode"] = "default",
+				}, -- [5]
+			},
+			["бабусянатусе-Ревущийфьорд"] = {
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "PRIEST",
+					["iSubClass"] = 0,
+					["groupSize"] = 27,
+					["boss"] = "Террос",
+					["time"] = "21:57:44",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:193666::192957:192957:192957::::70:259::23:6:7977:42:1594:8767:8783:8782:1:28:2157:::::|h[Клыкаррское костяное ожерелье]|h|r",
+					["instance"] = "Хранилище Воплощений-Героический",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["typeCode"] = "default",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:195502::::::::70:259::3:6:6652:7937:8784:7979:1472:8767::::::|h[Плененный сердечник Терроса]|h|r",
+					["id"] = "1671033464-7",
+					["date"] = "14/12/22",
+					["responseID"] = 1,
+					["votes"] = 0,
+					["isAwardReason"] = false,
+				}, -- [1]
+				{
+					["mapID"] = 2522,
+					["date"] = "21/12/22",
+					["class"] = "PRIEST",
+					["iSubClass"] = 1,
+					["groupSize"] = 21,
+					["votes"] = 0,
+					["time"] = "21:07:19",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:193810:6543:::::::70:259::23:5:7977:6652:8816:1594:8767:1:28:2157:::::|h[Крепкие штаны рудокопа]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["response"] = "Основной спек/Нужно",
+					["boss"] = "Эраног",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:195479::::::::70:259::3:6:6652:8821:8820:7979:1472:8767::::::|h[Бриджи мастера огня]|h|r",
+					["note"] = "bis",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["id"] = "1671635239-1",
+					["typeCode"] = "default",
+				}, -- [2]
+				{
+					["mapID"] = 2522,
+					["date"] = "21/12/22",
+					["class"] = "PRIEST",
+					["iSubClass"] = 0,
+					["groupSize"] = 22,
+					["votes"] = 0,
+					["time"] = "22:51:05",
+					["iClass"] = 15,
+					["itemReplaced1"] = "|cffa335ee|Hitem:193690::::::::70:259::23:5:7977:6652:8813:1594:8767:1:28:2157:::::|h[Наплечники ловца драконов]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["response"] = "Основной спек/Нужно",
+					["boss"] = "Хранительница стаи Денна",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:196604::::::::70:259::3:4:7979:8826:1472:8767::::::|h[Камень Кузни из почитаемого лазурита]|h|r",
+					["note"] = "2 кусок",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["id"] = "1671641465-25",
+					["typeCode"] = "default",
+				}, -- [3]
+				{
+					["mapID"] = 2522,
+					["date"] = "21/12/22",
+					["class"] = "PRIEST",
+					["iSubClass"] = 0,
+					["groupSize"] = 11,
+					["boss"] = "Хранительница стаи Денна",
+					["time"] = "22:52:14",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:191491::::::::70:259::13:4:8836:8840:8902:8801:3:28:2164:38:7:40:200:::::|h[Поддерживающий алхимический камень |A:Professions-ChatIcon-Quality-Tier4:17:17::1|a]|h|r",
+					["votes"] = 0,
+					["typeCode"] = "default",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["id"] = "1671641534-26",
+					["response"] = "Основной спек/Нужно",
+					["note"] = "бис триня",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:194307::::::::70:259::3:4:7979:6652:1472:8767::::::|h[Обещание хранительницы стаи]|h|r",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:193678::::::::70:259::23:4:7977:41:1594:8767:1:28:2155:::::|h[Миниатюрный поющий камень]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+				}, -- [4]
+			},
+			["ювитта-Ревущийфьорд"] = {
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "EVOKER",
+					["iSubClass"] = 3,
+					["groupSize"] = 23,
+					["boss"] = "Курог Зловещий Тотем",
+					["time"] = "22:30:21",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:192004:6573:192959::::::70:260::37:5:43:7935:1481:5865:8767:1:28:2385:::::|h[Наручи он'арского сокольничего]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:195516::::::::70:260::3:7:6652:7937:7979:8821:8819:1472:8767::::::|h[Проводники нахлынувшей песни]|h|r",
+					["votes"] = 0,
+					["date"] = "18/12/22",
+					["responseID"] = 1,
+					["id"] = "1671381021-9",
+					["typeCode"] = "default",
+				}, -- [1]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "EVOKER",
+					["iSubClass"] = 3,
+					["groupSize"] = 22,
+					["boss"] = "Совет стихий",
+					["time"] = "22:00:41",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cff0070dd|Hitem:191997:6624:::::::70:260::28:4:6652:1468:5865:8766:1:28:2474:::::|h[Кольчуга он'арского сокольничего]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:195487::::::::70:260::3:6:6652:8821:8820:7979:1472:8767::::::|h[Пепельный хауберк Эмбар]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 1,
+					["id"] = "1671638441-19",
+					["typeCode"] = "default",
+				}, -- [2]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "EVOKER",
+					["iSubClass"] = 3,
+					["groupSize"] = 22,
+					["boss"] = "Дафия Перерожденная",
+					["time"] = "22:16:30",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:193715:6612:::::::70:259::33:8:8962:7977:6652:8822:8818:9144:1601:8767:1:28:1279:::::|h[Сапоги взрывного роста]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:195495::::::::70:259::3:6:6652:7979:8821:8818:1472:8767::::::|h[Лихие перепрыгиватели оврагов]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 1,
+					["id"] = "1671639390-23",
+					["typeCode"] = "default",
+				}, -- [3]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "EVOKER",
+					["iSubClass"] = 1,
+					["groupSize"] = 21,
+					["boss"] = "Эраног",
+					["time"] = "23:18:40",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:200971:6591:::::::70:259::14::1:28:2078:::::|h[Обсидиановая накидка]|h|r",
+					["instance"] = "Хранилище Воплощений-Героический",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:195482::::::::70:259::5:6:6652:8825:8819:7980:1485:8767::::::|h[Угольный плащ орденоносного командира]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 1,
+					["id"] = "1671643120-30",
+					["typeCode"] = "default",
+				}, -- [4]
+			},
+			["злюдра-Ревущийфьорд"] = {
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DRUID",
+					["iSubClass"] = 1,
+					["groupSize"] = 27,
+					["boss"] = "Эраног",
+					["time"] = "22:14:10",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:198959:6589:::::::70:259::27:6:8978:6652:8815:1478:5865:8767:1:28:2078:::::|h[Обмотки объездчика драконов]|h|r",
+					["instance"] = "Хранилище Воплощений-Героический",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["typeCode"] = "default",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:195482::::::::70:259::5:6:6652:8825:8819:7980:1485:8767::::::|h[Угольный плащ орденоносного командира]|h|r",
+					["id"] = "1671034450-14",
+					["date"] = "14/12/22",
+					["responseID"] = 1,
+					["votes"] = 0,
+					["isAwardReason"] = false,
+				}, -- [1]
+				{
+					["mapID"] = 2444,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DRUID",
+					["iSubClass"] = 0,
+					["groupSize"] = 0,
+					["boss"] = "Сеннарт Дыхание Льда",
+					["time"] = "22:20:29",
+					["iClass"] = 15,
+					["itemReplaced1"] = "|cffa335ee|Hitem:191994:6538:::::::70:260::36:4:43:1478:5865:8767:1:28:2246:::::|h[Брюки из шкуры выдрека]|h|r",
+					["instance"] = "10.0 Драконьи острова-",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 0,
+					["lootWon"] = "|cffa335ee|Hitem:196598::::::::70:260::3:4:7979:8827:1472:8767::::::|h[Камень Кузни из таинственного нефрита]|h|r",
+					["votes"] = 0,
+					["date"] = "15/12/22",
+					["responseID"] = 1,
+					["id"] = "1671121229-1",
+					["typeCode"] = "default",
+				}, -- [2]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DRUID",
+					["iSubClass"] = 2,
+					["groupSize"] = 21,
+					["boss"] = "Террос",
+					["time"] = "23:39:32",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:191995::::::::70:259::42:5:6652:7936:1485:5864:8767:1:28:2287:::::|h[Кушак из шкуры выдрека]|h|r",
+					["instance"] = "Хранилище Воплощений-Героический",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:195501::::::::70:259::5:7:6652:7937:8825:8818:7980:1485:8767::::::|h[Боевой пояс из сросшегося сланца]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 1,
+					["id"] = "1671644372-38",
+					["typeCode"] = "default",
+				}, -- [3]
+			},
+			["ледиланатель-Ревущийфьорд"] = {
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MAGE",
+					["iSubClass"] = 0,
+					["groupSize"] = 27,
+					["boss"] = "Сеннарт Дыхание Льда",
+					["time"] = "22:18:46",
+					["iClass"] = 15,
+					["itemReplaced1"] = "|cffa335ee|Hitem:201939:6540:::::::70:260::13:5:8851:8852:8802:8850:8793:7:28:2164:29:40:30:49:38:8:40:855:44:198059:45:194566:::::|h[Проверенные штаны геодезиста |A:Professions-ChatIcon-Quality-Tier5:17:17::1|a]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:196598::::::::70:260::3:4:7979:8827:1472:8767::::::|h[Камень Кузни из таинственного нефрита]|h|r",
+					["votes"] = 0,
+					["date"] = "15/12/22",
+					["responseID"] = 1,
+					["id"] = "1671121126-0",
+					["typeCode"] = "default",
+				}, -- [1]
+				{
+					["mapID"] = 2522,
+					["date"] = "21/12/22",
+					["class"] = "MAGE",
+					["iSubClass"] = 0,
+					["groupSize"] = 22,
+					["boss"] = "Сеннарт Дыхание Льда",
+					["time"] = "21:32:34",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:191492::::::::70:259::13:4:8836:8840:8902:8802:3:28:2164:38:8:40:201:::::|h[Стремительный алхимический камень |A:Professions-ChatIcon-Quality-Tier5:17:17::1|a]|h|r",
+					["typeCode"] = "default",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["votes"] = 0,
+					["response"] = "Основной спек/Нужно",
+					["id"] = "1671636754-11",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:194304::::::::70:259::3:4:6652:7979:1472:8767::::::|h[Смертельные силки ледяной крови]|h|r",
+					["isAwardReason"] = false,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:193791::::::::70:259::23:4:7977:6652:1594:8767:1:28:2155:::::|h[Пробивающий время коготь]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+				}, -- [2]
+			},
+			["лаурэлин-Ревущийфьорд"] = {
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MONK",
+					["iSubClass"] = 2,
+					["groupSize"] = 27,
+					["boss"] = "Эраног",
+					["time"] = "22:11:59",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cff0070dd|Hitem:192013:6624:::::::70:259::26:4:41:1462:5868:8766:1:28:2523:::::|h[Жилет из шкуры выдрека]|h|r",
+					["instance"] = "Хранилище Воплощений-Героический",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["typeCode"] = "default",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:195478::::::::70:259::5:6:7980:6652:8825:8820:1485:8767::::::|h[Облачение защитника Вальдраккена]|h|r",
+					["id"] = "1671034319-12",
+					["date"] = "14/12/22",
+					["responseID"] = 1,
+					["votes"] = 0,
+					["isAwardReason"] = false,
+				}, -- [1]
+			},
+			["ватрониум-Ревущийфьорд"] = {
+				{
+					["mapID"] = 2444,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "SHAMAN",
+					["iSubClass"] = 3,
+					["groupSize"] = 0,
+					["boss"] = "Террос",
+					["time"] = "21:55:01",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cff0070dd|Hitem:193655::::::::70:259::2:5:7976:6652:8813:1581:8766:1:28:2156:::::|h[Наплечники гнилостных корней]|h|r",
+					["instance"] = "10.0 Драконьи острова-",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["typeCode"] = "default",
+					["difficultyID"] = 0,
+					["lootWon"] = "|cffa335ee|Hitem:195499::::::::70:259::3:6:6652:8821:8817:7979:1472:8767::::::|h[Оплечье разлома]|h|r",
+					["id"] = "1671033301-6",
+					["date"] = "14/12/22",
+					["responseID"] = 1,
+					["votes"] = 0,
+					["isAwardReason"] = false,
+				}, -- [1]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "SHAMAN",
+					["iSubClass"] = 0,
+					["groupSize"] = 22,
+					["boss"] = "Дафия Перерожденная",
+					["time"] = "22:16:34",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:200970::::::::70:259::14:2:7936:8783:1:28:2078:::::|h[Обсидиановый ошейник]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:195496::::::::70:259::3:6:6652:7937:8784:7979:1472:8767::::::|h[Око мстительного урагана]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 1,
+					["id"] = "1671639394-24",
+					["typeCode"] = "default",
+				}, -- [2]
+			},
+			["гигаовца-Ревущийфьорд"] = {
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MAGE",
+					["iSubClass"] = 1,
+					["groupSize"] = 21,
+					["boss"] = "Эраног",
+					["time"] = "21:07:40",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:193787:6603:::::::70:259::23:5:7977:6652:8815:1594:8767:1:28:2157:::::|h[Пелерина объездчика мамонтов]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:195482::::::::70:259::3:6:42:8821:8819:7979:1472:8767::::::|h[Угольный плащ орденоносного командира]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 1,
+					["id"] = "1671635260-2",
+					["typeCode"] = "default",
+				}, -- [1]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MAGE",
+					["iSubClass"] = 10,
+					["groupSize"] = 21,
+					["boss"] = "Террос",
+					["time"] = "21:19:16",
+					["iClass"] = 2,
+					["itemReplaced1"] = "|cffa335ee|Hitem:193761:6632:::::::70:259::23:4:7977:42:1594:8767:1:28:2157:::::|h[Насыщающий посох Истощенной Холодом]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:195497::::::::70:259::3:4:6652:7979:1472:8767::::::|h[Сейсмопосох обнаружения землетрясений]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 1,
+					["id"] = "1671635956-4",
+					["typeCode"] = "default",
+				}, -- [2]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MAGE",
+					["iSubClass"] = 1,
+					["groupSize"] = 22,
+					["boss"] = "Курог Зловещий Тотем",
+					["time"] = "21:41:59",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cff0070dd|Hitem:191989::::::::70:259::73:5:6652:7936:1481:5855:8766:1:28:2437:::::|h[Шнурованный ремень кобальтового дозорного]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:195515::::::::70:259::3:7:6652:7937:7979:8821:8818:1472:8767::::::|h[Кушак духовных поисков Магаты]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 1,
+					["id"] = "1671637319-15",
+					["typeCode"] = "default",
+				}, -- [3]
+			},
+			["нотушка-Ревущийфьорд"] = {
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DEATHKNIGHT",
+					["iSubClass"] = 4,
+					["groupSize"] = 26,
+					["boss"] = "Террос",
+					["time"] = "21:58:08",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:200757::::::::70:259::26:5:6652:7937:1585:5858:8767:1:28:2287:::::|h[Боевой шлем куалаши]|h|r",
+					["instance"] = "Хранилище Воплощений-Героический",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["typeCode"] = "default",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:195498::::::::70:259::3:7:6652:7936:8821:8820:7979:1472:8767::::::|h[Взгляд живой добычи]|h|r",
+					["id"] = "1671033488-9",
+					["date"] = "14/12/22",
+					["responseID"] = 1,
+					["votes"] = 0,
+					["isAwardReason"] = false,
+				}, -- [1]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DEATHKNIGHT",
+					["iSubClass"] = 4,
+					["groupSize"] = 22,
+					["boss"] = "Сеннарт Дыхание Льда",
+					["time"] = "21:32:12",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:192008::::::::70:259::36:4:6652:1478:5865:8767:1:28:2287:::::|h[Сотворенные драконами рукавицы]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:195506::::::::70:259::3:6:6652:8821:8817:7979:1472:8767::::::|h[Рукавицы с алмазной гравировкой]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 1,
+					["id"] = "1671636732-9",
+					["typeCode"] = "default",
+				}, -- [2]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DEATHKNIGHT",
+					["iSubClass"] = 0,
+					["groupSize"] = 22,
+					["boss"] = "Курог Зловещий Тотем",
+					["time"] = "21:41:26",
+					["iClass"] = 15,
+					["itemReplaced1"] = "|cffa335ee|Hitem:134503:6625:::::::70:259::16:8:8966:7977:6652:8822:8820:9144:3271:8767:1:28:1279:::::|h[Инфернальная кираса]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:196586::::::::70:259::3:4:7979:8830:1472:8767::::::|h[Камень Кузни из жуткого аметиста]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 1,
+					["id"] = "1671637286-13",
+					["typeCode"] = "default",
+				}, -- [3]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DEATHKNIGHT",
+					["iSubClass"] = 0,
+					["groupSize"] = 22,
+					["boss"] = "Дафия Перерожденная",
+					["time"] = "22:15:00",
+					["iClass"] = 15,
+					["itemReplaced1"] = "|cffa335ee|Hitem:195506::::::::70:259::3:6:6652:8821:8817:7979:1472:8767::::::|h[Рукавицы с алмазной гравировкой]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:196587::::::::70:259::3:4:7979:8829:1472:8767::::::|h[Камень Кузни из жуткого граната]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 1,
+					["id"] = "1671639300-21",
+					["typeCode"] = "default",
+				}, -- [4]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DEATHKNIGHT",
+					["iSubClass"] = 4,
+					["groupSize"] = 21,
+					["boss"] = "Эраног",
+					["time"] = "23:20:06",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:193741::::::::70:259::23:5:7977:6652:8813:1594:8767:1:28:2157:::::|h[Оплечье сокрушительных волн]|h|r",
+					["instance"] = "Хранилище Воплощений-Героический",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:195477::::::::70:259::5:6:7980:6652:8825:8817:1485:8767::::::|h[Наплечные щитки расплавленной мощи]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 1,
+					["id"] = "1671643206-33",
+					["typeCode"] = "default",
+				}, -- [5]
+			},
+			["линлот-Ревущийфьорд"] = {
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "HUNTER",
+					["iSubClass"] = 18,
+					["groupSize"] = 21,
+					["boss"] = "Эраног",
+					["time"] = "21:07:14",
+					["iClass"] = 2,
+					["itemReplaced1"] = "|cffa335ee|Hitem:197945:6526:::::::70:259::37:4:6652:1481:5865:8767:1:28:2385:::::|h[Кривой терновый посох]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:195490::::::::70:259::3:4:6652:7979:1472:8767::::::|h[Жгучий заклинатель пламени]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 1,
+					["id"] = "1671635234-0",
+					["typeCode"] = "default",
+				}, -- [1]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "HUNTER",
+					["iSubClass"] = 0,
+					["groupSize"] = 11,
+					["boss"] = "Хранительница стаи Денна",
+					["time"] = "22:52:23",
+					["iClass"] = 15,
+					["itemReplaced1"] = "|cffa335ee|Hitem:143970::::::::70:259::33:8:8965:7977:6652:8822:8817:9144:3279:8767:1:28:1279:::::|h[Наплечники малой дерзости]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:196599::::::::70:259::3:4:7979:8826:1472:8767::::::|h[Камень Кузни из таинственного лазурита]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 1,
+					["id"] = "1671641543-27",
+					["typeCode"] = "default",
+				}, -- [2]
+			},
+			["серегя-Ревущийфьорд"] = {
+				{
+					["mapID"] = 2522,
+					["date"] = "14/12/22",
+					["class"] = "SHAMAN",
+					["iSubClass"] = 3,
+					["groupSize"] = 27,
+					["votes"] = 0,
+					["time"] = "22:11:43",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:200186::::::::70:259::25:5:6652:7937:1478:5865:8767:1:28:2602:::::|h[Покров из янтарных перьев]|h|r",
+					["instance"] = "Хранилище Воплощений-Героический",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["typeCode"] = "default",
+					["response"] = "Основной спек/Нужно",
+					["id"] = "1671034303-11",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:195476::::::::70:259::5:7:42:7935:7980:8825:8820:1485:8767::::::|h[Украшенный шлем Эранога]|h|r",
+					["note"] = "БИС!",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["boss"] = "Эраног",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [1]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "SHAMAN",
+					["iSubClass"] = 6,
+					["groupSize"] = 21,
+					["boss"] = "Эраног",
+					["time"] = "23:19:47",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:200439::::::::70:259::26:4:6652:1485:5864:8767:1:28:2287:::::|h[Скипетр договора земли]|h|r",
+					["instance"] = "Хранилище Воплощений-Героический",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:195475::::::::70:259::5:4:6652:7980:1485:8767::::::|h[Щит огненного маршала]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 1,
+					["id"] = "1671643187-32",
+					["typeCode"] = "default",
+				}, -- [2]
+			},
+			["дереликт-Ревущийфьорд"] = {
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "PALADIN",
+					["iSubClass"] = 6,
+					["groupSize"] = 27,
+					["boss"] = "Эраног",
+					["time"] = "21:26:32",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:193645::::::::70:259::23:4:7977:6652:1594:8767:1:28:2157:::::|h[Кристаллизованный заслон]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["typeCode"] = "default",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:195475::::::::70:259::3:4:6652:7979:1472:8767::::::|h[Щит огненного маршала]|h|r",
+					["id"] = "1671031592-3",
+					["date"] = "14/12/22",
+					["responseID"] = 1,
+					["votes"] = 0,
+					["isAwardReason"] = false,
+				}, -- [1]
+			},
+			["хохохохохох-Ревущийфьорд"] = {
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "PRIEST",
+					["iSubClass"] = 1,
+					["groupSize"] = 11,
+					["boss"] = "Хранительница стаи Денна",
+					["time"] = "22:52:31",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:193713::::::::70:259::23:5:7977:6652:8813:1594:8767:1:28:2157:::::|h[Защитные перчатки для экспериментов]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:195523::::::::70:259::3:6:6652:7979:8821:8817:1472:8767::::::|h[Защитные полуперчатки хранителя яиц]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 1,
+					["id"] = "1671641551-28",
+					["typeCode"] = "default",
+				}, -- [1]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "PRIEST",
+					["iSubClass"] = 1,
+					["groupSize"] = 20,
+					["boss"] = "Террос",
+					["time"] = "23:37:13",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:193515:6625:::::::70:259::13:6:8837:8838:4785:8802:8850:8790:7:28:2164:29:49:30:36:38:8:40:426:44:198059:45:192552:::::|h[Тканевое одеяние геодезиста |A:Professions-ChatIcon-Quality-Tier5:17:17::1|a]|h|r",
+					["instance"] = "Хранилище Воплощений-Героический",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:195500::::::::70:259::5:6:6652:8825:8820:7980:1485:8767::::::|h[Уплотненная ряса сектанта]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 1,
+					["id"] = "1671644233-35",
+					["typeCode"] = "default",
+				}, -- [2]
+			},
+			["арканбурст-Ревущийфьорд"] = {
+				{
+					["mapID"] = 2444,
+					["date"] = "15/12/22",
+					["class"] = "MAGE",
+					["iSubClass"] = 0,
+					["groupSize"] = 0,
+					["boss"] = "Сеннарт Дыхание Льда",
+					["time"] = "22:21:58",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:193773::::::::70:260::23:4:7977:6652:1594:8767:1:28:2157:::::|h[Добыча Нелтария]|h|r",
+					["typeCode"] = "default",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["votes"] = 0,
+					["response"] = "Основной спек/Нужно",
+					["id"] = "1671121318-3",
+					["difficultyID"] = 0,
+					["lootWon"] = "|cffa335ee|Hitem:194304::::::::70:260::3:4:6652:7979:1472:8767::::::|h[Смертельные силки ледяной крови]|h|r",
+					["isAwardReason"] = false,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cff0070dd|Hitem:193677::::::::70:260::2:4:7976:6652:1581:8766:1:28:2155:::::|h[Яростное перо]|h|r",
+					["instance"] = "10.0 Драконьи острова-",
+				}, -- [1]
+			},
+			["комт-Ревущийфьорд"] = {
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "WARLOCK",
+					["iSubClass"] = 2,
+					["groupSize"] = 22,
+					["boss"] = "Курог Зловещий Тотем",
+					["time"] = "22:30:41",
+					["iClass"] = 9,
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:194260::::::::70:260::3:::::::|h[Выкройка: башмаки синих драконов]|h|r",
+					["votes"] = 0,
+					["date"] = "18/12/22",
+					["responseID"] = 1,
+					["id"] = "1671381041-10",
+					["typeCode"] = "default",
+				}, -- [1]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "WARLOCK",
+					["iSubClass"] = 0,
+					["groupSize"] = 22,
+					["boss"] = "Сеннарт Дыхание Льда",
+					["time"] = "21:32:00",
+					["iClass"] = 15,
+					["itemReplaced1"] = "|cffa335ee|Hitem:133610:6540:::::::70:259::16:8:8967:7977:6652:8822:8820:9144:3274:8767:1:28:1279:::::|h[Поножи кружащихся рун]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:196588::::::::70:259::3:4:7979:8827:1472:8767::::::|h[Камень Кузни из жуткого нефрита]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 1,
+					["id"] = "1671636720-8",
+					["typeCode"] = "default",
+				}, -- [2]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "WARLOCK",
+					["iSubClass"] = 0,
+					["groupSize"] = 22,
+					["boss"] = "Курог Зловещий Тотем",
+					["time"] = "21:41:19",
+					["iClass"] = 15,
+					["itemReplaced1"] = "|cffa335ee|Hitem:134415:6625:::::::70:259::16:8:8968:7977:6652:8822:8820:9144:3277:8767:1:28:1279:::::|h[Резонирующие одеяния чародея]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:196586::::::::70:259::3:4:7979:8830:1472:8767::::::|h[Камень Кузни из жуткого аметиста]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 1,
+					["id"] = "1671637279-12",
+					["typeCode"] = "default",
+				}, -- [3]
+			},
+			["хугомонк-Ревущийфьорд"] = {
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MONK",
+					["iSubClass"] = 6,
+					["groupSize"] = 23,
+					["boss"] = "Курог Зловещий Тотем",
+					["time"] = "22:30:05",
+					["iClass"] = 2,
+					["itemReplaced1"] = "|cffa335ee|Hitem:197939:6645:::::::70:260::36:4:6652:1478:5865:8767:1:28:2537:::::|h[Гарпун на пилозуба]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:195483::::::::70:260::3:4:6652:7979:1472:8767::::::|h[Авак'мани, наследие Зловещего Тотема]|h|r",
+					["votes"] = 0,
+					["date"] = "18/12/22",
+					["responseID"] = 1,
+					["id"] = "1671381005-8",
+					["typeCode"] = "default",
+				}, -- [1]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MONK",
+					["iSubClass"] = 2,
+					["groupSize"] = 22,
+					["boss"] = "Курог Зловещий Тотем",
+					["time"] = "21:41:44",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:191992::::::::70:259::36:4:6652:1478:5865:8767:1:28:2275:::::|h[Захваты из шкуры выдрека]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:195514::::::::70:259::3:6:6652:7979:8821:8817:1472:8767::::::|h[Обмотки коварного тотема]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 1,
+					["id"] = "1671637304-14",
+					["typeCode"] = "default",
+				}, -- [2]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MONK",
+					["iSubClass"] = 2,
+					["groupSize"] = 22,
+					["boss"] = "Совет стихий",
+					["time"] = "21:59:36",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:201942::::::::70:260::13:5:8851:8852:8802:8850:8795:7:28:2164:29:36:30:32:38:8:40:849:45:198059:46:194572:::::|h[Испытанные наплечники первопроходца |A:Professions-ChatIcon-Quality-Tier5:17:17::1|a]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Незначительное улучшение",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:195486::::::::70:260::3:6:6652:8821:8817:7979:1472:8767::::::|h[Наплечи из изломанной глины]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 3,
+					["id"] = "1671638376-16",
+					["typeCode"] = "default",
+				}, -- [3]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MONK",
+					["iSubClass"] = 2,
+					["groupSize"] = 11,
+					["boss"] = "Хранительница стаи Денна",
+					["time"] = "22:52:42",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:134192:6573:::::::70:259::16:9:8961:7977:6652:7936:8822:8819:9144:3255:8767:1:28:1279:::::|h[Наруч из медвежьей кожи]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:195525::::::::70:259::3:7:6652:7937:7979:8821:8819:1472:8767::::::|h[Наручи преданного мастера огня]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 1,
+					["id"] = "1671641562-29",
+					["typeCode"] = "default",
+				}, -- [4]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MONK",
+					["iSubClass"] = 2,
+					["groupSize"] = 21,
+					["boss"] = "Террос",
+					["time"] = "23:39:24",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:191995::::::::70:259::73:5:6652:7937:1485:5864:8767:1:28:2437:::::|h[Кушак из шкуры выдрека]|h|r",
+					["instance"] = "Хранилище Воплощений-Героический",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:195501::::::::70:259::5:7:6652:7937:8825:8818:7980:1485:8767::::::|h[Боевой пояс из сросшегося сланца]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 1,
+					["id"] = "1671644364-37",
+					["typeCode"] = "default",
+				}, -- [5]
+			},
+			["дельфуего-Ревущийфьорд"] = {
+				{
+					["mapID"] = 2444,
+					["date"] = "15/12/22",
+					["class"] = "ROGUE",
+					["iSubClass"] = 4,
+					["groupSize"] = 0,
+					["boss"] = "Сеннарт Дыхание Льда",
+					["time"] = "22:22:41",
+					["iClass"] = 2,
+					["itemReplaced1"] = "|cffa335ee|Hitem:200169::::::::70:260::26:4:6652:1481:5865:8767:1:28:2287:::::|h[Пламенная дубинка защитника]|h|r",
+					["typeCode"] = "default",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["votes"] = 0,
+					["response"] = "Основной спек/Нужно",
+					["id"] = "1671121361-4",
+					["difficultyID"] = 0,
+					["lootWon"] = "|cffa335ee|Hitem:195510::::::::70:260::3:4:6652:7979:1472:8767::::::|h[Колотушка хладодышащего]|h|r",
+					["isAwardReason"] = false,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:200137::::::::70:260::25:4:6652:1475:5864:8767:1:28:2437:::::|h[Хитиновый устрашитель]|h|r",
+					["instance"] = "10.0 Драконьи острова-",
+				}, -- [1]
+				{
+					["mapID"] = 2522,
+					["date"] = "18/12/22",
+					["class"] = "ROGUE",
+					["iSubClass"] = 0,
+					["groupSize"] = 23,
+					["boss"] = "Курог Зловещий Тотем",
+					["time"] = "22:28:35",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:133642::::::::70:260::33:6:8966:7977:6652:9144:3271:8767:1:28:1279:::::|h[Рог доблести]|h|r",
+					["typeCode"] = "default",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["votes"] = 0,
+					["response"] = "Основной спек/Нужно",
+					["id"] = "1671380915-5",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:194306::::::::70:260::3:4:7979:6652:1472:8767::::::|h[Всемогущий тотем повелителя]|h|r",
+					["isAwardReason"] = false,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:198451::::::::70:260::37:4:6652:1433:5865:8767:1:28:2275:::::|h[Флакон пламени жизни]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+				}, -- [2]
+				{
+					["mapID"] = 2522,
+					["date"] = "21/12/22",
+					["class"] = "ROGUE",
+					["iSubClass"] = 15,
+					["groupSize"] = 21,
+					["boss"] = "Террос",
+					["time"] = "21:18:50",
+					["iClass"] = 2,
+					["itemReplaced1"] = "|cffa335ee|Hitem:195503:6628:::::::70:259::5:4:6652:7980:1485:8767::::::|h[Прочный осколок Терроса]|h|r",
+					["typeCode"] = "default",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["votes"] = 0,
+					["response"] = "Основной спек/Нужно",
+					["id"] = "1671635930-3",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:195503::::::::70:259::3:4:6652:7979:1472:8767::::::|h[Прочный осколок Терроса]|h|r",
+					["isAwardReason"] = false,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:200131::::::::70:259::26:4:6652:1481:5865:8767:1:28:2287:::::|h[Возвращенный кинжал выживающего]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+				}, -- [3]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "ROGUE",
+					["iSubClass"] = 0,
+					["groupSize"] = 22,
+					["boss"] = "Сеннарт Дыхание Льда",
+					["time"] = "21:31:34",
+					["iClass"] = 15,
+					["itemReplaced1"] = "|cffa335ee|Hitem:191994::::::::70:259::43:4:6652:1488:5864:8767:1:28:2533:::::|h[Брюки из шкуры выдрека]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:196593::::::::70:259::3:4:7979:8827:1472:8767::::::|h[Камень Кузни из наивысшего нефрита]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 1,
+					["id"] = "1671636694-7",
+					["typeCode"] = "default",
+				}, -- [4]
+			},
+			["драчелло-Ревущийфьорд"] = {
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "HUNTER",
+					["iSubClass"] = 18,
+					["groupSize"] = 27,
+					["boss"] = "Эраног",
+					["time"] = "21:23:10",
+					["iClass"] = 2,
+					["itemReplaced1"] = "|cffa335ee|Hitem:200266:6526:::::::70:259::26:4:6652:1481:5865:8767:1:28:2516:::::|h[Гнолльский запускатель игрушек для питомцев]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["typeCode"] = "default",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:195490::::::::70:259::3:4:6652:7979:1472:8767::::::|h[Жгучий заклинатель пламени]|h|r",
+					["id"] = "1671031390-1",
+					["date"] = "14/12/22",
+					["responseID"] = 1,
+					["votes"] = 0,
+					["isAwardReason"] = false,
+				}, -- [1]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "HUNTER",
+					["iSubClass"] = 3,
+					["groupSize"] = 27,
+					["boss"] = "Эраног",
+					["time"] = "21:26:40",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:193777::::::::70:259::23:7:7977:6652:7936:8816:8835:1594:8767:1:28:2157:::::|h[Шлем из отвердевшего золота]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["typeCode"] = "default",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:195476::::::::70:259::3:7:6652:7936:7979:8821:8820:1472:8767::::::|h[Украшенный шлем Эранога]|h|r",
+					["id"] = "1671031600-4",
+					["date"] = "14/12/22",
+					["responseID"] = 1,
+					["votes"] = 0,
+					["isAwardReason"] = false,
+				}, -- [2]
+				{
+					["mapID"] = 2444,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "HUNTER",
+					["iSubClass"] = 0,
+					["groupSize"] = 0,
+					["boss"] = "Сеннарт Дыхание Льда",
+					["time"] = "22:21:14",
+					["iClass"] = 15,
+					["itemReplaced1"] = "|cffa335ee|Hitem:192001:6493:::::::70:260::37:4:6652:1481:5865:8767:1:28:2521:::::|h[Наголенники он'арского сокольничего]|h|r",
+					["instance"] = "10.0 Драконьи острова-",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 0,
+					["lootWon"] = "|cffa335ee|Hitem:196598::::::::70:260::3:4:7979:8827:1472:8767::::::|h[Камень Кузни из таинственного нефрита]|h|r",
+					["votes"] = 0,
+					["date"] = "15/12/22",
+					["responseID"] = 1,
+					["id"] = "1671121274-2",
+					["typeCode"] = "default",
+				}, -- [3]
+			},
+			["бишарк-Ревущийфьорд"] = {
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "SHAMAN",
+					["iSubClass"] = 6,
+					["groupSize"] = 27,
+					["boss"] = "Эраног",
+					["time"] = "22:18:33",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:193645::::::::70:259::23:4:7977:6652:1594:8767:1:28:2157:::::|h[Кристаллизованный заслон]|h|r",
+					["instance"] = "Хранилище Воплощений-Героический",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["typeCode"] = "default",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:195475::::::::70:259::5:4:6652:7980:1485:8767::::::|h[Щит огненного маршала]|h|r",
+					["id"] = "1671034713-15",
+					["date"] = "14/12/22",
+					["responseID"] = 1,
+					["votes"] = 0,
+					["isAwardReason"] = false,
+				}, -- [1]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "SHAMAN",
+					["iSubClass"] = 3,
+					["groupSize"] = 21,
+					["boss"] = "Эраног",
+					["time"] = "23:19:37",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:134473::::::::70:259::16:9:8963:7977:6652:7937:8822:8820:9144:3261:8767:1:28:1279:::::|h[Воротник преданности огню]|h|r",
+					["instance"] = "Хранилище Воплощений-Героический",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:195476::::::::70:259::5:7:6652:7937:7980:8825:8820:1485:8767::::::|h[Украшенный шлем Эранога]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 1,
+					["id"] = "1671643177-31",
+					["typeCode"] = "default",
+				}, -- [2]
+			},
+			["натазат-Ревущийфьорд"] = {
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MAGE",
+					["iSubClass"] = 1,
+					["groupSize"] = 27,
+					["boss"] = "Эраног",
+					["time"] = "21:23:51",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cff0070dd|Hitem:193750::::::::70:259::2:5:7976:6652:8816:1581:8766:1:28:2156:::::|h[Брюки парящего полета]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["typeCode"] = "default",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:195479::::::::70:259::3:6:6652:8821:8820:7979:1472:8767::::::|h[Бриджи мастера огня]|h|r",
+					["id"] = "1671031431-2",
+					["date"] = "14/12/22",
+					["responseID"] = 1,
+					["votes"] = 0,
+					["isAwardReason"] = false,
+				}, -- [1]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MAGE",
+					["iSubClass"] = 10,
+					["groupSize"] = 21,
+					["boss"] = "Террос",
+					["time"] = "21:19:29",
+					["iClass"] = 2,
+					["itemReplaced1"] = "|cffa335ee|Hitem:193707::::::::70:259::16:6:8963:7977:6652:9147:1604:8767:1:28:1279:::::|h[Итоговая оценка]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:195504::::::::70:259::3:4:6652:7979:1472:8767::::::|h[Пробудившийся планарный столп]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 1,
+					["id"] = "1671635969-5",
+					["typeCode"] = "default",
+				}, -- [2]
+				{
+					["mapID"] = 2522,
+					["date"] = "21/12/22",
+					["class"] = "MAGE",
+					["iSubClass"] = 0,
+					["groupSize"] = 22,
+					["boss"] = "Сеннарт Дыхание Льда",
+					["time"] = "21:32:31",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:198407::::::::70:259::74:4:9136:6652:1476:8767:1:28:2437:::::|h[Лазурный чародейский усилитель]|h|r",
+					["typeCode"] = "default",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["votes"] = 0,
+					["response"] = "Основной спек/Нужно",
+					["id"] = "1671636751-10",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:194304::::::::70:259::3:4:6652:7979:1472:8767::::::|h[Смертельные силки ледяной крови]|h|r",
+					["isAwardReason"] = false,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:193743::::::::70:259::23:4:7977:6652:1594:8767:1:28:2157:::::|h[Фрагмент Иридия]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+				}, -- [3]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MAGE",
+					["iSubClass"] = 1,
+					["groupSize"] = 22,
+					["boss"] = "Совет стихий",
+					["time"] = "21:59:45",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:193523::::::::70:260::13:4:8836:8840:8902:8800:5:28:2164:29:49:30:36:38:6:40:445:::::|h[Яркий головной покров из ткани стихий |A:Professions-ChatIcon-Quality-Tier3:17:18::1|a]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:195485::::::::70:260::3:7:6652:7936:8821:8820:7979:1472:8767::::::|h[Маска ужаса советника]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 1,
+					["id"] = "1671638385-17",
+					["typeCode"] = "default",
+				}, -- [4]
+			},
+			["ожившийлось-Ревущийфьорд"] = {
+				{
+					["mapID"] = 2522,
+					["date"] = "14/12/22",
+					["class"] = "DEATHKNIGHT",
+					["iSubClass"] = 0,
+					["groupSize"] = 27,
+					["boss"] = "Эраног",
+					["time"] = "22:11:06",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:200563::::::::70:259::26:4:6652:1485:5864:8767:1:28:2287:::::|h[Панцирь для изначального ритуала]|h|r",
+					["typeCode"] = "default",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["instance"] = "Хранилище Воплощений-Героический",
+					["response"] = "Основной спек/Нужно",
+					["id"] = "1671034266-10",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:194299::::::::70:259::5:4:7980:6652:1485:8767::::::|h[Украшение пламени]|h|r",
+					["isAwardReason"] = false,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:193743::::::::70:259::23:4:7977:6652:1594:8767:1:28:2157:::::|h[Фрагмент Иридия]|h|r",
+					["votes"] = 0,
+				}, -- [1]
+				{
+					["mapID"] = 2522,
+					["date"] = "21/12/22",
+					["class"] = "DEATHKNIGHT",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["boss"] = "Террос",
+					["time"] = "21:19:39",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:200563::::::::70:259::26:4:6652:1485:5864:8767:1:28:2287:::::|h[Панцирь для изначального ритуала]|h|r",
+					["typeCode"] = "default",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["votes"] = 0,
+					["response"] = "Оффспек/Не откажусь",
+					["id"] = "1671635979-6",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:194303::::::::70:259::3:4:6652:7979:1472:8767::::::|h[Рокочущий рубин]|h|r",
+					["isAwardReason"] = false,
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 2,
+					["itemReplaced2"] = "|cffa335ee|Hitem:194299::::::::70:259::5:4:7980:6652:1485:8767::::::|h[Украшение пламени]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+				}, -- [2]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DEATHKNIGHT",
+					["iSubClass"] = 4,
+					["groupSize"] = 22,
+					["boss"] = "Совет стихий",
+					["time"] = "22:01:29",
+					["iClass"] = 2,
+					["itemReplaced1"] = "|cffa335ee|Hitem:193695:3368:::::::70:260::35:6:8971:7977:6652:9147:1630:8767::::::|h[Боевой клинок загонщика дичи]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Оффспек/Не откажусь",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:195489::::::::70:260::3:4:6652:7979:1472:8767::::::|h[Кувалда демиурга]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 2,
+					["id"] = "1671638489-20",
+					["typeCode"] = "default",
+				}, -- [3]
+				{
+					["mapID"] = 2522,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DEATHKNIGHT",
+					["iSubClass"] = 0,
+					["groupSize"] = 22,
+					["boss"] = "Дафия Перерожденная",
+					["time"] = "22:15:06",
+					["iClass"] = 15,
+					["itemReplaced1"] = "|cffa335ee|Hitem:109858::::::::70:259::33:8:8966:7977:6652:8822:8817:9144:3277:8767:1:28:1279:::::|h[Перчатки золотой стали]|h|r",
+					["instance"] = "Хранилище Воплощений-Обычный",
+					["owner"] = "дельфуего-Ревущийфьорд",
+					["response"] = "Основной спек/Нужно",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:196587::::::::70:259::3:4:7979:8829:1472:8767::::::|h[Камень Кузни из жуткого граната]|h|r",
+					["votes"] = 0,
+					["date"] = "21/12/22",
+					["responseID"] = 1,
+					["id"] = "1671639306-22",
+					["typeCode"] = "default",
+				}, -- [4]
+			},
+		},
 	},
 }

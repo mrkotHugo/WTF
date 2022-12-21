@@ -1,14 +1,15 @@
 
 DataStore_GarrisonsDB = {
 	["profileKeys"] = {
+		["Хугокан - Ревущий фьорд"] = "Хугокан - Ревущий фьорд",
 		["Hugotest - Draenor"] = "Hugotest - Draenor",
 		["Хугопал - Ревущий фьорд"] = "Хугопал - Ревущий фьорд",
 		["Хугомонк - Ревущий фьорд"] = "Хугомонк - Ревущий фьорд",
 		["Хуговар - Ревущий фьорд"] = "Хуговар - Ревущий фьорд",
-		["Hugork - Draenor"] = "Hugork - Draenor",
+		["Maelti - Doomhammer"] = "Maelti - Doomhammer",
 		["Хугохав - Гордунни"] = "Хугохав - Гордунни",
 		["Хугакон - Ревущий фьорд"] = "Хугакон - Ревущий фьорд",
-		["Maelti - Doomhammer"] = "Maelti - Doomhammer",
+		["Hugork - Draenor"] = "Hugork - Draenor",
 		["Хугопвар - Ревущий фьорд"] = "Хугопвар - Ревущий фьорд",
 	},
 	["global"] = {
@@ -27,6 +28,9 @@ DataStore_GarrisonsDB = {
 			},
 			["Default.Draenor.Hugork"] = {
 				["lastUpdate"] = 1667328303,
+			},
+			["Default.Ревущий фьорд.Хугокан"] = {
+				["lastUpdate"] = 1670506575,
 			},
 			["Default.Ревущий фьорд.Хугопвар"] = {
 				["lastUpdate"] = 1668704703,
@@ -70,7 +74,9 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 30,
 					["type"] = "9.0 Encounter - Maldraxxus",
 					["cost"] = 1,
+					["iLevel"] = 800,
 					["level"] = 60,
+					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
 					["rewards"] = {
 						{
 							["quantity"] = 1,
@@ -78,8 +84,6 @@ DataStore_GarrisonsDB = {
 							["itemLink"] = "|cff1eff00|Hitem:184373::::::::60:71:::::::::|h[Small Anima Globe]|h|r",
 						}, -- [1]
 					},
-					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
-					["iLevel"] = 800,
 				},
 			},
 		},

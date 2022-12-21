@@ -2,16 +2,16 @@
 ThreatPlatesDB = {
 	["char"] = {
 		["Хугокан - Ревущий фьорд"] = {
-			["welcome"] = true,
 			["spec"] = {
 				[3] = false,
 			},
+			["welcome"] = true,
 		},
 		["Hugotest - Draenor"] = {
-			["welcome"] = true,
 			["spec"] = {
 				[3] = true,
 			},
+			["welcome"] = true,
 		},
 		["Хугопал - Ревущий фьорд"] = {
 			["spec"] = {
@@ -22,27 +22,17 @@ ThreatPlatesDB = {
 			["welcome"] = true,
 		},
 		["Хугомонк - Ревущий фьорд"] = {
-			["welcome"] = true,
 			["spec"] = {
 				true, -- [1]
 				[3] = false,
 			},
-		},
-		["Хугакон - Ревущий фьорд"] = {
 			["welcome"] = true,
 		},
-		["Hugork - Draenor"] = {
+		["Maelti - Doomhammer"] = {
 			["welcome"] = true,
 			["spec"] = {
 				[3] = true,
 			},
-		},
-		["Хугохав - Гордунни"] = {
-			["spec"] = {
-				nil, -- [1]
-				true, -- [2]
-			},
-			["welcome"] = true,
 		},
 		["Хуговар - Ревущий фьорд"] = {
 			["welcome"] = true,
@@ -50,17 +40,33 @@ ThreatPlatesDB = {
 				[3] = true,
 			},
 		},
-		["Maelti - Doomhammer"] = {
+		["Хугакон - Ревущий фьорд"] = {
+			["welcome"] = true,
+		},
+		["Хугохав - Гордунни"] = {
+			["welcome"] = true,
+			["spec"] = {
+				nil, -- [1]
+				true, -- [2]
+			},
+		},
+		["Хугобум - Ревущий фьорд"] = {
+			["welcome"] = true,
+			["spec"] = {
+				[3] = false,
+			},
+		},
+		["Hugork - Draenor"] = {
 			["spec"] = {
 				[3] = true,
 			},
 			["welcome"] = true,
 		},
 		["Хугопвар - Ревущий фьорд"] = {
-			["welcome"] = true,
 			["spec"] = {
 				[3] = true,
 			},
+			["welcome"] = true,
 		},
 	},
 	["global"] = {
@@ -75,11 +81,12 @@ ThreatPlatesDB = {
 		["Hugotest - Draenor"] = "Default",
 		["Хугопал - Ревущий фьорд"] = "Default",
 		["Хугомонк - Ревущий фьорд"] = "Default",
-		["Хугакон - Ревущий фьорд"] = "Default",
-		["Hugork - Draenor"] = "Default",
-		["Хугохав - Гордунни"] = "Default",
-		["Хуговар - Ревущий фьорд"] = "Default",
 		["Maelti - Doomhammer"] = "Default",
+		["Хуговар - Ревущий фьорд"] = "Default",
+		["Хугакон - Ревущий фьорд"] = "Default",
+		["Хугохав - Гордунни"] = "Default",
+		["Хугобум - Ревущий фьорд"] = "Default",
+		["Hugork - Draenor"] = "Default",
 		["Хугопвар - Ревущий фьорд"] = "Default",
 	},
 	["profiles"] = {
@@ -106,15 +113,15 @@ ThreatPlatesDB = {
 				},
 			},
 			["castbarColor"] = {
-				["b"] = 0.2470588235294118,
-				["g"] = 1,
 				["r"] = 0.1843137254901961,
+				["g"] = 1,
+				["b"] = 0.2470588235294118,
 			},
 			["questWidget"] = {
 				["HPBarColor"] = {
-					["r"] = 0,
-					["g"] = 0.003921568859368563,
 					["b"] = 0.8549020290374756,
+					["g"] = 0.003921568859368563,
+					["r"] = 0,
 				},
 				["ModeHPBar"] = true,
 			},
@@ -128,9 +135,9 @@ ThreatPlatesDB = {
 			},
 			["questWidget"] = {
 				["HPBarColor"] = {
-					["b"] = 0.8549020290374756,
-					["g"] = 0.01176470704376698,
 					["r"] = 0,
+					["g"] = 0.01176470704376698,
+					["b"] = 0.8549020290374756,
 				},
 				["ModeHPBar"] = true,
 			},

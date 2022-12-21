@@ -1,14 +1,15 @@
 
 DataStore_PetsDB = {
 	["profileKeys"] = {
+		["Хугокан - Ревущий фьорд"] = "Хугокан - Ревущий фьорд",
 		["Hugotest - Draenor"] = "Hugotest - Draenor",
 		["Хугопал - Ревущий фьорд"] = "Хугопал - Ревущий фьорд",
 		["Хугомонк - Ревущий фьорд"] = "Хугомонк - Ревущий фьорд",
 		["Хуговар - Ревущий фьорд"] = "Хуговар - Ревущий фьорд",
-		["Hugork - Draenor"] = "Hugork - Draenor",
+		["Maelti - Doomhammer"] = "Maelti - Doomhammer",
 		["Хугохав - Гордунни"] = "Хугохав - Гордунни",
 		["Хугакон - Ревущий фьорд"] = "Хугакон - Ревущий фьорд",
-		["Maelti - Doomhammer"] = "Maelti - Doomhammer",
+		["Hugork - Draenor"] = "Hugork - Draenor",
 		["Хугопвар - Ревущий фьорд"] = "Хугопвар - Ревущий фьорд",
 	},
 	["global"] = {
@@ -27,6 +28,9 @@ DataStore_PetsDB = {
 			},
 			["Default.Draenor.Hugork"] = {
 				["lastUpdate"] = 1667328302,
+			},
+			["Default.Ревущий фьорд.Хугокан"] = {
+				["lastUpdate"] = 1670506571,
 			},
 			["Default.Ревущий фьорд.Хугопвар"] = {
 				["lastUpdate"] = 1668704701,

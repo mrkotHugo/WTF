@@ -13,11 +13,6 @@ PawnCommon = {
 	["ShowTooltipIcons"] = true,
 	["LastVersion"] = 2.0713,
 	["ShowSocketingAdvisor"] = true,
-	["ShowSpecIcons"] = true,
-	["IgnoreGemsWhileLeveling"] = true,
-	["ButtonPosition"] = 2,
-	["ShowLootUpgradeAdvisor"] = true,
-	["ShowQuestUpgradeAdvisor"] = true,
 	["Scales"] = {
 		["\"MrRobot\":HUNTER3"] = {
 			["IconTexturePath"] = 461113,
@@ -316,20 +311,35 @@ PawnCommon = {
 			["UnenchantedColor"] = "2e94af",
 			["SpecID"] = 1,
 		},
-		["\"MrRobot\":PALADIN3"] = {
-			["IconTexturePath"] = 135873,
+		["\"MrRobot\":WARRIOR1"] = {
+			["IconTexturePath"] = 132355,
 			["PerCharacterOptions"] = {
+				["Хугопвар-Ревущий фьорд"] = {
+					["Visible"] = true,
+				},
+				["Хуговар-Ревущий фьорд"] = {
+					["Visible"] = true,
+				},
+				["Hugork-Draenor"] = {
+					["Visible"] = true,
+				},
+				["Hugotest-Draenor"] = {
+					["Visible"] = true,
+				},
+				["Maelti-Doomhammer"] = {
+					["Visible"] = true,
+				},
 			},
-			["Color"] = "f38bb9",
-			["LocalizedName"] = "Паладин: Воздаяние",
-			["ClassID"] = 2,
+			["Color"] = "c59a6c",
+			["LocalizedName"] = "Воин: Оружие",
+			["ClassID"] = 1,
 			["DoNotShow1HUpgrades"] = true,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "b6688a",
-			["SpecID"] = 3,
+			["UnenchantedColor"] = "937351",
+			["SpecID"] = 1,
 		},
 		["\"MrRobot\":WARLOCK2"] = {
 			["IconTexturePath"] = 136172,
@@ -346,19 +356,19 @@ PawnCommon = {
 			["UnenchantedColor"] = "6465b1",
 			["SpecID"] = 2,
 		},
-		["\"MrRobot\":DRUID2"] = {
-			["IconTexturePath"] = 132115,
+		["\"MrRobot\":PALADIN2"] = {
+			["IconTexturePath"] = 236264,
 			["PerCharacterOptions"] = {
 			},
-			["Color"] = "fe7b09",
-			["LocalizedName"] = "Друид: Сила зверя",
-			["ClassID"] = 11,
-			["DoNotShow1HUpgrades"] = true,
-			["Role"] = "DAMAGER",
-			["DoNotShow2HUpgrades"] = false,
+			["Color"] = "f38bb9",
+			["LocalizedName"] = "Паладин: Защита",
+			["ClassID"] = 2,
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "TANK",
+			["DoNotShow2HUpgrades"] = true,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "be5c06",
+			["UnenchantedColor"] = "b6688a",
 			["SpecID"] = 2,
 		},
 		["\"MrRobot\":DEMONHUNTER2"] = {
@@ -376,19 +386,19 @@ PawnCommon = {
 			["UnenchantedColor"] = "792396",
 			["SpecID"] = 2,
 		},
-		["\"MrRobot\":PALADIN2"] = {
-			["IconTexturePath"] = 236264,
+		["\"MrRobot\":DRUID2"] = {
+			["IconTexturePath"] = 132115,
 			["PerCharacterOptions"] = {
 			},
-			["Color"] = "f38bb9",
-			["LocalizedName"] = "Паладин: Защита",
-			["ClassID"] = 2,
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "TANK",
-			["DoNotShow2HUpgrades"] = true,
+			["Color"] = "fe7b09",
+			["LocalizedName"] = "Друид: Сила зверя",
+			["ClassID"] = 11,
+			["DoNotShow1HUpgrades"] = true,
+			["Role"] = "DAMAGER",
+			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "b6688a",
+			["UnenchantedColor"] = "be5c06",
 			["SpecID"] = 2,
 		},
 		["\"MrRobot\":ROGUE1"] = {
@@ -439,6 +449,9 @@ PawnCommon = {
 		["\"MrRobot\":HUNTER2"] = {
 			["IconTexturePath"] = 236179,
 			["PerCharacterOptions"] = {
+				["Хугобум-Ревущий фьорд"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "a9d271",
 			["LocalizedName"] = "Охотник: Стрельба",
@@ -526,35 +539,20 @@ PawnCommon = {
 			["UnenchantedColor"] = "0053a5",
 			["SpecID"] = 3,
 		},
-		["\"MrRobot\":WARRIOR1"] = {
-			["IconTexturePath"] = 132355,
+		["\"MrRobot\":PALADIN3"] = {
+			["IconTexturePath"] = 135873,
 			["PerCharacterOptions"] = {
-				["Хугопвар-Ревущий фьорд"] = {
-					["Visible"] = true,
-				},
-				["Хуговар-Ревущий фьорд"] = {
-					["Visible"] = true,
-				},
-				["Hugork-Draenor"] = {
-					["Visible"] = true,
-				},
-				["Hugotest-Draenor"] = {
-					["Visible"] = true,
-				},
-				["Maelti-Doomhammer"] = {
-					["Visible"] = true,
-				},
 			},
-			["Color"] = "c59a6c",
-			["LocalizedName"] = "Воин: Оружие",
-			["ClassID"] = 1,
+			["Color"] = "f38bb9",
+			["LocalizedName"] = "Паладин: Воздаяние",
+			["ClassID"] = 2,
 			["DoNotShow1HUpgrades"] = true,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "937351",
-			["SpecID"] = 1,
+			["UnenchantedColor"] = "b6688a",
+			["SpecID"] = 3,
 		},
 		["\"MrRobot\":DRUID3"] = {
 			["IconTexturePath"] = 132276,
@@ -620,5 +618,10 @@ PawnCommon = {
 			["SpecID"] = 3,
 		},
 	},
+	["IgnoreGemsWhileLeveling"] = true,
+	["ButtonPosition"] = 2,
+	["ShowLootUpgradeAdvisor"] = true,
+	["ShowQuestUpgradeAdvisor"] = true,
+	["ShowSpecIcons"] = true,
 	["ShownGettingStarted"] = true,
 }

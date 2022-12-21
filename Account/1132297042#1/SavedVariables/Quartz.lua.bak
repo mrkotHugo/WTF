@@ -18,7 +18,7 @@ Quartz3DB = {
 		},
 		["Range"] = {
 		},
-		["Mirror"] = {
+		["EnemyCasts"] = {
 		},
 		["Player"] = {
 			["profiles"] = {
@@ -47,7 +47,7 @@ Quartz3DB = {
 		},
 		["Interrupt"] = {
 		},
-		["EnemyCasts"] = {
+		["Mirror"] = {
 		},
 		["Latency"] = {
 		},
@@ -56,10 +56,11 @@ Quartz3DB = {
 		["Хугокан - Ревущий фьорд"] = "Default",
 		["Hugotest - Draenor"] = "Default",
 		["Хугомонк - Ревущий фьорд"] = "Default",
+		["Хугопал - Ревущий фьорд"] = "Default",
 		["Хуговар - Ревущий фьорд"] = "Default",
 		["Хугакон - Ревущий фьорд"] = "Default",
 		["Хугохав - Гордунни"] = "Default",
-		["Хугопал - Ревущий фьорд"] = "Default",
+		["Хугобум - Ревущий фьорд"] = "Default",
 		["Hugork - Draenor"] = "Default",
 		["Хугопвар - Ревущий фьорд"] = "Default",
 	},
@@ -74,8 +75,8 @@ Quartz3DB = {
 				["Range"] = false,
 				["Focus"] = false,
 				["Target"] = false,
-				["Mirror"] = false,
 				["Timer"] = false,
+				["Mirror"] = false,
 				["Latency"] = false,
 			},
 		},

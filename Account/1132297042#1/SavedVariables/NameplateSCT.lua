@@ -4,6 +4,7 @@ NameplateSCTDB = {
 		["Хугокан - Ревущий фьорд"] = "Default",
 		["Hugotest - Draenor"] = "Default",
 		["Хугопал - Ревущий фьорд"] = "Default",
+		["Хуготор - Ревущий фьорд"] = "Default",
 		["Хугомонк - Ревущий фьорд"] = "Default",
 		["Hugork - Draenor"] = "Default",
 		["Хугакон - Ревущий фьорд"] = "Default",

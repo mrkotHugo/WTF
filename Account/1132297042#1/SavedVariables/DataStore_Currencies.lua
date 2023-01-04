@@ -4,18 +4,22 @@ DataStore_CurrenciesDB = {
 		["Хугокан - Ревущий фьорд"] = "Хугокан - Ревущий фьорд",
 		["Hugotest - Draenor"] = "Hugotest - Draenor",
 		["Хугомонк - Ревущий фьорд"] = "Хугомонк - Ревущий фьорд",
-		["Hugork - Draenor"] = "Hugork - Draenor",
-		["Хуговар - Ревущий фьорд"] = "Хуговар - Ревущий фьорд",
+		["Хуготор - Ревущий фьорд"] = "Хуготор - Ревущий фьорд",
 		["Хугопал - Ревущий фьорд"] = "Хугопал - Ревущий фьорд",
+		["Хуговар - Ревущий фьорд"] = "Хуговар - Ревущий фьорд",
+		["Maelti - Doomhammer"] = "Maelti - Doomhammer",
 		["Хугохав - Гордунни"] = "Хугохав - Гордунни",
 		["Хугобум - Ревущий фьорд"] = "Хугобум - Ревущий фьорд",
-		["Maelti - Doomhammer"] = "Maelti - Doomhammer",
+		["Hugork - Draenor"] = "Hugork - Draenor",
 		["Хугопвар - Ревущий фьорд"] = "Хугопвар - Ревущий фьорд",
 	},
 	["global"] = {
 		["Characters"] = {
 			["Default.Ревущий фьорд.Хугомонк"] = {
 				["lastUpdate"] = 1667753709,
+			},
+			["Default.Ревущий фьорд.Хуготор"] = {
+				["lastUpdate"] = 1672399863,
 			},
 			["Default.Ревущий фьорд.Хуговар"] = {
 				["lastUpdate"] = 1666781510,
@@ -53,12 +57,6 @@ DataStore_CurrenciesDB = {
 			},
 			["Default.Ревущий фьорд.Хугобум"] = {
 				["lastUpdate"] = 1670950597,
-			},
-			["Default.Ревущий фьорд.Хугокан"] = {
-				["lastUpdate"] = 1670506571,
-			},
-			["Default.Ревущий фьорд.Хугопвар"] = {
-				["lastUpdate"] = 1668704702,
 			},
 			["Default.Doomhammer.Maelti"] = {
 				["lastUpdate"] = 1666768978,
@@ -100,6 +98,12 @@ DataStore_CurrenciesDB = {
 					[1810] = "4-0-0-100",
 				},
 			},
+			["Default.Ревущий фьорд.Хугопвар"] = {
+				["lastUpdate"] = 1668704702,
+			},
+			["Default.Ревущий фьорд.Хугокан"] = {
+				["lastUpdate"] = 1670506571,
+			},
 			["Default.Draenor.Hugotest"] = {
 				["lastUpdate"] = 1666780270,
 			},
@@ -118,8 +122,8 @@ DataStore_CurrenciesDB = {
 				["Grateful Offering"] = 3,
 				["Reservoir Anima"] = 4,
 				["Valor"] = 2,
-				["War Resources"] = 1,
 				["Redeemed Soul"] = 5,
+				["War Resources"] = 1,
 			},
 			["HeadersRev"] = {
 				["Battle for Azeroth"] = 1,

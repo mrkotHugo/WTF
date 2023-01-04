@@ -261,6 +261,9 @@ PawnCommon = {
 		["\"MrRobot\":DRUID1"] = {
 			["IconTexturePath"] = 136096,
 			["PerCharacterOptions"] = {
+				["Хуготор-Ревущий фьорд"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "fe7b09",
 			["ClassID"] = 11,
@@ -348,6 +351,24 @@ PawnCommon = {
 			["SpecID"] = 2,
 			["UnenchantedColor"] = "6465b1",
 		},
+		["\"MrRobot\":MAGE1"] = {
+			["IconTexturePath"] = 135932,
+			["PerCharacterOptions"] = {
+				["Хугокан-Ревущий фьорд"] = {
+					["Visible"] = true,
+				},
+			},
+			["Color"] = "3ec6ea",
+			["ClassID"] = 8,
+			["LocalizedName"] = "Маг: Тайная магия",
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "DAMAGER",
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = true,
+			["Provider"] = "MrRobot",
+			["SpecID"] = 1,
+			["UnenchantedColor"] = "2e94af",
+		},
 		["\"MrRobot\":DEMONHUNTER2"] = {
 			["IconTexturePath"] = 1247265,
 			["PerCharacterOptions"] = {
@@ -362,21 +383,6 @@ PawnCommon = {
 			["Provider"] = "MrRobot",
 			["SpecID"] = 2,
 			["UnenchantedColor"] = "792396",
-		},
-		["\"MrRobot\":SHAMAN3"] = {
-			["IconTexturePath"] = 136052,
-			["PerCharacterOptions"] = {
-			},
-			["Color"] = "006fdc",
-			["ClassID"] = 7,
-			["LocalizedName"] = "Шаман: Исцеление",
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "HEALER",
-			["DoNotShow2HUpgrades"] = false,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
-			["SpecID"] = 3,
-			["UnenchantedColor"] = "0053a5",
 		},
 		["\"MrRobot\":DRUID2"] = {
 			["IconTexturePath"] = 132115,
@@ -531,23 +537,20 @@ PawnCommon = {
 			["SpecID"] = 2,
 			["UnenchantedColor"] = "b6688a",
 		},
-		["\"MrRobot\":MAGE1"] = {
-			["IconTexturePath"] = 135932,
+		["\"MrRobot\":SHAMAN3"] = {
+			["IconTexturePath"] = 136052,
 			["PerCharacterOptions"] = {
-				["Хугокан-Ревущий фьорд"] = {
-					["Visible"] = true,
-				},
 			},
-			["Color"] = "3ec6ea",
-			["ClassID"] = 8,
-			["LocalizedName"] = "Маг: Тайная магия",
+			["Color"] = "006fdc",
+			["ClassID"] = 7,
+			["LocalizedName"] = "Шаман: Исцеление",
 			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "DAMAGER",
+			["Role"] = "HEALER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["SpecID"] = 1,
-			["UnenchantedColor"] = "2e94af",
+			["SpecID"] = 3,
+			["UnenchantedColor"] = "0053a5",
 		},
 		["\"MrRobot\":DRUID3"] = {
 			["IconTexturePath"] = 132276,

@@ -112,3 +112,12 @@ TomCats-LunarFestival: disabled
 TomCats-Noblegarden: disabled
 Masque_Dominos: disabled
 TomCats: disabled
+RaiderIO_DB_US_R: disabled
+RaiderIO_DB_US_M: disabled
+RaiderIO_DB_US_F: disabled
+RaiderIO_DB_TW_R: disabled
+RaiderIO_DB_TW_M: disabled
+RaiderIO_DB_TW_F: disabled
+RaiderIO_DB_KR_R: disabled
+RaiderIO_DB_KR_M: disabled
+RaiderIO_DB_KR_F: disabled

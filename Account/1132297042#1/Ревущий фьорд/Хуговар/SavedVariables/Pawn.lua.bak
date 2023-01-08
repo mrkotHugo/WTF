@@ -1,6 +1,8 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0713,
+	["LastVersion"] = 2.0714,
+	["LastPlayerFullName"] = "Хуговар-Ревущий фьорд",
+	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
 			["ID"] = 178694,
@@ -88,8 +90,7 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:175636::::::::60:71::11:2:6707:6902:2:9:56:28:1707:::::|h[Напульсники рассудительного претендента]|h|r",
 		},
 	},
-	["AutoSelectScales"] = true,
-	["LastPlayerFullName"] = "Хуговар-Ревущий фьорд",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128910] = {
 			["Relics"] = {
@@ -106,7 +107,6 @@ PawnOptions = {
 			["Name"] = "Стром'кар, Миротворец",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "WARRIOR",

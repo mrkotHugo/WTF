@@ -6,21 +6,21 @@ TalentTreeTweaksDB = {
 		["InspectDiff"] = {
 			["colorYellow"] = {
 				["a"] = 0.75,
-				["r"] = 1,
-				["g"] = 0.67,
 				["b"] = 0,
+				["g"] = 0.67,
+				["r"] = 1,
 			},
 			["colorGreen"] = {
 				["a"] = 0.58,
-				["r"] = 0,
-				["g"] = 1,
 				["b"] = 0.3,
+				["g"] = 1,
+				["r"] = 0,
 			},
 			["colorRed"] = {
 				["a"] = 0.5,
-				["r"] = 1,
-				["g"] = 0,
 				["b"] = 0,
+				["g"] = 0,
+				["r"] = 1,
 			},
 			["enableTalentTreeViewerDiff"] = true,
 		},
@@ -29,38 +29,6 @@ TalentTreeTweaksDB = {
 		["SearchForIds"] = {
 		},
 		["AlwaysShowGates"] = {
-		},
-		["ImportIntoCurrentLoadout"] = {
-			["defaultCheckboxState"] = false,
-			["unlockImportButton"] = true,
-		},
-		["HighlightCascadeRepurchable"] = {
-			["color"] = {
-				["a"] = 0.5,
-				["r"] = 0,
-				["g"] = 0,
-				["b"] = 1,
-			},
-		},
-		["UnlockRestrictions"] = {
-			["unlockInCombatSpending"] = true,
-			["unlockShareButton"] = true,
-		},
-		["ExportInspectedBuild"] = {
-		},
-		["DebugNodeInfo"] = {
-			["addButtonToTable"] = true,
-			["luaBrowser"] = true,
-			["slashDump"] = false,
-			["viragDevTool"] = true,
-			["tinspect"] = true,
-		},
-		["RespecButtons"] = {
-		},
-		["ScaleTalentFrame"] = {
-			["scale"] = 1,
-		},
-		["ReduceTaint"] = {
 		},
 		["TooltipIds"] = {
 			["professionTooltip"] = {
@@ -77,6 +45,38 @@ TalentTreeTweaksDB = {
 				["definitionId"] = false,
 				["entryId"] = true,
 			},
+		},
+		["HighlightCascadeRepurchable"] = {
+			["color"] = {
+				["a"] = 0.5,
+				["b"] = 1,
+				["g"] = 0,
+				["r"] = 0,
+			},
+		},
+		["DebugNodeInfo"] = {
+			["addButtonToTable"] = true,
+			["luaBrowser"] = true,
+			["slashDump"] = false,
+			["viragDevTool"] = true,
+			["tinspect"] = true,
+		},
+		["ScaleTalentFrame"] = {
+			["scale"] = 1,
+		},
+		["ReduceTaint"] = {
+		},
+		["RespecButtons"] = {
+		},
+		["ExportInspectedBuild"] = {
+		},
+		["UnlockRestrictions"] = {
+			["unlockShareButton"] = true,
+			["unlockInCombatSpending"] = true,
+		},
+		["ImportIntoCurrentLoadout"] = {
+			["defaultCheckboxState"] = false,
+			["unlockImportButton"] = true,
 		},
 	},
 }

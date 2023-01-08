@@ -1,7 +1,7 @@
 
 TomCats_Account = {
 	["errorLog"] = {
-		["version"] = "2.4.45",
+		["version"] = "2.4.46",
 	},
 	["hallowsend"] = {
 	},
@@ -12,7 +12,7 @@ TomCats_Account = {
 	["loveisintheair"] = {
 	},
 	["discoveriesVersion"] = "2.4.35",
-	["lastVersionSeen"] = "2.4.45",
+	["lastVersionSeen"] = "2.4.46",
 	["preferences"] = {
 		["dragonGlyphsTipShown"] = true,
 		["TomCats-LunarFestivalMinimapButton"] = {
@@ -57,10 +57,10 @@ TomCats_Account = {
 			},
 			["dimmedItems"] = {
 				["Хугопал-Ревущий фьорд"] = {
-					["FIRE"] = 0,
 					["EARTH"] = 0,
-					["AIR"] = 0,
+					["FIRE"] = 0,
 					["WATER"] = 0,
+					["AIR"] = 0,
 				},
 			},
 			["WindowLocation"] = {

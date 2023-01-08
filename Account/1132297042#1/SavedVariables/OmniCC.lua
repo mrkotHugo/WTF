@@ -1,37 +1,25 @@
 
 OmniCCDB = {
-	["global"] = {
-		["dbVersion"] = 6,
-		["addonVersion"] = "10.0.2",
-	},
 	["profileKeys"] = {
 		["Хугокан - Ревущий фьорд"] = "По умолчанию",
 		["Hugotest - Draenor"] = "Default",
 		["Хугопал - Ревущий фьорд"] = "По умолчанию",
 		["Хуготор - Ревущий фьорд"] = "По умолчанию",
 		["Хугомонк - Ревущий фьорд"] = "По умолчанию",
-		["Hugork - Draenor"] = "Default",
+		["Maelti - Doomhammer"] = "Default",
 		["Хугакон - Ревущий фьорд"] = "По умолчанию",
 		["Хуговар - Ревущий фьорд"] = "По умолчанию",
 		["Хугохав - Гордунни"] = "По умолчанию",
 		["Хугобум - Ревущий фьорд"] = "По умолчанию",
-		["Maelti - Doomhammer"] = "Default",
+		["Hugork - Draenor"] = "Default",
 		["Хугопвар - Ревущий фьорд"] = "По умолчанию",
+	},
+	["global"] = {
+		["dbVersion"] = 6,
+		["addonVersion"] = "10.0.2",
 	},
 	["profiles"] = {
 		["Default"] = {
-			["themes"] = {
-				["Default"] = {
-					["textStyles"] = {
-						["seconds"] = {
-						},
-						["soon"] = {
-						},
-						["minutes"] = {
-						},
-					},
-				},
-			},
 			["rules"] = {
 				{
 					["enabled"] = false,
@@ -59,6 +47,18 @@ OmniCCDB = {
 					["name"] = "ActionBars",
 					["id"] = "actions",
 				}, -- [3]
+			},
+			["themes"] = {
+				["Default"] = {
+					["textStyles"] = {
+						["seconds"] = {
+						},
+						["minutes"] = {
+						},
+						["soon"] = {
+						},
+					},
+				},
 			},
 		},
 		["По умолчанию"] = {
@@ -93,9 +93,9 @@ OmniCCDB = {
 			["themes"] = {
 				["По умолчанию"] = {
 					["textStyles"] = {
-						["seconds"] = {
-						},
 						["soon"] = {
+						},
+						["seconds"] = {
 						},
 						["minutes"] = {
 						},

@@ -28,11 +28,33 @@ TalentTreeTweaksDB = {
 		},
 		["SearchForIds"] = {
 		},
-		["AlwaysShowGates"] = {
+		["DragonRiding Auto Purchaser"] = {
+			["reportPurchases"] = true,
+		},
+		["UnlockRestrictions"] = {
+			["unlockInCombatSpending"] = true,
+			["unlockShareButton"] = true,
+		},
+		["MiniTreeInTooltip"] = {
+		},
+		["ReduceTaint"] = {
+			["disableMultiActionBarShowHide"] = true,
+			["replaceDropDown"] = true,
+		},
+		["ExportInspectedBuild"] = {
 		},
 		["ImportIntoCurrentLoadout"] = {
 			["defaultCheckboxState"] = false,
 			["unlockImportButton"] = true,
+		},
+		["AlwaysShowGates"] = {
+		},
+		["ChangeBackground"] = {
+			["showAlphaInUI"] = true,
+			["alpha"] = 1,
+			["showAlphaInViewerUI"] = true,
+		},
+		["CopyTalentButtonInfo"] = {
 		},
 		["HighlightCascadeRepurchable"] = {
 			["color"] = {
@@ -42,18 +64,7 @@ TalentTreeTweaksDB = {
 				["b"] = 1,
 			},
 		},
-		["UnlockRestrictions"] = {
-			["unlockInCombatSpending"] = true,
-			["unlockShareButton"] = true,
-		},
-		["ExportInspectedBuild"] = {
-		},
-		["ReduceTaint"] = {
-		},
-		["RespecButtons"] = {
-		},
-		["ScaleTalentFrame"] = {
-			["scale"] = 1,
+		["ReduceSpam"] = {
 		},
 		["DebugNodeInfo"] = {
 			["addButtonToTable"] = true,
@@ -61,6 +72,15 @@ TalentTreeTweaksDB = {
 			["slashDump"] = false,
 			["viragDevTool"] = true,
 			["tinspect"] = true,
+		},
+		["RespecButtons"] = {
+		},
+		["ScaleTalentFrame"] = {
+			["scale"] = 1,
+		},
+		["MiscFixes"] = {
+			["dropdownUpdateOnLoadConfigFix"] = true,
+			["fixButtonMouseOver"] = true,
 		},
 		["TooltipIds"] = {
 			["professionTooltip"] = {

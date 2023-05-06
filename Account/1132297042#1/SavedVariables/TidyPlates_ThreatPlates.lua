@@ -13,13 +13,32 @@ ThreatPlatesDB = {
 			},
 			["welcome"] = true,
 		},
+		["Хугомонк - Ревущий фьорд"] = {
+			["spec"] = {
+				true, -- [1]
+				[3] = false,
+			},
+			["welcome"] = true,
+		},
+		["Maelti - Doomhammer"] = {
+			["welcome"] = true,
+			["spec"] = {
+				[3] = true,
+			},
+		},
 		["Хугопал - Ревущий фьорд"] = {
+			["welcome"] = true,
 			["spec"] = {
 				nil, -- [1]
 				true, -- [2]
 				false, -- [3]
 			},
+		},
+		["Хуголок - Ревущий фьорд"] = {
 			["welcome"] = true,
+			["spec"] = {
+				[3] = false,
+			},
 		},
 		["Хуготор - Ревущий фьорд"] = {
 			["spec"] = {
@@ -30,17 +49,17 @@ ThreatPlatesDB = {
 			},
 			["welcome"] = true,
 		},
-		["Хугомонк - Ревущий фьорд"] = {
+		["Хугохав - Ревущий фьорд"] = {
 			["welcome"] = true,
 			["spec"] = {
-				true, -- [1]
-				[3] = false,
+				nil, -- [1]
+				true, -- [2]
 			},
 		},
-		["Maelti - Doomhammer"] = {
+		["Хугошам - Ревущий фьорд"] = {
 			["welcome"] = true,
 			["spec"] = {
-				[3] = true,
+				[3] = false,
 			},
 		},
 		["Хуговар - Ревущий фьорд"] = {
@@ -60,10 +79,10 @@ ThreatPlatesDB = {
 			},
 		},
 		["Хугобум - Ревущий фьорд"] = {
-			["welcome"] = true,
 			["spec"] = {
 				[3] = false,
 			},
+			["welcome"] = true,
 		},
 		["Hugork - Draenor"] = {
 			["spec"] = {
@@ -79,7 +98,7 @@ ThreatPlatesDB = {
 		},
 	},
 	["global"] = {
-		["version"] = "11.1.7",
+		["version"] = "11.1.18",
 	},
 	["namespaces"] = {
 		["LibDualSpec-1.0"] = {
@@ -88,10 +107,13 @@ ThreatPlatesDB = {
 	["profileKeys"] = {
 		["Хугокан - Ревущий фьорд"] = "Default",
 		["Hugotest - Draenor"] = "Default",
-		["Хугопал - Ревущий фьорд"] = "Default",
-		["Хуготор - Ревущий фьорд"] = "Default",
 		["Хугомонк - Ревущий фьорд"] = "Default",
 		["Maelti - Doomhammer"] = "Default",
+		["Хугопал - Ревущий фьорд"] = "Default",
+		["Хуголок - Ревущий фьорд"] = "Default",
+		["Хуготор - Ревущий фьорд"] = "Default",
+		["Хугохав - Ревущий фьорд"] = "Default",
+		["Хугошам - Ревущий фьорд"] = "Default",
 		["Хуговар - Ревущий фьорд"] = "Default",
 		["Хугакон - Ревущий фьорд"] = "Default",
 		["Хугохав - Гордунни"] = "Default",
@@ -108,6 +130,23 @@ ThreatPlatesDB = {
 				},
 			},
 			["CheckForIncompatibleAddons"] = false,
+			["questWidget"] = {
+				["HPBarColor"] = {
+					["b"] = 0.8549020290374756,
+					["g"] = 0.003921568859368563,
+					["r"] = 0,
+				},
+				["ModeHPBar"] = true,
+			},
+			["AuraWidget"] = {
+				["Debuffs"] = {
+					["ModeIcon"] = {
+						["IconWidth"] = 24,
+						["Style"] = "custom",
+						["IconHeight"] = 24,
+					},
+				},
+			},
 			["settings"] = {
 				["healthbar"] = {
 					["height"] = 20,
@@ -126,14 +165,6 @@ ThreatPlatesDB = {
 				["r"] = 0.1843137254901961,
 				["g"] = 1,
 				["b"] = 0.2470588235294118,
-			},
-			["questWidget"] = {
-				["HPBarColor"] = {
-					["b"] = 0.8549020290374756,
-					["g"] = 0.003921568859368563,
-					["r"] = 0,
-				},
-				["ModeHPBar"] = true,
 			},
 		},
 		["Хугопал"] = {

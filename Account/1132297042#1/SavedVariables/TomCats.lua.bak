@@ -1,43 +1,98 @@
 
 TomCats_Account = {
 	["errorLog"] = {
-		["version"] = "2.4.46",
+		["version"] = "2.4.55",
 	},
 	["hallowsend"] = {
 	},
 	["lastExpirationWarning"] = 0,
 	["discoveriesResetCount"] = 0,
+	["noblegarden"] = {
+		["enabled"] = true,
+	},
 	["lunarfestival"] = {
+		["preferences"] = {
+		},
 	},
 	["loveisintheair"] = {
+		["characters"] = {
+			["Player-1615-0B09BE14"] = {
+				["bracelets"] = 0,
+				["class"] = "EVOKER",
+				["boxes"] = 0,
+				["charms"] = 0,
+				["tokens"] = 0,
+				["level"] = 63,
+				["name"] = "Хугакон",
+				["faction"] = "Horde",
+				["completedDungeon"] = false,
+				["timestamp"] = 1676701685,
+				["canLootMount"] = true,
+				["realm"] = "Ревущийфьорд",
+			},
+			["Player-1615-0B1992F2"] = {
+				["bracelets"] = 0,
+				["class"] = "WARLOCK",
+				["boxes"] = 0,
+				["charms"] = 0,
+				["name"] = "Хуголок",
+				["timestamp"] = 1675630588,
+				["tokens"] = 0,
+				["faction"] = "Horde",
+				["completedDungeon"] = true,
+				["level"] = 1,
+				["canLootMount"] = false,
+				["realm"] = "Ревущийфьорд",
+			},
+			["Player-1615-0B0576A8"] = {
+				["bracelets"] = 0,
+				["class"] = "WARRIOR",
+				["boxes"] = 0,
+				["charms"] = 0,
+				["name"] = "Хуговар",
+				["timestamp"] = 1676700260,
+				["tokens"] = 0,
+				["faction"] = "Horde",
+				["completedDungeon"] = false,
+				["level"] = 63,
+				["canLootMount"] = true,
+				["realm"] = "Ревущийфьорд",
+			},
+		},
+		["preferences"] = {
+		},
 	},
 	["discoveriesVersion"] = "2.4.35",
-	["lastVersionSeen"] = "2.4.46",
+	["lastVersionSeen"] = "2.4.63",
 	["preferences"] = {
-		["dragonGlyphsTipShown"] = true,
-		["TomCats-LunarFestivalMinimapButton"] = {
+		["TomCats-HallowsEndMinimapButton"] = {
 			["hidden"] = false,
 			["position"] = -2.514,
+		},
+		["MapOptions"] = {
+			["iconScale"] = 1,
+			["iconAnimationEnabled"] = true,
+		},
+		["TomCats-LoveIsInTheAirMinimapButton2023"] = {
+			["hidden"] = false,
+			["position"] = -3.262,
+		},
+		["TomCats-LunarFestivalMinimapButton2023"] = {
+			["hidden"] = false,
+			["position"] = -2.514,
+		},
+		["AccessoryWindow"] = {
+			["elementalStorms"] = 3,
+			["display"] = 100,
+			["WindowLocation"] = {
+			},
 		},
 		["TomCats-MinimapButton"] = {
 			["hidden"] = false,
 			["position"] = 2.970112929890906,
 		},
-		["defaultVignetteIcon"] = "default",
-		["MapOptions"] = {
-			["iconScale"] = 1,
-			["iconAnimationEnabled"] = true,
-		},
-		["dragonGlyphsEnabled"] = false,
-		["TomCats-HallowsEndMinimapButton"] = {
-			["hidden"] = false,
-			["position"] = -2.514,
-		},
 		["betaEnabled"] = false,
-		["TomCats-LoveIsInTheAirMinimapButton"] = {
-			["hidden"] = false,
-			["position"] = -3.262,
-		},
+		["defaultVignetteIcon"] = "default",
 	},
 	["dragonflyingglyphs"] = {
 		["autoEnabled"] = true,
@@ -46,7 +101,6 @@ TomCats_Account = {
 		["iconsEnabled"] = true,
 		["discovered"] = false,
 		["iconScale"] = 0.8,
-		["arrowEnabled"] = true,
 	},
 	["primalstorms"] = {
 		["preferences"] = {
@@ -57,11 +111,18 @@ TomCats_Account = {
 			},
 			["dimmedItems"] = {
 				["Хугопал-Ревущий фьорд"] = {
-					["WATER"] = 0,
-					["FIRE"] = 0,
-					["AIR"] = 0,
 					["EARTH"] = 0,
+					["FIRE"] = 0,
+					["WATER"] = 0,
+					["AIR"] = 0,
 				},
+			},
+			["WindowLocation"] = {
+				"LEFT", -- [1]
+				nil, -- [2]
+				"LEFT", -- [3]
+				18.40470695495606, -- [4]
+				180.8255310058594, -- [5]
 			},
 			["eligibleClasses"] = {
 				true, -- [1]
@@ -77,13 +138,6 @@ TomCats_Account = {
 				false, -- [11]
 				false, -- [12]
 				false, -- [13]
-			},
-			["WindowLocation"] = {
-				"LEFT", -- [1]
-				nil, -- [2]
-				"LEFT", -- [3]
-				18.40470695495606, -- [4]
-				180.8255310058594, -- [5]
 			},
 		},
 	},

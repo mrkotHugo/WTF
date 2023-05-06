@@ -6,10 +6,11 @@ PremadeGroupsFilterSettings = {
 	["oneClickSignUp"] = true,
 	["dialogMovable"] = true,
 	["leaderCrown"] = false,
+	["coloredGroupTexts"] = true,
 	["version"] = 1,
 	["classBar"] = false,
-	["coloredGroupTexts"] = true,
-	["persistSignUpNote"] = true,
 	["skipSignUpDialog"] = false,
+	["persistSignUpNote"] = true,
+	["coloredApplications"] = true,
 	["classCircle"] = true,
 }

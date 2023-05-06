@@ -1,3 +1,23 @@
 VER 3 0000000000000001 "ExtraBut" "134400"
 /click ExtraActionButton1
 END
+VER 3 0000000000000002 "inter by focus" "134400"
+#showtooltip
+/cast [modifier:shift, target=focus] Зуботычина
+/cast [nomodifier:shift, @mouseover, exists, harm] Зуботычина
+/cast Зуботычина
+END
+VER 3 0000000000000004 "таргет" "134400"
+/tar глашатай огненной клятвы
+END
+VER 3 0000000000000003 "фывфыв" "134400"
+/tar boss1
+/targetenemy
+/focus
+/tar player
+/tar focus
+/tar boss1
+/targetlasttarget
+/cast [harm,nodead] Паралич
+/tar boss1
+END

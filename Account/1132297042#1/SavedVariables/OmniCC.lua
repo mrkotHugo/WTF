@@ -1,25 +1,40 @@
 
 OmniCCDB = {
+	["global"] = {
+		["dbVersion"] = 6,
+		["addonVersion"] = "10.1.0",
+	},
 	["profileKeys"] = {
 		["Хугокан - Ревущий фьорд"] = "По умолчанию",
 		["Hugotest - Draenor"] = "Default",
 		["Хугопал - Ревущий фьорд"] = "По умолчанию",
-		["Хуготор - Ревущий фьорд"] = "По умолчанию",
+		["Hugork - Draenor"] = "Default",
 		["Хугомонк - Ревущий фьорд"] = "По умолчанию",
-		["Maelti - Doomhammer"] = "Default",
+		["Хуголок - Ревущий фьорд"] = "По умолчанию",
+		["Хуготор - Ревущий фьорд"] = "По умолчанию",
+		["Хугохав - Гордунни"] = "По умолчанию",
+		["Хугошам - Ревущий фьорд"] = "По умолчанию",
 		["Хугакон - Ревущий фьорд"] = "По умолчанию",
 		["Хуговар - Ревущий фьорд"] = "По умолчанию",
-		["Хугохав - Гордунни"] = "По умолчанию",
+		["Хугохав - Ревущий фьорд"] = "По умолчанию",
 		["Хугобум - Ревущий фьорд"] = "По умолчанию",
-		["Hugork - Draenor"] = "Default",
+		["Maelti - Doomhammer"] = "Default",
 		["Хугопвар - Ревущий фьорд"] = "По умолчанию",
-	},
-	["global"] = {
-		["dbVersion"] = 6,
-		["addonVersion"] = "10.0.2",
 	},
 	["profiles"] = {
 		["Default"] = {
+			["themes"] = {
+				["Default"] = {
+					["textStyles"] = {
+						["seconds"] = {
+						},
+						["soon"] = {
+						},
+						["minutes"] = {
+						},
+					},
+				},
+			},
 			["rules"] = {
 				{
 					["enabled"] = false,
@@ -47,18 +62,6 @@ OmniCCDB = {
 					["name"] = "ActionBars",
 					["id"] = "actions",
 				}, -- [3]
-			},
-			["themes"] = {
-				["Default"] = {
-					["textStyles"] = {
-						["seconds"] = {
-						},
-						["minutes"] = {
-						},
-						["soon"] = {
-						},
-					},
-				},
 			},
 		},
 		["По умолчанию"] = {
@@ -89,13 +92,33 @@ OmniCCDB = {
 					["name"] = "Панели команд",
 					["id"] = "actions",
 				}, -- [3]
+				{
+					["patterns"] = {
+						"PlaterMainAuraIcon", -- [1]
+						"PlaterSecondaryAuraIcon", -- [2]
+						"ExtraIconRowIcon", -- [3]
+					},
+					["id"] = "Plater Nameplates Rule",
+					["priority"] = 4,
+					["theme"] = "Plater Nameplates Theme",
+				}, -- [4]
 			},
 			["themes"] = {
 				["По умолчанию"] = {
 					["textStyles"] = {
+						["seconds"] = {
+						},
 						["soon"] = {
 						},
+						["minutes"] = {
+						},
+					},
+				},
+				["Plater Nameplates Theme"] = {
+					["textStyles"] = {
 						["seconds"] = {
+						},
+						["soon"] = {
 						},
 						["minutes"] = {
 						},
